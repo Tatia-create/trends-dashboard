@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>全球趋势 · GLOBAL TRENDS · Magazine Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&family=Source+Han+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --ink-soft: #3a3a3a;
+    --ink-dim: #6a6a6a;
+    --ink-mute: #9a9a9a;
+    --gold: #c8a560;
+    --gold-deep: #a88845;
+    --paper: #f5f1e8;
+    --paper-warm: #efe9d8;
+    --card-start: #ffffff;
+    --card-end: #fafaf6;
+    --line: #d9d2c1;
+    --line-soft: #e8e2d0;
+    --hot: #c0432f;
+    --trend: #d68a2c;
+    --new: #b8932a;
+    --arch: #8a8a8a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    font-family: "Source Han Serif SC", "Noto Serif SC", "PingFang SC", serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body { padding: 0 0 80px 0; min-height: 100vh; }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ===== Masthead ===== */
+  .masthead {
+    text-align: center;
+    padding: 56px 24px 36px;
+    border-bottom: 3px double var(--ink);
+    background: var(--paper);
+  }
+  .masthead-eyebrow {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin-bottom: 14px;
+  }
+  .masthead-title {
+    font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+    font-weight: 900;
+    font-size: 56px;
+    letter-spacing: 1px;
+    color: var(--ink);
+    line-height: 1.1;
+  }
+  .masthead-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 18px 0 16px;
+    color: var(--gold);
+  }
+  .masthead-divider::before,
+  .masthead-divider::after {
+    content: "";
+    flex: 0 0 80px;
+    height: 1px;
+    background: var(--ink);
+  }
+  .masthead-sub {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-soft);
+    letter-spacing: 1.5px;
+  }
+  .masthead-meta {
+    margin-top: 14px;
+    font-size: 12px;
+    color: var(--ink-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .masthead-meta .dot { color: var(--gold); margin: 0 10px; }
+
+  /* ===== Top bar ===== */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 12px; }
+  .topbar-mark {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-style: italic;
+    font-size: 11px;
+  }
+  .topbar-right { color: var(--ink-mute); font-style: italic; }
+
+  /* ===== Page wrap ===== */
+  .page {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  /* ===== Stats bar ===== */
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+    background: transparent;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 32px;
+    font-size: 13px;
+  }
+  .stats-item {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    padding: 18px 14px;
+    color: var(--ink-dim);
+    border-right: 1px solid var(--line);
+    font-family: "Playfair Display", Georgia, serif;
+    letter-spacing: 1px;
+  }
+  .stats-item:last-child { border-right: none; }
+  .stats-item b {
+    display: block;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--ink);
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+  .stats-item.hot b { color: var(--hot); }
+  .stats-item.trending b { color: var(--trend); }
+  .stats-item.new b { color: var(--new); }
+  .stats-item.archived b { color: var(--arch); }
+  .stats-item.visible b { color: var(--gold-deep); }
+  .stats-item .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; }
+
+  /* ===== Filter panel ===== */
+  .filters {
+    background: transparent;
+    border: 1px solid var(--line);
+    padding: 24px 28px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .filters::before {
+    content: "INDEX";
+    position: absolute;
+    top: -10px;
+    left: 24px;
+    background: var(--paper);
+    padding: 0 12px;
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--ink-dim);
+  }
+  .filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .filter-row:last-child { margin-bottom: 0; }
+  .filter-label {
+    flex-shrink: 0;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    min-width: 70px;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    flex: 1;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 12px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease;
+    line-height: 1.4;
+    font-family: "Source Han Serif SC", serif;
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); }
+  .chip.active {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+    font-weight: 500;
+  }
+  .chip.heat-hot.active { background: var(--hot); border-color: var(--hot); }
+  .chip.heat-trend.active { background: var(--trend); border-color: var(--trend); color: #fff; }
+  .chip.heat-new.active { background: var(--new); border-color: var(--new); color: #fff; }
+  .chip.heat-arch.active { background: var(--arch); border-color: var(--arch); }
+  .chip .badge {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 10px;
+    font-style: italic;
+    background: var(--paper-warm);
+    padding: 1px 6px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: var(--ink-dim);
+  }
+  .chip.active .badge { background: rgba(255,255,255,0.15); color: var(--paper); }
+
+  .date-custom {
+    display: none;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    margin-left: 86px;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    background: var(--paper-warm);
+    border-left: 2px solid var(--gold);
+  }
+  .date-custom.show { display: flex; }
+  .date-custom label {
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+  .date-custom input[type="date"] {
+    padding: 4px 8px;
+    border: 1px solid var(--line);
+    background: #fff;
+    font-size: 12px;
+    color: var(--ink);
+    font-family: inherit;
+  }
+  .date-custom input[type="date"]:focus { outline: none; border-color: var(--gold); }
+
+  .search-wrap {
+    flex: 1;
+    min-width: 240px;
+    position: relative;
+  }
+  .search-input {
+    width: 100%;
+    padding: 8px 36px 8px 36px;
+    border: none;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+    font-size: 14px;
+    color: var(--ink);
+    font-family: inherit;
+    font-style: italic;
+  }
+  .search-input:focus { outline: none; border-bottom-color: var(--gold); }
+  .search-icon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-mute);
+    font-size: 14px;
+    pointer-events: none;
+  }
+  .clear-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--ink-mute);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 2px 8px;
+  }
+  .clear-btn:hover { color: var(--ink); }
+
+  /* ===== Section heading ===== */
+  .section-title {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    text-align: center;
+    margin: 8px 0 28px;
+    position: relative;
+  }
+  .section-title::before,
+  .section-title::after {
+    content: "—";
+    color: var(--gold);
+    margin: 0 16px;
+  }
+
+  /* ===== Cards grid ===== */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px)  { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: linear-gradient(180deg, var(--card-start) 0%, var(--card-end) 100%);
+    border: 1px solid var(--line-soft);
+    border-radius: 8px;
+    padding: 28px 26px 24px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    overflow: hidden;
+  }
+  .card:hover {
+    box-shadow: 0 14px 36px rgba(0,0,0,0.14);
+    transform: translateY(-3px);
+  }
+
+  /* Big card spans 2 columns */
+  .card.featured {
+    grid-column: span 2;
+    padding: 36px 34px 30px;
+  }
+  @media (max-width: 1100px) { .card.featured { grid-column: span 2; } }
+  @media (max-width: 640px)  { .card.featured { grid-column: span 1; padding: 28px 26px 24px; } }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    color: var(--ink-mute);
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag {
+    display: inline-block;
+    padding: 2px 9px;
+    color: var(--ink-soft);
+    border: 1px solid var(--line);
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .tag.cat { color: var(--gold-deep); border-color: var(--gold); }
+  .tag.market { color: var(--ink-soft); }
+  .tag.date {
+    border: none;
+    color: var(--ink-mute);
+    padding: 2px 0;
+    font-family: "Playfair Display", Georgia, serif;
+    letter-spacing: 2px;
+  }
+  .heat-badge {
+    display: inline-block;
+    padding: 2px 9px;
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+  .heat-badge.hot   { color: var(--hot); border: 1px solid var(--hot); }
+  .heat-badge.trend { color: var(--trend); border: 1px solid var(--trend); }
+  .heat-badge.new   { color: var(--new); border: 1px solid var(--new); }
+  .heat-badge.arch  { color: var(--arch); border: 1px solid var(--arch); }
+
+  .title-zh {
+    font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.35;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card.featured .title-zh {
+    font-size: 32px;
+    -webkit-line-clamp: 4;
+  }
+  .title-en {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card.featured .title-en {
+    font-size: 18px;
+    -webkit-line-clamp: 3;
+  }
+
+  .desc-zh {
+    font-family: "Source Han Serif SC", "Noto Serif SC", serif;
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.75;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card.featured .desc-zh { font-size: 16px; -webkit-line-clamp: 4; }
+  .desc-en {
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 13px;
+    color: var(--ink-dim);
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card.featured .desc-en { font-size: 14px; -webkit-line-clamp: 3; }
+
+  .sources-line {
+    font-size: 11px;
+    color: var(--ink-dim);
+    border-top: 1px solid var(--line-soft);
+    padding-top: 10px;
+    margin-top: 4px;
+    line-height: 1.5;
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+  .sources-line .lbl {
+    color: var(--gold-deep);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-right: 6px;
+  }
+
+  .empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--ink-mute);
+    font-size: 14px;
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    background: transparent;
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+  }
+
+  /* ===== Loading ===== */
+  .loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 100px 20px;
+    color: var(--ink-mute);
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .spinner {
+    display: inline-block;
+    width: 24px; height: 24px;
+    border: 2px solid var(--line);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ===== Footer ===== */
+  .footer {
+    text-align: center;
+    padding: 48px 24px 24px;
+    border-top: 3px double var(--ink);
+    margin-top: 64px;
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: var(--ink-dim);
+    letter-spacing: 2px;
+  }
+  .footer .ornament { color: var(--gold); margin: 0 8px; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-eyebrow">Issue No. 3 · Volume 2026</div>
+  <h1 class="masthead-title">🌐 全球趋势</h1>
+  <div class="masthead-divider">◆</div>
+  <div class="masthead-sub">GLOBAL TRENDS — A Bilingual Reading</div>
+  <div class="masthead-meta" id="mastheadMeta">
+    <span>VOL. 2026.07</span>
+    <span class="dot">◆</span>
+    <span>2026.07.07</span>
+    <span class="dot">◆</span>
+    <span>WEEKDAY EDITION</span>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <span class="topbar-mark">MAGAZINE</span>
+    <span>双语特刊 / Bilingual Edition</span>
+  </div>
+  <div class="topbar-right" id="metaInfo">加载中 / Loading…</div>
+</div>
+
+<div class="page">
+
+  <div class="stats" id="statsBar"></div>
+
+  <div class="filters">
+    <div class="filter-row">
+      <div class="filter-label">Date / 日期</div>
+      <div class="chips" id="dateChips">
+        <span class="chip active" data-date="all">全部 / All</span>
+        <span class="chip" data-date="today">今天 / Today</span>
+        <span class="chip" data-date="3d">最近 3 天 / Last 3 days</span>
+        <span class="chip" data-date="7d">最近 7 天 / Last 7 days</span>
+        <span class="chip" data-date="14d">最近 14 天 / Last 14 days</span>
+        <span class="chip" data-date="custom">自定义范围 / Custom</span>
+      </div>
+    </div>
+    <div class="date-custom" id="dateCustom">
+      <label>起 / From <input type="date" id="dateFrom" /></label>
+      <label>止 / To <input type="date" id="dateTo" /></label>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-label">Market / 市场</div>
+      <div class="chips" id="marketChips"></div>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-label">Cat / 分类</div>
+      <div class="chips" id="catChips"></div>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-label">Heat / 热度</div>
+      <div class="chips" id="heatChips">
+        <span class="chip active" data-heat="all">全部 / All</span>
+        <span class="chip heat-hot" data-heat="hot">🔥 HOT</span>
+        <span class="chip heat-trend" data-heat="trend">🟧 TRENDING</span>
+        <span class="chip heat-new" data-heat="new">🟨 NEW</span>
+        <span class="chip heat-arch" data-heat="arch">⬜ ARCHIVED</span>
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-label">Find / 搜索</div>
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search title & description · 搜索中英标题描述…" />
+        <button class="clear-btn" id="searchClear" title="清空 / Clear" style="display:none">×</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">The Reading · 本期阅读</div>
+
+  <div class="grid" id="grid">
+    <div class="loading"><span class="spinner"></span>加载数据中 / Loading data…</div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <span class="ornament">◆</span>
+  GLOBAL TRENDS · 全球趋势 · Magazine Edition
+  <span class="ornament">◆</span>
+</div>
+
+<script>
+  // ===== State =====
+  const state = {
+    stories: [],
+    filtered: [],
+    filters: {
+      date: 'all',         // all | today | 3d | 7d | 14d | custom
+      dateFrom: '',
+      dateTo: '',
+      markets: new Set(),
+      cats: new Set(),
+      heat: 'all',
+      search: ''
+    }
+  };
+
+  // ===== Labels =====
+  const MARKET_LABELS = {
+    us: 'US', cn: 'CN', kr: 'KR', jp: 'JP',
+    eu: 'EU', ae: 'MENA', sea: 'SEA', global: 'Global'
+  };
+  const CAT_LABELS = {
+    beauty: 'beauty', ai: 'ai', biz: 'biz', ec: 'ec', research: 'research'
+  };
+  const HEAT_LABELS = {
+    hot: 'HOT', trend: 'TRENDING', new: 'NEW', arch: 'ARCHIVED'
+  };
+  const HEAT_EMOJI = {
+    hot: '🔥', trend: '🟧', new: '🟨', arch: '⬜'
+  };
+
+  // ===== Helpers =====
+  function escapeHtml(s) {
+    if (s == null) return '';
+    return String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function todayISO() {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+
+  function isoDaysAgo(n) {
+    const d = new Date();
+    d.setDate(d.getDate() - n);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+
+  // ===== Build dynamic chips =====
+  function buildMarketChips() {
+    const counts = {};
+    state.stories.forEach(s => { counts[s.market] = (counts[s.market] || 0) + 1; });
+    const container = document.getElementById('marketChips');
+    const order = ['us', 'cn', 'kr', 'jp', 'eu', 'ae', 'sea', 'global'];
+    container.innerHTML = order.map(m => {
+      const c = counts[m] || 0;
+      const active = state.filters.markets.has(m) ? 'active' : '';
+      return `<span class="chip ${active}" data-market="${m}">${escapeHtml(MARKET_LABELS[m])}<span class="badge">${c}</span></span>`;
+    }).join('');
+  }
+
+  function buildCatChips() {
+    const counts = {};
+    state.stories.forEach(s => { counts[s.cat] = (counts[s.cat] || 0) + 1; });
+    const container = document.getElementById('catChips');
+    const order = ['beauty', 'ai', 'biz', 'ec', 'research'];
+    container.innerHTML = order.map(c => {
+      const n = counts[c] || 0;
+      return `<span class="chip" data-cat="${c}">${escapeHtml(CAT_LABELS[c])}<span class="badge">${n}</span></span>`;
+    }).join('');
+  }
+
+  // ===== Filtering =====
+  function applyFilters() {
+    const f = state.filters;
+    const today = todayISO();
+    const d3 = isoDaysAgo(2);
+    const d7 = isoDaysAgo(6);
+    const d14 = isoDaysAgo(13);
+
+    const fromCustom = f.dateFrom || null;
+    const toCustom = f.dateTo || null;
+
+    const q = f.search.trim().toLowerCase();
+
+    state.filtered = state.stories.filter(s => {
+      if (f.date === 'today' && s.date !== today) return false;
+      if (f.date === '3d' && s.date < d3) return false;
+      if (f.date === '7d' && s.date < d7) return false;
+      if (f.date === '14d' && s.date < d14) return false;
+      if (f.date === 'custom') {
+        if (fromCustom && s.date < fromCustom) return false;
+        if (toCustom && s.date > toCustom) return false;
+      }
+      if (f.markets.size > 0 && !f.markets.has(s.market)) return false;
+      if (f.cats.size > 0 && !f.cats.has(s.cat)) return false;
+      if (f.heat !== 'all' && s.heat !== f.heat) return false;
+      if (q) {
+        const hay = [
+          s.title_zh || '', s.title_en || '',
+          s.desc_zh || '', s.desc_en || ''
+        ].join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    const heatRank = { hot: 0, trend: 1, new: 2, arch: 3 };
+    state.filtered.sort((a, b) => {
+      if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+      return (heatRank[a.heat] ?? 9) - (heatRank[b.heat] ?? 9);
+    });
+
+    render();
+  }
+
+  // ===== Render =====
+  function render() {
+    const total = state.stories.length;
+    const hotCnt = state.stories.filter(s => s.heat === 'hot').length;
+    const trendCnt = state.stories.filter(s => s.heat === 'trend').length;
+    const newCnt = state.stories.filter(s => s.heat === 'new').length;
+    const archCnt = state.stories.filter(s => s.heat === 'arch').length;
+    const visCnt = state.filtered.length;
+
+    document.getElementById('statsBar').innerHTML = `
+      <div class="stats-item">Total<span class="lbl">总条数</span><b>${total}</b></div>
+      <div class="stats-item hot">🔥 HOT<span class="lbl">热门</span><b>${hotCnt}</b></div>
+      <div class="stats-item trending">🟧 TRENDING<span class="lbl">上升</span><b>${trendCnt}</b></div>
+      <div class="stats-item new">🟨 NEW<span class="lbl">新发现</span><b>${newCnt}</b></div>
+      <div class="stats-item archived">⬜ ARCHIVED<span class="lbl">归档</span><b>${archCnt}</b></div>
+      <div class="stats-item visible">Showing<span class="lbl">显示中</span><b>${visCnt}</b></div>
+    `;
+
+    const grid = document.getElementById('grid');
+    if (state.filtered.length === 0) {
+      grid.innerHTML = '<div class="empty">无匹配结果 / No matching stories. 试试调整筛选条件 / Try adjusting filters.</div>';
+      return;
+    }
+
+    const frag = document.createDocumentFragment();
+    state.filtered.forEach((s, idx) => {
+      const a = document.createElement('a');
+      // Featured (big) card for HOT and TRENDING; first 2 HOT also get featured for visual rhythm
+      const isFeatured = (s.heat === 'hot' || s.heat === 'trend');
+      a.className = 'card' + (isFeatured ? ' featured' : '');
+      a.href = s.sourceLinks && s.sourceLinks[0] ? s.sourceLinks[0] : (s.source || '#');
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+
+      const sources = s.sources && s.sources.length > 1
+        ? `<div class="sources-line"><span class="lbl">Sources</span> ${escapeHtml(s.sources.join(', '))}</div>`
+        : (s.sources && s.sources.length === 1
+            ? `<div class="sources-line"><span class="lbl">Source</span> ${escapeHtml(s.sources[0])}</div>`
+            : '');
+
+      a.innerHTML = `
+        <div class="card-top">
+          <div class="card-tags">
+            <span class="tag cat">${escapeHtml(s.cat)}</span>
+            <span class="tag market">${escapeHtml(MARKET_LABELS[s.market] || s.market)}</span>
+            <span class="tag date">${escapeHtml(s.date)}</span>
+          </div>
+          <span class="heat-badge ${s.heat}">${HEAT_EMOJI[s.heat] || ''} ${HEAT_LABELS[s.heat] || s.heat}</span>
+        </div>
+        <div class="title-zh">${escapeHtml(s.title_zh || s.title_en || '')}</div>
+        <div class="title-en">${escapeHtml(s.title_en || '')}</div>
+        <div class="desc-zh">${escapeHtml(s.desc_zh || '')}</div>
+        <div class="desc-en">${escapeHtml(s.desc_en || '')}</div>
+        ${sources}
+      `;
+      frag.appendChild(a);
+    });
+    grid.innerHTML = '';
+    grid.appendChild(frag);
+  }
+
+  // ===== Events =====
+  function bindEvents() {
+    document.getElementById('dateChips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      document.querySelectorAll('#dateChips .chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const v = chip.dataset.date;
+      state.filters.date = v;
+      document.getElementById('dateCustom').classList.toggle('show', v === 'custom');
+      if (v === 'custom') {
+        const dates = state.stories.map(s => s.date).filter(Boolean).sort();
+        if (dates.length && !state.filters.dateFrom) {
+          const min = dates[0], max = dates[dates.length - 1];
+          document.getElementById('dateFrom').value = min;
+          document.getElementById('dateTo').value = max;
+          state.filters.dateFrom = min;
+          state.filters.dateTo = max;
+        }
+      }
+      applyFilters();
+    });
+
+    document.getElementById('dateFrom').addEventListener('change', e => {
+      state.filters.dateFrom = e.target.value;
+      applyFilters();
+    });
+    document.getElementById('dateTo').addEventListener('change', e => {
+      state.filters.dateTo = e.target.value;
+      applyFilters();
+    });
+
+    document.getElementById('marketChips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      const m = chip.dataset.market;
+      if (state.filters.markets.has(m)) {
+        state.filters.markets.delete(m);
+        chip.classList.remove('active');
+      } else {
+        state.filters.markets.add(m);
+        chip.classList.add('active');
+      }
+      applyFilters();
+    });
+
+    document.getElementById('catChips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      const c = chip.dataset.cat;
+      if (state.filters.cats.has(c)) {
+        state.filters.cats.delete(c);
+        chip.classList.remove('active');
+      } else {
+        state.filters.cats.add(c);
+        chip.classList.add('active');
+      }
+      applyFilters();
+    });
+
+    document.getElementById('heatChips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      document.querySelectorAll('#heatChips .chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      state.filters.heat = chip.dataset.heat;
+      applyFilters();
+    });
+
+    const si = document.getElementById('searchInput');
+    const sc = document.getElementById('searchClear');
+    let t;
+    si.addEventListener('input', e => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        state.filters.search = e.target.value;
+        sc.style.display = e.target.value ? 'block' : 'none';
+        applyFilters();
+      }, 120);
+    });
+    sc.addEventListener('click', () => {
+      si.value = '';
+      state.filters.search = '';
+      sc.style.display = 'none';
+      applyFilters();
+      si.focus();
+    });
+  }
+
+  // ===== Boot =====
+  async function boot() {
+    try {
+      const res = await fetch('./trends-data.json?v=6');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      state.stories = data.stories || [];
+      const meta = document.getElementById('metaInfo');
+      meta.textContent = `更新于 ${data.last_updated || '—'} · 窗口 ${data.window || '—'} · 数据源 ${data.sources_ok || 0}/${(data.sources_ok || 0) + (data.sources_failed || 0)}`;
+
+      buildMarketChips();
+      buildCatChips();
+      bindEvents();
+      applyFilters();
+    } catch (err) {
+      document.getElementById('grid').innerHTML =
+        `<div class="empty">加载失败 / Failed to load data: ${escapeHtml(err.message)}<br/><br/>如果直接打开 file:// 协议可能被浏览器拦截,建议用本地 server (例如 <code>python3 -m http.server</code>) / Browser may block file:// fetch — use a local server.</div>`;
+      console.error(err);
+    }
+  }
+
+  boot();
+</script>
+</body>
+</html>
