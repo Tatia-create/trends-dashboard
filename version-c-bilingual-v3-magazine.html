@@ -816,8 +816,13 @@
         </div>
         <div class="title-zh">${escapeHtml(s.title_zh || s.title_en || '')}</div>
         <div class="title-en">${escapeHtml(s.title_en || '')}</div>
-        <div class="desc-zh">${escapeHtml(s.desc_zh || '')}</div>
-        <div class="desc-en">${escapeHtml(s.desc_en || '')}</div>
+        ${(() => {
+          const dz = (s.desc_zh || '').trim();
+          const de = (s.desc_en || '').trim();
+          if (!dz && !de) return '';
+          const dShort = (dz || de).slice(0, 100) + ((dz || de).length > 100 ? '…' : '');
+          return `<div class="desc-zh" title="${escapeHtml(dz || de).replace(/"/g,'&quot;')}">${escapeHtml(dShort)}</div>`;
+        })()}
         ${sources}
       `;
       frag.appendChild(a);
