@@ -1,87 +1,62 @@
 """
-fetch_trends.py — 全球趋势 RSS 自动抓取 v3.0
-==================================================
-覆盖行业: 美妆/AI/电商/投融资/移动/研报/快消
-30+ 个公开 RSS 源, 容错降级: 源失败不阻断其他源
-产出: trends-data.json
+fetch_trends.py — RSS auto-fetcher for Global Trends Dashboard
+v2.2: 抓取后自动中英双语翻译
 """
 
 import json
 import re
 import urllib.request
 import urllib.error
-import socket
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from xml.etree import ElementTree as ET
-from email.utils import parsedate_to_datetime
+import sys
+
+sys.path.insert(0, str(Path(__file__).parent))
+from translate import translate_en_to_zh, translate_zh_to_en, _HAS_CJK
 
 BJ = timezone(timedelta(hours=8))
 NOW = datetime.now(BJ)
 TODAY = NOW.strftime("%Y-%m-%d")
 WINDOW_START = (NOW - timedelta(days=180)).strftime("%Y-%m-%d")
 
-DATA_PATH = Path("trends-data.json")
+DATA_PATHS = [
+    Path.home() / ".aily/workspace/trends-dashboard/trends-data.json",
+    Path("/home/gem/.aily/workdir/feishu_p2p_d54eeba2/artifacts/trends-data.json"),
+]
 
-# ============================================================
-# SOURCES — 30+ 公开 RSS, 按行业分组
-# ============================================================
+# 中文源:抓回来本身就是中文,需要翻译成英文
+CHINESE_SOURCES = {"36Kr", "36Kr AI", "36氪"}
+
 SOURCES = {
-    # ============ 美妆 / 时尚 ============
     "beauty": [
         ("Glossy", "https://www.glossy.co/beauty/feed/"),
         ("Allure", "https://www.allure.com/feed/rss"),
         ("WWD Beauty", "https://wwd.com/beauty-industry-news/feed/"),
         ("Byrdie", "https://www.byrdie.com/rss"),
         ("Cosmetics Business", "https://www.cosmeticsbusiness.com/rss"),
-        ("Beauty Independent", "https://www.beautyindependent.com/feed/"),
     ],
-    # ============ AI / 科技 ============
     "ai": [
         ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
         ("The Verge AI", "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"),
         ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
-        ("CB Insights", "https://www.cbinsights.com/research/feed/"),
-        ("MIT Tech Review", "https://www.technologyreview.com/feed/"),
         ("36Kr AI", "https://36kr.com/feed"),
+        ("CB Insights", "https://www.cbinsights.com/research/feed/"),
     ],
-    # ============ 投融资 / 商业 ============
     "biz": [
         ("Crunchbase", "https://news.crunchbase.com/feed/"),
         ("PitchBook News", "https://pitchbook.com/news/feed"),
         ("36Kr", "https://36kr.com/feed"),
         ("Bloomberg Tech", "https://feeds.bloomberg.com/technology/news.rss"),
-        ("Hacker News Front", "https://hnrss.org/frontpage"),
-        ("IT 桔子", "https://www.itjuzi.com/rss"),
     ],
-    # ============ 电商 / 零售 ============
     "ec": [
         ("Modern Retail", "https://www.modernretail.co/feed/"),
         ("Retail Brew", "https://www.retailbrew.com/feed"),
         ("Practical Ecommerce", "https://www.practicalecommerce.com/feed"),
         ("Digital Commerce 360", "https://www.digitalcommerce360.com/feed/"),
-        ("eMarketer", "https://www.emarketer.com/content/feeds/latest.rss"),
-    ],
-    # ============ 研报 / 行业洞察 ============
-    "research": [
-        ("艾瑞咨询", "https://www.iresearch.cn/portal/rss"),
-        ("阿里研究院", "https://www.aliresearch.com/rss"),
-        ("QuestMobile", "https://www.questmobile.com.cn/research/feed"),
-        ("CBN Data", "https://www.cbndata.com/feed"),
-        ("TalkingData", "https://www.talkingdata.com/blog/feed"),
-        ("艺恩", "https://www.endata.com.cn/feed"),
-    ],
-    # ============ 移动 / 消费 ============
-    "mobile": [
-        ("36氪研究院", "https://36kr.com/feed"),
-        ("36氪开氪", "https://36kr.com/feed"),
-        ("智研咨询", "https://www.chyxx.com/feed"),
     ],
 }
 
-# ============================================================
-# CLASSIFICATION KEYWORDS
-# ============================================================
 HOT_KEYWORDS = [
     "launch", "launches", "launching", "ipo", "debut", "raises",
     "files for", "billion", "acquires", "acquired", "merger", "megadeal",
@@ -109,13 +84,8 @@ CAT_KEYWORDS = {
     "ai": ["AI", "artificial intelligence", "model", "LLM", "GPT", "Claude", "Gemini", "openai", "anthropic", "deepmind", "neural", "machine learning", "大模型", "人工智能", "智能"],
     "biz": ["raises", "funding", "IPO", "valuation", "billion", "VC", "venture", "investment", "融资", "估值", "上市", "投资", "收购"],
     "ec": ["shopify", "amazon", "tiktok shop", "ecommerce", "e-commerce", "DTC", "retail", "store", "sales", "commerce", "店铺", "电商", "零售", "铺货"],
-    "research": ["report", "research", "study", "whitepaper", "report", "研报", "报告", "研究", "白皮书", "洞察"],
-    "mobile": ["mobile", "app", "android", "ios", "用户", "MAU", "DAU", "活跃", "渗透率"],
 }
 
-# ============================================================
-# HELPERS
-# ============================================================
 def fetch(url, timeout=10):
     try:
         req = urllib.request.Request(url, headers={
@@ -124,8 +94,8 @@ def fetch(url, timeout=10):
         })
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return r.read()
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, socket.timeout, Exception) as e:
-        print(f"  [skip] {url}: {type(e).__name__}")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, Exception) as e:
+        print(f"  [skip] {url}: {type(e).__name__}: {e}")
         return None
 
 def strip_html(s):
@@ -171,6 +141,23 @@ def classify_heat(text, pub_date):
         return "new"
     return "arch"
 
+def bilingualize(title, desc, source_name):
+    """根据源语言,自动翻译成双语"""
+    is_zh_source = source_name in CHINESE_SOURCES
+    has_zh = bool(title and _HAS_CJK.search(title))
+    has_zh_desc = bool(desc and _HAS_CJK.search(desc))
+
+    if is_zh_source or has_zh:
+        # 原文是中文,翻译成英文
+        title_en = translate_zh_to_en(title) if title else ""
+        desc_en = translate_zh_to_en(desc)[:400] if desc else ""
+        return title, desc[:400], title_en, desc_en
+    else:
+        # 原文是英文,翻译成中文
+        title_zh = translate_en_to_zh(title) if title else ""
+        desc_zh = translate_en_to_zh(desc)[:400] if desc else ""
+        return title_zh, desc_zh, title, desc[:400]
+
 def parse_feed(xml_bytes, default_cat, source_name):
     out = []
     try:
@@ -188,6 +175,7 @@ def parse_feed(xml_bytes, default_cat, source_name):
             link = l.get("href", "") if l is not None else ""
         pub = it.findtext("pubDate") or it.findtext("atom:published", "", ns) or ""
         try:
+            from email.utils import parsedate_to_datetime
             pub_dt = parsedate_to_datetime(pub).astimezone(BJ) if pub else None
         except Exception:
             pub_dt = None
@@ -196,34 +184,41 @@ def parse_feed(xml_bytes, default_cat, source_name):
         if pub_dt and pub_dt.strftime("%Y-%m-%d") < WINDOW_START:
             continue
         full = f"{title}. {desc}"
+        # v2.2: 自动双语
+        title_zh, desc_zh, title_en, desc_en = bilingualize(title, desc, source_name)
         out.append({
             "id": f"{default_cat}-{hash(title+link) & 0xffffffff:08x}",
             "cat": classify_cat(full, source_name),
             "heat": classify_heat(full, pub_dt),
-            "title_zh": title,
-            "title_en": title,
+            "title_zh": title_zh,
+            "title_en": title_en,
             "market": classify_market(full, source_name),
             "date": pub_dt.strftime("%Y-%m-%d") if pub_dt else TODAY,
-            "desc_zh": desc[:300],
-            "desc_en": desc[:300],
+            "desc_zh": desc_zh,
+            "desc_en": desc_en,
             "source": link,
             "sourceLabel": source_name,
             "sourceType": "rss",
         })
     return out
 
-# ============================================================
-# MAIN
-# ============================================================
 def main():
-    if DATA_PATH.exists():
+    data_path = None
+    for p in DATA_PATHS:
+        if p.exists():
+            data_path = p
+            break
+    if not data_path:
+        data_path = DATA_PATHS[0]
+
+    if data_path.exists():
         try:
-            existing = json.loads(DATA_PATH.read_text(encoding="utf-8"))
-            print(f"Loaded existing {len(existing.get('stories', []))} stories")
+            existing = json.loads(data_path.read_text(encoding="utf-8"))
+            print(f"Loaded existing {len(existing.get('stories', []))} stories from {data_path}")
         except Exception:
-            existing = {"version": "3.0", "stories": []}
+            existing = {"version": "2.2-bilingual", "stories": []}
     else:
-        existing = {"version": "3.0", "stories": []}
+        existing = {"version": "2.2-bilingual", "stories": []}
 
     by_id = {s.get("id"): s for s in existing.get("stories", []) if s.get("id")}
     new_count = 0
@@ -256,23 +251,30 @@ def main():
     }
 
     out = {
-        "version": "3.0",
+        "version": "2.2-bilingual",
         "last_updated": NOW.isoformat(),
         "window": f"{WINDOW_START} to {TODAY}",
         "markets": ["US", "CN", "KR", "JP", "EU", "MENA", "SEA", "Global"],
-        "categories": ["beauty", "ai", "biz", "ec", "research", "mobile"],
+        "categories": ["beauty", "ai", "biz", "ec"],
         "stats": stats,
         "new_today": new_count,
         "sources_ok": sources_ok,
         "sources_failed": sources_failed,
-        "stories": all_stories[:300],
+        "stories": all_stories[:200],
         "rss_sources": {cat: [u for _, u in v] for cat, v in SOURCES.items()},
     }
 
-    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DATA_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    written = []
+    for p in DATA_PATHS:
+        try:
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+            written.append(str(p))
+        except Exception as e:
+            print(f"  [write fail] {p}: {e}")
     print(f"\n✅ Saved {len(all_stories)} stories ({new_count} new) — Stats: {stats}")
     print(f"Sources: {sources_ok} ok / {sources_failed} failed")
+    print(f"Written to: {written}")
 
 if __name__ == "__main__":
     main()
