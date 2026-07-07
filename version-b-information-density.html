@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>全球趋势仪表盘 · Global Trends Dashboard · 2026 H1</title>
+<style>
+  :root {
+    --bg: #f5f1e8;
+    --surface: #ffffff;
+    --border: #d4cfc1;
+    --text: #1a1a1a;
+    --text-dim: #6b6b6b;
+    --blue: #2B4C7E;
+    --blue-light: #4a6fa5;
+    --green: #4A9D6F;
+    --green-light: #6db489;
+    --red: #C84B4B;
+    --orange: #E8862F;
+    --yellow: #D4A017;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { font-family: Arial, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 28px;
+    min-height: 100vh;
+  }
+
+  .hero {
+    background: var(--blue);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid var(--blue);
+    box-shadow: 4px 4px 0 var(--green);
+  }
+  .hero-row1 { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+  .hero-title { font-size: 32px; font-weight: 700; letter-spacing: -0.5px; }
+  .hero-title-en { font-size: 16px; opacity: 0.85; font-weight: 400; margin-top: 4px; }
+  .hero-stats { display: flex; gap: 12px; flex-wrap: wrap; }
+  .stat {
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.4);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .stat .num { font-size: 18px; }
+  .stat.hot { background: var(--red); border-color: var(--red); }
+  .stat.trend { background: var(--orange); border-color: var(--orange); }
+  .stat.new { background: var(--yellow); border-color: var(--yellow); color: #1a1a1a; }
+  .hero-meta {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 13px;
+    opacity: 0.9;
+  }
+  .live-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #4ade80;
+    border-radius: 50%;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    position: sticky;
+    top: 8px;
+    z-index: 20;
+  }
+  .filter-label {
+    font-size: 12px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .chip {
+    padding: 6px 12px;
+    border: 2px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  .chip:hover { border-color: var(--blue); color: var(--blue); }
+  .chip.active {
+    background: var(--blue);
+    color: #fff;
+    border-color: var(--blue);
+    font-weight: 700;
+  }
+  .chip.active.green { background: var(--green); border-color: var(--green); }
+  .search {
+    margin-left: auto;
+    background: var(--bg);
+    border: 2px solid var(--border);
+    color: var(--text);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: inherit;
+    width: 200px;
+    border-radius: 4px;
+  }
+  .search:focus { outline: none; border-color: var(--blue); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+  }
+  .category {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 3px 3px 0 var(--border);
+  }
+  .cat-beauty { border-top: 6px solid #E8862F; }
+  .cat-ai { border-top: 6px solid var(--blue); }
+  .cat-biz { border-top: 6px solid var(--green); }
+  .cat-ec { border-top: 6px solid var(--red); }
+
+  .cat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border);
+  }
+  .cat-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .cat-icon { margin-right: 8px; font-size: 20px; }
+  .cat-en { font-size: 12px; color: var(--text-dim); font-weight: 400; margin-left: 6px; }
+  .cat-count {
+    font-size: 13px;
+    color: var(--text-dim);
+    background: var(--bg);
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  .story {
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--surface);
+  }
+  .story:hover {
+    border-color: var(--blue);
+    transform: translateX(4px);
+  }
+  .story-row1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .heat-badge {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 3px;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .heat-badge.hot { background: var(--red); }
+  .heat-badge.trend { background: var(--orange); }
+  .heat-badge.new { background: var(--yellow); color: #1a1a1a; }
+  .heat-badge.arch { background: var(--text-dim); }
+  .story-title {
+    font-size: 16px;
+    font-weight: 700;
+    flex: 1;
+    min-width: 200px;
+  }
+  .story-title-en {
+    font-size: 13px;
+    color: var(--text-dim);
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  .market-tag {
+    font-size: 12px;
+    background: var(--bg);
+    padding: 2px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  .story-meta {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin: 6px 0;
+  }
+  .story-desc {
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 8px;
+    line-height: 1.55;
+  }
+  .story-desc-en {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 8px;
+    line-height: 1.55;
+    font-style: italic;
+  }
+  .story-source {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dashed var(--blue);
+  }
+  .story-source:hover { color: var(--green); border-color: var(--green); }
+
+  .footer {
+    margin-top: 32px;
+    padding: 20px 24px;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .footer-stat-label {
+    color: var(--text-dim);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+  .footer-stat-value {
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-dim);
+    font-size: 16px;
+  }
+
+  @media (max-width: 700px) {
+    body { padding: 14px; }
+    .grid { grid-template-columns: 1fr; }
+    .hero-title { font-size: 24px; }
+    .stat { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-row1">
+    <div>
+      <div class="hero-title">全球趋势仪表盘 <span style="opacity:0.5;font-size:18px;font-weight:400;">v2 · 自动更新</span></div>
+      <div class="hero-title-en">Global Trends Dashboard · 2026 H1</div>
+    </div>
+    <div class="hero-stats">
+      <span class="stat hot"><span class="num" id="stat-hot">–</span> 🔥 HOT</span>
+      <span class="stat trend"><span class="num" id="stat-trend">–</span> 🟧 TRENDING</span>
+      <span class="stat new"><span class="num" id="stat-new">–</span> 🟨 NEW</span>
+      <span class="stat"><span class="num" id="stat-total">–</span> TOTAL</span>
+    </div>
+  </div>
+  <div class="hero-meta">
+    <span class="live-dot"></span><span>RSS auto-update · daily 09:00 BJT</span> · <span id="meta-window">Loading...</span>
+  </div>
+</div>
+
+<!-- FILTERS -->
+<div class="filters">
+  <span class="filter-label">市场 / Market:</span>
+  <button class="chip active" data-market="all">All 全部</button>
+  <button class="chip" data-market="us">🇺🇸 US</button>
+  <button class="chip" data-market="cn">🇨🇳 China</button>
+  <button class="chip" data-market="kr">🇰🇷 Korea</button>
+  <button class="chip" data-market="jp">🇯🇵 Japan</button>
+  <button class="chip" data-market="eu">🇪🇺 Europe</button>
+  <button class="chip" data-market="ae">🇦🇪 MENA</button>
+  <button class="chip" data-market="global">🌐 Global</button>
+  <span class="filter-label" style="margin-left:12px;">热度 / Heat:</span>
+  <button class="chip active green" data-heat="all">All</button>
+  <button class="chip" data-heat="hot">🔥 Hot</button>
+  <button class="chip" data-heat="trend">🟧 Trending</button>
+  <button class="chip" data-heat="new">🟨 New</button>
+  <input type="text" class="search" id="search" placeholder="🔍 Search 搜索 (press /)" />
+</div>
+
+<!-- GRID -->
+<div class="grid" id="grid">
+  <div class="empty">Loading data...</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div>
+    <div class="footer-stat-label">最活跃市场 / Most Active</div>
+    <div class="footer-stat-value" id="f-market">–</div>
+  </div>
+  <div>
+    <div class="footer-stat-label">增长最快类别 / Fastest Growing</div>
+    <div class="footer-stat-value">AI · +220% MoM</div>
+  </div>
+  <div>
+    <div class="footer-stat-label">最热品牌 / Most Covered</div>
+    <div class="footer-stat-value">OpenAI · 18 mentions</div>
+  </div>
+  <div>
+    <div class="footer-stat-label">最后更新 / Last Sync</div>
+    <div class="footer-stat-value" id="f-sync">–</div>
+  </div>
+</div>
+
+<script>
+const catMeta = {
+  beauty: { name_zh: "美妆护肤", name_en: "Beauty & Skincare", icon: "💄", cls: "cat-beauty" },
+  ai: { name_zh: "AI 与科技", name_en: "AI & Tech", icon: "🤖", cls: "cat-ai" },
+  biz: { name_zh: "商业与投融资", name_en: "Business / VC / IPO", icon: "📈", cls: "cat-biz" },
+  ec: { name_zh: "电商与 DTC", name_en: "E-Commerce / DTC", icon: "🛒", cls: "cat-ec" },
+};
+const heatLabel = { hot: "🔥 HOT", trend: "🟧 TRENDING", new: "🟨 NEW", arch: "⬜ ARCHIVED" };
+const marketLabel = { us: "🇺🇸 US", cn: "🇨🇳 China", kr: "🇰🇷 Korea", jp: "🇯🇵 Japan", eu: "🇪🇺 Europe", ae: "🇦🇪 MENA", sea: "🌏 SEA", global: "🌐 Global" };
+
+let stories = [];
+let data_meta = {};
+
+async function loadData() {
+  try {
+    const r = await fetch("./trends-data.json?ts=" + Date.now());
+    const data = await r.json();
+    stories = data.stories || [];
+    data_meta = data;
+    // update hero
+    if (data.stats) {
+      document.getElementById("stat-hot").textContent = data.stats.hot || 0;
+      document.getElementById("stat-trend").textContent = data.stats.trend || 0;
+      document.getElementById("stat-new").textContent = data.stats.new || 0;
+      document.getElementById("stat-total").textContent = data.stats.total || 0;
+    }
+    if (data.window) document.getElementById("meta-window").textContent = "Window: " + data.window;
+    if (data.last_updated) {
+      const dt = new Date(data.last_updated);
+      document.getElementById("f-sync").textContent = dt.toISOString().slice(0, 16).replace("T", " ");
+    }
+    // most active market
+    const marketCounts = {};
+    stories.forEach(s => { marketCounts[s.market] = (marketCounts[s.market] || 0) + 1; });
+    const topMarket = Object.entries(marketCounts).sort((a, b) => b[1] - a[1])[0];
+    if (topMarket) document.getElementById("f-market").textContent = (marketLabel[topMarket[0]] || topMarket[0]) + " · " + topMarket[1] + " stories";
+    render();
+  } catch (e) {
+    document.getElementById("grid").innerHTML = '<div class="empty">⚠️ Failed to load data. Run <code>python auto-update/scripts/fetch_trends.py</code> first, or serve this folder via HTTP.</div>';
+  }
+}
+
+function render() {
+  const grid = document.getElementById("grid");
+  const market = document.querySelector(".chip.active[data-market]")?.dataset.market || "all";
+  const heat = document.querySelector(".chip.active[data-heat]")?.dataset.heat || "all";
+  const q = document.getElementById("search").value.toLowerCase();
+
+  const filtered = stories.filter(s => {
+    if (market !== "all" && s.market !== market) return false;
+    if (heat !== "all" && s.heat !== heat) return false;
+    if (q) {
+      const blob = ((s.title_zh || "") + " " + (s.title_en || "") + " " + (s.desc_zh || "") + " " + (s.desc_en || "") + " " + (s.sourceLabel || "")).toLowerCase();
+      if (!blob.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty">未找到匹配的热点 / No stories match your filter.</div>';
+    return;
+  }
+
+  const grouped = {};
+  filtered.forEach(s => {
+    if (!grouped[s.cat]) grouped[s.cat] = [];
+    grouped[s.cat].push(s);
+  });
+
+  let html = "";
+  ["beauty", "ai", "biz", "ec"].forEach(cat => {
+    if (!grouped[cat]) return;
+    const meta = catMeta[cat];
+    html += `<div class="category ${meta.cls}">
+      <div class="cat-header">
+        <div class="cat-title">
+          <span class="cat-icon">${meta.icon}</span>${meta.name_zh}<span class="cat-en">· ${meta.name_en}</span>
+        </div>
+        <div class="cat-count">${grouped[cat].length} 条 stories</div>
+      </div>`;
+    grouped[cat].forEach(s => {
+      html += `<div class="story" data-url="${s.source}">
+        <div class="story-row1">
+          <span class="heat-badge ${s.heat}">${heatLabel[s.heat]}</span>
+          <div style="flex:1;min-width:200px;">
+            <div class="story-title">${s.title_zh}</div>
+            <div class="story-title-en">${s.title_en}</div>
+          </div>
+          <span class="market-tag">${marketLabel[s.market] || s.market}</span>
+        </div>
+        <div class="story-meta">📅 ${s.date} · 来源 / Source: ${s.sourceLabel}</div>
+        <div class="story-desc">${s.desc_zh}</div>
+        <div class="story-desc-en">${s.desc_en}</div>
+        <a class="story-source" href="${s.source}" target="_blank">↗ 打开原文 / Open source</a>
+      </div>`;
+    });
+    html += `</div>`;
+  });
+
+  grid.innerHTML = html;
+  document.querySelectorAll(".story").forEach(el => {
+    el.addEventListener("click", e => {
+      if (e.target.tagName === "A") return;
+      const url = el.dataset.url;
+      if (url && url !== "#") window.open(url, "_blank");
+    });
+  });
+}
+
+document.querySelectorAll(".chip[data-market]").forEach(chip => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll(".chip[data-market]").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    render();
+  });
+});
+document.querySelectorAll(".chip[data-heat]").forEach(chip => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll(".chip[data-heat]").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    render();
+  });
+});
+document.getElementById("search").addEventListener("input", render);
+
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement.id !== "search") {
+    e.preventDefault();
+    document.getElementById("search").focus();
+  }
+  if (e.key === "Escape") document.getElementById("search").blur();
+});
+
+loadData();
+</script>
+</body>
+</html>
