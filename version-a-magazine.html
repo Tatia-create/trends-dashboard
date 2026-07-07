@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>全球趋势杂志 · Global Trends Magazine · 2026 H1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #faf6ef;
+    --paper: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-dim: #8a8a8a;
+    --rule: #d8d2c4;
+    --blue: #2B4C7E;
+    --green: #4A9D6F;
+    --red: #C84B4B;
+    --orange: #E8862F;
+
+    /* 字体系统: 标题衬线 (中文宋体 + 英文 Garamond) + 正文中文黑体 + 英文 Helvetica */
+    --font-headline-zh: "Noto Serif SC", "Source Han Serif SC", "Songti SC", Georgia, serif;
+    --font-headline-en: "Cormorant Garamond", "Playfair Display", "Noto Serif SC", Georgia, serif;
+    --font-body-zh: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    --font-body-en: "Arial", "Helvetica Neue", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    /* 正文中文用思源黑体 (Noto Sans SC), 英文用 Arial, 数字用衬线 */
+    font-family: var(--font-body-en), var(--font-body-zh);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* MASTHEAD */
+  .masthead {
+    text-align: center;
+    padding: 70px 40px 50px;
+    border-bottom: 4px double var(--ink);
+    margin-bottom: 70px;
+  }
+  .masthead-issue {
+    font-family: var(--font-body-en);
+    font-size: 13px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  .masthead-title {
+    font-family: var(--font-headline-zh);
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 1.05;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+  .masthead-title-en {
+    font-family: var(--font-headline-en);
+    font-weight: 500;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .masthead-title-en .ampersand {
+    color: var(--red);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+  }
+  .masthead-sub {
+    font-family: var(--font-headline-en);
+    font-size: 22px;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin-bottom: 24px;
+    font-weight: 400;
+  }
+  .masthead-meta {
+    font-family: var(--font-body-en);
+    font-size: 13px;
+    color: var(--ink-dim);
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+  .masthead-divider {
+    margin: 24px auto 0;
+    width: 60px;
+    height: 2px;
+    background: var(--ink);
+  }
+
+  /* CONTAINER */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px 80px;
+  }
+
+  /* EDITOR'S NOTE */
+  .editor-note {
+    font-family: var(--font-headline-zh);
+    font-weight: 300;
+    font-size: 21px;
+    color: var(--ink-soft);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 90px;
+    line-height: 1.85;
+  }
+  .editor-note em {
+    font-family: var(--font-headline-en);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .editor-note::before {
+    content: '“';
+    font-family: var(--font-headline-en);
+    font-size: 80px;
+    color: var(--red);
+    display: block;
+    line-height: 0.3;
+    margin-bottom: 30px;
+  }
+
+  /* SECTION HEAD */
+  .section-head {
+    margin: 90px 0 50px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section-head .kicker {
+    font-family: var(--font-body-en);
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+  .section-head .title {
+    font-family: var(--font-headline-zh);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+  .section-head .title-en {
+    font-family: var(--font-headline-en);
+    font-size: 22px;
+    font-style: italic;
+    color: var(--ink-dim);
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .section-beauty .section-head .kicker { color: var(--orange); }
+  .section-ai .section-head .kicker { color: var(--blue); }
+  .section-biz .section-head .kicker { color: var(--green); }
+  .section-ec .section-head .kicker { color: var(--red); }
+
+  /* FEATURE GRID */
+  .feature {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 50px;
+    margin-bottom: 70px;
+    align-items: start;
+  }
+  .feature.reverse { grid-template-columns: 1fr 1.4fr; }
+  .feature-image {
+    aspect-ratio: 4/3;
+    background: var(--rule);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .feature-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, transparent 30%, rgba(0,0,0,0.1));
+  }
+  .feature-content { padding: 0; }
+  .feature-tag {
+    display: inline-block;
+    font-family: var(--font-body-en);
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    color: #fff;
+  }
+  .tag-hot { background: var(--red); }
+  .tag-trend { background: var(--orange); }
+  .tag-new { background: var(--blue); }
+  .feature-headline {
+    font-family: var(--font-headline-zh);
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.35;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .feature-headline-en {
+    font-family: var(--font-headline-en);
+    font-size: 22px;
+    color: var(--ink-dim);
+    font-style: italic;
+    margin-bottom: 22px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  .feature-byline {
+    font-family: var(--font-body-en);
+    font-size: 13px;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule);
+    font-weight: 500;
+  }
+  .feature-body {
+    font-family: var(--font-body-zh);
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--ink-soft);
+    font-weight: 400;
+  }
+  .feature-body p { margin-bottom: 16px; }
+  .feature-body .latin {
+    font-family: var(--font-body-en);
+  }
+  .feature-link {
+    display: inline-block;
+    margin-top: 18px;
+    font-family: var(--font-body-en);
+    font-size: 13px;
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px solid var(--blue);
+    padding-bottom: 2px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  /* SMALLER STORY (2-col grid) */
+  .story-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    margin-bottom: 70px;
+  }
+  .story-card {
+    border-top: 1px solid var(--rule);
+    padding-top: 22px;
+  }
+  .story-card .feature-tag { margin-bottom: 12px; }
+  .story-card .feature-headline { font-size: 24px; line-height: 1.4; }
+  .story-card .feature-headline-en { font-size: 16px; margin-bottom: 14px; }
+  .story-card .feature-body { font-size: 14px; }
+  .story-card .feature-byline { font-size: 11px; margin-bottom: 14px; padding-bottom: 12px; letter-spacing: 1.5px; }
+
+  /* COLOPHON */
+  .colophon {
+    margin-top: 110px;
+    padding: 50px 0;
+    border-top: 4px double var(--ink);
+    text-align: center;
+    font-family: var(--font-body-zh);
+    font-size: 13px;
+    color: var(--ink-dim);
+    line-height: 1.9;
+  }
+  .colophon .colophon-title {
+    font-family: var(--font-headline-zh);
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+  }
+  .colophon strong {
+    font-family: var(--font-headline-zh);
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  @media (max-width: 900px) {
+    .feature, .feature.reverse { grid-template-columns: 1fr; }
+    .story-grid { grid-template-columns: 1fr; }
+    .masthead-title { font-size: 52px; }
+    .masthead-title-en { font-size: 26px; }
+    .section-head .title { font-size: 36px; }
+    .feature-headline { font-size: 28px; }
+    .container { padding: 0 24px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-issue">Volume 01 · Issue 01 · July 2026</div>
+  <h1 class="masthead-title">全球趋势 <span style="opacity:0.4;">&</span> 行业洞察</h1>
+  <div class="masthead-title-en">Beauty, AI, Capital <span class="ampersand">&amp;</span> Commerce</div>
+  <div class="masthead-sub">A Quarterly Review of the Stories That Mattered</div>
+  <div class="masthead-divider"></div>
+  <div class="masthead-meta">H1 2026 · 美 · 中 · 韩 · 日 · 欧 · 海湾 · 全球</div>
+</header>
+
+<div class="container">
+
+  <!-- EDITOR'S NOTE -->
+  <div class="editor-note">
+    本期聚焦 <em>2026 上半年</em> 最具影响力的商业、文化与科技事件——从丝芙兰英国扩张到 Claude Fable 5 横空出世,
+    从 SK 海力士史上第二大 IPO 到 TikTok 美区 320 亿美元 GMV。<br/>
+    <em>Six months. Six markets. One signal: speed.</em>
+  </div>
+
+  <!-- ============ BEAUTY ============ -->
+  <section class="section-beauty">
+    <div class="section-head">
+      <div class="kicker">美妆 · Beauty</div>
+      <h2 class="title">地理扩张与长寿叙事</h2>
+      <div class="title-en">Geographic expansion and the longevity narrative reshape global beauty</div>
+    </div>
+
+    <article class="feature">
+      <div class="feature-image" style="background: linear-gradient(135deg, #c84b4b 0%, #e8862f 100%); color: #fff;">
+        <span style="font-size:120px;">🌹</span>
+      </div>
+      <div class="feature-content">
+        <span class="feature-tag tag-hot">HOT · 头条</span>
+        <h3 class="feature-headline">丝芙兰英国首次进军苏格兰, 年底门店将达 20 家</h3>
+        <div class="feature-headline-en">Sephora UK lands in Scotland for the first time, racing toward 20 stores by year-end</div>
+        <div class="feature-byline">📅 2026-07-09 · 来源 BBC News</div>
+        <div class="feature-body">
+          <p>7月9日爱丁堡 <span class="latin">St James Quarter</span> 首店开业, 8月13日 <span class="latin">Glasgow Silverburn</span> 跟进, 加上伦敦 <span class="latin">Carnaby</span> 和 <span class="latin">Old Spitalfields</span> 两家精品店, 丝芙兰英国门店将达 18 家, 年底目标 20 家.</p>
+          <p>这是丝芙兰自 1997 年加入 LVMH 以来对英国市场最大的承诺. 新店将首次引入 <span class="latin">rhode</span>, <span class="latin">Haus Labs</span>, <span class="latin">Makeup by Mario</span>, <span class="latin">Merit Beauty</span>, <span class="latin">INNBeauty Project</span> 等品牌至苏格兰市场.</p>
+        </div>
+        <a class="feature-link" href="https://bbcnewswire.com/huge-beauty-brand-with-16-uk-stores-set-to-open-4-more-from-july-9-uk-news/" target="_blank">阅读原文 → Read full story</a>
+      </div>
+    </article>
+
+    <div class="story-grid">
+      <article class="story-card">
+        <span class="feature-tag tag-hot">HOT</span>
+        <h3 class="feature-headline">Ulta Beauty 进军阿联酋, 三年内 30+ 店</h3>
+        <div class="feature-headline-en">Ulta Beauty debuts in UAE with Alshaya Group</div>
+        <div class="feature-byline">📅 2026-01-29 · Ulta Beauty IR</div>
+        <div class="feature-body">1月29日迪拜 <span class="latin">Mall of the Emirates</span> 首店开业, 3/27 <span class="latin">Dubai Mall</span>, 5/7 沙特 <span class="latin">Jeddah Red Sea Mall</span>. 2025年11月已首入科威特.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-hot">HOT</span>
+        <h3 class="feature-headline">MISOORA — 韩国「长寿护肤」登陆美国</h3>
+        <div class="feature-headline-en">MISOORA brings K-beauty longevity science to the US</div>
+        <div class="feature-byline">📅 2026-06-22 · GlobeNewswire</div>
+        <div class="feature-body">首个以「皮肤长寿」为核心定位的 K-beauty 品牌, 公开 <span class="latin">PDRN 2100ppm</span>, <span class="latin">Retinaldehyde 0.2%</span> 等具体浓度, 颠覆行业「模糊成分」传统.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">丝芙兰引入 11 家中国美妆品牌</h3>
+        <div class="feature-headline-en">Sephora adds 11 Chinese beauty brands</div>
+        <div class="feature-byline">📅 2026-04-23 · 时尚 COSMO</div>
+        <div class="feature-body">花西子、完美日记、玛丽黛佳、橘朵、方里、INTO YOU、谷雨、C咖、羽素 集体入驻丝芙兰中国 320 家门店.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">Charlotte Tilbury 破例签约中国艺人梓渝</h3>
+        <div class="feature-headline-en">Charlotte Tilbury breaks its decade-old endorsement rule</div>
+        <div class="feature-byline">📅 2026-03-03 · 新浪</div>
+        <div class="feature-body">打破沿用十余年「一男一女单代言人接力制」, 伦敦总部通过官方 <span class="latin">IG</span> 面向 70+ 国家同步官宣, 中国新生代商业力获国际认可.</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ AI ============ -->
+  <section class="section-ai">
+    <div class="section-head">
+      <div class="kicker">AI · 人工智能</div>
+      <h2 class="title">神话级模型与工作流之战</h2>
+      <div class="title-en">From myth-tier models to workflow-native AI: the 2026 inflection</div>
+    </div>
+
+    <article class="feature reverse">
+      <div class="feature-content">
+        <span class="feature-tag tag-hot">HOT · 头条</span>
+        <h3 class="feature-headline">Claude Fable 5 — 首个「神话级」AI 模型</h3>
+        <div class="feature-headline-en">Anthropic ships Claude Fable 5 — the first Mythos-class model — then briefly loses it to export controls</div>
+        <div class="feature-byline">📅 2026-06-09 · AI Creators Hub</div>
+        <div class="feature-body">
+          <p>6月9日发布, 在 Opus 之上, <span class="latin">1M token</span> 上下文, <span class="latin">SWE-Bench Pro 80.3%</span>. 6月12日因美国出口管制指令被强制下线, 7月1日管制解除后全球恢复.</p>
+          <p>这是 AI 商业化进程中的新风险类别: 买家的「首发访问权」不再被保证. 对企业的启示是, 工作流应建立在今天可用的工具上, 而不是建立在「即将发布」的承诺上.</p>
+        </div>
+        <a class="feature-link" href="https://ai-creators-hub.com/%E3%80%902026%E5%B9%B4%E6%9C%80%E6%96%B0%E3%80%91openai%E3%83%BBanthropic%E3%83%BBgoogle-deepmind%E5%8B%95%E5%90%91%E6%AF%94%E8%BC%83/" target="_blank">阅读原文 → Read full story</a>
+      </div>
+      <div class="feature-image" style="background: linear-gradient(135deg, #2B4C7E 0%, #4a6fa5 100%); color: #fff;">
+        <span style="font-size:120px;">🧠</span>
+      </div>
+    </article>
+
+    <div class="story-grid">
+      <article class="story-card">
+        <span class="feature-tag tag-hot">HOT</span>
+        <h3 class="feature-headline">Gemini 2.5 Pro Deep Think 上线</h3>
+        <div class="feature-headline-en">Google's Deep Think reasoning mode</div>
+        <div class="feature-byline">📅 2026-06-22 · 腾讯云</div>
+        <div class="feature-body"><span class="latin">GPQA Diamond 82.4%</span>, 领先 Fable 5 (<span class="latin">79.1%</span>) 与 GPT-5.5 (<span class="latin">76.3%</span>). 绑定 <span class="latin">$4.99/月 AI Plus</span> 订阅 + 35 亿 Android 设备.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-hot">HOT</span>
+        <h3 class="feature-headline">GPT-5.6 三兄弟: Sol / Terra / Luna</h3>
+        <div class="feature-headline-en">OpenAI ships GPT-5.6 trio</div>
+        <div class="feature-byline">📅 2026-06-26 · 腾讯云</div>
+        <div class="feature-body">Sol 旗舰 + Terra 性价比 + Luna 极速. Sol 可独立完成 50% 长时专业任务. 大众版待发, 现阶段仅 20 家认证机构可用.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">Claude Tag — AI 进驻 Slack 频道</h3>
+        <div class="feature-headline-en">Anthropic's Claude Tag embeds AI in Slack</div>
+        <div class="feature-byline">📅 2026-06-23 · 腾讯云</div>
+        <div class="feature-body">共享身份 + 持续记忆 + 异步工作. Anthropic 内部 65% 代码变更由 Claude Tag 自动审批合并. AI 从工具变成同事.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">Microsoft Copilot Cowork 正式发布</h3>
+        <div class="feature-headline-en">Copilot Cowork reaches GA</div>
+        <div class="feature-byline">📅 2026-06-16 · Microsoft</div>
+        <div class="feature-body">多模型 (<span class="latin">OpenAI + Anthropic</span>), <span class="latin">$0.01/credit</span> 计费. 嵌入 <span class="latin">Word/Excel/PPT/Outlook</span>, 长时多步任务执行.</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ BUSINESS ============ -->
+  <section class="section-biz">
+    <div class="section-head">
+      <div class="kicker">商业 · Capital</div>
+      <h2 class="title">资金向芯片与物理 AI 集中</h2>
+      <div class="title-en">Capital concentrates on chips and physical AI as the model layer commoditizes</div>
+    </div>
+
+    <article class="feature">
+      <div class="feature-image" style="background: linear-gradient(135deg, #4A9D6F 0%, #6db489 100%); color: #fff;">
+        <span style="font-size:120px;">💰</span>
+      </div>
+      <div class="feature-content">
+        <span class="feature-tag tag-hot">HOT · 头条</span>
+        <h3 class="feature-headline">Q1 2026 全球风投 $3000 亿, 80% 流向 AI</h3>
+        <div class="feature-headline-en">Q1 2026: $300B deployed, 80% to AI, concentration at historic highs</div>
+        <div class="feature-byline">📅 2026-05-20 · 36Kr</div>
+        <div class="feature-body">
+          <p>2026 <span class="latin">Q1</span> 全球风险投资 <span class="latin">$3000 亿</span>, 其中 <span class="latin">$2420 亿</span> 流向 AI. 史上最大的 5 轮融资中 4 轮出现在本季度.</p>
+          <p>资金集中度达到历史新高: OpenAI <span class="latin">$852B</span>, Anthropic <span class="latin">$965B</span>, Waymo <span class="latin">$126B</span>. 同一季度, SpaceX 提交 <span class="latin">$1.75 万亿 IPO</span> 申请, Cerebras 上市首日翻倍.</p>
+        </div>
+        <a class="feature-link" href="https://36kr.com/p/3780546615680005" target="_blank">阅读原文 → Read full story</a>
+      </div>
+    </article>
+
+    <div class="story-grid">
+      <article class="story-card">
+        <span class="feature-tag tag-hot">HOT</span>
+        <h3 class="feature-headline">OpenAI 估值 8520 亿, Q4 目标 $1 万亿 IPO</h3>
+        <div class="feature-headline-en">OpenAI at $852B valuation, eyeing $1T Q4 IPO</div>
+        <div class="feature-byline">📅 2026-03-31 · AI Funding Tracker</div>
+        <div class="feature-body"><span class="latin">Amazon $500 亿 + Nvidia $300 亿 + SoftBank $300 亿</span> 领投. 史上最大私募融资.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">Anthropic 估值 9650 亿, 起诉五角大楼</h3>
+        <div class="feature-headline-en">Anthropic valued at $965B, sues Pentagon</div>
+        <div class="feature-byline">📅 2026-05 · Crunchbase</div>
+        <div class="feature-body">拒绝 <span class="latin">DoD</span> 自武要求, 反而 Claude 登顶 <span class="latin">App Store</span>, 起诉五角大楼将其列为「供应链风险」.</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ E-COMMERCE ============ -->
+  <section class="section-ec">
+    <div class="section-head">
+      <div class="kicker">电商 · Commerce</div>
+      <h2 class="title">TikTok 重塑, 平台分化</h2>
+      <div class="title-en">TikTok reshapes discovery, Amazon becomes infrastructure, China tightens rules</div>
+    </div>
+
+    <article class="feature reverse">
+      <div class="feature-content">
+        <span class="feature-tag tag-hot">HOT · 头条</span>
+        <h3 class="feature-headline">TikTok Shop 美区 Q1 GMV $320 亿, 同比 +180%</h3>
+        <div class="feature-headline-en">TikTok Shop US hits $32B GMV in Q1, up 180% YoY — beauty is 28% of the mix</div>
+        <div class="feature-byline">📅 2026-05-25 · Ecommerce Times</div>
+        <div class="feature-body">
+          <p><span class="latin">TikTok Shop</span> 美区 2026 <span class="latin">Q1 GMV</span> 达 <span class="latin">$320 亿</span>, 同比增长 180%. 美妆占 28%, 健康占 16%. 61% 的 Shopify 商家已经开设 TikTok 店铺.</p>
+          <p>与此同时, 抖音中国推出跨境品牌新规, 要求商家 30 天内提交真实海外产销证明. 跨境「伪外资」品牌面临系统性出清.</p>
+        </div>
+        <a class="feature-link" href="https://www.ecommercetimes.com" target="_blank">阅读原文 → Read full story</a>
+      </div>
+      <div class="feature-image" style="background: linear-gradient(135deg, #C84B4B 0%, #2B4C7E 100%); color: #fff;">
+        <span style="font-size:120px;">🛒</span>
+      </div>
+    </article>
+
+    <div class="story-grid">
+      <article class="story-card">
+        <span class="feature-tag tag-trend">TRENDING</span>
+        <h3 class="feature-headline">Amazon MCF 助力 Clean Skin Club 200% 增长</h3>
+        <div class="feature-headline-en">Amazon MCF powers 200% growth</div>
+        <div class="feature-byline">📅 2026-05-03 · Amazon Case Study</div>
+        <div class="feature-body">用 <span class="latin">Amazon Multi-Channel Fulfillment</span> 履约 TikTok 订单, 8 渠道一盘货, 释放数百万运营资金.</div>
+      </article>
+
+      <article class="story-card">
+        <span class="feature-tag tag-new">NEW</span>
+        <h3 class="feature-headline">安克创新北美份额 35%, ASP 高 40%</h3>
+        <div class="feature-headline-en">Anker reaches 35% NA share, 40% ASP premium</div>
+        <div class="feature-byline">📅 2026-07 · Book118</div>
+        <div class="feature-body">「<span class="latin">Empower life</span>」定位, 科技品牌转型. <span class="latin">ASP</span> 比类目平均高 40%.</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- COLOPHON -->
+  <div class="colophon">
+    <div class="colophon-title">编 后 · Colophon</div>
+    本期所有内容均来自公开渠道 (<span class="latin">BBC</span>, <span class="latin">Reuters</span>, <span class="latin">Bloomberg</span>, 36Kr, <span class="latin">Glossy</span>, 时尚 COSMO, <span class="latin">GlobeNewswire</span>, <span class="latin">Crunchbase</span>, <span class="latin">TechCrunch</span>, 腾讯云, <span class="latin">Ecommerce Times</span> 等).<br/>
+    <em>All stories sourced from public news outlets, official press releases, and company investor relations pages. No proprietary or internal content.</em><br/><br/>
+    <strong>下期预告 · Next issue:</strong> AI 工作流在企业级部署的实证数据 · K-beauty 在欧洲的本地化策略 · SpaceX IPO 进展
+  </div>
+
+</div>
+
+</body>
+</html>
