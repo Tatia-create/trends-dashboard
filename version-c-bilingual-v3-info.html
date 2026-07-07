@@ -42,6 +42,17 @@
 
     --shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
     --shadow-hover: 0 4px 12px rgba(15, 23, 42, 0.10);
+
+    /* v2 经典 4 大类配色 (Cat → 装饰条色) */
+    --cat-beauty: #ea580c;   /* orange-600 美妆护肤 */
+    --cat-ai:     #1d4ed8;   /* blue-700   AI 与科技 */
+    --cat-biz:    #16a34a;   /* green-600  商业与投融资 */
+    --cat-ec:     #dc2626;   /* red-600    电商与 DTC */
+    --cat-rsrch:  #7c3aed;   /* violet-600 研报与智库 */
+    --cat-other:  #64748b;   /* slate-500  其他/未分类 */
+    /* v2 顶部 header 配色 */
+    --header-bg: #0f2c4d;    /* 藏青 navy */
+    --header-line: #16a34a;  /* 底部绿边 */
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -55,16 +66,18 @@
   }
   body { padding: 14px; min-height: 100vh; }
 
-  /* ===== Header (sticky) ===== */
+  /* ===== Header (sticky) — v2 藏青+绿边 ===== */
   .header {
     position: sticky;
     top: 0;
     z-index: 30;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    box-shadow: var(--shadow);
+    background: var(--header-bg);
+    color: #fff;
+    border-radius: 10px;
     margin: -14px -14px 14px;
-    padding: 14px 18px 0;
+    padding: 16px 20px 14px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+    border-bottom: 3px solid var(--header-line);
   }
   .header-top {
     display: flex;
@@ -79,7 +92,11 @@
     color: var(--primary);
     letter-spacing: 0.1px;
   }
-  .header h1 .en { color: var(--text); font-weight: 600; }
+  .header h1 { color: #fff; }
+  .header h1 .en { color: #e2e8f0; font-weight: 600; }
+  .header-sub { color: #cbd5e1; }
+  .header-meta { color: #cbd5e1; }
+  .live-dot { background: #22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,0.25); }
   .header-sub {
     font-size: 12px;
     color: var(--text-dim);
@@ -126,12 +143,14 @@
     color: var(--text-dim);
     border: 1px solid var(--border);
   }
-  .stats-item b { color: var(--text); font-weight: 600; }
-  .stats-item.hot b { color: var(--hot-bar); }
-  .stats-item.trend b { color: var(--trend-bar); }
-  .stats-item.new b { color: var(--new-bar); }
-  .stats-item.arch b { color: var(--arch-bar); }
-  .stats-item.visible b { color: var(--primary); }
+  .stats-item b { color: #fff; font-weight: 700; }
+  .stats-item.hot   { background: #dc2626; border-color: #dc2626; color: #fff; }
+  .stats-item.trend { background: #ea580c; border-color: #ea580c; color: #fff; }
+  .stats-item.new   { background: #facc15; border-color: #facc15; color: #1f2937; }
+  .stats-item.new b { color: #1f2937; }
+  .stats-item.arch  { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.30); color: #fff; }
+  .stats-item.visible { background: #16a34a; border-color: #16a34a; color: #fff; }
+  .stats-item.total { background: transparent; border: 1px solid #7dd3fc; color: #fff; }
 
   /* ===== Filter bar ===== */
   .filters {
@@ -265,14 +284,47 @@
   }
   .clear-btn:hover { background: var(--surface-2); color: var(--text); }
 
-  /* ===== Cards grid (high info density) ===== */
-  .grid {
+  /* ===== Cards grid (high info density) — v2 4 大类分区版 ===== */
+  .grid { display: block; }
+  .cat-section {
+    margin-bottom: 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .cat-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: linear-gradient(to right, color-mix(in srgb, var(--cat-color) 10%, white 90%), transparent 70%);
+    border-bottom: 1px solid color-mix(in srgb, var(--cat-color) 30%, var(--border) 70%);
+  }
+  .cat-bar {
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background: var(--cat-color);
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+  .cat-title { font-size: 15px; font-weight: 700; margin: 0; }
+  .cat-zh { color: var(--text); }
+  .cat-en { color: var(--text-dim); font-weight: 500; font-size: 13px; }
+  .cat-counts { margin-left: auto; display: flex; gap: 6px; font-size: 11px; }
+  .cat-total { background: #f1f5f9; color: var(--text-dim); padding: 2px 8px; border-radius: 8px; font-weight: 600; }
+  .cat-hot   { background: #fef2f2; color: #b91c1c; padding: 2px 6px; border-radius: 8px; font-weight: 600; }
+  .cat-trend { background: #fff7ed; color: #c2410c; padding: 2px 6px; border-radius: 8px; font-weight: 600; }
+  .cat-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 10px;
+    padding: 12px;
   }
-  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 640px)  { .grid { grid-template-columns: 1fr; } }
+  @media (max-width: 1100px) { .cat-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px)  { .cat-grid { grid-template-columns: 1fr; } }
 
   .card {
     position: relative;
@@ -658,7 +710,7 @@
     const visCnt   = state.filtered.length;
 
     document.getElementById('statsBar').innerHTML = `
-      <span class="stats-item">Total <b>${total}</b></span>
+      <span class="stats-item total">📊 TOTAL <b>${total}</b></span>
       <span class="stats-item hot">🔥 HOT <b>${hotCnt}</b></span>
       <span class="stats-item trend">🟧 TRENDING <b>${trendCnt}</b></span>
       <span class="stats-item new">🟨 NEW <b>${newCnt}</b></span>
@@ -666,50 +718,91 @@
       <span class="stats-item visible">显示中 Showing <b>${visCnt}</b></span>
     `;
 
-    // Grid
+    // Grid — v2 风格: 按 4 大类分区, 每类顶部带 Cat 颜色装饰条
     const grid = document.getElementById('grid');
     if (state.filtered.length === 0) {
       grid.innerHTML = '<div class="empty">无匹配结果 / No matching stories. 试试调整筛选条件 / Try adjusting filters.</div>';
       return;
     }
 
-    const frag = document.createDocumentFragment();
+    // 按 cat 分组, 按 CAT_ORDER 顺序
+    const groups = new Map();
     state.filtered.forEach(s => {
-      const a = document.createElement('a');
-      a.className = 'card heat-' + (s.heat || 'arch');
-      a.href = (s.sourceLinks && s.sourceLinks[0]) ? s.sourceLinks[0] : (s.source || '#');
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-
-      // Sources line — only when multiple sources (dedup visualization)
-      const sources = (s.sources && s.sources.length > 1)
-        ? `<div class="sources-line"><span class="lbl">Sources:</span> ${escapeHtml(s.sources.join(', '))}</div>`
-        : '';
-
-      a.innerHTML = `
-        <div class="card-top">
-          <div class="card-tags">
-            <span class="tag cat">${escapeHtml(s.cat || '')}</span>
-            <span class="tag market">${escapeHtml(MARKET_LABELS[s.market] || s.market || '')}</span>
-            <span class="tag date">${escapeHtml(fmtDate(s.date))}</span>
-          </div>
-          <span class="heat-badge ${s.heat || 'arch'}">${HEAT_EMOJI[s.heat] || ''} ${HEAT_LABELS[s.heat] || s.heat || ''}</span>
-        </div>
-        <div class="title-zh">${escapeHtml(s.title_zh || s.title_en || '')}</div>
-        <div class="title-en">${escapeHtml(s.title_en || '')}</div>
-        ${(() => {
-          const dz = (s.desc_zh || '').trim();
-          const de = (s.desc_en || '').trim();
-          if (!dz && !de) return '';
-          const dShort = (dz || de).slice(0, 80) + ((dz || de).length > 80 ? '…' : '');
-          return `<div class="desc-zh" title="${escapeHtml(dz || de).replace(/"/g,'&quot;')}">${escapeHtml(dShort)}</div>`;
-        })()}
-        ${sources}
-      `;
-      frag.appendChild(a);
+      const c = s.cat || 'other';
+      if (!groups.has(c)) groups.set(c, []);
+      groups.get(c).push(s);
     });
-    grid.innerHTML = '';
-    grid.appendChild(frag);
+    const orderedCats = CAT_ORDER.filter(c => groups.has(c));
+    for (const [c, arr] of groups) { if (!orderedCats.includes(c)) orderedCats.push(c); }
+
+    const catColorVar = {
+      beauty: 'var(--cat-beauty)',
+      ai:     'var(--cat-ai)',
+      biz:    'var(--cat-biz)',
+      ec:     'var(--cat-ec)',
+      research: 'var(--cat-rsrch)',
+      other:  'var(--cat-other)',
+    };
+    const catEnLabel = {
+      beauty: 'Beauty & Skincare',
+      ai:     'AI & Tech',
+      biz:    'Business / VC / IPO',
+      ec:     'E-Commerce / DTC',
+      research: 'Research / Think Tank',
+      other:  'Other',
+    };
+
+    grid.innerHTML = orderedCats.map(cat => {
+      const stories = groups.get(cat);
+      const color = catColorVar[cat] || 'var(--cat-other)';
+      const enLabel = catEnLabel[cat] || cat;
+      const zhLabel = CAT_LABELS[cat] || cat;
+      const hotInCat = stories.filter(s => s.heat === 'hot').length;
+      const trendInCat = stories.filter(s => s.heat === 'trend').length;
+
+      const cards = stories.map(s => {
+        const sources = (s.sources && s.sources.length > 1)
+          ? `<div class="sources-line"><span class="lbl">Sources:</span> ${escapeHtml(s.sources.join(', '))}</div>`
+          : '';
+        return `
+        <a class="card heat-${s.heat || 'arch'}" href="${(s.sourceLinks && s.sourceLinks[0]) ? s.sourceLinks[0] : (s.source || '#')}" target="_blank" rel="noopener noreferrer">
+          <div class="card-top">
+            <div class="card-tags">
+              <span class="tag market">${escapeHtml(MARKET_LABELS[s.market] || s.market || '')}</span>
+              <span class="tag date">${escapeHtml(fmtDate(s.date))}</span>
+            </div>
+            <span class="heat-badge ${s.heat || 'arch'}">${HEAT_EMOJI[s.heat] || ''} ${HEAT_LABELS[s.heat] || s.heat || ''}</span>
+          </div>
+          <div class="title-zh">${escapeHtml(s.title_zh || s.title_en || '')}</div>
+          <div class="title-en">${escapeHtml(s.title_en || '')}</div>
+          ${(() => {
+            const dz = (s.desc_zh || '').trim();
+            const de = (s.desc_en || '').trim();
+            if (!dz && !de) return '';
+            const dShort = (dz || de).slice(0, 80) + ((dz || de).length > 80 ? '…' : '');
+            return `<div class="desc-zh" title="${escapeHtml(dz || de).replace(/"/g,'&quot;')}">${escapeHtml(dShort)}</div>`;
+          })()}
+          ${sources}
+        </a>`;
+      }).join('');
+
+      return `
+        <section class="cat-section" style="--cat-color:${color}">
+          <header class="cat-header">
+            <span class="cat-bar"></span>
+            <h2 class="cat-title">
+              <span class="cat-zh">${escapeHtml(zhLabel)}</span>
+              <span class="cat-en">· ${escapeHtml(enLabel)}</span>
+            </h2>
+            <div class="cat-counts">
+              <span class="cat-total">${stories.length} 条</span>
+              ${hotInCat ? `<span class="cat-hot">🔥 ${hotInCat}</span>` : ''}
+              ${trendInCat ? `<span class="cat-trend">🟧 ${trendInCat}</span>` : ''}
+            </div>
+          </header>
+          <div class="cat-grid">${cards}</div>
+        </section>`;
+    }).join('');
   }
 
   // ===== Events =====
