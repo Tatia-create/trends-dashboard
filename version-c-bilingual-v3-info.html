@@ -342,26 +342,29 @@
     color: inherit;
     overflow: hidden;
   }
-  /* left 4px heat color bar — key for one-glance classification */
+  /* left 4px CAT color bar — 整类一种色 (不再用 heat 色) */
   .card::before {
     content: "";
     position: absolute;
     left: 0; top: 0; bottom: 0;
     width: 4px;
-    background: var(--arch-bar);
+    background: var(--cat-other);
   }
-  .card.heat-hot::before    { background: var(--hot-bar); }
-  .card.heat-trend::before  { background: var(--trend-bar); }
-  .card.heat-new::before    { background: var(--new-bar); }
-  .card.heat-arch::before   { background: var(--arch-bar); }
+  /* Cat 配色: 整类一种色 (banner + 卡片色条 + 卡片 tint 都用 cat-color) */
+  .card.cat-beauty::before   { background: var(--cat-beauty); }
+  .card.cat-ai::before       { background: var(--cat-ai); }
+  .card.cat-biz::before      { background: var(--cat-biz); }
+  .card.cat-ec::before       { background: var(--cat-ec); }
+  .card.cat-research::before { background: var(--cat-rsrch); }
+  .card.cat-other::before    { background: var(--cat-other); }
+  /* 卡片背景: cat 浅色 tint (整类一种色调, 不再用 heat 染色) */
+  .cat-section.cat-beauty .card   { background: color-mix(in srgb, var(--cat-beauty) 5%, white); border-color: color-mix(in srgb, var(--cat-beauty) 18%, var(--border)); }
+  .cat-section.cat-ai .card       { background: color-mix(in srgb, var(--cat-ai) 5%, white);     border-color: color-mix(in srgb, var(--cat-ai) 18%, var(--border)); }
+  .cat-section.cat-biz .card      { background: color-mix(in srgb, var(--cat-biz) 5%, white);    border-color: color-mix(in srgb, var(--cat-biz) 18%, var(--border)); }
+  .cat-section.cat-ec .card       { background: color-mix(in srgb, var(--cat-ec) 5%, white);     border-color: color-mix(in srgb, var(--cat-ec) 18%, var(--border)); }
+  .cat-section.cat-research .card { background: color-mix(in srgb, var(--cat-rsrch) 5%, white);  border-color: color-mix(in srgb, var(--cat-rsrch) 18%, var(--border)); }
 
-  /* subtle background tint by heat */
-  .card.heat-hot   { background: var(--hot-bg); }
-  .card.heat-trend { background: var(--trend-bg); }
-  .card.heat-new   { background: var(--new-bg); }
-  .card.heat-arch  { background: var(--arch-bg); }
-
-  .card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); border-color: var(--border-strong); }
+  .card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
 
   .card-top {
     display: flex;
@@ -434,6 +437,22 @@
     cursor: help;
     border-top: 1px dashed var(--border);
     padding-top: 6px;
+  }
+
+  /* 全文章精华 (D 方案: 从 meta description / og / 段提取) */
+  .desc-full {
+    font-size: 12.5px;
+    color: var(--text);
+    line-height: 1.5;
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: help;
+    border-top: 1px dashed var(--border);
+    padding-top: 7px;
+    font-weight: 400;
   }
   .desc-en {
     font-size: 11px;
@@ -764,8 +783,15 @@
         const sources = (s.sources && s.sources.length > 1)
           ? `<div class="sources-line"><span class="lbl">Sources:</span> ${escapeHtml(s.sources.join(', '))}</div>`
           : '';
+        // 全文章精华 (desc_full_zh / desc_full_en)
+        const fullZh = (s.desc_full_zh || '').trim();
+        const fullEn = (s.desc_full_en || '').trim();
+        const fullSummary = fullZh || fullEn;
+        const summaryHtml = fullSummary
+          ? `<div class="desc-full" title="${escapeHtml(fullSummary).replace(/"/g,'&quot;')}">${escapeHtml(fullSummary.length > 220 ? fullSummary.slice(0, 220) + '…' : fullSummary)}</div>`
+          : '';
         return `
-        <a class="card heat-${s.heat || 'arch'}" href="${(s.sourceLinks && s.sourceLinks[0]) ? s.sourceLinks[0] : (s.source || '#')}" target="_blank" rel="noopener noreferrer">
+        <a class="card cat-${cat} heat-${s.heat || 'arch'}" href="${(s.sourceLinks && s.sourceLinks[0]) ? s.sourceLinks[0] : (s.source || '#')}" target="_blank" rel="noopener noreferrer">
           <div class="card-top">
             <div class="card-tags">
               <span class="tag market">${escapeHtml(MARKET_LABELS[s.market] || s.market || '')}</span>
@@ -775,19 +801,13 @@
           </div>
           <div class="title-zh">${escapeHtml(s.title_zh || s.title_en || '')}</div>
           <div class="title-en">${escapeHtml(s.title_en || '')}</div>
-          ${(() => {
-            const dz = (s.desc_zh || '').trim();
-            const de = (s.desc_en || '').trim();
-            if (!dz && !de) return '';
-            const dShort = (dz || de).slice(0, 80) + ((dz || de).length > 80 ? '…' : '');
-            return `<div class="desc-zh" title="${escapeHtml(dz || de).replace(/"/g,'&quot;')}">${escapeHtml(dShort)}</div>`;
-          })()}
+          ${summaryHtml}
           ${sources}
         </a>`;
       }).join('');
 
       return `
-        <section class="cat-section" style="--cat-color:${color}">
+        <section class="cat-section cat-${cat}" style="--cat-color:${color}">
           <header class="cat-header">
             <span class="cat-bar"></span>
             <h2 class="cat-title">
