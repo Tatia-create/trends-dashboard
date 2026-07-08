@@ -783,9 +783,10 @@
         const sources = (s.sources && s.sources.length > 1)
           ? `<div class="sources-line"><span class="lbl">Sources:</span> ${escapeHtml(s.sources.join(', '))}</div>`
           : '';
-        // 全文章精华 (desc_full_zh / desc_full_en)
-        const fullZh = (s.desc_full_zh || '').trim();
-        const fullEn = (s.desc_full_en || '').trim();
+        // 全文章精华 - 跳过重复标题 + 跳过短 desc
+        const isRepeat = s.is_repeat_desc;
+        const fullZh = (isRepeat ? '' : (s.desc_full_zh || '').trim());
+        const fullEn = (isRepeat ? '' : (s.desc_full_en || '').trim());
         const fullSummary = fullZh || fullEn;
         const summaryHtml = fullSummary
           ? `<div class="desc-full" title="${escapeHtml(fullSummary).replace(/"/g,'&quot;')}">${escapeHtml(fullSummary.length > 220 ? fullSummary.slice(0, 220) + '…' : fullSummary)}</div>`
@@ -938,7 +939,7 @@
   // ===== Boot =====
   async function boot() {
     try {
-      const res = await fetch('./trends-data.json?v=7');
+      const res = await fetch('./trends-data.json?v=8');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       state.stories = data.stories || [];
