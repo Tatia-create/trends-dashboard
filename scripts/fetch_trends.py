@@ -37,8 +37,8 @@ DATA_PATHS = [
 # 中文源:抓回来本身就是中文,需要翻译成英文
 CHINESE_SOURCES = {
     "36Kr", "36Kr AI", "36Kr Research", "36氪研究院",
-    "iMedia 艾媒", "iResearch 艾瑞", "QuestMobile",
-    "iTjuzi IT 桔子", "艺恩 EndData", "阿里研究院", "TalkingData",
+    "QuestMobile",  # iMedia 艾媒 / iResearch 艾瑞 已删(整源乱码+备案号)
+    "iTjuzi IT 桔子", "阿里研究院", "TalkingData",  # 艺恩 EndData 已删(备案号)
     "智研咨询", "CBNData", "洞见研报", "36氪新研报", "雪球热榜",
     "同花顺财经", "财联社", "华尔街见闻", "财新网", "TMTPost",
     "虎嗅", "雷锋网", "第一财经", "21财经", "界面新闻",
@@ -75,14 +75,12 @@ SOURCES = {
     "research": [
         # 行业研报 (HTML 抓取)
         ("36氪研究院", "https://36kr.com/ac"),
-        ("iMedia 艾媒", "https://www.iimedia.cn/"),
-        ("iResearch 艾瑞", "https://www.iresearch.cn/"),
-        ("QuestMobile", "https://www.questmobile.com.cn/"),
+        ("QuestMobile", "https://www.questmobile.com.cn/"),  # iMedia 艾媒 / iResearch 艾瑞 已删(整源乱码)
         # 已删除 EY 中国 / TalkingData / 智研咨询 / Deloitte 中国
         # (整站抓,90% 是导航/产品页,质量差)
         ("iTjuzi IT 桔子", "https://www.itjuzi.com/"),
         ("CBNData", "https://www.cbndata.com/"),
-        ("艺恩 EndData", "https://www.endata.com.cn/"),
+        # ("艺恩 EndData", "https://www.endata.com.cn/"),  # 已删(备案号)
         ("阿里研究院", "https://www.aliresearch.com/"),
         ("TalkingData", "https://www.talkingdata.com/"),
         ("智研咨询", "https://www.chyxx.com/"),
