@@ -78,6 +78,8 @@ SOURCES = {
         ("iMedia 艾媒", "https://www.iimedia.cn/"),
         ("iResearch 艾瑞", "https://www.iresearch.cn/"),
         ("QuestMobile", "https://www.questmobile.com.cn/"),
+        # 已删除 EY 中国 / TalkingData / 智研咨询 / Deloitte 中国
+        # (整站抓,90% 是导航/产品页,质量差)
         ("iTjuzi IT 桔子", "https://www.itjuzi.com/"),
         ("CBNData", "https://www.cbndata.com/"),
         ("艺恩 EndData", "https://www.endata.com.cn/"),
@@ -464,7 +466,7 @@ def main():
         "sources_ok": sources_ok,
         "sources_failed": sources_failed,
         "date_range": date_range,
-        "stories": all_stories[:200],
+        "stories": all_stories[:300],
         "rss_sources": {cat: [u for _, u in v] for cat, v in SOURCES.items()},
     }
 
