@@ -1,201 +1,149 @@
 """
-clean_data.py — 数据质量清洗器 (2026-07-07)
-
-功能:
-  1. 删 footer/备案号条目(沪ICP备、copyright、隐私政策等)
-  2. 修 HTML 转义残留(&nbsp; / &#xff08; 等)
-  3. 删乱码/不完整标题(< 4 字符纯符号,匹配人名碎片)
-  4. 标记低质量条目(is_dirty=True),v3 卡片默认不显示描述
-  5. 输出清洗报告
-
-用法:
-  python3 clean_data.py [--dry-run]
-  # 干跑(只报告不写)
-  python3 clean_data.py --write
-  # 实际清洗
+clean_data.py — 清洗抓回来的数据
+v1.0 (2026-07-08):
+  - 删除导航/服务页/产品介绍(10+ 类)
+  - HTML 实体解码(&nbsp; 等)
+  - UTF-8 强制(防 GBK 乱码)
+  - 无描述的标记 has_full_summary=False
 """
-
 import json
 import re
-import sys
-import argparse
+import html
 from pathlib import Path
 
-DATA = Path("/home/gem/.aily/workspace/trends-dashboard/trends-data.json")
+DATA_PATH = Path.home() / ".aily/workspace/trends-dashboard/trends-data.json"
 
-# 1. footer / 备案号 / 版权声明(只匹配强信号,避免"注册资本"误伤)
-FOOTER_RE = re.compile(
-    r"ICP备|icp备|copyright|©|all rights reserved|powered by|网站地图|sitemap|"
-    r"隐私政策|服务条款|使用协议|免责声明|关于我们$|^cookie$|订阅.*rss|app store|google play|"
-    r"^登录$|^注册$|^首页$",
-    re.I,
-)
+# 导航/服务页/产品页关键词 (标题或描述出现即删)
+NAV_KEYWORDS = [
+    # 英文
+    "Compliance and Security", "Ad Tracking", "Financial Risk Control",
+    "Joint Modeling", "Product Solutions", "Industry Solutions",
+    "Service Solutions", "Tracking Solutions", "Modelling",
+    # 中文
+    "租赁和商务服务业", "价值创造、保存和恢复", "能源、资源及工业",
+    "金融服务行业", "战略与交易", "行业洞察", "服务介绍",
+    "中国母婴行业市场规模", "快造科技（Snapmaker）",  # 假新闻
+    # 行业分类页
+    "行业市场规模", "行业研究", "行业分类", "行业概述",
+    # 报告导航
+    "研究报告 >", "行业报告 >", "产品中心", "解决方案 >",
+]
 
-# 2. HTML 转义残留
-HTML_ESC_RE = re.compile(r"&nbsp;|&#\d+;|&[a-z]+;")
-
-# 3. 乱码 / 短串 (纯符号 / 单字符 / 数字串)
-GARBAGE_RE = re.compile(r"^[\s\W\d_]+$", re.I)
-
-# 4. 单独棋盘字符
-PIECE_RE = re.compile(r"[♟♠♣♥♦●■▲▼◆★☆▢▣▤▥▦▧▨▩]")
-
-# 5. PDF 章节标题
-PDF_CHAPTER_RE = re.compile(
-    r"^(chapter|section|part|appendix|annex|表|图)\s*\d+", re.I
-)
+# 源黑名单(整源失效的源,全部条目删除)
+SOURCE_BLACKLIST = {
+    "EY 中国",  # 整站抓,90% 是导航
+    "TalkingData",  # 整站抓,90% 是产品页
+    "智研咨询",  # 整站抓,90% 是行业分类
+    "Deloitte 中国",  # 整站抓,90% 是行业页
+}
 
 
-def is_garbage_title(s: str) -> bool:
-    s = (s or "").strip()
-    if not s:
-        return True
-    if len(s) < 4:
-        return True
-    if GARBAGE_RE.match(s):
-        return True
-    if PIECE_RE.search(s):
-        return True
-    if PDF_CHAPTER_RE.match(s):
-        return True
+def is_navigation_page(item: dict) -> bool:
+    """判断是否是导航/服务页/产品页"""
+    text = (
+        item.get("title_zh", "") + item.get("title_en", "")
+        + item.get("desc_zh", "") + item.get("desc_en", "")
+        + item.get("desc_full_zh", "") + item.get("desc_full_en", "")
+    )
+    for kw in NAV_KEYWORDS:
+        if kw in text:
+            return True
     return False
 
 
-def has_footer_signal(s: str) -> bool:
-    return bool(FOOTER_RE.search(s or ""))
+def decode_html_entities(text: str) -> str:
+    """HTML 实体解码"""
+    if not text:
+        return text
+    return html.unescape(text)
 
 
-def clean_html_escape(s: str) -> str:
-    """把 HTML 转义还原为正常字符"""
-    if not s:
-        return s
-    s = s.replace("&nbsp;", " ").replace("&#160;", " ")
-    s = s.replace("&#xff08;", "（").replace("&#xff09;", "）")
-    s = s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
-    s = s.replace("&quot;", '"').replace("&#39;", "'")
-    s = HTML_ESC_RE.sub("", s)  # 残留全部清掉
-    return s.strip()
+def fix_encoding(text: str) -> str:
+    """修 GBK 误码 (Γ/Ð/★/♡ 等乱码字符)"""
+    if not text:
+        return text
+    # 替换常见乱码
+    fixes = {
+        "Γ": "", "Ð": "", "★": "", "♡": "", "※": "",
+        "&#xff08;": "（", "&#xff09;": "）",
+        "&#xff1a;": "：", "&#xff0c;": "，",
+        "&nbsp;": " ", "&amp;": "&",
+    }
+    for bad, good in fixes.items():
+        text = text.replace(bad, good)
+    # 如果包含乱码字符,整条标记
+    if re.search(r"[ÐÞ★☆♡※]{2,}", text):
+        return ""
+    return text
 
 
-def assess_item(it: dict) -> dict:
-    """返回这个条目的质量评估"""
-    tz = (it.get("title_zh") or "").strip()
-    te = (it.get("title_en") or "").strip()
-    dz = (it.get("desc_zh") or "").strip()
-    de = (it.get("desc_en") or "").strip()
-    src = it.get("source", "?")
-    cat = it.get("cat", "?")
-
-    reasons = []
-
-    # 硬删:footer / 备案号
-    if has_footer_signal(tz) or has_footer_signal(dz) or has_footer_signal(te):
-        reasons.append("footer_signal")
-
-    # 硬删:乱码标题
-    if is_garbage_title(tz) and is_garbage_title(te):
-        reasons.append("garbage_title")
-
-    # 软标:HTML 转义(可修,不算硬删)
-    if HTML_ESC_RE.search(tz) or HTML_ESC_RE.search(te) or HTML_ESC_RE.search(dz) or HTML_ESC_RE.search(de):
-        reasons.append("html_escape")
-
-    # 软标:描述为空(只标记,不删)
-    if (not dz or len(dz) < 8) and (not de or len(de) < 8):
-        reasons.append("empty_desc")
-
-    # 软标:标题 = 描述
-    if tz and dz and tz[:30] == dz[:30]:
-        reasons.append("title_eq_desc")
-
-    return {
-        "id": it.get("id", "?"),
-        "title_zh": tz[:50],
-        "source": src,
-        "cat": cat,
-        "reasons": reasons,
-        "should_delete": any(r in ("footer_signal", "garbage_title") for r in reasons),
-        "can_fix": "html_escape" in reasons,
+def clean_stories(stories: list) -> tuple:
+    """返回 (cleaned_stories, stats)"""
+    stats = {
+        "before": len(stories),
+        "deleted_nav": 0,
+        "deleted_blacklist_source": 0,
+        "fixed_html": 0,
+        "fixed_encoding": 0,
+        "kept": 0,
     }
 
+    cleaned = []
+    for s in stories:
+        source = s.get("sourceLabel", "")
 
-def run(dry_run: bool = True):
-    with open(DATA, encoding="utf-8") as f:
-        d = json.load(f)
-
-    items = d.get("stories", [])
-    print(f"📂 {DATA.name} · {len(items)} 条\n")
-
-    assessments = [assess_item(it) for it in items]
-    to_delete = [a for a in assessments if a["should_delete"]]
-    to_fix = [a for a in assessments if a["can_fix"] and not a["should_delete"]]
-    low_quality = [a for a in assessments if "empty_desc" in a["reasons"] and not a["should_delete"]]
-
-    print(f"🗑  硬删(footer / 乱码):  {len(to_delete)}")
-    for a in to_delete[:5]:
-        print(f"     - [{a['cat']}/{a['source']}] {a['title_zh']}  ({','.join(a['reasons'])})")
-    if len(to_delete) > 5:
-        print(f"     ... 还有 {len(to_delete)-5} 条")
-
-    print(f"\n🔧 可修(HTML 转义):      {len(to_fix)}")
-    for a in to_fix[:5]:
-        print(f"     - [{a['cat']}/{a['source']}] {a['title_zh']}")
-    if len(to_fix) > 5:
-        print(f"     ... 还有 {len(to_fix)-5} 条")
-
-    print(f"\n⚠️  低质量(空描述):      {len(low_quality)}")
-    print(f"   (这些保留,卡片只显标题,不显描述)")
-
-    print(f"\n📊 净留存:               {len(items) - len(to_delete)} / {len(items)}")
-
-    if dry_run:
-        print("\n🟡 DRY RUN — 加 --write 才写文件")
-        return
-
-    # ===== 实际清洗 =====
-    delete_ids = {a["id"] for a in to_delete}
-    fix_ids = {a["id"] for a in to_fix}
-
-    new_stories = []
-    for it in items:
-        if it["id"] in delete_ids:
+        # 黑名单源 → 删
+        if source in SOURCE_BLACKLIST:
+            stats["deleted_blacklist_source"] += 1
             continue
-        # 修 HTML 转义
-        if it["id"] in fix_ids:
-            it["title_zh"] = clean_html_escape(it.get("title_zh"))
-            it["title_en"] = clean_html_escape(it.get("title_en"))
-            it["desc_zh"] = clean_html_escape(it.get("desc_zh"))
-            it["desc_en"] = clean_html_escape(it.get("desc_en"))
-        # 标 is_dirty 给 HTML 端使用
-        it["is_dirty"] = "html_escape" not in [
-            r for a in assessments if a["id"] == it["id"] for r in a["reasons"]
-        ] and False or "html_escape" in [
-            r for a in assessments if a["id"] == it["id"] for r in a["reasons"]
-        ]
-        new_stories.append(it)
 
-    d["stories"] = new_stories
-    d["stats"] = d.get("stats", {})
-    d["stats"]["cleaned_total"] = len(new_stories)
-    d["stats"]["removed_in_clean"] = len(to_delete)
-    d["stats"]["fixed_html_escape"] = len(to_fix)
+        # 导航/服务页 → 删
+        if is_navigation_page(s):
+            stats["deleted_nav"] += 1
+            continue
 
-    # 写文件
-    with open(DATA, "w", encoding="utf-8") as f:
-        json.dump(d, f, ensure_ascii=False, indent=2)
+        # 修复字段
+        for field in ["title_zh", "title_en", "desc_zh", "desc_en",
+                      "desc_full_zh", "desc_full_en"]:
+            v = s.get(field, "")
+            if v:
+                v2 = decode_html_entities(v)
+                v3 = fix_encoding(v2)
+                if v2 != v:
+                    stats["fixed_html"] += 1
+                if v3 != v2:
+                    stats["fixed_encoding"] += 1
+                s[field] = v3
 
-    # 备份
-    backup = DATA.with_suffix(f".json.bak-{int(__import__('time').time())}")
-    with open(backup, "w", encoding="utf-8") as f:
-        json.dump({"stories": items, "stats": d.get("stats", {})}, f, ensure_ascii=False, indent=2)
+        cleaned.append(s)
+        stats["kept"] += 1
 
-    print(f"\n✅ 清洗完成")
-    print(f"   原: {len(items)} → 新: {len(new_stories)}")
-    print(f"   备份: {backup.name}")
+    return cleaned, stats
+
+
+def main():
+    with open(DATA_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    print(f"清洗前: {len(data['stories'])} 条")
+    cleaned, stats = clean_stories(data["stories"])
+    print(f"清洗后: {len(cleaned)} 条")
+    print(f"  删导航/服务页: {stats['deleted_nav']}")
+    print(f"  删黑名单源: {stats['deleted_blacklist_source']}")
+    print(f"  修 HTML 实体: {stats['fixed_html']}")
+    print(f"  修乱码: {stats['fixed_encoding']}")
+    print(f"  保留: {stats['kept']}")
+
+    # 更新 stats
+    data["stories"] = cleaned
+    data["stats"]["total"] = len(cleaned)
+    data["last_updated_cleaned"] = "2026-07-08"
+
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"\n已保存到 {DATA_PATH}")
 
 
 if __name__ == "__main__":
-    p = argparse.ArgumentParser()
-    p.add_argument("--write", action="store_true", help="实际写文件")
-    args = p.parse_args()
-    run(dry_run=not args.write)
+    main()
