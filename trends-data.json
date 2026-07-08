@@ -1,6 +1,6 @@
 {
   "version": "3.1-bilingual-dedup",
-  "last_updated": "2026-07-08T12:29:57.430337+08:00",
+  "last_updated": "2026-07-08T17:12:06.839206+08:00",
   "window": "2026-01-09 to 2026-07-08",
   "markets": [
     "US",
@@ -20,13 +20,13 @@
     "research"
   ],
   "stats": {
-    "total": 251,
-    "hot": 21,
-    "trend": 132,
+    "total": 271,
+    "hot": 22,
+    "trend": 139,
     "new": 0,
-    "arch": 300
+    "arch": 344
   },
-  "new_today": 396,
+  "new_today": 394,
   "sources_ok": 31,
   "sources_failed": 10,
   "date_range": {
@@ -67,12 +67,10 @@
       "sourceLabel": "36Kr AI",
       "sourceType": "rss",
       "sources": [
-        "36Kr AI",
-        "36Kr"
+        "36Kr AI"
       ],
       "sourceLinks": [
-        "https://36kr.com/newsflashes/3884919413108995?f=rss",
-        "https://36kr.com/p/3885457443385346?f=rss"
+        "https://36kr.com/newsflashes/3884919413108995?f=rss"
       ],
       "is_dirty": false,
       "desc_full_zh": "中国人民银行行长潘功胜7月7日在香港固定收益及货币峰会暨债券通论坛上表示，当前在全球利率和通胀波动加剧的背景下，中国债券凭借其相对的稳定性和较低波动性的特征，凸显出独特的分散化的配置优势，持续吸引国际投资者的增配诉求，加上较低的人民币融资成本，香港人民币债券市场面临难得的发展机遇，香港可以抓住这一有利时机，吸引更多的主权财富和国际企业到香港发债融资。（新华财经）",
@@ -652,8 +650,7 @@
         "雷锋网"
       ],
       "sourceLinks": [
-        "https://www.leiphone.com/category/academic/GqOdEOoGq3kVosQr.html",
-        "https://www.leiphone.com/category/private/GqOdEOoGq3kVosQr.html"
+        "https://www.leiphone.com/category/academic/GqOdEOoGq3kVosQr.html"
       ],
       "is_repeat_desc": false,
       "no_desc": true,
@@ -745,8 +742,7 @@
         "财新网"
       ],
       "sourceLinks": [
-        "https://china.caixin.com/2026-07-07/102461621.html",
-        "https://finance.caixin.com/2026-07-08/102461823.html"
+        "https://china.caixin.com/2026-07-07/102461621.html"
       ],
       "is_dirty": false,
       "desc_full_zh": "要全力组织抢险救援、伤员救治、群众安置等工作，最大限度减少人员伤亡，防范次生灾害",
@@ -788,10 +784,12 @@
       "sourceLabel": "36Kr AI",
       "sourceType": "html",
       "sources": [
-        "36Kr AI"
+        "36Kr AI",
+        "创业邦"
       ],
       "sourceLinks": [
-        "https://36kr.com/p/3886415021388035"
+        "https://36kr.com/p/3886415021388035",
+        "https://www.cyzone.cn/article/839253.html"
       ],
       "is_empty": true
     },
@@ -1163,6 +1161,435 @@
       ],
       "sourceLinks": [
         "https://www.cyzone.cn/article/839139.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-d3b3f5ad",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "地产AI进入落地战，深度智联又甩出一张牌",
+      "title_en": "地产AI进入落地战，深度智联又甩出一张牌",
+      "market": "us",
+      "date": "2026-07-08",
+      "desc_zh": "7月7日，易居（中国）控股有限公司董事局主席、总裁周忻再一次来到台前，给公司的AI产品站台，推出其核心战略产品“地产模数通——企业专属大模型一体机”。同时，克而瑞地产AI分析师“小瑞”正式上岗。 不到两个月前，易居旗下的深度智联刚刚发布了全球首个房地产经纪人智能体“易居·小新”，用中立无佣模式替代传统中介。迹象显示，深度智联在加速AI产品落地。 周忻说，地产模数通“是第一个开箱即用的硬软件结合的AI应用，我把它称之为DEEPLINK IN-HOUSE MODEL，它是一台机器，里面有芯片、API，有企业的各种数据、知识、knowhow，还有最上层的CoWork平台。这个是地产行业的第一个全新的产品。” 据悉，“地产模数通”内置的企业专属大模型采用三层架构设计： 最底层是行业大模型基座层，涵盖模型底座、行业训练与对齐能力—通过海量地产语料、行业专业词表、政策法规理解完成行业训练，并支持多模型",
+      "desc_en": "7月7日，易居（中国）控股有限公司董事局主席、总裁周忻再一次来到台前，给公司的AI产品站台，推出其核心战略产品“地产模数通——企业专属大模型一体机”。同时，克而瑞地产AI分析师“小瑞”正式上岗。 不到两个月前，易居旗下的深度智联刚刚发布了全球首个房地产经纪人智能体“易居·小新”，用中立无佣模式替代传统中介。迹象显示，深度智联在加速AI产品落地。 周忻说，地产模数通“是第一个开箱即用的硬软件结合的AI应用，我把它称之为DEEPLINK IN-HOUSE MODEL，它是一台机器，里面有芯片、API，有企业的各种数据、知识、knowhow，还有最上层的CoWork平台。这个是地产行业的第一个全新的产品。” 据悉，“地产模数通”内置的企业专属大模型采用三层架构设计： 最底层是行业大模型基座层，涵盖模型底座、行业训练与对齐能力—通过海量地产语料、行业专业词表、政策法规理解完成行业训练，并支持多模型",
+      "source": "https://36kr.com/p/3886709249241349?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3886709249241349?f=rss"
+      ]
+    },
+    {
+      "id": "ai-607873db",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间；SpaceX AI将于明日向公众开放Grok4.5",
+      "title_en": "氪星晚报｜德国：人工智能推动德国初创企业创纪录增长；雷军回应SkyNomad上市时间；SpaceX AI将于明日向公众开放Grok4.5",
+      "market": "us",
+      "date": "2026-07-08",
+      "desc_zh": "大公司： 雷军回应SkyNomad上市时间 36氪获悉，7月8日，小米创办人，董事长兼CEO @雷军 在个人账号官宣小米汽车新系列SkyNomad。其评论区下有网友询问车辆发布时间，雷军回复表示“快了”。 必和必拓在世界最大铁矿石出口港口的工人将罢工8小时 7月8日，工会表示，必和必拓集团位于西澳州Port Hedland铁矿石出口码头的工人将于7月16日举行8小时罢工。此次行动将涉及全球最大铁矿石出口港口的运营人员和维护人员，他们由联合港口工会代表。工会表示，员工寻求一项认同他们专业技能、艰苦工作条件以及重大个人成本的协议。 本田在美国召回逾32万辆奥德赛，因倒车影像故障 美国国家公路交通安全管理局（NHTSA）7月8日发布公告，本田正在申请召回部分2018至2020款的奥德赛（Odyssey）多用途汽车，涉及车辆总数达325,588辆。报告显示，相关车辆的后视摄像头可能会有水渗入，导致",
+      "desc_en": "大公司： 雷军回应SkyNomad上市时间 36氪获悉，7月8日，小米创办人，董事长兼CEO @雷军 在个人账号官宣小米汽车新系列SkyNomad。其评论区下有网友询问车辆发布时间，雷军回复表示“快了”。 必和必拓在世界最大铁矿石出口港口的工人将罢工8小时 7月8日，工会表示，必和必拓集团位于西澳州Port Hedland铁矿石出口码头的工人将于7月16日举行8小时罢工。此次行动将涉及全球最大铁矿石出口港口的运营人员和维护人员，他们由联合港口工会代表。工会表示，员工寻求一项认同他们专业技能、艰苦工作条件以及重大个人成本的协议。 本田在美国召回逾32万辆奥德赛，因倒车影像故障 美国国家公路交通安全管理局（NHTSA）7月8日发布公告，本田正在申请召回部分2018至2020款的奥德赛（Odyssey）多用途汽车，涉及车辆总数达325,588辆。报告显示，相关车辆的后视摄像头可能会有水渗入，导致",
+      "source": "https://36kr.com/p/3886678879727880?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3886678879727880?f=rss"
+      ]
+    },
+    {
+      "id": "biz-8384991c",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "唐人神：6月生猪销售收入合计3.02亿元，同比下降56.78%",
+      "title_en": "唐人神：6月生猪销售收入合计3.02亿元，同比下降56.78%",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "36氪获悉，唐人神公告，公司2026年6月生猪销量35.82万头（其中商品猪22.89万头，仔猪12.94万头），2025年6月生猪销量41.32万头（其中商品猪40.16万头，仔猪1.16万头），同比下降13.30%，环比下降9.26%；销售收入合计30,155.12万元，同比下降56.78%，环比下降11.13%。公司生猪销售收入同比降幅较大，主要受生猪市场行情波动和出栏结构调整的影响。",
+      "desc_en": "36氪获悉，唐人神公告，公司2026年6月生猪销量35.82万头（其中商品猪22.89万头，仔猪12.94万头），2025年6月生猪销量41.32万头（其中商品猪40.16万头，仔猪1.16万头），同比下降13.30%，环比下降9.26%；销售收入合计30,155.12万元，同比下降56.78%，环比下降11.13%。公司生猪销售收入同比降幅较大，主要受生猪市场行情波动和出栏结构调整的影响。",
+      "source": "https://36kr.com/newsflashes/3886774445011204?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/newsflashes/3886774445011204?f=rss"
+      ]
+    },
+    {
+      "id": "biz-f2352896",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "“中科新松”完成数亿元A+轮融资",
+      "title_en": "“中科新松”完成数亿元A+轮融资",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "36氪获悉，“中科新松”宣布正式完成A+轮数亿元股权融资，本次融资由洪泰基金、鼎晖百孚联合领投，诚通基金、大众聚鼎、广州素元等知名资本跟投，老股东东珺资本加注。",
+      "desc_en": "36氪获悉，“中科新松”宣布正式完成A+轮数亿元股权融资，本次融资由洪泰基金、鼎晖百孚联合领投，诚通基金、大众聚鼎、广州素元等知名资本跟投，老股东东珺资本加注。",
+      "source": "https://36kr.com/newsflashes/3886770814972161?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/newsflashes/3886770814972161?f=rss"
+      ]
+    },
+    {
+      "id": "biz-2cb22d96",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "标普全球完成汽车业务分拆，Mobility Global正式独立上市",
+      "title_en": "标普全球完成汽车业务分拆，Mobility Global正式独立上市",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "标普全球近日宣布，已完成旗下汽车业务单元的分拆，Mobility Global Inc.正式成为独立上市公司。7月1日起，Mobility Global普通股在纽约证券交易所挂牌交易，股票代码为MBGL。（界面）",
+      "desc_en": "标普全球近日宣布，已完成旗下汽车业务单元的分拆，Mobility Global Inc.正式成为独立上市公司。7月1日起，Mobility Global普通股在纽约证券交易所挂牌交易，股票代码为MBGL。（界面）",
+      "source": "https://36kr.com/newsflashes/3886769449037827?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/newsflashes/3886769449037827?f=rss"
+      ]
+    },
+    {
+      "id": "biz-1c0c22d5",
+      "cat": "biz",
+      "heat": "trend",
+      "title_zh": "中金公司：预计上半年净利润同比增长78%-90%",
+      "title_en": "中金公司：预计上半年净利润同比增长78%-90%",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "36氪获悉，中金公司公告，预计2026年半年度实现归属于母公司股东的净利润为人民币77.08亿元到人民币82.27亿元，与上年同期相比，将增加人民币33.78亿元到人民币38.97亿元，同比增加78%到90%。报告期内投资银行、股票业务、财富管理等六柱核心业务协同发力，国际业务同步实现良好增长，带动整体经营业绩同比显著提升。",
+      "desc_en": "36氪获悉，中金公司公告，预计2026年半年度实现归属于母公司股东的净利润为人民币77.08亿元到人民币82.27亿元，与上年同期相比，将增加人民币33.78亿元到人民币38.97亿元，同比增加78%到90%。报告期内投资银行、股票业务、财富管理等六柱核心业务协同发力，国际业务同步实现良好增长，带动整体经营业绩同比显著提升。",
+      "source": "https://36kr.com/newsflashes/3886768075370500?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/newsflashes/3886768075370500?f=rss"
+      ]
+    },
+    {
+      "id": "biz-684defc0",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "现货黄金日内跌超1%",
+      "title_en": "现货黄金日内跌超1%",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "36氪获悉，现货黄金日内跌1.21%，失守4060美元/盎司。",
+      "desc_en": "36氪获悉，现货黄金日内跌1.21%，失守4060美元/盎司。",
+      "source": "https://36kr.com/newsflashes/3886763817627911?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/newsflashes/3886763817627911?f=rss"
+      ]
+    },
+    {
+      "id": "ai-ef6d3508",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "热门法国初创公司ZML发布免费产品，以加快对大量人工智能芯片的推断速度",
+      "title_en": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "market": "global",
+      "date": "2026-07-08",
+      "desc_zh": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "desc_en": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "source": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/"
+      ]
+    },
+    {
+      "id": "biz-8a15cfcc",
+      "cat": "biz",
+      "heat": "hot",
+      "title_zh": "人工智能芯片制造商SambaNova在上一轮大型融资5个月后以110亿美元的估值筹集了10亿美元",
+      "title_en": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "market": "global",
+      "date": "2026-07-08",
+      "desc_zh": "人工智能芯片制造商SambaNova在传闻英特尔试图以约16亿美元的价格收购它几个月后，以110亿美元的估值筹集资金。",
+      "desc_en": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "source": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+      ]
+    },
+    {
+      "id": "beauty-c4d7062f",
+      "cat": "beauty",
+      "heat": "trend",
+      "title_zh": "健康简报：品牌如何利用基层社交健康见面会以及新闻",
+      "title_en": "Wellness Briefing: How brands are leveraging grassroots social wellness meetups, plus news",
+      "market": "us",
+      "date": "2026-07-08",
+      "desc_zh": "在健康简报会上， Glossy与社交健康聚会团体Coffee & Chill的联合创始人Blake Waller坐在一起，他的公司准备本周末在洛杉矶举办以世界杯为主题的社区健康活动，接待1000名Z世代和千禧一代消费者。此外，达拉斯的女性专用健身房概念， Alo在个人护理方面加倍努力，而Oura则是迷幻剂研究的合作伙伴。",
+      "desc_en": "For the Wellness Briefing, Glossy sat down with Blake Waller, co-founder of social wellness meetup group Coffee & Chill, as his company prepares to host 1,000 Gen Z and millennial consumers this weekend in Los Angeles at a World Cup-themed community wellness event. Additionally, a women-only gym concept heads for Dallas, Alo doubles down on personal care, and Oura partners in psychedelic resea",
+      "source": "https://www.glossy.co/beauty/wellness/wellness-briefing-how-brands-are-leveraging-grassroots-social-wellness-meetups-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+      "sourceLabel": "Glossy",
+      "sourceType": "rss",
+      "sources": [
+        "Glossy"
+      ],
+      "sourceLinks": [
+        "https://www.glossy.co/beauty/wellness/wellness-briefing-how-brands-are-leveraging-grassroots-social-wellness-meetups-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
+      ]
+    },
+    {
+      "id": "biz-f68fa352",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "美伊再次互相打击，外交部：重燃战火不符合任何一方的利益",
+      "title_en": "美伊再次互相打击，外交部：重燃战火不符合任何一方的利益",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420287",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420287"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-f9d56b88",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "券商集中落地交易新规，盘后交易与自动委托“撞车”，投资者需做好两件事",
+      "title_en": "券商集中落地交易新规，盘后交易与自动委托“撞车”，投资者需做好两件事",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420190",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420190"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "beauty-1e1ddb69",
+      "cat": "beauty",
+      "heat": "trend",
+      "title_zh": "Pentavitin可以将透明质酸的冠冕作为心爱的护肤保湿剂吗？",
+      "title_en": "Can Pentavitin take hyaluronic acid’s crown as the beloved skin care hydrator?",
+      "market": "us",
+      "date": "2026-07-08",
+      "desc_zh": "越来越多的美容品牌正在将植物衍生的保湿成分Pentavitin注入其配方中，因为它可以将水分与皮肤中的角蛋白结合72小时而不会蒸发，从而提供长期保湿。美容作家Bethan King调查",
+      "desc_en": "More beauty brands are infusing plant-derived moisturising ingredient, Pentavitin, into their formulations because it can bind moisture to the keratin in the skin for 72 hours without it evaporating, providing longer-term hydration. Beauty Writer Bethan King investigates",
+      "source": "https://www.cosmeticsbusiness.com/can-pentavitin-take-hyaluronic-acids-hydration-crown",
+      "sourceLabel": "Cosmetics Business",
+      "sourceType": "rss",
+      "sources": [
+        "Cosmetics Business"
+      ],
+      "sourceLinks": [
+        "https://www.cosmeticsbusiness.com/can-pentavitin-take-hyaluronic-acids-hydration-crown"
+      ]
+    },
+    {
+      "id": "beauty-6ec11a35",
+      "cat": "beauty",
+      "heat": "trend",
+      "title_zh": "超越时间：美丽中长寿的科学",
+      "title_en": "Beyond Time: The science of longevity in beauty",
+      "market": "global",
+      "date": "2026-07-08",
+      "desc_zh": "探索受长寿启发的成分，这些成分旨在通过生物技术和高性能活性成分中的多肽来延长肌肤和头发的健康和美丽，从而随着时间的推移保持活力、均匀性和健康。",
+      "desc_en": "Discover ingredients inspired by longevity, designed to prolong the health and beauty of your skin and hair through biotechnology and peptides in high-performance active ingredients that preserve vitality, evenness, and well-being over time.",
+      "source": "https://www.cosmeticsbusiness.com/beyond-time-the-science-of-longevity-in-beauty",
+      "sourceLabel": "Cosmetics Business",
+      "sourceType": "rss",
+      "sources": [
+        "Cosmetics Business"
+      ],
+      "sourceLinks": [
+        "https://www.cosmeticsbusiness.com/beyond-time-the-science-of-longevity-in-beauty"
+      ]
+    },
+    {
+      "id": "biz-8ef842f8",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "AI猜球总翻车？世界杯给了大模型一次压力测试",
+      "title_en": "AI猜球总翻车？世界杯给了大模型一次压力测试",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.tmtpost.com/8052191.html",
+      "sourceLabel": "TMTPost",
+      "sourceType": "html",
+      "sources": [
+        "TMTPost"
+      ],
+      "sourceLinks": [
+        "https://www.tmtpost.com/8052191.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-9efcedd7",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "title_en": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.tmtpost.com/8054184.html",
+      "sourceLabel": "TMTPost",
+      "sourceType": "html",
+      "sources": [
+        "TMTPost"
+      ],
+      "sourceLinks": [
+        "https://www.tmtpost.com/8054184.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-d3b45524",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "Promotion",
+      "title_en": "Promotion",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://promote.caixin.com/",
+      "sourceLabel": "财新网",
+      "sourceType": "html",
+      "sources": [
+        "财新网"
+      ],
+      "sourceLinks": [
+        "https://promote.caixin.com/"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-16e958cb",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "火线评论｜世界杯的多重悖论",
+      "title_en": "火线评论｜世界杯的多重悖论",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://opinion.caixin.com/2026-07-08/102461891.html",
+      "sourceLabel": "财新网",
+      "sourceType": "html",
+      "sources": [
+        "财新网"
+      ],
+      "sourceLinks": [
+        "https://opinion.caixin.com/2026-07-08/102461891.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-b0c4503b",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "婚前协议篇幅堪比短篇小说，“霉霉”如何守住百亿身家？",
+      "title_en": "婚前协议篇幅堪比短篇小说，“霉霉”如何守住百亿身家？",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/055653d2074dba0bff150a088dec9fcc.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/055653d2074dba0bff150a088dec9fcc.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-87204113",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "香港财政司司长陈茂波：预期更多内地优秀科技企业将赴港上市",
+      "title_en": "香港财政司司长陈茂波：预期更多内地优秀科技企业将赴港上市",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/8a23f73779b35c03775ce39900d47ef2.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/8a23f73779b35c03775ce39900d47ef2.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-7c1a899f",
+      "cat": "biz",
+      "heat": "trend",
+      "title_zh": "独家丨赛力斯旗下新品牌即将推出，元戎、弋途分别提供驾舱能力",
+      "title_en": "独家丨赛力斯旗下新品牌即将推出，元戎、弋途分别提供驾舱能力",
+      "market": "cn",
+      "date": "2026-07-08",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/category/transportation/L2aWs0RSr13MGV5N.html",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/category/transportation/L2aWs0RSr13MGV5N.html"
       ],
       "is_empty": true
     },
@@ -2380,10 +2807,12 @@
       "sourceLabel": "36Kr",
       "sourceType": "rss",
       "sources": [
-        "36Kr"
+        "36Kr",
+        "21财经"
       ],
       "sourceLinks": [
-        "https://36kr.com/newsflashes/3885314143416326?f=rss"
+        "https://36kr.com/newsflashes/3885314143416326?f=rss",
+        "https://m.21jingji.com/article/20260708/herald/07fef5c3860bfbcfced0736554c15cb5.html"
       ],
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，近日，有网民发布题为《7月1日新规正式落地！。新车智驾芯片自主化率不低于70%》的文章。",
@@ -3624,12 +4053,10 @@
       "sourceLabel": "财联社",
       "sourceType": "html",
       "sources": [
-        "财联社",
-        "21财经"
+        "财联社"
       ],
       "sourceLinks": [
-        "https://www.cls.cn/detail/2419877",
-        "https://m.21jingji.com/article/20260708/herald/f0107436b0a9df9456451370e476c3ae.html"
+        "https://www.cls.cn/detail/2419877"
       ],
       "is_repeat_desc": false,
       "no_desc": true,
@@ -4008,6 +4435,216 @@
       ],
       "sourceLinks": [
         "https://www.jiemian.com/article/13074522.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-e8ddc9b5",
+      "cat": "ai",
+      "heat": "arch",
+      "title_zh": "亲历者讲述：Claude Code是怎样炼成的？",
+      "title_en": "亲历者讲述：Claude Code是怎样炼成的？",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3886630503004801",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3886630503004801"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-17e37be7",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "今年公募离职人员增多，翻倍基金经理也密集出走，各有不得已",
+      "title_en": "今年公募离职人员增多，翻倍基金经理也密集出走，各有不得已",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420293",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420293"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-14ba7cad",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "东北首个调度平台投运，算力“一张网”加速成形，产业链迎业绩拐点",
+      "title_en": "东北首个调度平台投运，算力“一张网”加速成形，产业链迎业绩拐点",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420180",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420180"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-4f298f7a",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "【钛晨报】文旅部印发《旅游强国建设“十五五”规划》：2030年国内出游花费目标7.7万亿元；亚马逊重返债券市场，据悉拟分八部分发行美元债筹资至少250亿美元；中国央行连续第20个月增持黄金",
+      "title_en": "【钛晨报】文旅部印发《旅游强国建设“十五五”规划》：2030年国内出游花费目标7.7万亿元；亚马逊重返债券市场，据悉拟分八部分发行美元债筹资至少250亿美元；中国央行连续第20个月增持黄金",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.tmtpost.com/8056478.html",
+      "sourceLabel": "TMTPost",
+      "sourceType": "html",
+      "sources": [
+        "TMTPost"
+      ],
+      "sourceLinks": [
+        "https://www.tmtpost.com/8056478.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-b1d4c10d",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "顺丰获批在港设立自保公司，香港自保市场已扩容至9家",
+      "title_en": "顺丰获批在港设立自保公司，香港自保市场已扩容至9家",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/10a962e0f144994cd130a062ec95c530.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/10a962e0f144994cd130a062ec95c530.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-fd00808a",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "中国空调给欧洲带去清凉，能让欧洲一些政客清醒吗？",
+      "title_en": "中国空调给欧洲带去清凉，能让欧洲一些政客清醒吗？",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/950356a42f4fa77ea37d3c7b820c827c.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/950356a42f4fa77ea37d3c7b820c827c.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-29a08523",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "全国24条河流发生超警以上洪水",
+      "title_en": "全国24条河流发生超警以上洪水",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/66303f2a51a22f5eb6385a6abb098032.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/66303f2a51a22f5eb6385a6abb098032.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-529703d3",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "袁钧瑛院士：文章靠谱比发CNS重要丨活力中国调研行",
+      "title_en": "袁钧瑛院士：文章靠谱比发CNS重要丨活力中国调研行",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/900a60c4d983ad4506dbfc6555dc586c.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/900a60c4d983ad4506dbfc6555dc586c.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-ff62e8f9",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国通机行业市场运营格局及未来前景分析报告",
+      "title_en": "2026-2032年中国通机行业市场运营格局及未来前景分析报告",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/202110/980050.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/202110/980050.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-e8c9edc4",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "安永—博智隆战略洞察",
+      "title_en": "安永—博智隆战略洞察",
+      "market": "cn",
+      "date": "2026-07-07",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.ey.com/zh_cn/services/strategy",
+      "sourceLabel": "EY 中国",
+      "sourceType": "html",
+      "sources": [
+        "EY 中国"
+      ],
+      "sourceLinks": [
+        "https://www.ey.com/zh_cn/services/strategy"
       ],
       "is_empty": true
     },
@@ -4598,6 +5235,195 @@
       "is_empty": true
     },
     {
+      "id": "biz-35255614",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "创投家CLUB投资机构库",
+      "title_en": "创投家CLUB投资机构库",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.tmtpost.com/tmtclub",
+      "sourceLabel": "TMTPost",
+      "sourceType": "html",
+      "sources": [
+        "TMTPost"
+      ],
+      "sourceLinks": [
+        "https://www.tmtpost.com/tmtclub"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-0967cbda",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "竞赛编程Agent进入全球前十，南大、清华新模型CF rating超3500",
+      "title_en": "竞赛编程Agent进入全球前十，南大、清华新模型CF rating超3500",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3886457907720453",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3886457907720453"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-214d31ff",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "特朗普：美伊谅解备忘录“已终结”",
+      "title_en": "特朗普：美伊谅解备忘录“已终结”",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420374",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420374"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-37438a5b",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "霍尔木兹海峡硝烟再起之际 美国原油库存进一步下降",
+      "title_en": "霍尔木兹海峡硝烟再起之际 美国原油库存进一步下降",
+      "market": "us",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420284",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420284"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-cd74a285",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "宜信300亿类固收产品停兑后续：“良性清退”方案仍无定论",
+      "title_en": "宜信300亿类固收产品停兑后续：“良性清退”方案仍无定论",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://finance.caixin.com/2026-07-08/102461881.html",
+      "sourceLabel": "财新网",
+      "sourceType": "html",
+      "sources": [
+        "财新网"
+      ],
+      "sourceLinks": [
+        "https://finance.caixin.com/2026-07-08/102461881.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-30f6178e",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "丰收！这个小麦新品种亩均增产近100公斤",
+      "title_en": "丰收！这个小麦新品种亩均增产近100公斤",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/9dd4bfbd265216594012ecb7556a7681.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/9dd4bfbd265216594012ecb7556a7681.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-6416cdb6",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "了解VIP权益 →",
+      "title_en": "了解VIP权益 →",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.pencilnews.cn/intel/landing/",
+      "sourceLabel": "铅笔道",
+      "sourceType": "html",
+      "sources": [
+        "铅笔道"
+      ],
+      "sourceLinks": [
+        "https://www.pencilnews.cn/intel/landing/"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-d30a18af",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "港交所敲钟，安克身后的狂欢与冷场",
+      "title_en": "港交所敲钟，安克身后的狂欢与冷场",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/banner/homepageUrl/id/3489",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/banner/homepageUrl/id/3489"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-d68009dd",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "ICML 精选Spotlight Poster汇总：Session 3",
+      "title_en": "ICML 精选Spotlight Poster汇总：Session 3",
+      "market": "cn",
+      "date": "2026-07-06",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/category/private/FZR4n7bdZzbcDdfv.html",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/category/private/FZR4n7bdZzbcDdfv.html"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "beauty-ce541cc7",
       "cat": "beauty",
       "heat": "trend",
@@ -4631,10 +5457,12 @@
       "sourceLabel": "36Kr AI",
       "sourceType": "html",
       "sources": [
-        "36Kr AI"
+        "36Kr AI",
+        "创业邦"
       ],
       "sourceLinks": [
-        "https://36kr.com/p/3886446562750465"
+        "https://36kr.com/p/3886446562750465",
+        "https://www.cyzone.cn/article/839251.html"
       ],
       "is_empty": true
     },
@@ -4911,6 +5739,153 @@
       "is_empty": true
     },
     {
+      "id": "biz-e149b36b",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "百度基础模型换将，这一次把牌交给年轻人",
+      "title_en": "百度基础模型换将，这一次把牌交给年轻人",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/latest/index/id/4748",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/latest/index/id/4748"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-0d331152",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "中国机器人，为什么先在海外火了？",
+      "title_en": "中国机器人，为什么先在海外火了？",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3886501606456198",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3886501606456198"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-f2ed2b6c",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "今夜全球市场瞩目！沃什首秀将迎美联储纪要“终极解密”",
+      "title_en": "今夜全球市场瞩目！沃什首秀将迎美联储纪要“终极解密”",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2420256",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2420256"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-5c5be528",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "异动速递丨布伦特、WTI原油期货涨幅扩大至4%",
+      "title_en": "异动速递丨布伦特、WTI原油期货涨幅扩大至4%",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260708/herald/8cd0b0f9752e4a3d97520a8906773734.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260708/herald/8cd0b0f9752e4a3d97520a8906773734.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-dc25598d",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "冲刺“2万亿”，北方大市定下“硬指标”",
+      "title_en": "冲刺“2万亿”，北方大市定下“硬指标”",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cyzone.cn/article/839234.html",
+      "sourceLabel": "创业邦",
+      "sourceType": "html",
+      "sources": [
+        "创业邦"
+      ],
+      "sourceLinks": [
+        "https://www.cyzone.cn/article/839234.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-95942a9c",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "马斯克收购Mesh，打通卫星光通信「关键一步」",
+      "title_en": "马斯克收购Mesh，打通卫星光通信「关键一步」",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/latest/index/id/4750",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/latest/index/id/4750"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-6729c7b4",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国光伏充放电控制器行业市场运行态势及前景战略研判报告",
+      "title_en": "2026-2032年中国光伏充放电控制器行业市场运行态势及前景战略研判报告",
+      "market": "cn",
+      "date": "2026-07-05",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/1270116.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/1270116.html"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "beauty-1ee08d78",
       "cat": "beauty",
       "heat": "trend",
@@ -5159,561 +6134,6 @@
         "https://m.21jingji.com/article/20260708/herald/bc2ba035c3a9111a88a766c1df4fd889.html"
       ],
       "is_empty": true
-    },
-    {
-      "id": "biz-05dbb252",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "2025年度国家科学技术奖揭晓",
-      "title_en": "2025年度国家科学技术奖揭晓",
-      "market": "cn",
-      "date": "2026-07-04",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://m.21jingji.com/article/20260708/herald/850d301d6794fc2b27c645f5fd4fc6d6.html",
-      "sourceLabel": "21财经",
-      "sourceType": "html",
-      "sources": [
-        "21财经"
-      ],
-      "sourceLinks": [
-        "https://m.21jingji.com/article/20260708/herald/850d301d6794fc2b27c645f5fd4fc6d6.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "beauty-6a5aa7f8",
-      "cat": "beauty",
-      "heat": "trend",
-      "title_zh": "Ulta美容策略： Ulta对Gen Alpha消费者的了解",
-      "title_en": "Ulta Beauty Strategies: What Ulta is learning about Gen Alpha consumers",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "Ulta Beauty与NielsenIQ合作，对500多名Gen Alpha儿童和青少年进行了调查，以了解他们的偏好和动机，以及他们对人工智能工具的感受和互动。Glossy与Ulta Beauty首席营销官Kelly Mahoney坐下来了解调查结果。",
-      "desc_en": "Ulta Beauty partnered with NielsenIQ to survey more than 500 Gen Alpha children and teens to learn about their preferences and motivations, plus how they feel about and interact with AI tools. Glossy sat down with Ulta Beauty CMO Kelly Mahoney to learn about the findings.",
-      "source": "https://www.glossy.co/beauty/ulta-beauty-strategies-what-ulta-is-learning-about-gen-alpha-consumers/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Glossy",
-      "sourceType": "rss",
-      "sources": [
-        "Glossy"
-      ],
-      "sourceLinks": [
-        "https://www.glossy.co/beauty/ulta-beauty-strategies-what-ulta-is-learning-about-gen-alpha-consumers/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "beauty-63d03ad0",
-      "cat": "beauty",
-      "heat": "trend",
-      "title_zh": "Lexi Minetree如何转变为Elle Woods",
-      "title_en": "How Lexi Minetree Was Transformed Into Elle Woods",
-      "market": "eu",
-      "date": "2026-07-03",
-      "desc_zh": "什么，好像很难？ Legally Blonde前传系列的发型和化妆设计师分享了创造青少年ELLE的历史精确产品和90年代中期的参考资料。",
-      "desc_en": "What, like it's hard? The hair and makeup designers for the Legally Blonde prequel series share the historically accurate products and mid-90s references that went into creating a teenage Elle.",
-      "source": "https://www.allure.com/story/elle-prime-series-lexi-mintree-beauty-look",
-      "sourceLabel": "Allure",
-      "sourceType": "rss",
-      "sources": [
-        "Allure"
-      ],
-      "sourceLinks": [
-        "https://www.allure.com/story/elle-prime-series-lexi-mintree-beauty-look"
-      ]
-    },
-    {
-      "id": "ai-1f398011",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "适用于海滩波浪、体积和纹理的7种最佳纹理喷雾",
-      "title_en": "7 Best Texturizing Sprays for Beach Waves, Volume, and Texture",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "没有重量或嘎吱嘎吱的蓬松的头发。",
-      "desc_en": "Get piece-y, voluminous hair without the weight or crunch.",
-      "source": "https://www.allure.com/story/best-texturizing-sprays",
-      "sourceLabel": "Allure",
-      "sourceType": "rss",
-      "sources": [
-        "Allure"
-      ],
-      "sourceLinks": [
-        "https://www.allure.com/story/best-texturizing-sprays"
-      ]
-    },
-    {
-      "id": "ai-fb09ef93",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "了解佛得角错综复杂的2026年世界杯足球赛发型背后的编织工",
-      "title_en": "Meet the Braider Behind Cabo Verde’s Intricate 2026 FIFA World Cup Hairstyles",
-      "market": "global",
-      "date": "2026-07-03",
-      "desc_zh": "当她的团队需要编织器时， Lorreta Rocha接听了电话。她的几何辫子和完美分开的扁平扭曲已经病毒式传播。",
-      "desc_en": "Lorreta Rocha answered the call when her team needed a braider. Her geometric braids and perfectly parted flat twists have since gone viral.",
-      "source": "https://www.allure.com/story/cabo-verde-world-cup-team-braider-lorreta-rocha",
-      "sourceLabel": "Allure",
-      "sourceType": "rss",
-      "sources": [
-        "Allure"
-      ],
-      "sourceLinks": [
-        "https://www.allure.com/story/cabo-verde-world-cup-team-braider-lorreta-rocha"
-      ]
-    },
-    {
-      "id": "ai-128066c1",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "新闻发布会｜智能伙伴 共创未来！WAIC 2026即将举行并首发主题片",
-      "title_en": "新闻发布会｜智能伙伴 共创未来！WAIC 2026即将举行并首发主题片",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://36kr.com/p/3886435719033092",
-      "sourceLabel": "36Kr AI",
-      "sourceType": "html",
-      "sources": [
-        "36Kr AI"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3886435719033092"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-83bacccb",
-      "cat": "biz",
-      "heat": "hot",
-      "title_zh": "本周10大融资轮：人工智能、能源和生物技术引领潮流",
-      "title_en": "The Week’s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "美国初创公司在精简的假期周期间稳步宣布了大量融资，能源和人工智能处于领先地位。总部位于休斯顿的能源初创公司Joulent获得了最大一轮17.5亿美元的战略融资。",
-      "desc_en": "U.S. startups announced sizable funding rounds at a steady clip during a truncated holiday week, with energy and AI leading the way. Houston-based energy startup Joulent secured the biggest round, a $1.75 billion strategic financing.",
-      "source": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/",
-      "sourceLabel": "Crunchbase",
-      "sourceType": "rss",
-      "sources": [
-        "Crunchbase"
-      ],
-      "sourceLinks": [
-        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-      ]
-    },
-    {
-      "id": "ec-75c6f187",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "由于较早的Prime Day ，返校季已经成为一个长达夏天的活动",
-      "title_en": "Back-to-school season has become a summer-long event, thanks to an earlier Prime Day",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "亚马逊今年早些时候的Prime Day将返校优惠推迟到6月。因此，包括沃尔玛(Walmart)和塔吉特(Target)在内的竞争零售商早在学校开学前就加入了追逐以预算为重点的购物者的行列。",
-      "desc_en": "Amazon’s earlier Prime Day this year pushed back-to-school deals into June. With that, competing retailers including Walmart and Target joined in chasing budget-focused shoppers long before school starts.",
-      "source": "https://www.modernretail.co/marketing/back-to-school-season-has-become-a-summer-long-event-thanks-to-an-earlier-prime-day/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Modern Retail",
-      "sourceType": "rss",
-      "sources": [
-        "Modern Retail"
-      ],
-      "sourceLinks": [
-        "https://www.modernretail.co/marketing/back-to-school-season-has-become-a-summer-long-event-thanks-to-an-earlier-prime-day/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "ec-435a248f",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "避免全大写标题， CRO Pro表示",
-      "title_en": "Avoid All-Caps Headlines, Says CRO Pro",
-      "market": "global",
-      "date": "2026-07-03",
-      "desc_zh": "Nate Lagos测试了客户的全大写标题，发现一个简单的改变将转化率提高了25%。《Avoid All-Caps Headlines》一文称， CRO Pro首次出现在实用电子商务上。",
-      "desc_en": "Nate Lagos tested a client's all-caps headlines and found a simple change lifted conversions by 25%. The post Avoid All-Caps Headlines, Says CRO Pro appeared first on Practical Ecommerce.",
-      "source": "https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro",
-      "sourceLabel": "Practical Ecommerce",
-      "sourceType": "rss",
-      "sources": [
-        "Practical Ecommerce"
-      ],
-      "sourceLinks": [
-        "https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro"
-      ]
-    },
-    {
-      "id": "ai-46482be2",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "宣伟为其专业客户采用Square功能",
-      "title_en": "Sherwin-Williams adopts Square features for its pro customers",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "宣伟正在重塑其企业对企业（ B2B ）支付生态系统，选择Square嵌入支付、发票和现金流工具。Square选项将直接显示在宣伟面向PRO +客户的数字联盟计划的体验中。该客户类别包括专业油漆师、承包商和设计师。新举措增加了宣伟作为[…]更紧密结合的合作伙伴的角色宣伟采用Square featur",
-      "desc_en": "Sherwin-Williams is repainting its business-to-business (B2B) payment ecosystem, selecting Square to embed payments, invoicing and cash flow tools. Square options will appear directly within the experience for Sherwin-Williams’ Digital Alliance Program for Pro+ customers. That customer category includes professional painters, contractors and designers. The new move grows Sherwin-WilliamsR",
-      "source": "https://www.digitalcommerce360.com/2026/07/02/sherwin-williams-square-features-pro-customers/",
-      "sourceLabel": "Digital Commerce 360",
-      "sourceType": "rss",
-      "sources": [
-        "Digital Commerce 360"
-      ],
-      "sourceLinks": [
-        "https://www.digitalcommerce360.com/2026/07/02/sherwin-williams-square-features-pro-customers/"
-      ]
-    },
-    {
-      "id": "ai-8c1988d3",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "Saddle Creek Logistics任命新任首席执行官",
-      "title_en": "Saddle Creek Logistics names new CEO",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "Saddle Creek Logistics Services于7月开始任命新的首席执行官Grady Martin。该公司是一家第三方物流（ 3PL ）提供商。它提供仓储、履行和运输解决方案。Saddle Creek Logistics在一份声明中表示，其首席执行官变动是“计划中的领导层过渡”的一部分。“Martin的新任命于7月1日生效。最近， […] Saddle Creek Logistics任命新任首席执行官的帖子首次出现在Digital Commerce 360上。",
-      "desc_en": "Saddle Creek Logistics Services started July by naming a new CEO, Grady Martin. The company is a third-party logistics (3PL) provider. It offers warehousing, fulfillment and transportation solutions. Saddle Creek Logistics said in an announcement that its CEO change is part of a “planned leadership transition.” Martin’s new appointment became effective July 1. Most recently, [",
-      "source": "https://www.digitalcommerce360.com/2026/07/02/saddle-creek-logistics-names-new-ceo/",
-      "sourceLabel": "Digital Commerce 360",
-      "sourceType": "rss",
-      "sources": [
-        "Digital Commerce 360"
-      ],
-      "sourceLinks": [
-        "https://www.digitalcommerce360.com/2026/07/02/saddle-creek-logistics-names-new-ceo/"
-      ],
-      "is_repeat_desc": true
-    },
-    {
-      "id": "ec-33d73a95",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "谁是2026年美国十大零售商？",
-      "title_en": "Who are the Top 10 U.S. retailers in 2026?",
-      "market": "us",
-      "date": "2026-07-03",
-      "desc_zh": "在两套不同的标准中，有7家美国零售商在2026年跻身前10名。美国全国零售联合会（ NRF ）和Digital Commerce 360都公布了其在该地区最大零售商的排名。决定1号和2号的关键差异是每组排名如何对销售进行分类。而[…]文章《谁是2026年美国十大零售商？》首先出现在Digital Commerce 360上。",
-      "desc_en": "Across two different sets of criteria, seven U.S. retailers fall in the Top 10 in 2026. Both the National Retail Federation (NRF) and Digital Commerce 360 have released their rankings of the largest retailers in the region. The key discrepancy deciding Nos. 1 and 2 is how each set of rankings categorizes sales. Whereas the […] The post Who are the Top 10 U.S. retailers in 2026? appeared firs",
-      "source": "https://www.digitalcommerce360.com/2026/07/02/who-are-the-top-10-us-retailers-in-2026/",
-      "sourceLabel": "Digital Commerce 360",
-      "sourceType": "rss",
-      "sources": [
-        "Digital Commerce 360"
-      ],
-      "sourceLinks": [
-        "https://www.digitalcommerce360.com/2026/07/02/who-are-the-top-10-us-retailers-in-2026/"
-      ],
-      "is_repeat_desc": true
-    },
-    {
-      "id": "biz-faabfa8c",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "伊朗革命卫队：打击了巴林和科威特的85个美军设施",
-      "title_en": "伊朗革命卫队：打击了巴林和科威特的85个美军设施",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cls.cn/detail/2420096",
-      "sourceLabel": "财联社",
-      "sourceType": "html",
-      "sources": [
-        "财联社"
-      ],
-      "sourceLinks": [
-        "https://www.cls.cn/detail/2420096"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-b0e1ecc0",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "沪港黄金市场实物联通，多家中资银行首日参与交易结算，业内：望进一步增强国际定价权",
-      "title_en": "沪港黄金市场实物联通，多家中资银行首日参与交易结算，业内：望进一步增强国际定价权",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cls.cn/detail/2419951",
-      "sourceLabel": "财联社",
-      "sourceType": "html",
-      "sources": [
-        "财联社"
-      ],
-      "sourceLinks": [
-        "https://www.cls.cn/detail/2419951"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-34d2e8d1",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "人民日报钟声：中欧经贸完全能够在发展中实现动态平衡",
-      "title_en": "人民日报钟声：中欧经贸完全能够在发展中实现动态平衡",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cls.cn/detail/2419808",
-      "sourceLabel": "财联社",
-      "sourceType": "html",
-      "sources": [
-        "财联社"
-      ],
-      "sourceLinks": [
-        "https://www.cls.cn/detail/2419808"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-3edeb50c",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "伊朗在霍尔木兹海峡袭击两商船 阿联酋继续组船队闯关",
-      "title_en": "伊朗在霍尔木兹海峡袭击两商船 阿联酋继续组船队闯关",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://international.caixin.com/2026-07-07/102461797.html",
-      "sourceLabel": "财新网",
-      "sourceType": "html",
-      "sources": [
-        "财新网"
-      ],
-      "sourceLinks": [
-        "https://international.caixin.com/2026-07-07/102461797.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-35255614",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "创投家CLUB投资机构库",
-      "title_en": "创投家CLUB投资机构库",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.tmtpost.com/tmtclub",
-      "sourceLabel": "TMTPost",
-      "sourceType": "html",
-      "sources": [
-        "TMTPost"
-      ],
-      "sourceLinks": [
-        "https://www.tmtpost.com/tmtclub"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-4e00f6ea",
-      "cat": "biz",
-      "heat": "trend",
-      "title_zh": "《人工智能 智能体互联》系列7项国家标准发布",
-      "title_en": "《人工智能 智能体互联》系列7项国家标准发布",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.tmtpost.com/nictation/8042823.html",
-      "sourceLabel": "TMTPost",
-      "sourceType": "html",
-      "sources": [
-        "TMTPost"
-      ],
-      "sourceLinks": [
-        "https://www.tmtpost.com/nictation/8042823.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-039f67a4",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "LCC_Bet...",
-      "title_en": "LCC_Bet...",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.tmtpost.com/user/1695792",
-      "sourceLabel": "TMTPost",
-      "sourceType": "html",
-      "sources": [
-        "TMTPost"
-      ],
-      "sourceLinks": [
-        "https://www.tmtpost.com/user/1695792"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-e149b36b",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "百度基础模型换将，这一次把牌交给年轻人",
-      "title_en": "百度基础模型换将，这一次把牌交给年轻人",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/latest/index/id/4748",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/latest/index/id/4748"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-f6aacf35",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "icml 2026",
-      "title_en": "icml 2026",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/tag/icml+2026",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/tag/icml+2026"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-26df5df6",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "中国红牛党支部获评“北京市新兴领域先进基层党组织”",
-      "title_en": "中国红牛党支部获评“北京市新兴领域先进基层党组织”",
-      "market": "cn",
-      "date": "2026-07-03",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.yicai.com/news/103253122.html",
-      "sourceLabel": "第一财经",
-      "sourceType": "html",
-      "sources": [
-        "第一财经"
-      ],
-      "sourceLinks": [
-        "https://www.yicai.com/news/103253122.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "ec-50223902",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "Supergoop首席营销官Lauren Weinberg如何在渠道组合扩张中应对亚马逊和TikTok商店",
-      "title_en": "How Supergoop CMO Lauren Weinberg is tackling Amazon and TikTok Shop amid channel mix expansion",
-      "market": "us",
-      "date": "2026-07-02",
-      "desc_zh": "20岁的市场领导者如何保持领先地位？对于防晒霜品牌Supergoop ，它需要不断发展的渠道组合，包括增加Target等大众零售商，加入亚马逊的Premium Beauty频道，并使用TikTok Shop营销鲜为人知的SKU。Supergoop首席营销官Lauren Weinberg与主持人Lexy Lebsack一起参加了Glossy的年度电子商务峰会，以揭示该品牌今年迄今为止的渠道战略转变。",
-      "desc_en": "How does a 20-year-old market leader stay on top? For sunscreen brand Supergoop, it requires an evolving channel mix that includes adding mass retailers like Target, joining Amazon’s Premium Beauty channel and using TikTok Shop to market lesser-known SKUs. Supergoop CMO Lauren Weinberg joined host Lexy Lebsack onstage at Glossy’s annual E-Commerce Summit to unpack the brand's channel strategy shif",
-      "source": "https://www.glossy.co/beauty/supergoop-cmo-lauren-weinberg-channel-strategy-interview/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Glossy",
-      "sourceType": "rss",
-      "sources": [
-        "Glossy"
-      ],
-      "sourceLinks": [
-        "https://www.glossy.co/beauty/supergoop-cmo-lauren-weinberg-channel-strategy-interview/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "biz-a6abb152",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "刚刚，全球首个超高帧世界模型诞生，英伟达含量0，狂飙50帧",
-      "title_en": "刚刚，全球首个超高帧世界模型诞生，英伟达含量0，狂飙50帧",
-      "market": "cn",
-      "date": "2026-07-02",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://36kr.com/p/3886462577094915",
-      "sourceLabel": "36Kr AI",
-      "sourceType": "html",
-      "sources": [
-        "36Kr AI"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3886462577094915"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-cbc46366",
-      "cat": "biz",
-      "heat": "hot",
-      "title_zh": "Crunchbase Data ：随着人工智能热潮加速融资和退出， 2026年上半年全球初创企业投资创下5100亿美元的纪录",
-      "title_en": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
-      "market": "us",
-      "date": "2026-07-02",
-      "desc_zh": "我们的数据显示，投资者在刚刚结束的季度向全球初创企业投入了2000多$ ，使2026年第二季度成为有记录以来的第二大季度。而且，随着IPO和收购重新生效，第二季度创下了多年来风险投资支持退出的最强劲时期之一。",
-      "desc_en": "Investors poured more than $200 billion into startups globally in the just-ended quarter, making Q2 2026 the second-largest quarter on record, our data shows. And, with IPOs and acquisitions returning in force, the second quarter notched one of the strongest periods for venture-backed exits in years.",
-      "source": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "sourceLabel": "Crunchbase",
-      "sourceType": "rss",
-      "sources": [
-        "Crunchbase"
-      ],
-      "sourceLinks": [
-        "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/"
-      ]
-    },
-    {
-      "id": "ai-09e4b4e1",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "Crunchbase技术裁员跟踪器",
-      "title_en": "The Crunchbase Tech Layoffs Tracker",
-      "market": "us",
-      "date": "2026-07-02",
-      "desc_zh": "根据Crunchbase News的统计， 2025年，美国科技公司的12.7万多名工人在大规模裁员中被解雇，裁员一直持续到2026年。查看最新削减岗位的公司。",
-      "desc_en": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
-      "source": "https://news.crunchbase.com/startups/tech-layoffs/",
-      "sourceLabel": "Crunchbase",
-      "sourceType": "rss",
-      "sources": [
-        "Crunchbase"
-      ],
-      "sourceLinks": [
-        "https://news.crunchbase.com/startups/tech-layoffs/"
-      ]
-    },
-    {
-      "id": "ec-5a41f157",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "2026年8月的5个内容营销创意",
-      "title_en": "5 Content Marketing Ideas for August 2026",
-      "market": "us",
-      "date": "2026-07-02",
-      "desc_zh": "2026年8月的电子商务营销人员可以解决返校购物、放松、航空、摄影和劳动节规划等问题。2026年8月发布的5个内容营销创意首次出现在实用电子商务上。",
-      "desc_en": "Ecommerce marketers in August 2026 can address back-to-school shopping, relaxation, aviation, photography, and Labor Day planning. The post 5 Content Marketing Ideas for August 2026 appeared first on Practical Ecommerce.",
-      "source": "https://www.practicalecommerce.com/5-content-marketing-ideas-for-august",
-      "sourceLabel": "Practical Ecommerce",
-      "sourceType": "rss",
-      "sources": [
-        "Practical Ecommerce"
-      ],
-      "sourceLinks": [
-        "https://www.practicalecommerce.com/5-content-marketing-ideas-for-august"
-      ]
     }
   ],
   "rss_sources": {
