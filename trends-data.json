@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 171,
+    "total": 170,
     "hot": 23,
     "trend": 142,
     "new": 0,
@@ -101,31 +101,6 @@
       ],
       "is_dirty": true,
       "desc_full_zh": "编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第三期——易控智驾。 那是一家做游戏出海的公司，叫广州易幻网络。当年被A股上市公司宝通科技以超过17亿元对价收购，按公开交易安排及后续减持情况粗算，蓝水生相关方整体退出规模约在15亿元上下。 按照创业常见剧本，故事到这里基本就可以收尾了。毕竟一个江西财经大学毕业的连续创业者，靠游戏出海完成财富跃迁。接下来，他可以做投资人，可以继续在熟悉的游戏行业滚雪球，也可以躺在资产负债表上享受余生。",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "biz-5a3ff4a7",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "Karpathy",
-      "title_en": "Karpathy",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/tag/Karpathy",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/tag/Karpathy"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "本专题为雷峰网的Karpathy专题，内容全部来自雷峰网精心选择与Karpathy相关的最近资讯，雷峰网读懂智能与未来，拥有Karpathy资讯的信息，在这里你能看到未来的世界。",
       "desc_full_en": "",
       "has_full_summary": true,
       "is_repeat_desc": false
