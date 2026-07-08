@@ -8,11 +8,19 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # ========== 1. 抓取数据 ==========
-echo "📥 [1/3] 抓取 RSS ..."
+echo "📥 [1/5] 抓取 RSS ..."
 python3 scripts/fetch_trends.py
 
-# ========== 2. 推送 GitHub ==========
-echo "🚀 [2/3] 推送 GitHub ..."
+# ========== 2. 补翻 MyMemory 限流漏掉的 ==========
+echo "🌐 [2/5] 补翻 ..."
+python3 scripts/retranslate_remaining.py || echo "  (无遗漏)"
+
+# ========== 3. 提取精华总结 (路径 C, 0 元) ==========
+echo "📝 [3/5] 提取精华 ..."
+python3 scripts/extract_summaries.py || echo "  (无新增)"
+
+# ========== 4. 推送 GitHub ==========
+echo "🚀 [4/5] 推送 GitHub ..."
 TOKEN_FILE="$SCRIPT_DIR/.gh_token"
 if [[ ! -f "$TOKEN_FILE" ]]; then
   echo "❌ Token file not found: $TOKEN_FILE"
@@ -63,8 +71,8 @@ except urllib.error.HTTPError as e:
     exit(1)
 PYEOF
 
-# ========== 3. 报告 ==========
-echo "📊 [3/3] 生成状态报告 ..."
+# ========== 5. 报告 ==========
+echo "📊 [5/5] 生成状态报告 ..."
 python3 -c "
 import json
 d = json.load(open('$DATA_FILE'))
