@@ -407,25 +407,53 @@ def main():
     sources_ok = 0
     sources_failed = 0
 
+    # v3.2: 并行抓取 + 全局超时
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import time
+
+    fetch_tasks = []
     for cat, sources in SOURCES.items():
         for source_name, url in sources:
-            print(f"Fetching {source_name}...")
-            data = fetch(url)
-            if not data:
-                sources_failed += 1
-                continue
-            sources_ok += 1
-            # 判断是 RSS 还是 HTML
-            if data[:5].lower().startswith(b"<?xml") or b"<rss" in data[:200] or b"<feed" in data[:200]:
-                items = parse_feed(data, cat, source_name)
-            else:
-                items = parse_html_simple(data, source_name, url)
-            for story in items:
-                if story["id"] not in by_id:
-                    by_id[story["id"]] = story
-                    new_count += 1
+            fetch_tasks.append((cat, source_name, url))
+
+    print(f"📡 并行抓取 {len(fetch_tasks)} 个源 (10 workers, 8s/源) ...")
+    start_t = time.time()
+    MAX_FETCH_SECS = 8
+    GLOBAL_TIMEOUT = 180
+
+    def fetch_one(cat, source_name, url):
+        return (cat, source_name, url, fetch(url, timeout=MAX_FETCH_SECS))
+
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        futures = {pool.submit(fetch_one, c, s, u): (c, s, u) for c, s, u in fetch_tasks}
+        try:
+            for fut in as_completed(futures, timeout=GLOBAL_TIMEOUT):
+                try:
+                    cat, source_name, url, data = fut.result(timeout=MAX_FETCH_SECS + 2)
+                except Exception as e:
+                    cat, source_name, url = futures[fut]
+                    print(f"  [skip] {source_name}: {type(e).__name__}")
+                    sources_failed += 1
+                    continue
+                if not data:
+                    sources_failed += 1
+                    continue
+                sources_ok += 1
+                if data[:5].lower().startswith(b"<?xml") or b"<rss" in data[:200] or b"<feed" in data[:200]:
+                    items = parse_feed(data, cat, source_name)
                 else:
-                    by_id[story["id"]]["heat"] = story["heat"]
+                    items = parse_html_simple(data, source_name, url)
+                for story in items:
+                    if story["id"] not in by_id:
+                        by_id[story["id"]] = story
+                        new_count += 1
+                    else:
+                        by_id[story["id"]]["heat"] = story["heat"]
+        except Exception:
+            print(f"  [global timeout] 抓 {sources_ok} 源 OK,跳过剩余")
+
+    elapsed = time.time() - start_t
+    print(f"  ✅ 抓取完成: {sources_ok} 源 OK / {sources_failed} 源失败 / 用时 {elapsed:.1f}s")
 
     # 语义去重
     print("\n🧹 语义去重中...")
