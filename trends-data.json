@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 172,
+    "total": 171,
     "hot": 23,
     "trend": 142,
     "new": 0,
@@ -77,7 +77,8 @@
       "is_dirty": false,
       "desc_full_zh": "中国人民银行行长潘功胜7月7日在香港固定收益及货币峰会暨债券通论坛上表示，当前在全球利率和通胀波动加剧的背景下，中国债券凭借其相对的稳定性和较低波动性的特征，凸显出独特的分散化的配置优势，持续吸引国际投资者的增配诉求，加上较低的人民币融资成本，香港人民币债券市场面临难得的发展机遇，香港可以抓住这一有利时机，吸引更多的主权财富和国际企业到香港发债融资。（新华财经）",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-6b347083",
@@ -101,7 +102,8 @@
       "is_dirty": true,
       "desc_full_zh": "编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第三期——易控智驾。 那是一家做游戏出海的公司，叫广州易幻网络。当年被A股上市公司宝通科技以超过17亿元对价收购，按公开交易安排及后续减持情况粗算，蓝水生相关方整体退出规模约在15亿元上下。 按照创业常见剧本，故事到这里基本就可以收尾了。毕竟一个江西财经大学毕业的连续创业者，靠游戏出海完成财富跃迁。接下来，他可以做投资人，可以继续在熟悉的游戏行业滚雪球，也可以躺在资产负债表上享受余生。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-5a3ff4a7",
@@ -125,7 +127,8 @@
       "is_dirty": false,
       "desc_full_zh": "本专题为雷峰网的Karpathy专题，内容全部来自雷峰网精心选择与Karpathy相关的最近资讯，雷峰网读懂智能与未来，拥有Karpathy资讯的信息，在这里你能看到未来的世界。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-b9128c9d",
@@ -149,7 +152,8 @@
       "is_dirty": false,
       "desc_full_zh": "񾭿ѧ˹ҽѧ̵ȽںϣԻӿڣBCIٿԽʵٴĺ蹵20263£зֲʽԻӿϵͳҩ֣NMPA׼УΪȫ׸ֲʽҽеע֤ĲƷ־йBCIҵʽʻ롰ؿ쳵 ͬʱԻӿڲҵսԵλ̧ҼδҵصǰؼչУҵչơ߷֡ͻơʱٴ£ԻӿڲҵɴӼ֤ҵջʵԿԽ ǰҹϵͳ˶ϰȲȺģӴ󣬴ͳ뿵ֶδԶ̰壬ҽƼԻӿھ߱ǿٴӦüֵгռ䡣ڴ˱£ϵͳҵչ״弼·߸֡ͷҵչ·вҵδݽ򣬶԰ҵչƶҵ淶չ߱Ҫʵ塣",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-74e9d697",
@@ -173,7 +177,8 @@
       "is_dirty": false,
       "desc_full_zh": "Copyright 2007-2023 cyzone.cn All rights reserved 京ICP证070362号 京ICP备08103950-1号京ICP备08103950-9号京ICP备08103950-10号 新出发京零字第朝140005号 爱奇清科（北京）信息科技有限公司 地址：北京市朝阳区丽泽西街东湖国际中心A座7层 | 网络文化经营许可证（京网文[2018]2153-213号） 违法和不良信息举报电话：010-53391121 举报邮箱：db@cyzone.cn",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-5b28d29f",
@@ -193,7 +198,9 @@
       ],
       "sourceLinks": [
         "https://wwd.com/beauty-industry-news/beauty-features/gucci-beauty-license-transferring-to-loreal-mid-2027-1239057358/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "has agreed to end its license with Gucci a year earlier than the expiration date."
     },
     {
       "id": "ai-0af9055a",
@@ -213,7 +220,9 @@
       ],
       "sourceLinks": [
         "https://wwd.com/beauty-industry-news/hair/george-e-johnson-black-hair-care-entrepreneur-dies-1239056617/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The founder of Johnson Products Co.。revolutionized the Black hair care market with iconic brands like Ultra Sheen and Afro Sheen."
     },
     {
       "id": "ai-02862cf9",
@@ -233,7 +242,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities."
     },
     {
       "id": "ai-5c5f5d83",
@@ -253,7 +264,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Open source models’ success isn’t coming at the expense of frontier labs.。Instead, they each seem to capture two phases of the same life cycle."
     },
     {
       "id": "ai-258e12ef",
@@ -273,7 +286,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending."
     },
     {
       "id": "ai-bf3f099b",
@@ -293,7 +308,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem."
     },
     {
       "id": "ai-42b05dd9",
@@ -313,7 +330,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed."
     },
     {
       "id": "ai-73efcd87",
@@ -333,7 +352,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3886276435751169"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "ai-1f8b0b33",
@@ -353,7 +374,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3886301334630407?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "图源/企业 作者丨欧雪 编辑丨袁斯来 硬氪获悉，上海量感智能科技有限公司（以下简称“量感智能”）近日已完成数千万元天使轮融资，由孚腾资本（上海国投旗下）领投，六禾创投跟投。。量感智能公司于2023年9月成立，由上海交通大学量子感知研究所成员孵化。"
     },
     {
       "id": "ai-fe6dd9ca",
@@ -373,7 +396,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3886238403129353?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "今日热点导览 网传“7月1日新规：新车智驾芯片自主化率不低于70%”系谣言 商业银行不良处置仍在加速，上半年全行业转让核销合计至少5000亿 国家外汇管理局：截至2026年6月末，中国外汇储备规模为34163亿美元 汇丰暂停向风险较高的私募信贷客户提供贷款 SpaceX公布AI数据中心计划，同步推进星链卫星脱轨 TOP3大新闻 前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭 7月6日，前华为“天才少年”李博杰在社交平台公开吐槽DeepSeek的面试流程，提及流程较慢且繁琐，面试官存在态度问题，质疑他抄袭，他感到“被严重冒犯”。"
     },
     {
       "id": "biz-3ab67da6",
@@ -393,7 +418,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3885479689465858?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "文｜胡香赟 编辑｜海若镜 36 氪获悉，德睿智药近期已完成 5200 万美元B轮融资，投资方包括头部人民币和美元基金，凯乘资本为独家财务顾问。。募集资金将用于AI制药引擎Molecule Arts Platform（MAP）升级迭代，完善其多智能体（Multi-Agent）协同体系与临床数据闭环（Clinical Data-in-the-Loop），以及推进自研口服GLP-1小分子MDR-001的III期临床和商业化、拓展其他差异化创新药管线。"
     },
     {
       "id": "biz-266f8fde",
@@ -413,7 +440,8 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3885560015220997?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false
     },
     {
       "id": "biz-019a880f",
@@ -433,7 +461,8 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3885481886674951?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-b3402a2c",
@@ -453,7 +482,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3885415199076352?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "因此，一切进步都取决于不理性的人。” 萧伯纳在《人与超人》里的论断，其实缺少了一个前提：让世界适应自己，你得先看见一个别人还没看见的世界。。无法否认的是，过去二十年在中国的科技行业里，有一条相对成熟的路径：fast follow。"
     },
     {
       "id": "biz-f90bc25f",
@@ -473,7 +504,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3885413484163074?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。"
     },
     {
       "id": "biz-fd9b878c",
@@ -493,7 +526,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/newsflashes/3886381665579273?f=rss"
-      ]
+      ],
+      "is_repeat_desc": true,
+      "no_desc": true
     },
     {
       "id": "ai-08a3ce90",
@@ -513,7 +548,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/newsflashes/3886374570946562?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "36氪获悉，上海市人民政府印发《上海市推进乡村全面振兴“十五五”规划》。。其中提出，坚持产业需求导向，引导高校科研院所面向涉农企业需求开展联合攻关，打通基础研究、应用开发、成果转化的创新链条。"
     },
     {
       "id": "ai-6115a081",
@@ -533,7 +570,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/newsflashes/3886371841388551?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "据德国创业协会与数据分析机构Startupdetector最新发布的调研显示，2026年上半年德国共有3053家初创企业成立，创下历史同期最高纪录，与2025年下半年相比增长52%。。其中1038家企业拥有明确的人工智能业务背景，占新增初创企业总数的三分之一以上。"
     },
     {
       "id": "biz-a8f19b0a",
@@ -553,7 +592,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/newsflashes/3886368159920137?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "36氪获悉，高端机床企业“上海星合”近日完成数亿元融资。。本轮融资由五粮液基金领投，上市公司麦格米特跟投，深蓝资本担任长期独家财务顾问。"
     },
     {
       "id": "biz-47aa8343",
@@ -573,7 +614,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/newsflashes/3886362716696841?f=rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "36氪获悉，天眼查App显示，近日，海南自由贸易港建设投资基金有限公司发生工商变更，注册资本由100亿人民币增至200亿人民币，增幅100%。。该公司成立于2022年1月，法定代表人为林继军，经营范围为以私募基金从事股权投资、投资管理、资产管理等活动，由海南省财金集团有限公司全资持股。"
     },
     {
       "id": "ai-03c29c4e",
@@ -593,7 +636,9 @@
       ],
       "sourceLinks": [
         "https://www.digitalcommerce360.com/2026/07/07/home-depot-adds-rewards-pro-xtra-customers/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Home Depot has added rewards for Pro customers that include partnering with 7-Eleven, Jimmy John’s, Tecovas and Rosie’s AI Answering Service.。The new benefits are for Home Depot’s Pro Xtra members, available through the retailer’s Rewards Hub."
     },
     {
       "id": "ai-ace81af7",
@@ -613,7 +658,9 @@
       ],
       "sourceLinks": [
         "https://www.digitalcommerce360.com/2026/07/07/batteries-plus-agentic-ai-modernization-journey/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Consumer electronics retailer Batteries Plus has made a deliberate, multi-year modernization journey that it said has positioned it to scale artificial intelligence (AI) across its business.。Karthik Jambulingam, senior director of enterprise architecture, shared with Digital Commerce 360 how Batteries Plus has transitioned its core systems to a scalable, cloud-enabled, and data-driven infrastructu。"
     },
     {
       "id": "ec-7993290f",
@@ -633,7 +680,9 @@
       ],
       "sourceLinks": [
         "https://www.digitalcommerce360.com/2026/07/07/dicks-sporting-goods-membership-tier-loyalty-program/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+.。The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said."
     },
     {
       "id": "research-cc9b308b",
@@ -653,7 +702,9 @@
       ],
       "sourceLinks": [
         "http://s.iresearch.cn/search/LongCat-2.0/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-288cda28",
@@ -673,7 +724,9 @@
       ],
       "sourceLinks": [
         "https://www.caixin.com/2026-07-08/102461825.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-5d298371",
@@ -693,7 +746,9 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/category/academic/GqOdEOoGq3kVosQr.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-8768128f",
@@ -713,7 +768,9 @@
       ],
       "sourceLinks": [
         "https://www.jiemian.com/article/12500769.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-05b58266",
@@ -733,7 +790,9 @@
       ],
       "sourceLinks": [
         "https://www.cyzone.cn/article/839205.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-6c95bd84",
@@ -753,7 +812,9 @@
       ],
       "sourceLinks": [
         "https://www.cyzone.cn/article/839203.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "beauty-7276e3ad",
@@ -777,7 +838,8 @@
       "is_dirty": false,
       "desc_full_en": "We'll remember this as the moment braid crowns made their comeback.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-86aa2920",
@@ -801,7 +863,8 @@
       "is_dirty": false,
       "desc_full_en": "… is a sentence I never expected to write.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-253d8716",
@@ -825,7 +888,8 @@
       "is_dirty": false,
       "desc_full_en": "Beauty giants join forces to honor 250 years of American independence and 140 years of the Statue of Liberty with a light and music celebration.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-be567777",
@@ -849,7 +913,8 @@
       "is_dirty": false,
       "desc_full_en": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-05aceeef",
@@ -873,7 +938,8 @@
       "is_dirty": false,
       "desc_full_en": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-f56d835a",
@@ -897,7 +963,8 @@
       "is_dirty": false,
       "desc_full_en": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-1657f244",
@@ -921,7 +988,8 @@
       "is_dirty": false,
       "desc_full_en": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-0062da62",
@@ -945,7 +1013,8 @@
       "is_dirty": false,
       "desc_full_en": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-2cfd7be8",
@@ -969,7 +1038,8 @@
       "is_dirty": false,
       "desc_full_en": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-cc3dd2cb",
@@ -993,7 +1063,8 @@
       "is_dirty": false,
       "desc_full_zh": "华源智因团队介绍称，已“收获多家头部三甲医院、跨国药企、AI生物企业的合作订单，多项目服务费已完成回款”。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-20157eed",
@@ -1017,7 +1088,8 @@
       "is_dirty": false,
       "desc_full_zh": "硬氪获悉，上海快粼光电科技有限公司（以下简称“快粼光电”）近期已完成数千万元天使轮融资。本轮融资由小苗朗程领投，一村资本跟投。中岚科创担任长期财务顾问，提供产业协同和资本对接服务。此次募集资金将主要用于公司超高速光探测芯片的研发迭代与送样验证，加速国产光探测芯片量产进程以及企业高端人才引进。 快粼光电2024年成立于上海，是一家专注于III-V族高速光电探测芯片的研发与产业化的硬科技公司，曾在AI光互联与6G通信核心的光芯片领域刷新世界纪录，填补了国内超高速收端光芯片的空白。 快粼光电的核心团队由4位师出同门、平均年龄不到30岁的年轻博士组成。创始人李林泽及三位联合创始人——王景熠、王鲁玉、龙天宇，均源自上海科技大学陈佰乐教授课题组。陈佰乐教授在高速光电子、III-V族半导体、光探测器件领域研究多年，具有深厚的行业影响力，创始人团队成员也有多项研究成果发表在《Nature》、《Nature Photonics》等顶级期刊。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-1b1e8a68",
@@ -1041,7 +1113,8 @@
       "is_dirty": true,
       "desc_full_zh": "SK海力士将以约44万亿韩元规模的美国存托凭证（ADR）在纳斯达克上市，挑战外资企业在美国股市上市的历史最大规模。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-f793cc83",
@@ -1065,7 +1138,8 @@
       "is_dirty": false,
       "desc_full_zh": "郭明錤爆料最新苹果折叠手机：出货量明显不足，或重现“饥饿营销”",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-d9a72dba",
@@ -1089,7 +1163,8 @@
       "is_dirty": false,
       "desc_full_zh": "北京治真治合科技有限公司成立于2024年，旗下产品「APTSell」（AI Power To Sales）希望成为AI版的CSO （Chief Sales Officer，首席销售官）。 简单来说，APTSell是一个组合式Agent，通过整合与可视化销售全流程数据，生成管理决策和执行建议，以期正向促进销售效率和业绩提升，反向降低对传统销售管理经验和岗位的依赖。 近期，APTSell宣布已经完成由DCM Ventures独家投资的数百万美元种子轮融资，该资金将用于产品技术的研发迭代，并积极开展深入的商业化合作。此前，APTSell还曾获得来自Atom Capital的天使轮投资。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-09e192d7",
@@ -1113,7 +1188,8 @@
       "is_dirty": true,
       "desc_full_zh": "硬氪获悉，开普动能航空技术有限责任公司（以下简称“开普动能”）近期连续完成种子轮及天使轮融资，两轮融资合计金额达数千万元人民币，由零以资本领投、新鼎资本跟投，唯快资本担任长期财务顾问。 随着eVTOL产业进入工程化阶段，航空电驱系统正成为产业链中技术壁垒最高的核心环节之一。作为电动飞行器“三电系统”的关键组成部分，航空电驱系统成本约占整机成本的30-40%，不仅需要兼顾高功率密度、高扭矩密度和高效率，还需满足极高的安全性、可靠性、可测试维护性等适航要求（包括多通道冗余设计、单点失效保护以及复杂热管理等能力），同时电机控制器的软/硬件还需要进行DO-178C、DO-254的适航认证...",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-93a972a6",
@@ -1137,7 +1213,8 @@
       "is_dirty": true,
       "desc_full_zh": "编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第二期——珞石机器人。 7月6日上午10点，珞石机器人港股IPO招股结束。此次IPO定价38港元，每手100股，对应市值99.46亿港元。合计募资8.75亿港元，五家基石认购31.4%。 珞石的IPO之路并不顺利，早在2024年12月，它就和国泰海通签了A股上市辅导协议。但2025年8月，就主动叫停A股，掉头奔向港股。有意思的是，虽然其总部落在山东济宁邹城，但创始团队却出自北京。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-5cafbaac",
@@ -1161,7 +1238,8 @@
       "is_dirty": true,
       "desc_full_zh": "编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第一期——深圳宏芯宇电子。 7月3日，一家名叫宏芯宇电子的深圳公司，向港交所递交了招股书，此次IPO独家保荐人是中信建投。 招股书里最亮眼的是这么一组数字：2026年前四个月，宏芯宇净利润38.41亿元，比上年同期的1.23亿元暴涨3020.8%。整体毛利率从一年前的13.8%一路飙到62.0%。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-33d8f91c",
@@ -1185,7 +1263,8 @@
       "is_dirty": false,
       "desc_full_zh": "6月30日，亚马逊全球开店与福布斯中国联合发布“2026福布斯中国新生代跨境电商30人评选”，30位入选者平均年龄仅35岁，95后已开始崭露头角。 入选者既有3D打印、庭院机器人、AI助听器等硬核科技赛道的开拓者，也有家具、家居、服装等传统产业的变革者。他们来自广东、浙江、江苏三省，占比超过75%。更重要的是，这些年轻创业者共同票选出了三个年度关键词：“星辰大海”、“快与慢”和“定价权”。 这三个词背后的指向也很有意思：全球化视野、长期主义决心，以及跳出价格战的野心。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-d9cbd543",
@@ -1209,7 +1288,8 @@
       "is_dirty": false,
       "desc_full_zh": "“现在公司有（减员）名单，你在这里面。”5月中的一天，林越被组长叫进会议室，对方开门见山。 林越的第一反应是平静，他早有预料。早在今年三四月，一些互联网公司内部便传出要裁员的风声。开年以来，中国互联网大公司围绕AI提效激进开展的token竞赛、培训会、隐形考核等，无处不在。当所有人都被卷入一场“all in AI”的运动时，“裁员一定会发生”就是大家心照不宣的共识。 但站在HR门口时，他还是迎来了情绪崩溃的瞬间：手开始发抖，犹豫了很长时间，想着怎么开头，怎么调整自己的举止表情。“我再也不想经历这样的事。”",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-ea9b6e49",
@@ -1233,7 +1313,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，恒生科技指数日内涨超2%，美团涨超7%，腾讯涨超5%。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": true
     },
     {
       "id": "ai-43cab757",
@@ -1257,7 +1338,8 @@
       "is_dirty": false,
       "desc_full_zh": "世界银行7月7日在京发布最新一期中国经济简报。报告称，尽管面临供强需弱和全球能源供应冲击，中国经济增长总体保持韧性，预计2026年中国经济增长4.4%，相较去年12月发布的上期简报，增速预期维持不变。（新华社） 8点1氪丨SK海力士本周五将登陆纳斯达克；99万机器人“伴侣”续航撑不过一晚？优必选回应；青海省博物馆回应“国家一级文物发现TCL字样”",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": true
     },
     {
       "id": "ai-16dd2954",
@@ -1281,7 +1363,8 @@
       "is_dirty": false,
       "desc_full_zh": "世界银行7月7日在京发布最新一期中国经济简报。报告称，尽管面临供强需弱和全球能源供应冲击，中国经济增长总体保持韧性，预计2026年中国经济增长4.4%，相较去年12月发布的上期简报，增速预期维持不变。（新华社）",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-2a5fdf61",
@@ -1305,7 +1388,8 @@
       "is_dirty": false,
       "desc_full_zh": "现代汽车集团周二表示，将与政府合作，建立插电式充电（PnC）技术的全国性认证，以促进电动汽车（EV）的更广泛普及。该公司表示，已与韩国气候、能源和环境部以及韩国环境公社签署了一份谅解备忘录，旨在建立电动汽车PnC服务的全国性认证体系。（新浪财经）",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ec-28d8ff5f",
@@ -1327,9 +1411,10 @@
         "https://www.digitalcommerce360.com/2026/07/06/milani-cosmetics-tiktok-shop-sales/"
       ],
       "is_dirty": false,
-      "desc_full_zh": "",
+      "desc_full_zh": "美容零售商Milani Cosmetics在TikTok商店销售的头两周内，其产品的销售业绩超过其销售目标250%以上。。这是Milani Cosmetics第一次使用TikTok Shop推出一款产品，然后通过传统零售店和。",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-d4decdf3",
@@ -1353,7 +1438,8 @@
       "is_dirty": false,
       "desc_full_zh": "浪爪智能（CLAWLAB）创始人胡文鑫，是当下硬件赛道一个不太按常理出牌的人。 工程师背景出身，曾就职于大疆、美团等头部大厂，拿过顶级机构的钱，履历足以支撑他选择任何一个被市场验证过的热门赛道，在最短时间内做出产品、讲故事、滚动融资。 很少有人知道胡文鑫具体在做什么。浪爪智能成立于2022年12月，近几年里，团队刻意保持水下状态——BP从不外发，没有主动路演或公司传播，有投资人对产品方向感兴趣就直接到办公室看Demo。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-bc49c282",
@@ -1377,7 +1463,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，天眼查App显示，近日，北京中发海创原生引擎创业投资基金中心（有限合伙）成立，执行事务合伙人为北京中关村创业投资发展有限公司、中关村原生引擎（北京）科技有限公司，出资额5亿人民币，经营范围为私募股权投资基金管理、创业投资基金管理服务，由北京中关村科学城四期科技成长股权投资合伙企业（有限合伙）、北京中关村资本基金管理有限公司、中关村原生引擎（北京）科技有限公司等共同出资。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-113c5df6",
@@ -1401,7 +1488,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，指数走弱，深成指下挫跌逾1.00%，沪指跌0.92%，创业板指跌1.01%，化纤、贵金属、医药、玻纤等板块指数跌幅居前，沪深京三市超4600股下跌。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-36f61497",
@@ -1425,7 +1513,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，7月7日，支付宝正式上线AI开放平台，面向商家、机构、服务商、智能终端、大模型平台等生态伙伴开放AI接入能力。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-9d1d0b11",
@@ -1449,7 +1538,8 @@
       "is_dirty": false,
       "desc_full_zh": "近日，“迈巨微电子”完成数千万元融资，由华宝新能领投，老股东欣旺达、启赋资本持续加注，资金将主要用于智能单电芯级多维监测传感器芯片MagiCell™的量产导入、MagicFETs™与MagicAFE™系列产品线的迭代扩产，以及面向工商业储能和汽车电子市场的研发与市场拓展。迈巨微电子是一家专注于锂电池安全管理芯片和智慧电芯传感器芯片解决方案的国产半导体设计公司，已形成覆盖全电压段的完整芯片产品矩阵。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": true
     },
     {
       "id": "beauty-08e25272",
@@ -1473,7 +1563,8 @@
       "is_dirty": false,
       "desc_full_en": "Glossy checked in on the new slate of celebrity fragrances hitting shelves this summer, including a scent by Megan Thee Stallion.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-fbb4aedc",
@@ -1497,7 +1588,8 @@
       "is_dirty": false,
       "desc_full_en": "How prestige beauty brands are launching more accessibly priced products to appeal to younger consumers, compete with K-beauty.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-75213eb6",
@@ -1521,7 +1613,8 @@
       "is_dirty": false,
       "desc_full_en": "New skin care products from Medicube, Babe Original and other beauty brands look to bright and improve the look of under-eye hollowness.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-de91ad50",
@@ -1545,7 +1638,8 @@
       "is_dirty": false,
       "desc_full_en": "Affordable beauty brands like Medicube, Anua and Morphe are outpacing prestige players by global earned media value growth, data shows.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-1de82dd0",
@@ -1569,7 +1663,8 @@
       "is_dirty": false,
       "desc_full_en": "L'Oréal Paris has updated its blockbuster serum amid skin care push.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-ac6b589b",
@@ -1593,7 +1688,8 @@
       "is_dirty": false,
       "desc_full_zh": "2025 年底，在一次模型团队的聚餐上，Seedance 模型的负责人曾妍向 leader 提到，她还是想试试训一个更大尺寸的模型，至少达到 200B（2000亿参数）。 曾妍是字节 Seed 一位非常年轻的研究员，2021 年校招生，研究方向始终聚焦在视频理解与生成上。“她一直都挺有自己的技术判断。” 一位与曾妍打过交道的人告诉 36 氪，“而且很主动，对于相信的事情比较坚持，会想办法争取资源去实现。” 这个评价几乎复现了曾妍做 Seedance2.0 训练时的处境。“她想训一个参数量更大的模型，但当时团队内部有一些分歧，有人觉得把模型直接 scale up 到 200B-300B 的级别有点冒进了，并且整体的训练资源也紧张，可能先训一个 100B 级别的模型技更安全。”一位知情人士告诉 36 氪。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-15192fb4",
@@ -1617,7 +1713,8 @@
       "is_dirty": false,
       "desc_full_zh": "开源AI代理OpenClaw爆火，推动AI Agent平民化。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-041eed5e",
@@ -1641,7 +1738,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，国家金融监督管理总局、上海市人民政府发布《加快上海国际再保险中心建设的若干措施》。其中提到，推进再保险行业提质增效，支持再保险机构增资扩股和发行资本补充工具，提升内源性资本积累能力和外源性资本补充能力，增强再保险行业实力。引导保险行业围绕国家重大项目建设、战略性新兴产业、民生保障等领域，聚合保险和再保险承保能力，提升风险保障水平。支持再保险机构发挥专业技术优势，助力保险业风险减量服务。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-e46c3ec8",
@@ -1665,7 +1763,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，国家金融监督管理总局、上海市人民政府发布《加快上海国际再保险中心建设的若干措施》。其中提到，支持境外再保险接受人和再保险经纪人通过再保险登记交易中心开展引荐工作，促进境外保险机构参与中国再保险市场，拓展平台交易。加快优化场内交易功能，完善标准化再保险合同和账单，推动建设高效透明的数字化交易平台，逐步提升平台注册、合同签订、账务清算、资金结算、票据流转、税收征管等环节效能。推进建立再保险登记交易中心场内交易履约管理机制，持续提升行业自律管理效能。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-a86971e4",
@@ -1689,7 +1788,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，国家金融监督管理总局、上海市人民政府发布《加快上海国际再保险中心建设的若干措施》。其中提到，推动境内保险机构在再保险登记交易中心进行再保险合同、赔付等信息统一登记。支持再保险登记交易中心进一步完善登记数据标准，做好数据分级分类管理，依法合规加强数据治理和安全保密管理。深化数据应用，结合各类场景加强保险风险及信用风险研究，赋能中国保险业风险管理等专业能力建设。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-987e8d4c",
@@ -1713,7 +1813,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，天眼查App显示，7月7日，杭州申昊智算科技有限公司成立，法定代表人为陶志锋，注册资本5000万人民币，经营范围包括技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广，数字技术服务，数据处理和存储支持服务，云计算装备技术服务，大数据服务，人工智能行业应用系统集成服务等，由申昊科技全资持股。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-41650236",
@@ -1737,7 +1838,8 @@
       "is_dirty": false,
       "desc_full_zh": "多方消息表明，苹果首款折叠屏iPhone落地进度提速。记者从产业人士处求证获悉，该款折叠屏iPhone已经在量产阶段。代工龙头富士康率先启动大规模招工，为新机生产储备人力。7月7日，赣州富士康发布公众号招聘文章，要求招聘18至50岁员工，主要从事苹果手机精密组件的生产与加工；7月6日，富士康人资发文招募临时工，招聘范围覆盖龙华/观澜苹果A事业群、龙华三赢事业群。据悉上述业务群涉及折叠屏iPhone组装。（上证报）",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ec-c1a67a2d",
@@ -1761,7 +1863,8 @@
       "is_dirty": false,
       "desc_full_en": "Anthropologie's Chief Creative Officer, Richa Srivastava, shares her personal shopping habits with Modern Retail.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": true
     },
     {
       "id": "ec-1c3ce60f",
@@ -1785,7 +1888,8 @@
       "is_dirty": false,
       "desc_full_en": "Forme used Kalshi to hedge a World Cup refund promo, which helped lift the brand's menswear traffic on its site.",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-5b7b3f7b",
@@ -1809,7 +1913,8 @@
       "is_dirty": false,
       "desc_full_zh": "2025 年底，在一次模型团队的聚餐上，Seedance 模型的负责人曾妍向 leader 提到，她还是想试试训一个更大尺寸的模型，至少达到 200B（2000亿参数）。 曾妍是字节 Seed 一位非常年轻的研究员，2021 年校招生，研究方向始终聚焦在视频理解与生成上。“她一直都挺有自己的技术判断。” 一位与曾妍打过交道的人告诉 36 氪，“而且很主动，对于相信的事情比较坚持，会想办法争取资源去实现。” 这个评价几乎复现了曾妍做 Seedance2.0 训练时的处境。“她想训一个参数量更大的模型，但当时团队内部有一些分歧，有人觉得把模型直接 scale up 到 200B-300B 的级别有点冒进了，并且整体的训练资源也紧张，可能先训一个 100B 级别的模型技更安全。”一位知情人士告诉 36 氪。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-3a5fa5cb",
@@ -1833,7 +1938,8 @@
       "is_dirty": false,
       "desc_full_zh": "Fable 5写出超级CUDA内核，性能断层领先，开启AI递归自我提升。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-4f40afc5",
@@ -1857,7 +1963,8 @@
       "is_dirty": false,
       "desc_full_zh": "前段时间雷科技参加了 Rokid Open Day 2026，现场提前亮出了下一代空间计算机 Rokid AR。结合官方公布和雷科技看到的信息，Rokid AR 继续采用分体设计，计算端搭载第五代骁龙 8 至尊版级别的平台，支持完整的 6DoF 空间定位。 Open Day 现场的 Rokid AR 样机，图片来源：雷科技 乐奇 Rokid 甚至把「空间摄像头」和「AI 摄像头」分开，前者负责感知位置与环境，后者负责看懂用户眼前的东西。配合空间计算协处理器，眼镜还能运行 4D 高斯泼溅一类空间内容。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-395491df",
@@ -1881,7 +1988,8 @@
       "is_dirty": false,
       "desc_full_zh": "Anthropic最新发表了一篇超长论文，研究了Claude的潜意识与意识。 具体来说，人脑里有一部分思维你能说出来，还有一大部分你根本不知道自己在想。 他们在Claude内部揪出一小撮神经表征，占的运算量不到十分之一，却像人类「意识可及的思维“一样运作。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-6cbbfb26",
@@ -1905,7 +2013,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，正虹科技公告，公司6月销售生猪1.02万头，环比增长15.25%，同比下降61.56%；销售收入757.42万元，环比增长0.21%，同比下降81.68%。1—6月份，公司累计销售生猪5.32万头，同比下降15.61%；累计销售收入5013.21万元，同比下降39.93%。生猪销售价格、收入同比降幅较大，主要受生猪市场行情波动的影响。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-d9b02648",
@@ -1929,7 +2038,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，近日，有网民发布题为《7月1日新规正式落地！新车智驾芯片自主化率不低于70%》的文章。文中称“7月1日，工信部联合市监总局出台的《新能源汽车车规级AI芯片技术规范》正式强制执行”，并称“国内生产、销售的所有新能源乘用车，智驾芯片全链路关键技术自主化率必须达到70%以上，不达标车型禁止申报、生产、上牌”。经工业和信息化部核查，并未发布过该文件，也从未就新能源车芯片技术自主化率作出规定。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-8922e6f8",
@@ -1953,7 +2063,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，天眼查App显示，近日，广东高域通用航空有限公司成立，法定代表人为葛晶，注册资本1000万人民币，经营范围包括通用航空服务、民用航空器驾驶员培训、航空运营支持服务、智能无人飞行器销售、航空运输设备销售等，由广东高域科技有限公司全资持股。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-5fcf4c1e",
@@ -1977,7 +2088,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，新希望公告，6月销售商品猪125.44万头，环比增长1.70%，同比增长27.35%。商品猪销售收入13.84亿元，环比下降0.15%，同比下降17.18%。商品猪销售均价9.35元/公斤，环比下降1.37%，同比下降34.06%，同比变动较大的原因是市场供过于求。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-978b73f9",
@@ -2001,7 +2113,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，国家外汇管理局统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。2026年6月，受主要经济体宏观经济数据、主要央行货币政策及预期等因素影响，美元指数上升，全球主要金融资产价格表现涨跌互现。汇率折算和资产价格变化等因素综合作用，当月外汇储备规模下降。我国经济总体平稳、向新向优发展，有利于外汇储备规模保持基本稳定。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-7b1da34d",
@@ -2027,7 +2140,8 @@
       "is_dirty": false,
       "desc_full_zh": "服装家纺行业覆盖服装与家用纺织品的研发、设计、生产与销售，核心产品包括成衣、鞋帽、家纺布艺及家居软装。行业关键特征为时尚潮流驱动明显、供应链反应速度要求高、季节性需求波动大、品牌与设计能力构成核心竞争壁垒。...",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-ea5380c9",
@@ -2052,31 +2166,8 @@
       "is_dirty": false,
       "desc_full_zh": "2025年，《智能床》国家标准正式落地实施，首次明确定义了智能床概念，要求具备人机交互、数据采集与智能调节等核心功能，行业由此进入规范化发展新阶段。 标准落地带来的规范化竞争环境，加速了不同背景企业的布局与分化。...",
       "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-5d2f9d6c",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Anthropic͵͵Claude Codeֲδ룬ֻΪʶйû",
-      "title_en": "Anthropic͵͵Claude Codeֲδ룬ֻΪʶйû",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://news.iresearch.cn/content/202607/559616.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://news.iresearch.cn/content/202607/559616.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "Anthropic͵͵Claude Codeֲδ룬ֻΪʶйû 죬RedditдһClaude CodeȻ淢һAnthropicΪ˷йûľɧ һλܽǣClaude CodeᾲĬĶȡ㱾صĵԵϢһּصķʽܵûǷйû",
-      "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-36dff663",
@@ -2100,7 +2191,8 @@
       "is_dirty": false,
       "desc_full_zh": "2025꣬˳ʵӪҵ3082.3Ԫͬ8.4%״ͻ3000Ԫأǿгλҵԡȫ꾻ﵽ111.2Ԫͬ9.3%ԸӪ٣˾ģͬʱӯȽҲӪա˫ҵͷλȹ 2025꣬˳ͬǼʱӭʽͬȴ43.4%127.2ԪΪǿǷﵽ2.78ԪʵŤΪӯҪڼʱҵĿٷչԼ˾ͿƼܡ ͬʱ˳ṩӦҵͬɹŤΪӯʵ־1.88Ԫ޳ܺ˼۸Ӱӹ˾KLNǰǼĿ羳Ӧҵͬߴ32.3%չֳǿԺǱΪ˾Ҫĵڶߡ",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-26984189",
@@ -2124,7 +2216,8 @@
       "is_dirty": false,
       "desc_full_zh": "QuestMobile数据显示，在2026年初国补、春节拉动消费高增长的背景下，2026年“618”全周期的行业DAU均值达7亿，6.16-6.18抢购期行业D",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-b3b8ea0e",
@@ -2148,7 +2241,8 @@
       "is_dirty": false,
       "desc_full_zh": "好欢螺联合农业农村部食物与营养发展研究所、第一财经商业数据中心（CBNData），携手来自江南大学、华南理工大学、中国农业大学、中国食品工业发酵研究院等多家专业机构的食品领域专家，并由中国工程院院士金征宇教授、柳州市螺蛳粉协会会长李冰作序推荐，共同发布《螺蛳粉行业品质标准白皮书》，以产业链视角，解析螺蛳粉行业正在如何建构并践行一套可量化、可验证、科学化的品质标准。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-9f28e631",
@@ -2172,7 +2266,9 @@
       "is_dirty": false,
       "desc_full_zh": "",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-f453673e",
@@ -2196,7 +2292,8 @@
       "is_dirty": false,
       "desc_full_zh": "华夏基金徐猛：极致行情下两大潜在风险不容忽视，关注景气外溢带来的投资机会",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-1b033af4",
@@ -2220,7 +2317,8 @@
       "is_dirty": false,
       "desc_full_zh": "香港黄金中央 人民币 黄金 此举将为在香港建设全面的黄金交易生态圈打下牢固基础",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-daffa7af",
@@ -2244,7 +2342,8 @@
       "is_dirty": false,
       "desc_full_zh": "2026年初，两届中央纪委委员、63岁的张骥卸任驻外交部纪检监察组长",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-e6c3fbcf",
@@ -2268,7 +2367,8 @@
       "is_dirty": false,
       "desc_full_zh": "格林斯潘,把格林斯潘的错误概括成相信市场万能，固然简单明快，却降低了问题的分析价值。错误地理解过去的危机，夸大某些理论和个人的影响，可能导致错误地设计未来的政策",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-fb2d9952",
@@ -2292,7 +2392,8 @@
       "is_dirty": false,
       "desc_full_zh": "供强需弱 供需,供强需弱源于一系列体制性、结构性因素支撑的倾斜式增长方式，要把注意力和突破口放到深化储蓄—消费机制改革，实质性降低储蓄率，相应扩大终端需求",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-915b5a22",
@@ -2316,7 +2417,8 @@
       "is_dirty": false,
       "desc_full_zh": "【Leo张ToB杂谈】关注数据中心 算力产业 安全行业 行业大模型应用 云计算 微信：LeozhangSY813",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-1385ff2b",
@@ -2340,7 +2442,8 @@
       "is_dirty": false,
       "desc_full_en": "A growing number of perfume brands have been tapping into garden-based scents for their fragrance launches in 2026. Cosmetics Business gets to the root of the trend and explores how this unique fragrance offering is developing",
       "desc_full_zh": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-448ec86c",
@@ -2364,7 +2467,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，天眼查App显示，近日，海南中远海运集装箱航运有限公司成立，法定代表人为程菁，注册资本3亿人民币，经营范围包括从事国际集装箱船、普通货船运输，船舶租赁，国际船舶代理，国内货物运输代理，国际货物运输代理，供应链管理服务等。股东信息显示，该公司由中远海控旗下中远海运集装箱运输有限公司全资持股。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-cd35c59c",
@@ -2388,7 +2492,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，天眼查App显示，近日，湖南兴航飞行低空科技有限公司成立，法定代表人为侯昂，注册资本1亿人民币，经营范围包括通用航空服务、公共航空运输、民用机场运营、航空运营支持服务、人工智能行业应用系统集成服务、软件开发、信息系统集成服务等。股东信息显示，该公司由湖南省低空经济发展集团有限公司、南航通用航空股份有限公司共同持股。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-68781b81",
@@ -2412,7 +2517,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，动力源公告，公司控股股东及实控人何振亚筹划公司股份转让事宜，该事项可能导致公司控制权发生变更。截至目前，该事项仍处于筹划之中，经申请，公司股票将于7月8日开市起继续停牌，预计继续停牌时间不超过3个交易日。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-b0b393d7",
@@ -2436,7 +2542,8 @@
       "is_dirty": false,
       "desc_full_zh": "36氪获悉，光库科技披露业绩预告，预计2026年上半年实现归属于上市公司股东的净利润1.4亿元—1.5亿元，同比增长170%—190%。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-a4e2ebc4",
@@ -2460,7 +2567,8 @@
       "is_dirty": false,
       "desc_full_zh": "华为Mate90系列有望搭载基于韬定律的新麒麟芯片；保时捷停止接收纯电Macan、Taycan新车个性化定制订单；英特尔上调部分CPU价格；泰雷兹同意以39亿欧元收购Exail Technologies；大陆集团以40亿欧元出售ContiTech，宣告退出工业业务领域；索尼将停止生产PlayStation5实体游戏光盘，终结游戏实体拥有时代；事关儿童接种疫苗，国家疾控局等部门发布新版说明；7月6日起，A股交易规则重要调整；聚焦人工智能等领域，今年技工院校计划招生125万人；中央网信办、中央社会工作部决定集中开展为期2个月的网络平台涉志愿服务违规信息专项整治；国家文物局印发《国有文物资源数据管理办法》；宇树科技科创板IPO注册生效；Strategy出售价值2.16亿美元的比特币；SpaceX总裁Shotwell将向特朗普账户捐赠SpaceX股票；深交所发布中公教育股票交易情况的通报；研究人员借助AI技术发现两种新型超导体；猪价再回10元时代",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-f2701741",
@@ -2484,7 +2592,8 @@
       "is_dirty": false,
       "desc_full_zh": "全国仅有的三座GDP“万亿城区”——上海浦东、北京海淀、深圳南山，近日相继发布“十五五”规划纲要全文。 作为全国首个国家级新区，浦东2018年GDP就首破万亿，至2025年GDP已达1.88万亿元。“十五五”期间，浦东提出力争GDP年均增速5%以上。以5%估算，到2030年浦东GDP或达2.4万亿元。 2022年，海淀区成为全国第二个“万亿城区”，也是全国首个GDP破万亿的地市级区。海淀明确，到2030年GDP在2020年8504.6亿元的基础上翻一番，“为迈上新的万亿台阶奠定基础”。简单换算，“十五五”收官之年海淀经济体量或站上1.7万亿元。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-557b8998",
@@ -2508,7 +2617,8 @@
       "is_dirty": false,
       "desc_full_zh": "客流与消费双双走高，“China Travel”热度正从“流量”加速转化为实打实的“留量”。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-66b10a48",
@@ -2532,7 +2642,8 @@
       "is_dirty": false,
       "desc_full_zh": "21经济网是21世纪经济报道门户网站，主打财经新闻，是21世纪经济报道原创新闻最重要的展现平台，同时，有机整合客户端最深度策划、抢鲜报最新资讯，给读者提供最优质的阅读。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-1ac2db41",
@@ -2556,7 +2667,8 @@
       "is_dirty": false,
       "desc_full_zh": "在他看来，投资前沿科技、押注创新赛道当然重要，但越是在未来产业热起来的时候，投资人越要想清楚：价值从哪里来，风险由谁承担，以及商业本质是否依然成立。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-a86a9a0e",
@@ -2580,7 +2692,8 @@
       "is_dirty": false,
       "desc_full_zh": "5.14，英特尔、AMD、火山引擎、沐曦、壁仞等关键玩家已就位，2026智算基础设施创新大会暨萧山区芯机社区产业生态共建交流会杭州启幕！",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-ed317b42",
@@ -2604,7 +2717,8 @@
       "is_dirty": false,
       "desc_full_zh": "Covering tax developments and insights affecting businesses in the Hong Kong SAR",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-32b0f2c4",
@@ -2628,7 +2742,8 @@
       "is_dirty": false,
       "desc_full_zh": "2025A股市场是普涨 ， 大家都有机会 ， 但2026年上半年这个市场 ， 确实让很多老韭菜有些摸不着头脑 。 甚至不得不承认的是 ， 面对2026年上半年这个八亏一平一赚的市场 ， 至少笔者是属于亏损的那部分 。 但是，同样必须承认的是，2026年这行情 ， 牛市是无疑的 。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-1390bcd5",
@@ -2652,7 +2767,9 @@
       "is_dirty": false,
       "desc_full_zh": "",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-c8ca592a",
@@ -2676,7 +2793,8 @@
       "is_dirty": false,
       "desc_full_zh": "12月11日，第二届ADD数据应用场景大会在北京通州台湖启幕！一线AI人与数据领袖齐聚、年度重磅榜单发布、全天闭门深度对接……关于AI与数据的最新趋势、最强干货、最全机会，都在这里！",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "beauty-0f5860c9",
@@ -2696,7 +2814,9 @@
       ],
       "sourceLinks": [
         "https://www.allure.com/story/who-is-longevity-for"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "I'm begging for a break from longevity marketing."
     },
     {
       "id": "beauty-9bb08d9e",
@@ -2716,7 +2836,9 @@
       ],
       "sourceLinks": [
         "https://www.allure.com/story/best-at-home-waxing-kits"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Strips and hard wax for your legs, bikini line, face, and beyond."
     },
     {
       "id": "beauty-03e045ee",
@@ -2736,7 +2858,9 @@
       ],
       "sourceLinks": [
         "https://www.allure.com/story/best-korean-highlighters"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Consider these your shortcut to a lit-from-within glow."
     },
     {
       "id": "beauty-31e4bb03",
@@ -2756,7 +2880,9 @@
       ],
       "sourceLinks": [
         "https://wwd.com/beauty-industry-news/color-cosmetics/cody-plofker-steps-down-ceo-jones-road-1239055906/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The son of founder Bobbi Brown will join Jones Road's board as the beauty brand seeks leadership for its next growth phase."
     },
     {
       "id": "beauty-88aecb84",
@@ -2776,7 +2902,9 @@
       ],
       "sourceLinks": [
         "https://wwd.com/beauty-industry-news/beauty-features/beauty-wellness-retail-expansions-launch-1238467470/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The latest beauty retail expansions to know."
     },
     {
       "id": "ai-d9eeffd6",
@@ -2796,7 +2924,9 @@
       ],
       "sourceLinks": [
         "https://wwd.com/beauty-industry-news/beauty-features/bogart-owner-exclusive-talks-marionnaud-perfumery-chain-1239055571/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "David Konckier is in discussions with CK Hutchison Holdings for the perfumery chain."
     },
     {
       "id": "beauty-26bfd26b",
@@ -2816,7 +2946,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/student-beauty-shadow-board-winners-2026"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Five students have been selected to join the programme, led by Unidays, and designed to support the next generation of beauty talent through a grant, mentorship and more。"
     },
     {
       "id": "beauty-485e3679",
@@ -2836,7 +2968,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/gym-girl-beauty-is-on-the-rise"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "With a plethora of new launches setting out to target fitness fanatics, discover how the gym girl beauty subcategory is working hard in 2026 while consumers work out。"
     },
     {
       "id": "beauty-2472a40c",
@@ -2856,7 +2990,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/refy-teams-up-with-sephora-to-try-and"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Refy’s entry into Sephora Europe in 13 countries marks the viral make-up brand’s biggest retail expansion to date。"
     },
     {
       "id": "beauty-b4f4112e",
@@ -2876,7 +3012,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/rituals-issues-warning-to-community-about-fake-accounts"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The Dutch beauty brand has alerted its consumers about fraudulent social media accounts impersonating the brand and its employees, stating, ‘we take this matter very seriously and are in contact with all affected social platforms’。"
     },
     {
       "id": "ai-3f9e7e71",
@@ -2896,7 +3034,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/purity-testing-reveals-100-failure-rate-in-grapeseed"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The Soapery tested the purity of grapeseed oil from 5 leading retailers and found that none of the samples were 100% pure.。Do you know what your grapeseed oil bottle actually contains?"
     },
     {
       "id": "beauty-bf9e79fb",
@@ -2916,7 +3056,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/lvmh-ceo-bernard-arnault-ordered-to-pay-22-5"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "A court in France has allegedly ruled that LVMH boss Bernard Arnault must pay taxes related to previous years in a long-running dispute。"
     },
     {
       "id": "beauty-5f73ba78",
@@ -2936,7 +3078,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/erha-unveils-skin-aidentify-an-ai-powered-skin"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Arya Noble Scales Intelligent Derma Beauty Through a WhatsApp-First Experience Designed to Drive Consumer Engagement and Data-Driven Growth Across Indonesia。"
     },
     {
       "id": "beauty-7402a62b",
@@ -2956,7 +3100,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/liberty-invites-uk-artists-to-design-beauty-advent-calendar"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The luxury department store is asking UK artists to submit their vision for its popular beauty advent calendar, with the winner’s design being used in 2027.。This is the first time Liberty has opened the creative process to the wider artistic community。"
     },
     {
       "id": "beauty-ce19a00d",
@@ -2976,7 +3122,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/ppwr-the-new-european-regulation-requiring-cosmetic-packaging"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Sustainability is no longer simply a branding strategy—it is becoming a legal obligation.。The new EU Packaging and Packaging Waste Regulation (PPWR) introduces new requirements that will affect every product placed on the European market, including cosmetics。"
     },
     {
       "id": "beauty-6a1b8b9c",
@@ -2996,7 +3144,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/syensqo-launches-repel-o-tex-crystal-premium-a"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "This new technology supports consumers’ shift to shorter and colder wash cycles without compromising cleaning efficacy。"
     },
     {
       "id": "beauty-5f05b9c2",
@@ -3016,7 +3166,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/sharon-personal-care-officially-becomes-eternis-personal-care"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Effective July 1, 2026, Sharon Personal Care officially becomes Eternis Personal Care, marking the completion of its integration following Eternis Fine Chemicals Ltd.'s acquisition of the business in November 2024。"
     },
     {
       "id": "beauty-6a063dc9",
@@ -3036,7 +3188,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/award-winning-iromascents-builds-on-international-retail-success"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Retailers, distributors and fragrance brands interested in bringing proven AI-powered fragrance retail technology to their own markets are invited to meet the iRomaScents team at Booth #37137 during Cosmoprof North America Las Vegas, 13–15 July, to experience the platform first-hand and discuss commercial partnership opportunities。"
     },
     {
       "id": "beauty-45b80745",
@@ -3056,7 +3210,9 @@
       ],
       "sourceLinks": [
         "https://www.cosmeticsbusiness.com/haut-ai-launches-ai-powered-body-analysis-amid-rising"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "AI launches its new AI-powered Body Analysis platform for beauty and wellness brands, a first-of-its-kind technology enabling to conduct objective, quantitative skin analysis across the full body through a simple smartphone photo。"
     },
     {
       "id": "ai-dfc457b4",
@@ -3076,7 +3232,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday."
     },
     {
       "id": "ai-9e568e72",
@@ -3096,7 +3254,9 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine."
     },
     {
       "id": "ai-1b991159",
@@ -3116,7 +3276,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3886292019556357"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "ai-fa38cd46",
@@ -3136,7 +3298,9 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3886215845146625"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-4458e5b6",
@@ -3156,7 +3320,9 @@
       ],
       "sourceLinks": [
         "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Overall, investment in U.。and Canadian startups totaled a staggering $392 billion for the first half of 2026, per Crunchbase data, dwarfing anything we’ve seen before."
     },
     {
       "id": "ec-f765f1a4",
@@ -3176,7 +3342,9 @@
       ],
       "sourceLinks": [
         "https://www.modernretail.co/operations/brands-briefing-salomon-is-working-to-double-its-us-store-count-by-2028/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Sporting-goods company Salomon is going \"city by city\" as it looks to grow its retail presence in the U.。S., executives say."
     },
     {
       "id": "ec-3b1a61ce",
@@ -3198,7 +3366,9 @@
         "https://www.practicalecommerce.com/new-ecommerce-tools-july-7-2026",
         "https://www.practicalecommerce.com/new-ecommerce-tools-july-1-2026",
         "https://www.practicalecommerce.com/new-ecommerce-tools-june-24-2026"
-      ]
+      ],
+      "is_repeat_desc": true,
+      "desc_full_zh": "This week's rundown includes new services for livestreaming, product images, logistics, agentic commerce, one-click checkout, Amazon, and more.。The post New Ecommerce Tools: July 7, 2026 appeared first on Practical Ecommerce."
     },
     {
       "id": "ec-863615a0",
@@ -3218,7 +3388,9 @@
       ],
       "sourceLinks": [
         "https://www.digitalcommerce360.com/2026/07/07/the-future-of-digital-commerce-in-consumer-healthcare/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "desc_full_zh": "Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360.。Our editorial staff is not involved in the creation of the sponsored content."
     },
     {
       "id": "ai-3787d5d5",
@@ -3238,7 +3410,9 @@
       ],
       "sourceLinks": [
         "https://www.digitalcommerce360.com/2026/07/07/resideo-board-sets-schedule-for-adi-spinoff/"
-      ]
+      ],
+      "is_repeat_desc": true,
+      "desc_full_zh": "Resideo Technologies Inc.。and ADI Global Distribution remain on track to split, following the Resideo board of directors’ vote to approve key dates in July and August."
     },
     {
       "id": "research-e9351c89",
@@ -3258,7 +3432,9 @@
       ],
       "sourceLinks": [
         "https://www.iimedia.cn/c1088/112608.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "research-e2a7a25a",
@@ -3278,7 +3454,9 @@
       ],
       "sourceLinks": [
         "https://img.iimedia.cn/10001a52ac6245a2b2f7ac1574150acf1a7c8c202859d34d94bda9cb664b0802e59cc"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-dcef53d7",
@@ -3298,7 +3476,9 @@
       ],
       "sourceLinks": [
         "https://www.cls.cn/detail/2419948"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-8de8893c",
@@ -3318,7 +3498,9 @@
       ],
       "sourceLinks": [
         "https://www.cls.cn/detail/2419897"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-78cb5e18",
@@ -3338,7 +3520,9 @@
       ],
       "sourceLinks": [
         "https://www.cls.cn/detail/2419877"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-45c32fb6",
@@ -3358,7 +3542,9 @@
       ],
       "sourceLinks": [
         "https://www.cls.cn/detail/2419738"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-d683ea92",
@@ -3378,7 +3564,9 @@
       ],
       "sourceLinks": [
         "https://www.12377.cn/"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-208fdf14",
@@ -3399,7 +3587,9 @@
       "sourceLinks": [
         "https://www.caixin.com/2026-07-07/102461743.html",
         "https://www.caixin.com/2026-07-07/102461721.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-27e34e96",
@@ -3419,7 +3609,9 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/banner/homepageUrl/id/3491"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-6e549f97",
@@ -3439,7 +3631,9 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/latest/index/id/4745"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-29ccf8cf",
@@ -3459,7 +3653,9 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/tag/DeepSeek"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-70f106b7",
@@ -3479,7 +3675,9 @@
       ],
       "sourceLinks": [
         "https://m.21jingji.com/article/20260708/herald/2697664045d80b4e8abc3153bc05cfdb.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-76021925",
@@ -3499,7 +3697,9 @@
       ],
       "sourceLinks": [
         "https://www.jiemian.com/article/14721128.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-03bfe44d",
@@ -3519,7 +3719,9 @@
       ],
       "sourceLinks": [
         "https://www.jiemian.com/article/13163796.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-8d430b12",
@@ -3539,7 +3741,9 @@
       ],
       "sourceLinks": [
         "https://www.jiemian.com/article/12900248.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-37049262",
@@ -3559,7 +3763,9 @@
       ],
       "sourceLinks": [
         "https://www.cyzone.cn/album/835756"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-662c01f6",
@@ -3579,7 +3785,9 @@
       ],
       "sourceLinks": [
         "https://www.chinaventure.com.cn/news/64-20260126-389940.html"
-      ]
+      ],
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "ai-e0b43516",
@@ -3603,7 +3811,8 @@
       "is_dirty": false,
       "desc_full_zh": "有人说AI编程赚钱，也有人说AI Agent赚钱，还有人说AI视频生成赚钱，但你知道吗，其实AI音频也挺赚钱的。 外媒报道称，ElevenLabs正在内部讨论一项二级市场股份出售交易，允许员工卖掉手里的股票。这笔交易预计在9月之前完成，估值大约220亿美元。 可就在5个月前，这家公司才刚刚完成5亿美元的D轮融资，当时ElevenLabs的估值110亿美元。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "ai-e0970940",
@@ -3627,7 +3836,8 @@
       "is_dirty": false,
       "desc_full_zh": "一年前，OpenAI首席执行官山姆·奥特曼（Sam Altman）还在公开预警大量岗位将“彻底消失”。 Anthropic CEO达里奥·阿莫迪（Dario Amodei）则断言五年内半数白领入门级工作将不复存在，失业率恐飙升至20%。 Palantir CEO亚历克斯·卡普（Alex Karp）甚至放话，在AI时代，只有手艺人和天生不按常理思考的人，才能确保不被淘汰。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-64a137e1",
@@ -3651,7 +3861,8 @@
       "is_dirty": false,
       "desc_full_zh": "΢Ͷ25Ԫ6000רפAIAWSOpenAIAnthropicȺ DE OpenAIʽ飬 5% ĹȨƽȨ𡣰ù˾8520ԪĹֵ㣬òֹȨֵߴԼ426ԪͬʱOpenAIAnthropicGoogleMetaͷAI̹ͬüƻơùڷAIкѷʽ һ벢Ǻĵڶڣ20258³89ԪȡӢضԼ10%ĹɷݣΪֱӳֹսԿƼҵȷֳģ塣ǰ᰸ʱź壺£AnthropicڹƱͣMythosFableģ͵ʹãֱܶŻ׼ָOpenAIѡڴ˽ڵ׳ֹ᰸ͼʮԡùڷAIΪװʵΪǰģ͵ҵȡɵ߿ռ䡣",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-ef06fb91",
@@ -3675,7 +3886,8 @@
       "is_dirty": false,
       "desc_full_zh": "20261-5ƶƵҵûģ̧³гѻȺΪҵɽڼնתΪͷƷݳЧաѶƵſᡢâTVضݲ֣졢װ顢ϲ硢ʵо缯Nճȶаѯ VideoTrackerUserTracker ݿ⣬2026ǰƶƵгչ͹۷Χҵݡͷƽ̨ű֡ű봫֡¶ȶȰ񵥼ԱûƫάȣϵͳǰƶƵ̬߼͹۳ֱ׶Ƶҵʵгչ״",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-bda9710a",
@@ -3699,7 +3911,8 @@
       "is_dirty": false,
       "desc_full_zh": "Claude Sonnet 5ߣAgentƽOpus۸֮һΪFreeProĬģ",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-2bfa0b4e",
@@ -3723,7 +3936,8 @@
       "is_dirty": false,
       "desc_full_zh": "氨糖是呵护关节软骨的关键营养素，早已成为大众共识。如何挑选合适的氨糖产品，也成为当下消费者关心的议题。迪巧联合第一财经商业数据中心（CBNData）、京东健康及华熙生物共同发布《关节健康，吸收有道——氨糖消费进阶与选购新主张》，为消费者提供一份科学、实用的氨糖选购指南，助力关节健康产业迈向更高品质的发展新阶段。",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "research-0fda4bf2",
@@ -3751,7 +3965,9 @@
       "is_dirty": false,
       "desc_full_zh": "",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-573be1eb",
@@ -3775,7 +3991,8 @@
       "is_dirty": false,
       "desc_full_zh": "就在今日！SpaceX正式纳入纳斯达克100指数 巨震行情又将开启？",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-3e56cb7c",
@@ -3799,7 +4016,9 @@
       "is_dirty": false,
       "desc_full_zh": "",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-f9d91b10",
@@ -3823,7 +4042,9 @@
       "is_dirty": false,
       "desc_full_zh": "",
       "desc_full_en": "",
-      "has_full_summary": false
+      "has_full_summary": false,
+      "is_repeat_desc": false,
+      "no_desc": true
     },
     {
       "id": "biz-9ef07f9d",
@@ -3847,7 +4068,8 @@
       "is_dirty": false,
       "desc_full_zh": "马斯克“整合拼图”再添一块：SpaceXAI携新LOGO同步上线！",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-c1f83b88",
@@ -3872,7 +4094,8 @@
       "is_dirty": false,
       "desc_full_zh": "要全力组织抢险救援、伤员救治、群众安置等工作，最大限度减少人员伤亡，防范次生灾害",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     },
     {
       "id": "biz-1b807906",
@@ -3896,7 +4119,8 @@
       "is_dirty": false,
       "desc_full_zh": "杨有林,他们贪腐的是钱，改变的却是规则，一方市场不得不看他们的脸色。市场交易不能不萎缩或扭曲。在当前形势下，依法反腐，对提振经济具有特殊的意义",
       "desc_full_en": "",
-      "has_full_summary": true
+      "has_full_summary": true,
+      "is_repeat_desc": false
     }
   ],
   "rss_sources": {
@@ -3959,5 +4183,6 @@
       "https://kpmg.com/cn/zh/home/insights.html"
     ]
   },
-  "last_updated_cleaned": "2026-07-08"
+  "last_updated_cleaned": "2026-07-08",
+  "last_clean_run": "2026-07-08 11:45"
 }
