@@ -43,9 +43,11 @@ def _call_mymemory(text: str, target: str) -> str | None:
     if not text or not text.strip():
         return ""
     try:
+        # 带邮箱 → 50K 词/天(默认 5K)
         url = "https://api.mymemory.translated.net/get?" + urllib.parse.urlencode({
             "q": text[:500],  # 单次限 500 字符
             "langpair": f"en|{target}" if target.startswith("zh") else f"{target}|en",
+            "de": "tatia@depology.com",
         })
         req = urllib.request.Request(url, headers={"User-Agent": "aily-trends-bot/1.0"})
         with urllib.request.urlopen(req, timeout=10) as r:
