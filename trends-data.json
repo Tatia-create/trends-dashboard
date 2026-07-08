@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 170,
+    "total": 159,
     "hot": 23,
     "trend": 142,
     "new": 0,
@@ -101,31 +101,6 @@
       ],
       "is_dirty": true,
       "desc_full_zh": "编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第三期——易控智驾。 那是一家做游戏出海的公司，叫广州易幻网络。当年被A股上市公司宝通科技以超过17亿元对价收购，按公开交易安排及后续减持情况粗算，蓝水生相关方整体退出规模约在15亿元上下。 按照创业常见剧本，故事到这里基本就可以收尾了。毕竟一个江西财经大学毕业的连续创业者，靠游戏出海完成财富跃迁。接下来，他可以做投资人，可以继续在熟悉的游戏行业滚雪球，也可以躺在资产负债表上享受余生。",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "research-b9128c9d",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "|2026йҽԻӿҵо桷",
-      "title_en": "|2026йҽԻӿҵо桷",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://news.iresearch.cn/content/202606/559379.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://news.iresearch.cn/content/202606/559379.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "񾭿ѧ˹ҽѧ̵ȽںϣԻӿڣBCIٿԽʵٴĺ蹵20263£зֲʽԻӿϵͳҩ֣NMPA׼УΪȫ׸ֲʽҽеע֤ĲƷ־йBCIҵʽʻ롰ؿ쳵 ͬʱԻӿڲҵսԵλ̧ҼδҵصǰؼչУҵչơ߷֡ͻơʱٴ£ԻӿڲҵɴӼ֤ҵջʵԿԽ ǰҹϵͳ˶ϰȲȺģӴ󣬴ͳ뿵ֶδԶ̰壬ҽƼԻӿھ߱ǿٴӦüֵгռ䡣ڴ˱£ϵͳҵչ״弼·߸֡ͷҵչ·вҵδݽ򣬶԰ҵչƶҵ淶չ߱Ҫʵ塣",
       "desc_full_en": "",
       "has_full_summary": true,
       "is_repeat_desc": false
@@ -658,28 +633,6 @@
       ],
       "is_repeat_desc": false,
       "desc_full_zh": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+.。The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said."
-    },
-    {
-      "id": "research-cc9b308b",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "LongCat-2.0",
-      "title_en": "LongCat-2.0",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "http://s.iresearch.cn/search/LongCat-2.0/",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "http://s.iresearch.cn/search/LongCat-2.0/"
-      ],
-      "is_repeat_desc": false,
-      "no_desc": true
     },
     {
       "id": "biz-288cda28",
@@ -2092,84 +2045,6 @@
       "is_repeat_desc": false
     },
     {
-      "id": "research-7b1da34d",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "艾媒咨询 | 2026-2027年中国钠离子电池产业运行及标杆企业研究报告",
-      "title_en": "艾媒咨询 | 2026-2027年中国钠离子电池产业运行及标杆企业研究报告",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.iimedia.cn/c400/112252.html",
-      "sourceLabel": "iMedia 艾媒",
-      "sourceType": "html",
-      "sources": [
-        "iMedia 艾媒"
-      ],
-      "sourceLinks": [
-        "https://www.iimedia.cn/c400/112252.html",
-        "https://www.iimedia.cn/c400/112390.html",
-        "https://www.iimedia.cn/c400/112404.html"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "服装家纺行业覆盖服装与家用纺织品的研发、设计、生产与销售，核心产品包括成衣、鞋帽、家纺布艺及家居软装。行业关键特征为时尚潮流驱动明显、供应链反应速度要求高、季节性需求波动大、品牌与设计能力构成核心竞争壁垒。...",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "research-ea5380c9",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "艾媒咨询 | 2026年中国智能床行业发展趋势报告",
-      "title_en": "艾媒咨询 | 2026年中国智能床行业发展趋势报告",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.iimedia.cn/c400/112346.html",
-      "sourceLabel": "iMedia 艾媒",
-      "sourceType": "html",
-      "sources": [
-        "iMedia 艾媒"
-      ],
-      "sourceLinks": [
-        "https://www.iimedia.cn/c400/112346.html",
-        "https://www.iimedia.cn/c400/112338.html"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "2025年，《智能床》国家标准正式落地实施，首次明确定义了智能床概念，要求具备人机交互、数据采集与智能调节等核心功能，行业由此进入规范化发展新阶段。 标准落地带来的规范化竞争环境，加速了不同背景企业的布局与分化。...",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "research-36dff663",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "˳Ʊ2025нս",
-      "title_en": "˳Ʊ2025нս",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://column.iresearch.cn/b/202604/1026774.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://column.iresearch.cn/b/202604/1026774.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "2025꣬˳ʵӪҵ3082.3Ԫͬ8.4%״ͻ3000Ԫأǿгλҵԡȫ꾻ﵽ111.2Ԫͬ9.3%ԸӪ٣˾ģͬʱӯȽҲӪա˫ҵͷλȹ 2025꣬˳ͬǼʱӭʽͬȴ43.4%127.2ԪΪǿǷﵽ2.78ԪʵŤΪӯҪڼʱҵĿٷչԼ˾ͿƼܡ ͬʱ˳ṩӦҵͬɹŤΪӯʵ־1.88Ԫ޳ܺ˼۸Ӱӹ˾KLNǰǼĿ羳Ӧҵͬߴ32.3%չֳǿԺǱΪ˾Ҫĵڶߡ",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
       "id": "research-26984189",
       "cat": "research",
       "heat": "arch",
@@ -3390,50 +3265,6 @@
       "desc_full_zh": "Resideo Technologies Inc.。and ADI Global Distribution remain on track to split, following the Resideo board of directors’ vote to approve key dates in July and August."
     },
     {
-      "id": "research-e9351c89",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "7月7日AI新产品讯息：SpaceX公布AI数据中心计划，同步推进星链卫星脱轨、微软Teams加强.",
-      "title_en": "7月7日AI新产品讯息：SpaceX公布AI数据中心计划，同步推进星链卫星脱轨、微软Teams加强.",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.iimedia.cn/c1088/112608.html",
-      "sourceLabel": "iMedia 艾媒",
-      "sourceType": "html",
-      "sources": [
-        "iMedia 艾媒"
-      ],
-      "sourceLinks": [
-        "https://www.iimedia.cn/c1088/112608.html"
-      ],
-      "is_repeat_desc": false,
-      "no_desc": true
-    },
-    {
-      "id": "research-e2a7a25a",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "出版物经营许可证:粤穗 E-0518",
-      "title_en": "出版物经营许可证:粤穗 E-0518",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://img.iimedia.cn/10001a52ac6245a2b2f7ac1574150acf1a7c8c202859d34d94bda9cb664b0802e59cc",
-      "sourceLabel": "iMedia 艾媒",
-      "sourceType": "html",
-      "sources": [
-        "iMedia 艾媒"
-      ],
-      "sourceLinks": [
-        "https://img.iimedia.cn/10001a52ac6245a2b2f7ac1574150acf1a7c8c202859d34d94bda9cb664b0802e59cc"
-      ],
-      "is_repeat_desc": false,
-      "no_desc": true
-    },
-    {
       "id": "biz-dcef53d7",
       "cat": "biz",
       "heat": "arch",
@@ -3815,81 +3646,6 @@
       "is_repeat_desc": false
     },
     {
-      "id": "research-64a137e1",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "տƼ۲OpenAIֹ",
-      "title_en": "տƼ۲OpenAIֹ",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://news.iresearch.cn/content/202607/559830.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://news.iresearch.cn/content/202607/559830.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "΢Ͷ25Ԫ6000רפAIAWSOpenAIAnthropicȺ DE OpenAIʽ飬 5% ĹȨƽȨ𡣰ù˾8520ԪĹֵ㣬òֹȨֵߴԼ426ԪͬʱOpenAIAnthropicGoogleMetaͷAI̹ͬüƻơùڷAIкѷʽ һ벢Ǻĵڶڣ20258³89ԪȡӢضԼ10%ĹɷݣΪֱӳֹսԿƼҵȷֳģ塣ǰ᰸ʱź壺£AnthropicڹƱͣMythosFableģ͵ʹãֱܶŻ׼ָOpenAIѡڴ˽ڵ׳ֹ᰸ͼʮԡùڷAIΪװʵΪǰģ͵ҵȡɵ߿ռ䡣",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "research-ef06fb91",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "20261-5的ַ",
-      "title_en": "20261-5ƶƵƽ̨űַ",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://report.iresearch.cn/report/202607/4841.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://report.iresearch.cn/report/202607/4841.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "20261-5ƶƵҵûģ̧³гѻȺΪҵɽڼնתΪͷƷݳЧաѶƵſᡢâTVضݲ֣졢װ顢ϲ硢ʵо缯Nճȶаѯ VideoTrackerUserTracker ݿ⣬2026ǰƶƵгչ͹۷Χҵݡͷƽ̨ű֡ű봫֡¶ȶȰ񵥼ԱûƫάȣϵͳǰƶƵ̬߼͹۳ֱ׶Ƶҵʵгչ״",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
-      "id": "research-bda9710a",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "”۲十四行诗5",
-      "title_en": "տƼ۲Sonnet 5",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://news.iresearch.cn/content/202607/559611.shtml",
-      "sourceLabel": "iResearch 艾瑞",
-      "sourceType": "html",
-      "sources": [
-        "iResearch 艾瑞"
-      ],
-      "sourceLinks": [
-        "https://news.iresearch.cn/content/202607/559611.shtml"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "Claude Sonnet 5ߣAgentƽOpus۸֮һΪFreeProĬģ",
-      "desc_full_en": "",
-      "has_full_summary": true,
-      "is_repeat_desc": false
-    },
-    {
       "id": "research-2bfa0b4e",
       "cat": "research",
       "heat": "arch",
@@ -3913,36 +3669,6 @@
       "desc_full_en": "",
       "has_full_summary": true,
       "is_repeat_desc": false
-    },
-    {
-      "id": "research-0fda4bf2",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "京公网安备11010502037000号",
-      "title_en": "京公网安备11010502037000号",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502037000",
-      "sourceLabel": "艺恩 EndData",
-      "sourceType": "html",
-      "sources": [
-        "艺恩 EndData",
-        "界面新闻",
-        "KPMG 中国"
-      ],
-      "sourceLinks": [
-        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502037000",
-        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000180",
-        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode&#61;11010102003233"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "",
-      "desc_full_en": "",
-      "has_full_summary": false,
-      "is_repeat_desc": false,
-      "no_desc": true
     },
     {
       "id": "biz-573be1eb",
