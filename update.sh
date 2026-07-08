@@ -1,85 +1,46 @@
 #!/bin/bash
-# update.sh — 全球趋势仪表盘每日更新脚本
-# 在定时任务里跑: 抓取 → 推送 GitHub → Pages 自动部署
-# 一切全自动, 用户无需任何操作
-
+# update.sh — 趋势仪表盘每日更新 (v3.1)
+# 5 步: 1抓取 2过滤 3补翻 4精华 5推送
+# 每日 10:30 由 cron 触发
 set -e
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
+
+echo "🚀 update.sh 启动: $(date '+%Y-%m-%d %H:%M:%S')"
+echo "📂 工作目录: $SCRIPT_DIR"
 
 # ========== 1. 抓取数据 ==========
 echo "📥 [1/5] 抓取 RSS ..."
 python3 scripts/fetch_trends.py
 
-# ========== 2. 补翻 MyMemory 限流漏掉的 ==========
-echo "🌐 [2/5] 补翻 ..."
+# ========== 2. 过滤垃圾(源头屏蔽 + 标题/描述黑名单) ==========
+echo "🧹 [2/5] 过滤垃圾条目 ..."
+python3 scripts/filter_junk.py
+
+# ========== 3. 补翻 MyMemory 限流漏掉的 ==========
+echo "🌐 [3/5] 补翻 ..."
 python3 scripts/retranslate_remaining.py || echo "  (无遗漏)"
 
-# ========== 3. 提取精华总结 (路径 C, 0 元) ==========
-echo "📝 [3/5] 提取精华 ..."
+# ========== 4. 提取精华总结 (路径 C, 0 元) ==========
+echo "📝 [4/5] 提取精华 ..."
 python3 scripts/extract_summaries.py || echo "  (无新增)"
 
-# ========== 4. 推送 GitHub ==========
-echo "🚀 [4/5] 推送 GitHub ..."
+# ========== 5. 推送 GitHub ==========
+echo "🚀 [5/5] 推送 GitHub ..."
 TOKEN_FILE="$SCRIPT_DIR/.gh_token"
-if [[ ! -f "$TOKEN_FILE" ]]; then
-  echo "❌ Token file not found: $TOKEN_FILE"
-  exit 1
+if [ -f "$TOKEN_FILE" ]; then
+    TOKEN=$(cat "$TOKEN_FILE" | tr -d '[:space:]')
+    git add trends-data.json scripts/ version-c-bilingual-v3-info.html 2>/dev/null || true
+    if git diff --cached --quiet 2>/dev/null; then
+        echo "  (无变更,跳过提交)"
+    else
+        git commit -m "🤖 自动更新:$(date '+%Y-%m-%d %H:%M') [skip ci]" 2>&1 | head -3
+        git push origin main 2>&1 | head -3
+        echo "  ✅ 已推 GitHub"
+    fi
+else
+    echo "  ⚠️ 无 .gh_token,跳过推送(等手动推)"
 fi
-TOKEN=$(cat "$TOKEN_FILE")
-REPO="Tatia-create/trends-dashboard"
-DATA_FILE="$SCRIPT_DIR/trends-data.json"
 
-# 拿 sha (文件已存在的话)
-SHA=$(python3 - <<PYEOF
-import urllib.request, json
-TOKEN = "$TOKEN"
-req = urllib.request.Request(
-    "https://api.github.com/repos/$REPO/contents/trends-data.json",
-    headers={"Authorization": f"Bearer {TOKEN}", "User-Agent":"aily-bot"}
-)
-try:
-    with urllib.request.urlopen(req, timeout=15) as r:
-        print(json.loads(r.read())["sha"])
-except Exception:
-    print("")
-PYEOF
-)
-
-# 编码 + 推送
-python3 - <<PYEOF
-import urllib.request, urllib.error, json, base64
-TOKEN = "$TOKEN"
-REPO = "$REPO"
-SHA = "$SHA"
-with open("$DATA_FILE","rb") as f: b64 = base64.b64encode(f.read()).decode()
-body = {"message":"🤖 auto-update: $(date -u '+%Y-%m-%d %H:%M UTC')", "content":b64}
-if SHA: body["sha"] = SHA
-data = json.dumps(body).encode()
-req = urllib.request.Request(
-    f"https://api.github.com/repos/{REPO}/contents/trends-data.json",
-    data=data,
-    headers={"Authorization":f"Bearer {TOKEN}","Content-Type":"application/json","User-Agent":"aily-bot"},
-    method="PUT"
-)
-try:
-    with urllib.request.urlopen(req, timeout=30) as r:
-        resp = json.loads(r.read())
-        print(f"  ✅ Pushed: {resp.get('commit',{}).get('sha','')[:8]}")
-except urllib.error.HTTPError as e:
-    print(f"  ❌ Push failed: {e.code} {e.read().decode()[:200]}")
-    exit(1)
-PYEOF
-
-# ========== 5. 报告 ==========
-echo "📊 [5/5] 生成状态报告 ..."
-python3 -c "
-import json
-d = json.load(open('$DATA_FILE'))
-s = d.get('stats',{})
-print(f'总故事: {s.get(\"total\",0)} | 🔥HOT: {s.get(\"hot\",0)} | 🟧TREND: {s.get(\"trend\",0)} | NEW: {d.get(\"new_today\",0)}')
-print(f'源状态: {d.get(\"sources_ok\",0)} ok / {d.get(\"sources_failed\",0)} failed')
-print(f'窗口: {d.get(\"window\",\"\")}')
-"
-
-echo "✅ 完成。Pages 1-2 分钟内自动更新。"
+echo "🎉 update.sh 完成: $(date '+%Y-%m-%d %H:%M:%S')"
