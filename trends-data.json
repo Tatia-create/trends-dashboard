@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 515,
+    "total": 172,
     "hot": 23,
     "trend": 142,
     "new": 0,
@@ -104,30 +104,6 @@
       "has_full_summary": true
     },
     {
-      "id": "research-10d91bc1",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "租赁和商务服务业",
-      "title_en": "租赁和商务服务业",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/wiki/zulinshangwu/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/wiki/zulinshangwu/"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "随着我国人口老龄化的加重和慢性病患者数量不断增多，医疗服务需求呈现出持续上升的趋势。尤其是后疫情时代，居民健康观念的转变进一步提高了医疗服务的需求。这种需求的增加进一步刺激了医疗设备需求的增长，而昂贵的购置成本和维护费用则成了医疗机构的一大经济负担。因此，医疗设备租赁作为一种灵活、经济的解决方案，快速获得市场的欢迎。与此同时，国家政策对医疗设备租赁的支持也进一步推动行业发展。在政策及市场双重驱动下... 自改革开放以来，我国经济加速发展，国民人均收入不断提升，促使居民出境旅游意愿不断增强。近两年，随着后疫情时代到来，我国自2023年初开始实施“乙类乙管”举措，国内出境游市场开始重启。同时2023年以来我国陆续出台了免签政策，且这一进程在2024年提速。在此背景下，我国跨境旅游业恢复步伐进一步加快。数据显示，2024年上半年，我国出境游人数同比增长50.4%，已恢复至2019年水平的74.7%；全国...",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
       "id": "biz-5a3ff4a7",
       "cat": "biz",
       "heat": "arch",
@@ -196,30 +172,6 @@
       ],
       "is_dirty": false,
       "desc_full_zh": "Copyright 2007-2023 cyzone.cn All rights reserved 京ICP证070362号 京ICP备08103950-1号京ICP备08103950-9号京ICP备08103950-10号 新出发京零字第朝140005号 爱奇清科（北京）信息科技有限公司 地址：北京市朝阳区丽泽西街东湖国际中心A座7层 | 网络文化经营许可证（京网文[2018]2153-213号） 违法和不良信息举报电话：010-53391121 举报邮箱：db@cyzone.cn",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-70747442",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "中国母婴行业市场规模稳步增长，增速趋于平缓",
-      "title_en": "中国母婴行业市场规模稳步增长，增速趋于平缓",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.iimedia.cn/c1061/112572.html",
-      "sourceLabel": "iMedia 艾媒",
-      "sourceType": "html",
-      "sources": [
-        "iMedia 艾媒"
-      ],
-      "sourceLinks": [
-        "https://www.iimedia.cn/c1061/112572.html"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "艾媒数据中心（data.iimedia.cn）显示，2018年至2022年，中国母婴行业市场规模从3.0万亿元增长至5.75万亿元，期间保持高速增长态势，年均同比增速始终维持在16%以上，其中2021年增速最高，达到19.1%。2022年增速略有回落至18.2%，但仍处于高位。...",
       "desc_full_en": "",
       "has_full_summary": true
     },
@@ -404,26 +356,6 @@
       ]
     },
     {
-      "id": "biz-e35c71d3",
-      "cat": "biz",
-      "heat": "trend",
-      "title_zh": "36氪独家 | 快造科技完成10亿元融资，为一级市场消费级3D打印最大单笔融资",
-      "title_en": "36氪独家 | 快造科技完成10亿元融资，为一级市场消费级3D打印最大单笔融资",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "作者&nbsp;|&nbsp;张子怡 编辑&nbsp;|&nbsp;袁斯来 硬氪独家获悉，消费级3D打印企业快造科技（Snapmaker）于近期完成10亿元新一轮融资。本轮融资由凯辉基金领投，好未来战投跟投，美团战投、美团龙珠、高瓴创投、顺为资本等现有股东大比例超额追投，高鹄资本担任独家财务顾问。 这是2025年以来消费硬件赛道规模最大的单笔融资之一，也是近两年一级市场消费级3D打印最大规模的单笔融资。 （图源/企业） 此外，硬氪独家了解到，得益于U1这代产品，快造科技营收同比增长10倍。 过去十年，消费级3D打印经历了从概念到落地的完整周期。不过长期以来，单色、单材料的产品体验将其局限在工程师、极客群体和部分消费者中——用户能打印的东西\"不够好看、不够好用\"，是制约市场破圈的核心瓶颈。 \"多色多材\"打印技术的成熟，正在打破这一瓶颈，也是U1破局市场的关键。当一台桌面设备能够同时实现多色外",
-      "desc_en": "作者&nbsp;|&nbsp;张子怡 编辑&nbsp;|&nbsp;袁斯来 硬氪独家获悉，消费级3D打印企业快造科技（Snapmaker）于近期完成10亿元新一轮融资。本轮融资由凯辉基金领投，好未来战投跟投，美团战投、美团龙珠、高瓴创投、顺为资本等现有股东大比例超额追投，高鹄资本担任独家财务顾问。 这是2025年以来消费硬件赛道规模最大的单笔融资之一，也是近两年一级市场消费级3D打印最大规模的单笔融资。 （图源/企业） 此外，硬氪独家了解到，得益于U1这代产品，快造科技营收同比增长10倍。 过去十年，消费级3D打印经历了从概念到落地的完整周期。不过长期以来，单色、单材料的产品体验将其局限在工程师、极客群体和部分消费者中——用户能打印的东西\"不够好看、不够好用\"，是制约市场破圈的核心瓶颈。 \"多色多材\"打印技术的成熟，正在打破这一瓶颈，也是U1破局市场的关键。当一台桌面设备能够同时实现多色外",
-      "source": "https://36kr.com/p/3885728813691145?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3885728813691145?f=rss"
-      ]
-    },
-    {
       "id": "ai-fe6dd9ca",
       "cat": "ai",
       "heat": "arch",
@@ -491,8 +423,8 @@
       "title_en": "易控智驾暗盘破发：盘中一度跌近两成、收涨4%｜敲钟时刻",
       "market": "cn",
       "date": "2026-07-08",
-      "desc_zh": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报&nbsp;91.50 港元，较发行价 87.92 港元上涨&nbsp;4.07%。但这抹红并不轻松，全天振幅接近 25%，是一场典型的开盘破发、盘中深跌、尾盘拉回。 关于易控智驾深度报道，请看上市前夜｜套现十几亿后，他把矿卡开向港股 易控智驾最终以招股区间上限&nbsp;87.92 港元定价，发行市值约 130 亿港元，总股本 1.48 亿股。今天暗盘开盘即破发，以 82.70 港元开盘，低于发行价约 5.9%；随后一路下探，盘中最低砸至&nbsp;71.00 港元，较发行价跌去&nbsp;19.2%，接近两成。 此后逐级回升，最高触",
-      "desc_en": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报&nbsp;91.50 港元，较发行价 87.92 港元上涨&nbsp;4.07%。但这抹红并不轻松，全天振幅接近 25%，是一场典型的开盘破发、盘中深跌、尾盘拉回。 关于易控智驾深度报道，请看上市前夜｜套现十几亿后，他把矿卡开向港股 易控智驾最终以招股区间上限&nbsp;87.92 港元定价，发行市值约 130 亿港元，总股本 1.48 亿股。今天暗盘开盘即破发，以 82.70 港元开盘，低于发行价约 5.9%；随后一路下探，盘中最低砸至&nbsp;71.00 港元，较发行价跌去&nbsp;19.2%，接近两成。 此后逐级回升，最高触",
+      "desc_zh": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报 91.50 港元，较发行价 87.92 港元上涨 4.07%。但这抹红并不轻松，全天振幅接近 25%，是一场典型的开盘破发、盘中深跌、尾盘拉回。 关于易控智驾深度报道，请看上市前夜｜套现十几亿后，他把矿卡开向港股 易控智驾最终以招股区间上限 87.92 港元定价，发行市值约 130 亿港元，总股本 1.48 亿股。今天暗盘开盘即破发，以 82.70 港元开盘，低于发行价约 5.9%；随后一路下探，盘中最低砸至 71.00 港元，较发行价跌去 19.2%，接近两成。 此后逐级回升，最高触",
+      "desc_en": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报 91.50 港元，较发行价 87.92 港元上涨 4.07%。但这抹红并不轻松，全天振幅接近 25%，是一场典型的开盘破发、盘中深跌、尾盘拉回。 关于易控智驾深度报道，请看上市前夜｜套现十几亿后，他把矿卡开向港股 易控智驾最终以招股区间上限 87.92 港元定价，发行市值约 130 亿港元，总股本 1.48 亿股。今天暗盘开盘即破发，以 82.70 港元开盘，低于发行价约 5.9%；随后一路下探，盘中最低砸至 71.00 港元，较发行价跌去 19.2%，接近两成。 此后逐级回升，最高触",
       "source": "https://36kr.com/p/3885481886674951?f=rss",
       "sourceLabel": "36Kr",
       "sourceType": "rss",
@@ -531,8 +463,8 @@
       "title_en": "北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资｜36氪首发",
       "market": "cn",
       "date": "2026-07-08",
-      "desc_zh": "文&nbsp;|&nbsp;阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。 星际原点成立于2025年，业务聚焦太空算力卫星。核心团队由中科院北斗三号核心骨干、哈工大专家联合组建，拥有北斗三号中高轨卫星10余颗、低轨互联网卫星30余颗的国家级卫星工程研制经验。创始人孙小雷拥有超15年航天工程经验，先后在中科院微小卫星创新研究院、头部商业航天公司担任卫星总体主任设计师和总师。 北斗三号是中国航天史上首个自主建设、实现全球组网的卫星导航星座，30颗卫星在高轨、中轨多个轨道面上实现协同运行，从20",
-      "desc_en": "文&nbsp;|&nbsp;阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。 星际原点成立于2025年，业务聚焦太空算力卫星。核心团队由中科院北斗三号核心骨干、哈工大专家联合组建，拥有北斗三号中高轨卫星10余颗、低轨互联网卫星30余颗的国家级卫星工程研制经验。创始人孙小雷拥有超15年航天工程经验，先后在中科院微小卫星创新研究院、头部商业航天公司担任卫星总体主任设计师和总师。 北斗三号是中国航天史上首个自主建设、实现全球组网的卫星导航星座，30颗卫星在高轨、中轨多个轨道面上实现协同运行，从20",
+      "desc_zh": "文 | 阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。 星际原点成立于2025年，业务聚焦太空算力卫星。核心团队由中科院北斗三号核心骨干、哈工大专家联合组建，拥有北斗三号中高轨卫星10余颗、低轨互联网卫星30余颗的国家级卫星工程研制经验。创始人孙小雷拥有超15年航天工程经验，先后在中科院微小卫星创新研究院、头部商业航天公司担任卫星总体主任设计师和总师。 北斗三号是中国航天史上首个自主建设、实现全球组网的卫星导航星座，30颗卫星在高轨、中轨多个轨道面上实现协同运行，从20",
+      "desc_en": "文 | 阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。 星际原点成立于2025年，业务聚焦太空算力卫星。核心团队由中科院北斗三号核心骨干、哈工大专家联合组建，拥有北斗三号中高轨卫星10余颗、低轨互联网卫星30余颗的国家级卫星工程研制经验。创始人孙小雷拥有超15年航天工程经验，先后在中科院微小卫星创新研究院、头部商业航天公司担任卫星总体主任设计师和总师。 北斗三号是中国航天史上首个自主建设、实现全球组网的卫星导航星座，30颗卫星在高轨、中轨多个轨道面上实现协同运行，从20",
       "source": "https://36kr.com/p/3885413484163074?f=rss",
       "sourceLabel": "36Kr",
       "sourceType": "rss",
@@ -651,8 +583,8 @@
       "title_en": "Home Depot adds rewards for Pro Xtra customers",
       "market": "us",
       "date": "2026-07-08",
-      "desc_zh": "Home Depot has added rewards for Pro customers that include partnering with 7-Eleven, Jimmy John&#8217;s, Tecovas and Rosie’s AI Answering Service. The new benefits are for Home Depot&#8217;s Pro Xtra members, available through the retailer&#8217;s Rewards Hub. Home Depot said the rewards are available regardless of customers&#8217; spending or membership tier. &#8220;True partnership means unders",
-      "desc_en": "Home Depot has added rewards for Pro customers that include partnering with 7-Eleven, Jimmy John&#8217;s, Tecovas and Rosie’s AI Answering Service. The new benefits are for Home Depot&#8217;s Pro Xtra members, available through the retailer&#8217;s Rewards Hub. Home Depot said the rewards are available regardless of customers&#8217; spending or membership tier. &#8220;True partnership means unders",
+      "desc_zh": "Home Depot has added rewards for Pro customers that include partnering with 7-Eleven, Jimmy John’s, Tecovas and Rosie’s AI Answering Service. The new benefits are for Home Depot’s Pro Xtra members, available through the retailer’s Rewards Hub. Home Depot said the rewards are available regardless of customers’ spending or membership tier. “True partnership means unders",
+      "desc_en": "Home Depot has added rewards for Pro customers that include partnering with 7-Eleven, Jimmy John’s, Tecovas and Rosie’s AI Answering Service. The new benefits are for Home Depot’s Pro Xtra members, available through the retailer’s Rewards Hub. Home Depot said the rewards are available regardless of customers’ spending or membership tier. “True partnership means unders",
       "source": "https://www.digitalcommerce360.com/2026/07/07/home-depot-adds-rewards-pro-xtra-customers/",
       "sourceLabel": "Digital Commerce 360",
       "sourceType": "rss",
@@ -691,8 +623,8 @@
       "title_en": "Dick’s Sporting Goods adds $99 membership tier to loyalty program",
       "market": "global",
       "date": "2026-07-08",
-      "desc_zh": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+. The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said. Dick’s Sporting Goods also announced updates to its free loyalty program. &#8220;Our enhanced [&#8230;] The post Dick’s Sporting G",
-      "desc_en": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+. The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said. Dick’s Sporting Goods also announced updates to its free loyalty program. &#8220;Our enhanced [&#8230;] The post Dick’s Sporting G",
+      "desc_zh": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+. The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said. Dick’s Sporting Goods also announced updates to its free loyalty program. “Our enhanced […] The post Dick’s Sporting G",
+      "desc_en": "Dick’s Sporting Goods introduced a new paid membership tier to its ScoreCard loyalty program, ScoreCard+. The paid rewards program gives members free shipping on all orders, 20% off in-store services and other benefits for $99 per year, the sports supply retailer said. Dick’s Sporting Goods also announced updates to its free loyalty program. “Our enhanced […] The post Dick’s Sporting G",
       "source": "https://www.digitalcommerce360.com/2026/07/07/dicks-sporting-goods-membership-tier-loyalty-program/",
       "sourceLabel": "Digital Commerce 360",
       "sourceType": "rss",
@@ -721,66 +653,6 @@
       ],
       "sourceLinks": [
         "http://s.iresearch.cn/search/LongCat-2.0/"
-      ]
-    },
-    {
-      "id": "research-dbf3f19b",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Joint Modeling Service",
-      "title_en": "Joint Modeling Service",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/join-us.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/join-us.jsp?languagetype=en_us"
-      ]
-    },
-    {
-      "id": "research-62456765",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Fintech Product Solutions",
-      "title_en": "Fintech Product Solutions",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/fintech.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/fintech.jsp?languagetype=en_us"
-      ]
-    },
-    {
-      "id": "research-4ba3c541",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Shoes and Clothing Industry Solutions",
-      "title_en": "Shoes and Clothing Industry Solutions",
-      "market": "us",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/footwear.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/footwear.jsp?languagetype=en_us"
       ]
     },
     {
@@ -881,66 +753,6 @@
       ],
       "sourceLinks": [
         "https://www.cyzone.cn/article/839203.html"
-      ]
-    },
-    {
-      "id": "research-d8ef0ff0",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "能源、资源及工业行业",
-      "title_en": "能源、资源及工业行业",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www2.deloitte.com/cn/zh/Industries/energy/about.html?icid=top_about",
-      "sourceLabel": "Deloitte 中国",
-      "sourceType": "html",
-      "sources": [
-        "Deloitte 中国"
-      ],
-      "sourceLinks": [
-        "https://www2.deloitte.com/cn/zh/Industries/energy/about.html?icid=top_about"
-      ]
-    },
-    {
-      "id": "research-e1642c1b",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "投资管理及私募股权",
-      "title_en": "投资管理及私募股权",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www2.deloitte.com/cn/zh/Industries/investment-management/about.html?icid=top_about",
-      "sourceLabel": "Deloitte 中国",
-      "sourceType": "html",
-      "sources": [
-        "Deloitte 中国"
-      ],
-      "sourceLinks": [
-        "https://www2.deloitte.com/cn/zh/Industries/investment-management/about.html?icid=top_about"
-      ]
-    },
-    {
-      "id": "research-c0c07caa",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "资产剥离战略咨询",
-      "title_en": "资产剥离战略咨询",
-      "market": "cn",
-      "date": "2026-07-08",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/strategy-transactions/sell-separate",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/strategy-transactions/sell-separate"
       ]
     },
     {
@@ -2339,102 +2151,6 @@
       "has_full_summary": true
     },
     {
-      "id": "research-30004912",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Compliance and Security",
-      "title_en": "Compliance and Security",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/safety.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/safety.jsp?languagetype=en_us"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "",
-      "desc_full_en": "",
-      "has_full_summary": false
-    },
-    {
-      "id": "research-817c1a47",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Ad Tracking",
-      "title_en": "Ad Tracking",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/product-AdTracking.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/product-AdTracking.jsp?languagetype=en_us"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "",
-      "desc_full_en": "",
-      "has_full_summary": false
-    },
-    {
-      "id": "research-3692c0c1",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "App Analytics",
-      "title_en": "App Analytics",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/products.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/products.jsp?languagetype=en_us"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "",
-      "desc_full_en": "",
-      "has_full_summary": false
-    },
-    {
-      "id": "research-f3bb94a3",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Financial Risk Control Service",
-      "title_en": "Financial Risk Control Service",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/financial-risk.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/financial-risk.jsp?languagetype=en_us"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "",
-      "desc_full_en": "",
-      "has_full_summary": false
-    },
-    {
       "id": "biz-9f28e631",
       "cat": "biz",
       "heat": "arch",
@@ -2867,131 +2583,11 @@
       "has_full_summary": true
     },
     {
-      "id": "research-0ab2f17d",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "税务数字科技服务",
-      "title_en": "税务数字科技服务",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www2.deloitte.com/cn/zh/services/tax/services/technology-consulting.html?icid=top_technology-consulting",
-      "sourceLabel": "Deloitte 中国",
-      "sourceType": "html",
-      "sources": [
-        "Deloitte 中国"
-      ],
-      "sourceLinks": [
-        "https://www2.deloitte.com/cn/zh/services/tax/services/technology-consulting.html?icid=top_technology-consulting"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "技术正在重塑税务部门的未来。我们可助您确定、设计、部署以及维护税务系统，让您的税务职能部门透明、可控。 科技应用得当，能显著提升税务部门工作效能助流程优化与自动化，可释放税务人员时间，使其聚焦于高价值的战略性事务，同时增强税务职能的透明度和可控性。 无论您是需要评估税务政策与策略、整合系统、改进内部流程与控制，还是实施第三方或自主软件，我们都具备相应的技能和工具，能够在您数字化转型的任何阶段为您提供帮助。...",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-b1b76653",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "银行业及资本市场",
-      "title_en": "银行业及资本市场",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www2.deloitte.com/cn/zh/Industries/banking-capital-markets/about.html?icid=top_about",
-      "sourceLabel": "Deloitte 中国",
-      "sourceType": "html",
-      "sources": [
-        "Deloitte 中国"
-      ],
-      "sourceLinks": [
-        "https://www2.deloitte.com/cn/zh/Industries/banking-capital-markets/about.html?icid=top_about"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "在个人与对公客户金融行为模式发生根本性转变的当下，德勤银行业与资本市场顾问专家将以前瞻性解决方案助力金融机构实现值跃迁。",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-07ed4be7",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "安永—博智隆战略洞察",
-      "title_en": "安永—博智隆战略洞察",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/strategy",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/strategy"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "Find out how EY-Parthenon teams can help your business build long-term value through growth and transformative strategies, M&A, and more.",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-70ce7b8d",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "商业战略咨询服务",
-      "title_en": "商业战略咨询服务",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/strategy/commercial-strategy-consulting",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/strategy/commercial-strategy-consulting"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "安永—博智隆商业战略团队可以帮助您实现企业成长、提高盈利能力、扩展客户和股东价值。了解更多。",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-0b99ddd0",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "价值创造、保存和恢复",
-      "title_en": "价值创造、保存和恢复",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/strategy-transactions/reshaping-results",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/strategy-transactions/reshaping-results"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "我们的团队可以帮助应对疫情下的业务挑战，提供领导力和危机管理，帮助企业恢复并保全价值。",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
       "id": "research-ed317b42",
       "cat": "research",
       "heat": "arch",
-      "title_zh": "香港稅務洞察&#xff08;英文內容&#xff09;",
-      "title_en": "香港稅務洞察&#xff08;英文內容&#xff09;",
+      "title_zh": "香港稅務洞察（英文內容）",
+      "title_en": "香港稅務洞察（英文內容）",
       "market": "cn",
       "date": "2026-07-07",
       "desc_zh": "",
@@ -3079,30 +2675,6 @@
       ],
       "is_dirty": false,
       "desc_full_zh": "12月11日，第二届ADD数据应用场景大会在北京通州台湖启幕！一线AI人与数据领袖齐聚、年度重磅榜单发布、全天闭门深度对接……关于AI与数据的最新趋势、最强干货、最全机会，都在这里！",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-a6080ca9",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "可持续发展和ESG战略咨询",
-      "title_en": "可持续发展和ESG战略咨询",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/strategy-transactions/sustainability-esg-strategy",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/strategy-transactions/sustainability-esg-strategy"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "Our Sustainability and ESG Strategy Consulting teams can help you with strategy, M&A, capital allocation, ESG due diligence and portfolio optimization.",
       "desc_full_en": "",
       "has_full_summary": true
     },
@@ -3636,8 +3208,8 @@
       "title_en": "The Future of Digital Commerce in Consumer Healthcare",
       "market": "global",
       "date": "2026-07-07",
-      "desc_zh": "Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Digital commerce is increasingly making consumer healthcare much easier to access. Rather than needing to travel to acquire and fill prescriptions, consumers are able to engage with healthcare [&#8230;] The post The Future of ",
-      "desc_en": "Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Digital commerce is increasingly making consumer healthcare much easier to access. Rather than needing to travel to acquire and fill prescriptions, consumers are able to engage with healthcare [&#8230;] The post The Future of ",
+      "desc_zh": "Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Digital commerce is increasingly making consumer healthcare much easier to access. Rather than needing to travel to acquire and fill prescriptions, consumers are able to engage with healthcare […] The post The Future of ",
+      "desc_en": "Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Digital commerce is increasingly making consumer healthcare much easier to access. Rather than needing to travel to acquire and fill prescriptions, consumers are able to engage with healthcare […] The post The Future of ",
       "source": "https://www.digitalcommerce360.com/2026/07/07/the-future-of-digital-commerce-in-consumer-healthcare/",
       "sourceLabel": "Digital Commerce 360",
       "sourceType": "rss",
@@ -3656,8 +3228,8 @@
       "title_en": "Resideo board sets schedule for ADI spinoff",
       "market": "us",
       "date": "2026-07-07",
-      "desc_zh": "Resideo Technologies Inc. and ADI Global Distribution remain on track to split, following the Resideo board of directors&#8217; vote to approve key dates in July and August. Following a record date of July 20 for the spinoff, Resideo expects distribution of the ADI shares to occur on Aug. 3. Then, ADI common stock is set [&#8230;] The post Resideo board sets schedule for ADI spinoff appeared first",
-      "desc_en": "Resideo Technologies Inc. and ADI Global Distribution remain on track to split, following the Resideo board of directors&#8217; vote to approve key dates in July and August. Following a record date of July 20 for the spinoff, Resideo expects distribution of the ADI shares to occur on Aug. 3. Then, ADI common stock is set [&#8230;] The post Resideo board sets schedule for ADI spinoff appeared first",
+      "desc_zh": "Resideo Technologies Inc. and ADI Global Distribution remain on track to split, following the Resideo board of directors’ vote to approve key dates in July and August. Following a record date of July 20 for the spinoff, Resideo expects distribution of the ADI shares to occur on Aug. 3. Then, ADI common stock is set […] The post Resideo board sets schedule for ADI spinoff appeared first",
+      "desc_en": "Resideo Technologies Inc. and ADI Global Distribution remain on track to split, following the Resideo board of directors’ vote to approve key dates in July and August. Following a record date of July 20 for the spinoff, Resideo expects distribution of the ADI shares to occur on Aug. 3. Then, ADI common stock is set […] The post Resideo board sets schedule for ADI spinoff appeared first",
       "source": "https://www.digitalcommerce360.com/2026/07/07/resideo-board-sets-schedule-for-adi-spinoff/",
       "sourceLabel": "Digital Commerce 360",
       "sourceType": "rss",
@@ -3706,91 +3278,6 @@
       ],
       "sourceLinks": [
         "https://img.iimedia.cn/10001a52ac6245a2b2f7ac1574150acf1a7c8c202859d34d94bda9cb664b0802e59cc"
-      ]
-    },
-    {
-      "id": "research-bd2914cd",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "Brand Growth",
-      "title_en": "Brand Growth",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.talkingdata.com//www.talkingdata.com/product-BrandGrowth.jsp?languagetype=en_us",
-      "sourceLabel": "TalkingData",
-      "sourceType": "html",
-      "sources": [
-        "TalkingData"
-      ],
-      "sourceLinks": [
-        "https://www.talkingdata.com//www.talkingdata.com/product-BrandGrowth.jsp?languagetype=en_us"
-      ]
-    },
-    {
-      "id": "research-a63b9ba8",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国胰岛素笔针行业市场竞争态势及未来趋势研判报告",
-      "title_en": "2026-2032年中国胰岛素笔针行业市场竞争态势及未来趋势研判报告",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/1166271.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/1166271.html",
-        "https://www.chyxx.com/research/1270575.html",
-        "https://www.chyxx.com/research/1269726.html"
-      ]
-    },
-    {
-      "id": "research-c6d0a559",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国口服液行业市场全景调研及发展趋向研判报告",
-      "title_en": "2026-2032年中国口服液行业市场全景调研及发展趋向研判报告",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/1174160.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/1174160.html",
-        "https://www.chyxx.com/research/202110/977874.html",
-        "https://www.chyxx.com/research/1163144.html",
-        "https://www.chyxx.com/research/1269724.html"
-      ]
-    },
-    {
-      "id": "research-401df44c",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国屏蔽泵产业竞争现状及投资趋势预测报告",
-      "title_en": "2026-2032年中国屏蔽泵产业竞争现状及投资趋势预测报告",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/202101/927353.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/202101/927353.html"
       ]
     },
     {
@@ -4095,46 +3582,6 @@
       ]
     },
     {
-      "id": "research-c17e2250",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "电力、公共设施及可再生资源",
-      "title_en": "电力、公共设施及可再生资源",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www2.deloitte.com/cn/zh/Industries/power-utilities-renewables/about.html?icid=top_about",
-      "sourceLabel": "Deloitte 中国",
-      "sourceType": "html",
-      "sources": [
-        "Deloitte 中国"
-      ],
-      "sourceLinks": [
-        "https://www2.deloitte.com/cn/zh/Industries/power-utilities-renewables/about.html?icid=top_about"
-      ]
-    },
-    {
-      "id": "research-6ec4ddd5",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "法证及诚信合规服务",
-      "title_en": "法证及诚信合规服务",
-      "market": "cn",
-      "date": "2026-07-07",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.ey.com/zh_cn/services/assurance/forensic-integrity-service-offerings",
-      "sourceLabel": "EY 中国",
-      "sourceType": "html",
-      "sources": [
-        "EY 中国"
-      ],
-      "sourceLinks": [
-        "https://www.ey.com/zh_cn/services/assurance/forensic-integrity-service-offerings"
-      ]
-    },
-    {
       "id": "ai-e0b43516",
       "cat": "ai",
       "heat": "arch",
@@ -4305,78 +3752,6 @@
       "desc_full_zh": "",
       "desc_full_en": "",
       "has_full_summary": false
-    },
-    {
-      "id": "research-f6f70ea3",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "电力、热力、燃气及水生产和供应业",
-      "title_en": "电力、热力、燃气及水生产和供应业",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/wiki/dianlishuishengchan/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/wiki/dianlishuishengchan/"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "智能电网是以特高压电网为骨干网架，利用先进的通信、信息和控制技术，构建以信息化、自动化、数字化、互动化为特征的统一的智能化电网，其本质是以电网输配电等环节的智能化建设解决能源供给侧存在的相关问题。智能电网主要由能源管理系统、智能输变电系统、分散供电系统、能源储存系统及通信网络构成。数据显示，2023年中国智能电网市场规模已接近675.2亿元，同比增长7.77%。随着新能源、电动汽车等新兴产业的快速... 智能变电站是指采用先进、可靠、集成、低碳、环保的智能设备，以全站信息数字化、通信平台网络化、信息共享标准化为基础要求，自动完成信息采集、测量、控制、保护、计量和监测等基本功能，并可根据需要支持电网实时自动控制、智能调节、在线分析决策、协同互动等高级功能的变电站。它的体系分层主要包括过程层、间隔层和站控层。近年来，随着国家对智能电网建设投入的持续增加，智能变电站市场规模不断扩大。与此同时，传统变电站...",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-5c1e966d",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "水利、环境和公共设施管理业",
-      "title_en": "水利、环境和公共设施管理业",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/wiki/shuilihuanjing/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/wiki/shuilihuanjing/"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "作为现代环境治理体系的核心基石，水质检测不仅承载着守护水生态安全、筑牢国家生态安全屏障的战略使命，更深度融入数字中国与智慧城市发展大局，成为推动城市治理现代化、构建绿色数字生态的关键基础设施节点。在国家“十四五”生态环境保护规划中，明确提出“十四五”期间，布设约300个生态质量监测站点和监测样地样带，覆盖全国典型生态系统和重要生态空间。随着生态文明建设加速向纵深推进，叠加环境治理数字化转型浪潮的澎... 随着生态文明建设的推进和环保政策的不断完善，我国土壤污染治理与修复工作继续深入。目前，理论上可行的修复技术有植物修复、微生物修复、化学修复、物理修复和综合修复等几大类，部分修复技术已经进入现场应用阶段并取得了较好的效果。同时，财政部对土壤污染防治制定了专项资金预算，助力土壤修复行业的发展。助力土壤修复行业的发展。2024年，中国土壤修复项目达3808个，项目总金额为188.8亿元，较2023年均有...",
-      "desc_full_en": "",
-      "has_full_summary": true
-    },
-    {
-      "id": "research-f382ad34",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2025年中国平均功率200瓦以内的激光打标振镜市场规模及趋势分析：市场集中度高，榜一遥遥领先[图]",
-      "title_en": "2025年中国平均功率200瓦以内的激光打标振镜市场规模及趋势分析：市场集中度高，榜一遥遥领先[图]",
-      "market": "cn",
-      "date": "2026-07-06",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/cyzx/1262511.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/cyzx/1262511.html"
-      ],
-      "is_dirty": false,
-      "desc_full_zh": "内容概要：平均功率200瓦以内激光打标振镜可满足绝大多数常规标识刻印与浅加工需求，是当前激光打标振镜市场应用最广、用量最大的功率段产品。2025年我国平均功率200瓦以内激光打标振镜行业市场规模为2.2亿元。目前业内企业已构建起从上游精密零部件到下游系统集成的完整制造链条，其中金海创科技凭借年产数十万套的产能规模建立了成本优势，市占率遥遥领先。 关键词：平均功率200瓦以内的激光打标振镜定义及应用领域、平均功率200瓦以内激光打标振镜行业产业链、中国平均功率200瓦以内激光打标振镜行业市场规模及预测、中国平均功率200瓦以内激光打标振镜行业竞争格局 平均功率200瓦以内的激光打标振镜，是指适配平均输出功率≤200W激光器、通过X/Y轴高速摆动电机驱动反射镜片偏转以控制激光束扫描路径的精密光学执行部件，是中小功率激光打标设备的核心扫描单元，通常具备与对应功率段激光器匹配的光学镀膜耐受性、散热设计及扫描精度，可直接决定中小功率打标场景下的标记效果与加工效率。",
-      "desc_full_en": "",
-      "has_full_summary": true
     },
     {
       "id": "biz-573be1eb",
@@ -4583,5 +3958,6 @@
       "https://www.ey.com/zh_cn/insights",
       "https://kpmg.com/cn/zh/home/insights.html"
     ]
-  }
+  },
+  "last_updated_cleaned": "2026-07-08"
 }
