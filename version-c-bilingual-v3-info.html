@@ -939,7 +939,7 @@
   // ===== Boot =====
   async function boot() {
     try {
-      const res = await fetch('./trends-data.json?v=15');
+      const res = await fetch('./trends-data.json?v=16');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       state.stories = data.stories || [];
