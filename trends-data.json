@@ -1,6 +1,6 @@
 {
   "version": "3.1-bilingual-dedup",
-  "last_updated": "2026-07-15T10:35:03.366674+08:00",
+  "last_updated": "2026-07-15T11:34:03",
   "window": "2026-01-16 to 2026-07-15",
   "markets": [
     "US",
@@ -5948,5 +5948,43 @@
       "https://www.ey.com/zh_cn/insights",
       "https://kpmg.com/cn/zh/home/insights.html"
     ]
-  }
+  },
+  "failed_sources": [
+    {
+      "name": "VentureBeat AI",
+      "err": "Cloudflare 403/308"
+    },
+    {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "CB Insights",
+      "err": "付费墙 403"
+    },
+    {
+      "name": "Byrdie",
+      "err": "Cloudflare 403"
+    },
+    {
+      "name": "36氪",
+      "err": "JS 渲染(改 playwright)"
+    },
+    {
+      "name": "IT桔子",
+      "err": "JS 渲染(已删源)"
+    },
+    {
+      "name": "阿里研究",
+      "err": "整站停更(已删源)"
+    },
+    {
+      "name": "PitchBook",
+      "err": "付费墙 403"
+    },
+    {
+      "name": "Bloomberg Tech",
+      "err": "反爬 timeout"
+    }
+  ]
 }
