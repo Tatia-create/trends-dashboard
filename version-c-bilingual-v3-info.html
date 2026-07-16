@@ -939,9 +939,40 @@
   // ===== Boot =====
   async function boot() {
     try {
-      const res = await fetch('./trends-data.json?v=24');
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
+      // ===== 7/16 改:并发读 3 个分片(沙箱推大文件不稳) =====
+      let data;
+      const tryPaths = [
+        async () => {
+          // 优先:3 个分片(每片 100KB,沙箱能稳推)
+          const [r1, r2, r3] = await Promise.all([
+            fetch('./trends-data-1.json').then(r => r.ok ? r.json() : null),
+            fetch('./trends-data-2.json').then(r => r.ok ? r.json() : null),
+            fetch('./trends-data-3.json').then(r => r.ok ? r.json() : null),
+          ]);
+          if (r1 && r2 && r3) {
+            const all = [...(r1.stories||[]), ...(r2.stories||[]), ...(r3.stories||[])];
+            return { ...r1, stories: all };
+          }
+          throw new Error('分片不全');
+        },
+        // 回退:整文件(也许沙箱恢复了)
+        async () => {
+          const res = await fetch('./trends-data.json?v=25');
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return await res.json();
+        },
+      ];
+
+      let lastErr = null;
+      for (const tryFn of tryPaths) {
+        try {
+          data = await tryFn();
+          if (data && data.stories && data.stories.length > 0) break;
+        } catch (e) { lastErr = e; }
+      }
+      if (!data || !data.stories) {
+        throw new Error('所有数据源都失败: ' + (lastErr?.message || '未知'));
+      }
       state.stories = data.stories || [];
 
       // Header subtitle
