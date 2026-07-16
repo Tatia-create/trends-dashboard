@@ -5952,39 +5952,199 @@
   "failed_sources": [
     {
       "name": "VentureBeat AI",
-      "err": "Cloudflare 403/308"
+      "err": "HTTP 308"
+    },
+    {
+      "name": "Allure",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "CB Insights",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "TechCrunch AI",
+      "err": "No module named 'feedparser'"
     },
     {
       "name": "The Verge AI",
       "err": "HTTP 404"
     },
     {
-      "name": "CB Insights",
-      "err": "付费墙 403"
-    },
-    {
       "name": "Byrdie",
-      "err": "Cloudflare 403"
-    },
-    {
-      "name": "36氪",
-      "err": "JS 渲染(改 playwright)"
-    },
-    {
-      "name": "IT桔子",
-      "err": "JS 渲染(已删源)"
-    },
-    {
-      "name": "阿里研究",
-      "err": "整站停更(已删源)"
-    },
-    {
-      "name": "PitchBook",
-      "err": "付费墙 403"
+      "err": "HTTP 403"
     },
     {
       "name": "Bloomberg Tech",
-      "err": "反爬 timeout"
+      "err": "HTTP None"
+    },
+    {
+      "name": "QuestMobile",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Crunchbase",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "TalkingData",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Modern Retail",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "智研咨询",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Glossy",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "洞见研报",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "财新",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "华尔街见闻",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "WWD Beauty",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Retail Brew",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "CBNData",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "财联社",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Digital Commerce 360",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "PitchBook News",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "Practical Ecommerce",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "Cosmetics Business",
+      "err": "No module named 'feedparser'"
+    },
+    {
+      "name": "VentureBeat AI",
+      "err": "HTTP 308"
+    },
+    {
+      "name": "Allure",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "CB Insights",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "TechCrunch AI",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "Byrdie",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
+    },
+    {
+      "name": "QuestMobile",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Crunchbase",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "TalkingData",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Modern Retail",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "智研咨询",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Glossy",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "洞见研报",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "财新",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "华尔街见闻",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "WWD Beauty",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Retail Brew",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "CBNData",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "财联社",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Digital Commerce 360",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "PitchBook News",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "Practical Ecommerce",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "Cosmetics Business",
+      "err": "RSS 解析失败: No module named 'feedparser'"
+    },
+    {
+      "name": "36Kr Playwright",
+      "err": "playwright 未安装"
     }
   ]
 }
