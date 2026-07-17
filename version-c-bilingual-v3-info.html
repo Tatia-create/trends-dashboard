@@ -957,7 +957,7 @@
         },
         // 回退:整文件(也许沙箱恢复了)
         async () => {
-          const res = await fetch('./trends-data.json?v=28');
+          const res = await fetch('./trends-data.json?v=29');
           if (!res.ok) throw new Error('HTTP ' + res.status);
           return await res.json();
         },
