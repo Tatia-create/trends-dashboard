@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 400,
+    "total": 391,
     "hot": 25,
     "trend": 158,
     "new": 0,
@@ -1714,29 +1714,6 @@
       "is_empty": true
     },
     {
-      "id": "research-9eaf58ad",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国集中供热行业市场运行状况及投资潜力研究报告",
-      "title_en": "Research Report on the Operation Status and Investment Potential of China's Concentrated Heating Industry Market from 2026 to 2032",
-      "market": "cn",
-      "date": "2026-07-15",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/202110/978768.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/202110/978768.html",
-        "https://www.chyxx.com/research/1272027.html",
-        "https://www.chyxx.com/research/1271680.html"
-      ],
-      "is_empty": true
-    },
-    {
       "id": "biz-0eb5ddc1",
       "cat": "biz",
       "heat": "arch",
@@ -2488,27 +2465,6 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/tag/designhouse"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "research-c1376e72",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "项目可行性研究 (商业计划书)",
-      "title_en": "项目可行性研究 (商业计划书)",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/cyzx/kxxbg/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/cyzx/kxxbg/"
       ],
       "is_empty": true
     },
@@ -3334,27 +3290,6 @@
       "is_empty": true
     },
     {
-      "id": "research-45002bde",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "周期性报告定制服务",
-      "title_en": "周期性报告定制服务",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/cyzx/zqxbg/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/cyzx/zqxbg/"
-      ],
-      "is_empty": true
-    },
-    {
       "id": "ai-90c6aeb2",
       "cat": "ai",
       "heat": "trend",
@@ -3553,28 +3488,6 @@
       "sourceLinks": [
         "https://www.glossy.co/beauty/beauty-briefing-urban-outfitters-doubles-down-on-gen-zalpha-beauty-with-yes-day-and-coty-offloads-gucci-ahead-of-schedule/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
       ]
-    },
-    {
-      "id": "research-38865b77",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国间充质干细胞培养基行业市场全景调研及战略咨询研究报告",
-      "title_en": "2026-2032 China Mesenchymal Stem Cell Culture Medium Industry Market Panorama Research and Strategic Consultation Research Report",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/202110/978039.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/202110/978039.html",
-        "https://www.chyxx.com/research/1136092.html"
-      ],
-      "is_empty": true
     },
     {
       "id": "ec-daca4e40",
@@ -4283,27 +4196,6 @@
       "sourceLinks": [
         "https://news.crunchbase.com/venture/ai-ma-ipo-valuations-b2b-ranum-sapphire-ventures/"
       ]
-    },
-    {
-      "id": "research-2838debf",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国深循环富液电池行业市场分析研究及投资战略研判报告",
-      "title_en": "2026-2032 China Deep Cycle Liquid Rich Battery Industry Market Analysis Research and Investment Strategy Research Report",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/1272003.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/1272003.html"
-      ],
-      "is_empty": true
     },
     {
       "id": "biz-6cf1d266",
@@ -5783,27 +5675,6 @@
       "is_empty": true
     },
     {
-      "id": "research-db63d62b",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国泥煤行业市场全景分析及投资潜力研判报告",
-      "title_en": "2026-2032 China Peat Industry Market Panorama Analysis and Investment Potential Research and Judgment Report",
-      "market": "cn",
-      "date": "2026-07-12",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/1271679.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/1271679.html"
-      ],
-      "is_empty": true
-    },
-    {
       "id": "biz-f0077fb7",
       "cat": "biz",
       "heat": "arch",
@@ -6465,27 +6336,6 @@
       "is_empty": true
     },
     {
-      "id": "research-ddae09d9",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国石油行业市场深度分析及投资前景展望报告",
-      "title_en": "China Petroleum Industry Market In-depth Analysis and Investment Outlook Report 2026-2032",
-      "market": "cn",
-      "date": "2026-07-11",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/202110/977421.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/202110/977421.html"
-      ],
-      "is_empty": true
-    },
-    {
       "id": "ec-d2155b95",
       "cat": "ec",
       "heat": "trend",
@@ -6708,27 +6558,6 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3889716207909384"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "research-c97e2112",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "2026-2032年中国对象存储行业市场竞争态势及投资潜力研判报告",
-      "title_en": "2026-2032年中国对象存储行业市场竞争态势及投资潜力研判报告",
-      "market": "cn",
-      "date": "2026-07-11",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/research/1219925.html",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/research/1219925.html"
       ],
       "is_empty": true
     },
@@ -7194,27 +7023,6 @@
       "is_empty": true
     },
     {
-      "id": "research-42973906",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "科学研究和技术服务业",
-      "title_en": "科学研究和技术服务业",
-      "market": "cn",
-      "date": "2026-07-11",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/wiki/kexueyanjiu/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/wiki/kexueyanjiu/"
-      ],
-      "is_empty": true
-    },
-    {
       "id": "biz-06c7e1ea",
       "cat": "biz",
       "heat": "arch",
@@ -7492,15 +7300,35 @@
       "err": "HTTP 403"
     },
     {
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
+    },
+    {
       "name": "The Verge AI",
-      "err": "HTTP 404"
+      "err": "HTTP None"
+    },
+    {
+      "name": "WWD Beauty",
+      "err": "HTTP None"
     },
     {
       "name": "Retail Brew",
       "err": "HTTP 308"
     },
     {
-      "name": "Digital Commerce 360",
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
+    },
+    {
+      "name": "TechCrunch AI",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Glossy",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Crunchbase",
       "err": "HTTP 403"
     },
     {
@@ -7508,23 +7336,35 @@
       "err": "HTTP 403"
     },
     {
-      "name": "华尔街见闻",
-      "err": "feedparser 解析 0 条"
+      "name": "WSJ",
+      "err": "HTTP None"
     },
     {
-      "name": "TalkingData",
-      "err": "HTTP 404"
+      "name": "PitchBook News",
+      "err": "HTTP 403"
     },
     {
       "name": "财联社",
       "err": "HTTP 404"
     },
     {
+      "name": "华尔街见闻",
+      "err": "feedparser 解析 0 条"
+    },
+    {
       "name": "财新",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "QuestMobile",
+      "name": "Modern Retail",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Practical Ecommerce",
+      "err": "HTTP None"
+    },
+    {
+      "name": "阿里研究院",
       "err": "feedparser 解析 0 条"
     },
     {
@@ -7532,29 +7372,26 @@
       "err": "HTTP 404"
     },
     {
+      "name": "Digital Commerce 360",
+      "err": "HTTP None"
+    },
+    {
+      "name": "TalkingData",
+      "err": "HTTP None"
+    },
+    {
+      "name": "CBNData",
+      "err": "HTTP None"
+    },
+    {
       "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "CBNData",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "36Kr Playwright",
-      "err": "playwright 抓取失败"
-    },
-    {
-      "name": "Bloomberg Tech",
+      "name": "QuestMobile",
       "err": "HTTP None"
     }
   ],
-  "last_fetch_raw": 120
+  "last_fetch_raw": 120,
+  "last_updated_cleaned": "2026-07-08"
 }
