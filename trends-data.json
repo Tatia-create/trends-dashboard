@@ -1,6 +1,6 @@
 {
   "version": "3.1-bilingual-dedup",
-  "last_updated": "2026-07-17T10:50:13",
+  "last_updated": "2026-07-28T10:49:13",
   "window": "2026-01-16 to 2026-07-15",
   "markets": [
     "US",
@@ -20,15 +20,15 @@
     "research"
   ],
   "stats": {
-    "total": 391,
-    "hot": 25,
-    "trend": 158,
+    "total": 438,
+    "hot": 120,
+    "trend": 120,
     "new": 0,
     "arch": 318
   },
-  "new_today": 120,
-  "sources_ok": 9,
-  "sources_failed": 18,
+  "new_today": 40,
+  "sources_ok": 4,
+  "sources_failed": 23,
   "date_range": {
     "min": "2026-06-29",
     "max": "2026-07-15",
@@ -53,6 +53,507 @@
     ]
   },
   "stories": [
+    {
+      "title_en": "A One-Two Punch Drives Ecommerce Growth",
+      "title_zh": "",
+      "desc_en": "<p>Agency owner Sean Stone says brands should focus on their own domains while selling Amazon-only items secondarily. It's a one-two punch, he says.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth\">A One-Two Punch Drives Ecommerce Growth</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-17",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "RCS or SMS? It Depends on the Task",
+      "title_zh": "",
+      "desc_en": "<p>RCS is worth the cost if it helps shoppers complete a task more profitably than SMS. </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS or SMS? It Depends on the Task</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-19",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Why Meta Descriptions Still Matter",
+      "title_zh": "",
+      "desc_en": "<p>Google and genAI platforms show search-result snippets (and answers) that help users. </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/why-meta-descriptions-still-matter\">Why Meta Descriptions Still Matter</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/why-meta-descriptions-still-matter",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-20",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "How the ONDC Reshapes India Ecommerce",
+      "title_zh": "",
+      "desc_en": "<p>The Open Network for Digital Commerce aims to help small, local merchants, yet brands can access it, too.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/how-the-ondc-reshapes-india-ecommerce\">How the ONDC Reshapes India Ecommerce</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/how-the-ondc-reshapes-india-ecommerce",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-21",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Publishers Can Turn to Ecommerce",
+      "title_zh": "",
+      "desc_en": "<p>AI search can force media companies to pivot and recognize the value they already possess.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/publishers-can-turn-to-ecommerce\">Publishers Can Turn to Ecommerce</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/publishers-can-turn-to-ecommerce",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "The Top Cause of Wasted Ad Spend",
+      "title_zh": "",
+      "desc_en": "<p>Brett Fish, founder of TagHero, says bad data kills advertising performance, a kind of \"garbage in, garbage out.\"</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend\">The Top Cause of Wasted Ad Spend</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "N.Y. Targets AI Models in Product Ads",
+      "title_zh": "",
+      "desc_en": "<p>AI-generated images help small businesses compete with large corporations by reducing the need for expensive photoshoots.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.Y. Targets AI Models in Product Ads</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-26",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Optimizing Crawl Budgets: What’s New",
+      "title_zh": "",
+      "desc_en": "<p>Google's newly updated \"Crawling infrastructure\" documentation includes helpful pointers for streamlining crawls.  </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new\">Optimizing Crawl Budgets: What’s New</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "",
+      "link": "https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new",
+      "source": "Practical Ecommerce",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Retail",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Estée Lauder Companies among businesses hit by data breach",
+      "title_zh": "",
+      "desc_en": "The breach reportedly allowed access to the personal information of certain employees at the Clinique-owner, which has put safeguards in place to protect staff",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/est%C3%A9e-lauder-companies-hit-by-data-breach",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "How brand licensing is driving growth and creativity in beauty",
+      "title_zh": "",
+      "desc_en": "Ten years ago, a beauty collaboration was often little more than a celebrity's name on a make-up palette. These days, it’s a lot more exciting. We see skincare brands teaming up with Netflix hits, cosmetics labels channelling video games and fragrance houses working with canned water brands",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/how-brand-licensing-is-driving-growth-and-creativity",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Beauty industry slams Burnham’s business rates cut",
+      "title_zh": "",
+      "desc_en": "A tax reduction for pubs, clubs and live music venues announced by the new Prime Minister Andy Burnham has been branded a ‘slap in the face’ for the beauty industry",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/beauty-industry-slams-burnham-business-rates-cut",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Merit lands minority investment from Vasiliki Petrou-led Semcap Beauty & Wellness",
+      "title_zh": "",
+      "desc_en": "Vasiliki Petrou, the ex-Unilever Prestige CEO and current Managing Partner of Semcap’s new Beauty & Wellness vertical, will join the US minimalist brand’s Board and support its growth and globalisation goals",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/merit-lands-minority-investment-from-vasiliki-petrou-led-semcap-beauty",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Armani Beauty named official beauty sponsor of 83rd Venice Film Festival",
+      "title_zh": "",
+      "desc_en": "The luxury beauty brand will spotlight its new Dolci Makeup Blush at the event in Italy in September, as well as a new fragrance set to be revealed in August",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/armani-beauty-named-official-beauty-sponsor-of-83rd",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "The next generation of under eye patches are here",
+      "title_zh": "",
+      "desc_en": "From branded patches to tech-led LED masks, discover why under eye masks are having a major moment and the best new launches in the skin care subcategory",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/the-next-generation-of-under-eye-patches",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Interparfums hails robust Q2 2026 despite European sales dip",
+      "title_zh": "",
+      "desc_en": "Interparfums Q2 2026 results benefited from significant demand in US, which helped to offset declines in European sales",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/interparfums-hails-robust-q2-2026",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Nuon Medical Technologies secures the win for the Best Primary Packaging Innovation Category at the Cosmetics Business Innovation Awards",
+      "title_zh": "",
+      "desc_en": "Judge Frederic Dreux highlighted the product’s aesthetic and economic design, and its innovative approach to bridging skincare packaging and beauty technology.",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/nuon-medical-technologies-secures-the-win-for-the",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "How AI is accelerating beauty ingredient discovery and innovation",
+      "title_zh": "",
+      "desc_en": "From molecule discovery to efficacy evaluation, Julia Wray discovers how beauty ingredient companies are using AI in their latest launches",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/how-ai-is-accelerating-beauty-ingredient-discovery-innovation",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Estée Lauder Companies issues leadership updates",
+      "title_zh": "",
+      "desc_en": "Jennifer Hyman is set to retire from Estée Lauder Companies’ Board of Directors after eight years, while Rishabh Kala, Estée Lauder’s Lead Scientist, will present longevity research at the Science of Skin Summit, where he has been appointed to the faculty",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/est%C3%A9e-lauder-companies-issues-leadership-updates",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "LVMH Fragrance Brands names Yann Musquin Managing Director",
+      "title_zh": "",
+      "desc_en": "Yann Musquin joins LVMH as Brand Managing Director of LVMH Fragrance Brands, leading the strategic vision for the luxury goods group's fragrance division",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/lvmh-fragrance-brands-names-yann-musquin-managing-director",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "How AI beauty advisors are impacting organic discovery and in-store experts",
+      "title_zh": "",
+      "desc_en": "From L'Oréal to Jo Malone London, artificial intelligence (AI) beauty advisors have become the latest craze for beauty companies. But does their implementation create more harm than good in an age of increasingly less organic product discovery?",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/how-ai-beauty-advisors-are-impacting-organic-discovery",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Kao USA updates recall notice for Oribe Serene Scalp Densifying Shampoo",
+      "title_zh": "",
+      "desc_en": "A new restricted lot has been identified following selected batches of Oribe’s Serene Scalp Densifying Shampoo being voluntarily recalled by Kao USA in the US and Canada earlier this month due to the detection of bacteria",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/kao-updates-recall-notice-for-oribe-shampoo",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "YSL Beauty names Alisha Boe Black Opium Ambassador to mark ‘thrilling new chapter’",
+      "title_zh": "",
+      "desc_en": "The L’Oréal-licensed company has signed 29-year-old Boe, who stars in Apple TV+'s critically acclaimed show The Buccaneers, to front Black Opium Pink Glaze – the newest addition to its Black Opium flagship fragrance",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/ysl-beauty-names-alisha-boe-black-opium-ambassador",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Donald Trump imposes sweeping US tariff hikes in response to ‘forced labour’ claims",
+      "title_zh": "",
+      "desc_en": "The new tax increases have hit countries including the UK and South Korea, ranging between 10% and 12.5%, and replacing previously imposed global tariff hikes which expired on 24 July 2026",
+      "desc_zh": "",
+      "link": "https://www.cosmeticsbusiness.com/donald-trump-imposes-sweeping-us-tariff-hike-2026",
+      "source": "Cosmetics Business",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Okay, We'll Bite: Fruity Perfumes Are Cool",
+      "title_zh": "",
+      "desc_en": "These pickable fragrances go beyond the bounty.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/best-fruity-perfume",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-22",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Belmont Cameli on His Curls, Being Cozy, and the Many Smells of the Off-Campus Set",
+      "title_zh": "",
+      "desc_en": "The actor shares his curl routine and what keeps him smelling fresh after hours on the ice.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/belmont-cameli-off-campus-interview",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-22",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Is Oral Minoxidil a $10 Hair Loss Cure?",
+      "title_zh": "",
+      "desc_en": "Ten women open up about taking the drug.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/oral-minoxidil-hair-loss-treatment",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-22",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "\"Maxxing\" Is a Term With Toxic Origins. Why Is Everyone Using It?",
+      "title_zh": "",
+      "desc_en": "Why are we using language from the misogynistic manosphere to talk about beauty?",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/maxxing-manosphere-beauty-industry-op-ed",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "8 Best Antiperspirants of 2026 to Keep You Dry All Day Long",
+      "title_zh": "",
+      "desc_en": "Solid sticks, sprays, gels, and more that keep you fresh and dry.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/gallery/best-antiperspirant-deodorant",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "My Labiaplasty Was About More Than Just Getting a “Designer Vagina”",
+      "title_zh": "",
+      "desc_en": "After decades of discomfort, I went in for a labiaplasty.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/labiaplasty-designer-vagina-plastic-surgery-experience",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "7 Best Flyaway Wands for Smooth, Sleek Hair",
+      "title_zh": "",
+      "desc_en": "Plus, they're small enough to fit in your pocket, so you can smooth your style anytime.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/best-hair-wax-stick",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-23",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "7 Best Korean Sunscreens 2026 That Melt Beautifully Into Skin",
+      "title_zh": "",
+      "desc_en": "UV protection meets complexion glow-up.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/gallery/best-korean-sunscreen",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Every Type of Eyeliner and How to Use Them—With Photos",
+      "title_zh": "",
+      "desc_en": "A better grip on eyeliner is in your line of sight with these comprehensive tips from makeup artists.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/eyeliner-types-how-to-use-them",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "7 Best Curling Irons for Every Curl Pattern and Hair Length",
+      "title_zh": "",
+      "desc_en": "Loose waves, tight coils, or everything in between, these wands can handle it all.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/gallery/best-curling-irons-for-every-budget",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-24",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Snitchery’s San Diego Comic-Con Cosplay Is Somehow Both Silly and Glam",
+      "title_zh": "",
+      "desc_en": "See her take on the cranky, bell jar-shaped Ice King, ahead.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/snitchery-cosplay-san-diego-comic-con",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-25",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "GLP-1s May Help You Stop Biting Your Nails—Here's Why",
+      "title_zh": "",
+      "desc_en": "Dermatologists, internists, and psychologists weigh in on whether the popular drug can deter lifelong nail biters.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/glp-1-nail-biting",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-25",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "8 Best BHA Toners of 2026 for Clearer, Smoother Skin",
+      "title_zh": "",
+      "desc_en": "Goodbye to sting-inducing formulas.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/best-bha-toners",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-25",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "12 Best Deals From Ulta's National Lipstick Week Sale 2026",
+      "title_zh": "",
+      "desc_en": "Save on lipsticks, lip glosses, lip oils, and more from your fave beauty brands.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/best-ulta-beauty-national-lipstick-week-deals-2026",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-26",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
+    {
+      "title_en": "Gap Dreams Up a New Take on Its '90s Fragrances",
+      "title_zh": "",
+      "desc_en": "Fans of the original scents review today’s versions.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/gap-fragrances-review",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-07-27",
+      "cat": "Beauty",
+      "heat": 50,
+      "is_empty": false
+    },
     {
       "title_en": "Google Vids now lets you star in your own AI videos",
       "title_zh": "Google Vids now lets you star in your own AI videos",
@@ -1714,6 +2215,29 @@
       "is_empty": true
     },
     {
+      "id": "research-9eaf58ad",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国集中供热行业市场运行状况及投资潜力研究报告",
+      "title_en": "Research Report on the Operation Status and Investment Potential of China's Concentrated Heating Industry Market from 2026 to 2032",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/202110/978768.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/202110/978768.html",
+        "https://www.chyxx.com/research/1272027.html",
+        "https://www.chyxx.com/research/1271680.html"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "biz-0eb5ddc1",
       "cat": "biz",
       "heat": "arch",
@@ -2465,6 +2989,27 @@
       ],
       "sourceLinks": [
         "https://www.leiphone.com/tag/designhouse"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-c1376e72",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "项目可行性研究 (商业计划书)",
+      "title_en": "项目可行性研究 (商业计划书)",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/cyzx/kxxbg/",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/cyzx/kxxbg/"
       ],
       "is_empty": true
     },
@@ -3290,6 +3835,27 @@
       "is_empty": true
     },
     {
+      "id": "research-45002bde",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "周期性报告定制服务",
+      "title_en": "周期性报告定制服务",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/cyzx/zqxbg/",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/cyzx/zqxbg/"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "ai-90c6aeb2",
       "cat": "ai",
       "heat": "trend",
@@ -3488,6 +4054,28 @@
       "sourceLinks": [
         "https://www.glossy.co/beauty/beauty-briefing-urban-outfitters-doubles-down-on-gen-zalpha-beauty-with-yes-day-and-coty-offloads-gucci-ahead-of-schedule/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
       ]
+    },
+    {
+      "id": "research-38865b77",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国间充质干细胞培养基行业市场全景调研及战略咨询研究报告",
+      "title_en": "2026-2032 China Mesenchymal Stem Cell Culture Medium Industry Market Panorama Research and Strategic Consultation Research Report",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/202110/978039.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/202110/978039.html",
+        "https://www.chyxx.com/research/1136092.html"
+      ],
+      "is_empty": true
     },
     {
       "id": "ec-daca4e40",
@@ -4196,6 +4784,27 @@
       "sourceLinks": [
         "https://news.crunchbase.com/venture/ai-ma-ipo-valuations-b2b-ranum-sapphire-ventures/"
       ]
+    },
+    {
+      "id": "research-2838debf",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国深循环富液电池行业市场分析研究及投资战略研判报告",
+      "title_en": "2026-2032 China Deep Cycle Liquid Rich Battery Industry Market Analysis Research and Investment Strategy Research Report",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/1272003.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/1272003.html"
+      ],
+      "is_empty": true
     },
     {
       "id": "biz-6cf1d266",
@@ -5675,6 +6284,27 @@
       "is_empty": true
     },
     {
+      "id": "research-db63d62b",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国泥煤行业市场全景分析及投资潜力研判报告",
+      "title_en": "2026-2032 China Peat Industry Market Panorama Analysis and Investment Potential Research and Judgment Report",
+      "market": "cn",
+      "date": "2026-07-12",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/1271679.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/1271679.html"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "biz-f0077fb7",
       "cat": "biz",
       "heat": "arch",
@@ -6336,6 +6966,27 @@
       "is_empty": true
     },
     {
+      "id": "research-ddae09d9",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国石油行业市场深度分析及投资前景展望报告",
+      "title_en": "China Petroleum Industry Market In-depth Analysis and Investment Outlook Report 2026-2032",
+      "market": "cn",
+      "date": "2026-07-11",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/202110/977421.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/202110/977421.html"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "ec-d2155b95",
       "cat": "ec",
       "heat": "trend",
@@ -6558,6 +7209,27 @@
       ],
       "sourceLinks": [
         "https://36kr.com/p/3889716207909384"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-c97e2112",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国对象存储行业市场竞争态势及投资潜力研判报告",
+      "title_en": "2026-2032年中国对象存储行业市场竞争态势及投资潜力研判报告",
+      "market": "cn",
+      "date": "2026-07-11",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/1219925.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/1219925.html"
       ],
       "is_empty": true
     },
@@ -7023,6 +7695,27 @@
       "is_empty": true
     },
     {
+      "id": "research-42973906",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "科学研究和技术服务业",
+      "title_en": "科学研究和技术服务业",
+      "market": "cn",
+      "date": "2026-07-11",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/wiki/kexueyanjiu/",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/wiki/kexueyanjiu/"
+      ],
+      "is_empty": true
+    },
+    {
       "id": "biz-06c7e1ea",
       "cat": "biz",
       "heat": "arch",
@@ -7292,6 +7985,14 @@
   },
   "failed_sources": [
     {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
+    },
+    {
       "name": "VentureBeat AI",
       "err": "HTTP 308"
     },
@@ -7304,23 +8005,7 @@
       "err": "HTTP None"
     },
     {
-      "name": "The Verge AI",
-      "err": "HTTP None"
-    },
-    {
       "name": "WWD Beauty",
-      "err": "HTTP None"
-    },
-    {
-      "name": "Retail Brew",
-      "err": "HTTP 308"
-    },
-    {
-      "name": "36Kr Playwright",
-      "err": "playwright 抓取失败"
-    },
-    {
-      "name": "TechCrunch AI",
       "err": "HTTP None"
     },
     {
@@ -7328,55 +8013,55 @@
       "err": "HTTP None"
     },
     {
-      "name": "Crunchbase",
-      "err": "HTTP 403"
-    },
-    {
       "name": "CB Insights",
       "err": "HTTP 403"
     },
     {
-      "name": "WSJ",
-      "err": "HTTP None"
-    },
-    {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "财联社",
-      "err": "HTTP 404"
+      "name": "Retail Brew",
+      "err": "HTTP 308"
     },
     {
       "name": "华尔街见闻",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "财新",
-      "err": "feedparser 解析 0 条"
+      "name": "PitchBook News",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Crunchbase",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Digital Commerce 360",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "财联社",
+      "err": "HTTP None"
+    },
+    {
+      "name": "TechCrunch AI",
+      "err": "HTTP None"
     },
     {
       "name": "Modern Retail",
       "err": "HTTP None"
     },
     {
-      "name": "Practical Ecommerce",
-      "err": "HTTP None"
-    },
-    {
-      "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "智研咨询",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "Digital Commerce 360",
+      "name": "财新",
       "err": "HTTP None"
     },
     {
       "name": "TalkingData",
+      "err": "HTTP None"
+    },
+    {
+      "name": "智研咨询",
+      "err": "HTTP None"
+    },
+    {
+      "name": "QuestMobile",
       "err": "HTTP None"
     },
     {
@@ -7388,10 +8073,10 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "QuestMobile",
+      "name": "阿里研究院",
       "err": "HTTP None"
     }
   ],
   "last_fetch_raw": 120,
-  "last_updated_cleaned": "2026-07-08"
+  "segment": "1/3"
 }
