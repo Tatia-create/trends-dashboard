@@ -1,6 +1,6 @@
 {
   "version": "3.1-bilingual-dedup",
-  "last_updated": "2026-07-17T10:50:13",
+  "last_updated": "2026-07-28T10:49:13",
   "window": "2026-01-16 to 2026-07-15",
   "markets": [
     "US",
@@ -20,15 +20,15 @@
     "research"
   ],
   "stats": {
-    "total": 283,
-    "hot": 25,
-    "trend": 158,
+    "total": 146,
+    "hot": 120,
+    "trend": 120,
     "new": 0,
     "arch": 318
   },
-  "new_today": 120,
-  "sources_ok": 9,
-  "sources_failed": 18,
+  "new_today": 40,
+  "sources_ok": 4,
+  "sources_failed": 23,
   "date_range": {
     "min": "2026-06-29",
     "max": "2026-07-15",
@@ -53,6 +53,234 @@
     ]
   },
   "stories": [
+    {
+      "id": "biz-986c2d05",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "21世纪经济报道",
+      "title_en": "21世纪经济报道",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "http://www.21jingji.com/",
+      "sourceLabel": "界面新闻",
+      "sourceType": "html",
+      "sources": [
+        "界面新闻"
+      ],
+      "sourceLinks": [
+        "http://www.21jingji.com/"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ec-ac109be4",
+      "cat": "ec",
+      "heat": "trend",
+      "title_zh": "新的GA4通道跟踪AI流量",
+      "title_en": "New GA4 Channel Tracks AI Traffic",
+      "market": "global",
+      "date": "2026-07-13",
+      "desc_zh": "Google Analytics （分析）中的新“AI助手”功能可显示绩效指标，例如参与度、每个会话的事件、每个会话的时间等。文章New GA4 Channel Tracks AI Traffic首次出现在Practical Ecommerce上。",
+      "desc_en": "The new \"AI Assistant\" feature in Google Analytics shows performance metrics such as engagement, events per session, time per session, and more. The post New GA4 Channel Tracks AI Traffic appeared first on Practical Ecommerce.",
+      "source": "https://www.practicalecommerce.com/new-ga4-channel-tracks-ai-traffic",
+      "sourceLabel": "Practical Ecommerce",
+      "sourceType": "rss",
+      "sources": [
+        "Practical Ecommerce"
+      ],
+      "sourceLinks": [
+        "https://www.practicalecommerce.com/new-ga4-channel-tracks-ai-traffic"
+      ]
+    },
+    {
+      "id": "biz-4b25420e",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "融资丨产业与全球资本共同加注，爱诗科技完成 29.8 亿元 C 轮融资",
+      "title_en": "Financing: The industry and global capital jointly raised, and Aisi Technology completed a C round of financing of 2.98 billion yuan.",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cyzone.cn/article/839792.html",
+      "sourceLabel": "创业邦",
+      "sourceType": "html",
+      "sources": [
+        "创业邦"
+      ],
+      "sourceLinks": [
+        "https://www.cyzone.cn/article/839792.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-b8f74385",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "港口支撑7月份创纪录的进口量",
+      "title_en": "Ports brace for record-high imports in July",
+      "market": "global",
+      "date": "2026-07-13",
+      "desc_zh": "由于零售商和品牌提前发货以避免新的潜在关税，预计本月进口量将达到历史最高水平。",
+      "desc_en": "Imports are expected to hit an all-time high this month as retailers and brands pull ahead their shipments to avoid new potential tariffs.",
+      "source": "https://www.modernretail.co/operations/ports-brace-for-record-high-imports-in-july/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "sourceLabel": "Modern Retail",
+      "sourceType": "rss",
+      "sources": [
+        "Modern Retail"
+      ],
+      "sourceLinks": [
+        "https://www.modernretail.co/operations/ports-brace-for-record-high-imports-in-july/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
+      ]
+    },
+    {
+      "id": "ai-c287955d",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "现代零售+研究：营销人员对采用人工智能进行网红和CTV营销犹豫不决",
+      "title_en": "Modern Retail+ Research: Marketers hesitate to adopt AI for influencer and CTV marketing",
+      "market": "global",
+      "date": "2026-07-13",
+      "desc_zh": "广告商正在将人工智能用于社交媒体和零售媒体营销。然而，他们采用人工智能进行网红和CTV营销的速度较慢。这是根据2026年第一季度对100多名营销专业人士进行的Modern Retail + Research调查得出的。",
+      "desc_en": "Advertisers are embracing AI for social media and retail media marketing. However, they are slower to adopt AI for influencer and CTV marketing. This is according to a Modern Retail+ Research survey of more than 100 marketing professionals in first-quarter 2026.",
+      "source": "https://www.modernretail.co/marketing/modern-retail-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "sourceLabel": "Modern Retail",
+      "sourceType": "rss",
+      "sources": [
+        "Modern Retail",
+        "Glossy"
+      ],
+      "sourceLinks": [
+        "https://www.modernretail.co/marketing/modern-retail-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+        "https://www.glossy.co/research/glossy-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
+      ]
+    },
+    {
+      "id": "ec-851935eb",
+      "cat": "ec",
+      "heat": "trend",
+      "title_zh": "DTC品牌正在寻求老客户的增长",
+      "title_en": "DTC brands are finding growth with older customers",
+      "market": "us",
+      "date": "2026-07-13",
+      "desc_zh": "Little Spoon和Boarderie等DTC品牌正在调整营销，以赢得祖父母和婴儿潮一代父母等老年消费者的青睐。",
+      "desc_en": "DTC brands like Little Spoon and Boarderie are adjusting their marketing to win over older consumers like grandparents and Boomer parents.",
+      "source": "https://www.modernretail.co/marketing/dtc-brands-are-finding-growth-with-older-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "sourceLabel": "Modern Retail",
+      "sourceType": "rss",
+      "sources": [
+        "Modern Retail"
+      ],
+      "sourceLinks": [
+        "https://www.modernretail.co/marketing/dtc-brands-are-finding-growth-with-older-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
+      ]
+    },
+    {
+      "id": "ai-64a51bba",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "Milani首席执行官Mary van Praag揭示了19个季度增长背后的策略，她押注下半年的趋势",
+      "title_en": "Milani CEO Mary van Praag unpacks the strategies behind 19 quarters of growth, trends she’s betting on for 2H",
+      "market": "eu",
+      "date": "2026-07-13",
+      "desc_zh": "Glossy采访了Milani首席执行官Mary van Praag ，了解她成功的领导策略，包括与零售商和制造商的产品合作的力量，她下半年押注的类别和趋势，以及消费者现在对大众类别的需求。",
+      "desc_en": "Glossy caught up with Milani CEO Mary van Praag for insights into her winning leadership strategy, including the power of product collabs with retailers and manufacturers, the categories and trends she’s betting on for the second half of the year, and the consumer demands from the mass category now.",
+      "source": "https://www.glossy.co/beauty/milani-ceo-mary-van-praag-unpacks-the-strategies-behind-19-quarters-of-growth-trends-shes-betting-on-for-2h/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+      "sourceLabel": "Glossy",
+      "sourceType": "rss",
+      "sources": [
+        "Glossy"
+      ],
+      "sourceLinks": [
+        "https://www.glossy.co/beauty/milani-ceo-mary-van-praag-unpacks-the-strategies-behind-19-quarters-of-growth-trends-shes-betting-on-for-2h/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
+      ]
+    },
+    {
+      "id": "biz-37aab1bd",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "ChatGPT Work",
+      "title_en": "ChatGPT Work",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/tag/ChatGPT+Work",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/tag/ChatGPT+Work"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-2e8a613f",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "Genentech研发负责人Aviv Regev：预测肿瘤突变，AI 制药开启「一人一药」时代 | ICML 2026",
+      "title_en": "Aviv Regev, Head of R&D, Genentech: Predicting tumor mutations, AI pharma opens the era of “one person, one drug” | ICML 2026",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/category/private/m2WcPZmJL6inJb5i.html",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/category/private/m2WcPZmJL6inJb5i.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-fbb9e1d2",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "沪公网安备 31010402000180号",
+      "title_en": "沪公网安备 31010402000180号",
+      "market": "cn",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000180",
+      "sourceLabel": "界面新闻",
+      "sourceType": "html",
+      "sources": [
+        "界面新闻"
+      ],
+      "sourceLinks": [
+        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000180"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-35e3433e",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "美国光伏巨头进军“卖算力”赛道 CEO声称用户每月能挣数百美元",
+      "title_en": "US photovoltaic giant enters hashrate circuit CEO claims users can earn hundreds of dollars a month",
+      "market": "us",
+      "date": "2026-07-13",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2425149",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2425149"
+      ],
+      "is_empty": true
+    },
     {
       "id": "biz-e606153d",
       "cat": "biz",
@@ -2920,6 +3148,14 @@
   },
   "failed_sources": [
     {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
+    },
+    {
       "name": "VentureBeat AI",
       "err": "HTTP 308"
     },
@@ -2928,67 +3164,79 @@
       "err": "HTTP 403"
     },
     {
-      "name": "Retail Brew",
-      "err": "HTTP 308"
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
     },
     {
-      "name": "The Verge AI",
-      "err": "HTTP 404"
+      "name": "WWD Beauty",
+      "err": "HTTP None"
     },
     {
-      "name": "36Kr Playwright",
-      "err": "Error: BrowserType.launch: Failed to launch chromium because executable doesn't exist a"
+      "name": "Glossy",
+      "err": "HTTP None"
     },
     {
       "name": "CB Insights",
       "err": "HTTP 403"
     },
     {
-      "name": "Digital Commerce 360",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "财新",
-      "err": "feedparser 解析 0 条"
+      "name": "Retail Brew",
+      "err": "HTTP 308"
     },
     {
       "name": "华尔街见闻",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "TalkingData",
-      "err": "HTTP 404"
+      "name": "PitchBook News",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Crunchbase",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Digital Commerce 360",
+      "err": "HTTP 403"
     },
     {
       "name": "财联社",
-      "err": "HTTP 404"
+      "err": "HTTP None"
     },
     {
-      "name": "QuestMobile",
-      "err": "feedparser 解析 0 条"
+      "name": "TechCrunch AI",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Modern Retail",
+      "err": "HTTP None"
+    },
+    {
+      "name": "财新",
+      "err": "HTTP None"
+    },
+    {
+      "name": "TalkingData",
+      "err": "HTTP None"
     },
     {
       "name": "智研咨询",
-      "err": "HTTP 404"
+      "err": "HTTP None"
+    },
+    {
+      "name": "QuestMobile",
+      "err": "HTTP None"
+    },
+    {
+      "name": "CBNData",
+      "err": "HTTP None"
     },
     {
       "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "CBNData",
-      "err": "feedparser 解析 0 条"
-    },
-    {
       "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "Bloomberg Tech",
       "err": "HTTP None"
     }
   ],
