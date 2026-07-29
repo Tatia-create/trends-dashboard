@@ -1,6 +1,6 @@
 {
   "version": "3.1-bilingual-dedup",
-  "last_updated": "2026-07-17T10:50:13",
+  "last_updated": "2026-07-28T10:49:13",
   "window": "2026-01-16 to 2026-07-15",
   "markets": [
     "US",
@@ -20,15 +20,15 @@
     "research"
   ],
   "stats": {
-    "total": 283,
-    "hot": 25,
-    "trend": 158,
+    "total": 146,
+    "hot": 120,
+    "trend": 120,
     "new": 0,
     "arch": 318
   },
-  "new_today": 120,
-  "sources_ok": 9,
-  "sources_failed": 18,
+  "new_today": 40,
+  "sources_ok": 4,
+  "sources_failed": 23,
   "date_range": {
     "min": "2026-06-29",
     "max": "2026-07-15",
@@ -53,6 +53,425 @@
     ]
   },
   "stories": [
+    {
+      "title_en": "Intent Clusters Guide AI Product Discovery",
+      "title_zh": "Intent Clusters Guide AI Product Discovery",
+      "desc_en": "<p>AI's growth in search and shopping adds precision to intent behaviors and opportunities.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/intent-clusters-guide-ai-product-discovery\">Intent Clusters Guide AI Product Discovery</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>人工智能在搜索和购物方面的增长为意图行为和机会增加了精确度。</p>\n<p><a href=\"https://www.practicalecommerce.com/intent-clusters-guide-ai-product-discovery\">意向集群指南AI产品发现</a>文章首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/intent-clusters-guide-ai-product-discovery",
+      "source": "Practical Ecommerce",
+      "date": "Sun, 12 Jul 2026 12:56:29 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Nail Profit before Site Extras, Owner Says",
+      "title_zh": "Nail Profit before Site Extras, Owner Says",
+      "desc_en": "<p>Paolo Vidali has a suggestion for merchants considering advanced ecommerce features.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/nail-profit-before-site-extras-owner-says\">Nail Profit before Site Extras, Owner Says</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>Paolo Vidali为考虑高级电子商务功能的商家提出了建议。</p>\n<p>“<a href=\"https://www.practicalecommerce.com/nail-profit-before-site-extras-owner-says\">Nail Profit before Site Extras, Owner Says”一文首次出现在“</a> <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>” （实用电子商务）上。</p>",
+      "link": "https://www.practicalecommerce.com/nail-profit-before-site-extras-owner-says",
+      "source": "Practical Ecommerce",
+      "date": "Fri, 10 Jul 2026 14:08:32 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "AI Marketing Looks Familiar",
+      "title_zh": "AI Marketing Looks Familiar",
+      "desc_en": "<p>AI marketing, while new, relies on tried-and-true techniques. The tools are changing, but not the challenges.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/ai-marketing-looks-familiar\">AI Marketing Looks Familiar</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>人工智能营销虽然是新的，但它依赖于久经考验的技术。 工具正在发生变化，但挑战并未改变。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/ai-marketing-looks-familiar\">AI营销看起来很熟悉</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/ai-marketing-looks-familiar",
+      "source": "Practical Ecommerce",
+      "date": "Thu, 09 Jul 2026 12:23:11 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "4 Homegrown Brands Winning India",
+      "title_zh": "4 Homegrown Brands Winning India",
+      "desc_en": "<p>Foreign merchants may enter the India market, but will consumers buy the products?</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/4-homegrown-brands-winning-india\">4 Homegrown Brands Winning India</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>外国商家可能会进入印度市场，但消费者会购买产品吗？</p>\n<p>POST <a href=\"https://www.practicalecommerce.com/4-homegrown-brands-winning-india\">4 Homegrown Brands Winning India</a>首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/4-homegrown-brands-winning-india",
+      "source": "Practical Ecommerce",
+      "date": "Wed, 08 Jul 2026 13:07:53 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "AI Visibility Scores Are Useless",
+      "title_zh": "AI Visibility Scores Are Useless",
+      "desc_en": "<p>The best visibility metrics measure what consumers actually enter, not carefully chosen prompts.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/ai-visibility-scores-are-useless\">AI Visibility Scores Are Useless</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>最好的可见性指标衡量的是消费者实际输入的内容，而不是精心挑选的提示。</p>\n<p>POST <a href=\"https://www.practicalecommerce.com/ai-visibility-scores-are-useless\">AI Visibility Scores Are Useless</a>首次出现在<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/ai-visibility-scores-are-useless",
+      "source": "Practical Ecommerce",
+      "date": "Mon, 06 Jul 2026 13:36:10 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Hostinger Reframes Site-Free Ecommerce",
+      "title_zh": "Hostinger Reframes Site-Free Ecommerce",
+      "desc_en": "<p>The hosting firm's new Quick Links turns a product photo into a checkout tool, but it signals something more.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/hostinger-reframes-site-free-ecommerce\">Hostinger Reframes Site-Free Ecommerce</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>这家托管公司推出的全新快速链接将产品照片转化为结算工具，但它更能说明问题。</p>\n<p><a href=\"https://www.practicalecommerce.com/hostinger-reframes-site-free-ecommerce\">Hostinger Reframes Site-Free Ecommerce一</a>文首次出现在<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/hostinger-reframes-site-free-ecommerce",
+      "source": "Practical Ecommerce",
+      "date": "Sun, 05 Jul 2026 11:51:43 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Avoid All-Caps Headlines, Says CRO Pro",
+      "title_zh": "Avoid All-Caps Headlines, Says CRO Pro",
+      "desc_en": "<p>Nate Lagos tested a client's all-caps headlines and found a simple change lifted conversions by 25%.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro\">Avoid All-Caps Headlines, Says CRO Pro</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>Nate Lagos测试了客户的全大写标题，发现一个简单的改变将转化率提高了25%。</p>\n<p>《<a href=\"https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro\">Avoid All-Caps Headlines》一文称， CRO Pro</a>首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro",
+      "source": "Practical Ecommerce",
+      "date": "Fri, 03 Jul 2026 13:13:50 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "5 Content Marketing Ideas for August 2026",
+      "title_zh": "5 Content Marketing Ideas for August 2026",
+      "desc_en": "<p>Ecommerce marketers in August 2026 can address back-to-school shopping, relaxation, aviation, photography, and Labor Day planning.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/5-content-marketing-ideas-for-august\">5 Content Marketing Ideas for August 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>2026年8月的电子商务营销人员可以解决返校购物、放松、航空、摄影和劳动节规划等问题。</p>\n<p><a href=\"https://www.practicalecommerce.com/5-content-marketing-ideas-for-august\">2026年8月发布的5个内容营销创意</a>首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/5-content-marketing-ideas-for-august",
+      "source": "Practical Ecommerce",
+      "date": "Thu, 02 Jul 2026 11:56:33 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "title_en": "Top Ecommerce Tools in Africa",
+      "title_zh": "Top Ecommerce Tools in Africa",
+      "desc_en": "<p>African merchants combine online-store software, local payments, messaging tools, and delivery providers, with the mix varying by country.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/top-ecommerce-tools-in-africa\">Top Ecommerce Tools in Africa</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_zh": "<p>非洲商家结合了网上商店软件、本地支付、消息工具和派送服务提供商，其组合因国家/地区而异。</p>\n<p>《<a href=\"https://www.practicalecommerce.com/top-ecommerce-tools-in-africa\">非洲顶级电子商务工具》一文首次出现在</a> <a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
+      "link": "https://www.practicalecommerce.com/top-ecommerce-tools-in-africa",
+      "source": "Practical Ecommerce",
+      "date": "Tue, 30 Jun 2026 13:07:45 +0000",
+      "lang": "en",
+      "cat": "fresh",
+      "heat": "trend",
+      "is_empty": false,
+      "is_repeat_desc": true
+    },
+    {
+      "id": "ai-19d9dd4c",
+      "cat": "ai",
+      "heat": "arch",
+      "title_zh": "36氪首发 | 前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
+      "title_en": "36 Krypton Launches | Former Bosch Autopilot Algorithm Engineer Starts Business, Using Synthetic Data to Make Haptic Big Models",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3894821059918855",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI",
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3894821059918855",
+        "https://36kr.com/p/3894821059918855?f=rss"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-d3c25f0d",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "人形机器人公司逐际动力完成2亿美元Pre-IPO轮融资，投后估值达150亿元｜最前线",
+      "title_en": "Humanoid robot companies have completed a $200 million Pre-IPO round of financing, with a post-investment valuation of 15 billion yuan | Frontline",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3893976502287618",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI",
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3893976502287618",
+        "https://36kr.com/p/3893976502287618?f=rss"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-b7aea5f1",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "8点1氪丨海南将成中国首个禁售燃油车省份；长鑫科技部分员工入股成本低至1毛；SK海力士暴跌15%",
+      "title_en": "8: 1 Krypton Hainan will become the first province in China to ban the sale of fuel vehicles; some employees of Changxin Technology have shareholding costs as low as 1 gross; SK Hynix has plunged by 15%",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "今日热点导览 韩国法院禁止两名前三星员工就职于SK海力士 字节探索自动驾驶，Seed世界模型团队负责 巨力索具深夜澄清商业航天业务不实传闻，提醒投资风险 科技记者古尔曼：苹果将跳过M6 Pro/Max芯片全力押注AI导向的M7系列 美众议院本周将表决永久实行夏令时法案 TOP 3大新闻 海南将成中国首个禁售燃油车省份，届时车桩比保持2.5:1以下 近日，海南省人民政府对外发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出，平稳推进2030年禁售燃油车，预计届时海南新能源汽车保有量占比从2025年的23.75%提升至45%。这意味着海南将成为中国第一个不再卖燃油车的省份。 “十四五”时期，海南清洁能源岛建设深化升级，新能源成为海南第一大电源，新能源汽车市场渗透率、保有量占比分别居全国省级地区第一、第二位。在交通运输领域，到2030年，海南全省公共服务和社会运营领域",
+      "desc_en": "Today's hot tour South Korean court banned two former Samsung employees from working at SK Hynix to explore autonomous driving. The Seed World Model Team is in charge of Juli Rigging to clarify the false rumors of commercial space business late at night, reminding investment and venture technology reporter Gurman: Apple will skip the M6 Pro/Max chip The US House of Representatives will vote this w",
+      "source": "https://36kr.com/p/3894729787767810?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3894729787767810?f=rss"
+      ]
+    },
+    {
+      "id": "biz-d56b525d",
+      "cat": "biz",
+      "heat": "trend",
+      "title_zh": "氪星晚报 ｜Meta宣布将追加400亿美元投资路易斯安那州数据中心；字节探索自动驾驶，Seed世界模型团队负责；《扩大消费“十五五”规划》：优化入境消费环境，稳步扩大免签国家范围",
+      "title_en": "Krypton Evening News | Meta announces an additional $40 billion investment in Louisiana data centers; byte exploration autonomous driving, led by the Seed World Model Team; Expanding Consumption \"15th Five-Year Plan\": Optimize the inbound consumption environment and steadily expand the scope of visa-free countries",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "大公司： 洽洽食品：上半年净利润同比预增170.75%—198.96% 36氪获悉，洽洽食品披露业绩预告，预计2026年上半年归属于上市公司股东的净利润为2.4亿元—2.65亿元，同比增长170.75%—198.96%。 好上好：上半年净利润同比预增301.65%—376.03% 36氪获悉，好上好披露业绩预告，预计2026年半年度归属于上市公司股东的净利润1.35亿元—1.6亿元，同比增长301.65%—376.03%。 Meta宣布将追加400亿美元投资路易斯安那州数据中心 7月13日，Meta宣布将追加400亿美元投资路易斯安那州数据中心，路易斯安那州数据中心是Meta的最大项目。（界面） 北斗星通：上半年净利润同比预增2368.27%—3426.09% 36氪获悉，北斗星通披露业绩预告，预计2026年半年度归属于上市公司股东的净利润3500万元—5000万元，同比增长2368.27",
+      "desc_en": "Large companies: Contact Food: In the first half of the year, net profit increased by 170.75% -198.96% year-on-year. 36 Krypton was informed that contact Food Disclosure Performance Forecast. It is estimated that the net profit attributable to shareholders of listed companies in the first half of 2026 will be 240 million yuan-265 million yuan, an increase of 170.75% -198.96% year-on-year. Good: Th",
+      "source": "https://36kr.com/p/3893943402707460?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3893943402707460?f=rss"
+      ]
+    },
+    {
+      "id": "ai-ab25191c",
+      "cat": "ai",
+      "heat": "arch",
+      "title_zh": "字节探索自动驾驶，Seed世界模型团队负责｜36氪独家",
+      "title_en": "字节探索自动驾驶，Seed世界模型团队负责｜36氪独家",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "36氪从多位产业人士处获悉，字节跳动正探索进入自动驾驶领域。这一项目目前由Seed旗下周畅的世界模型团队负责。据了解，Seed旗下不仅有周畅的多模态模型、世界模型等团队，还有大语言模型方向。 而自动驾驶与世界模型的技术路线有交叠之处。 另有消息人士告诉36氪，业务方向上，字节有意布局的自动驾驶场景有无人物流，这一业务隶属于字节旗下的火山引擎汽车行业线。 部分接近字节的知情人士表示，字节团队此前与一些头部自动驾驶团队进行过业务探讨交流，目前字节的自动驾驶项目已进入早期筹备状态。字节向不少头部辅助驾驶或自动驾驶人才发出了邀约，一些看好字节这一布局的技术人才也计划加入。 针对以上消息，36氪向字节求证，字节回应：“字节在AI大模型前沿探索领域，包括物理AI领域，有很多早期研究和探索，但并没有做智能驾驶业务的计划。” Seed是字节旗下的大模型基础研究团队，成立于2023年，是字节的一级战略级部门",
+      "desc_en": "36 Krypton learned from a number of industry sources that ByteDance is exploring the field of autonomous driving. This project is currently handled by Seed's Seamless World Model team. It is understood that Seed not only has Zhou Chang's multimodal model, world model and other teams, but also has a large language model direction. And there is an overlap between the technical routes of autonomous d",
+      "source": "https://36kr.com/p/3893815451417347?f=rss",
+      "sourceLabel": "36Kr",
+      "sourceType": "rss",
+      "sources": [
+        "36Kr"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3893815451417347?f=rss"
+      ]
+    },
+    {
+      "id": "biz-fbf80b33",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "2026 新青年创投大会",
+      "title_en": "2026 新青年创投大会",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cyzone.cn/album/838529",
+      "sourceLabel": "创业邦",
+      "sourceType": "html",
+      "sources": [
+        "创业邦"
+      ],
+      "sourceLinks": [
+        "https://www.cyzone.cn/album/838529"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-9eaf58ad",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "2026-2032年中国集中供热行业市场运行状况及投资潜力研究报告",
+      "title_en": "Research Report on the Operation Status and Investment Potential of China's Concentrated Heating Industry Market from 2026 to 2032",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/research/202110/978768.html",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/research/202110/978768.html",
+        "https://www.chyxx.com/research/1272027.html",
+        "https://www.chyxx.com/research/1271680.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-0eb5ddc1",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "2025 DEMO CHINA",
+      "title_en": "2025 DEMO CHINA",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cyzone.cn/album/811734",
+      "sourceLabel": "创业邦",
+      "sourceType": "html",
+      "sources": [
+        "创业邦"
+      ],
+      "sourceLinks": [
+        "https://www.cyzone.cn/album/811734"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-5bc3a99f",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "10000小时人类数据，练出全球首个全身移动操作隐式世界动作模型",
+      "title_en": "10,000 hours of human data to create the world's first full-body motion model of the implicit world",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3896147852969603",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3896147852969603"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-79238660",
+      "cat": "ai",
+      "heat": "arch",
+      "title_zh": "今日，梁文锋成AI新首富，36人靠大模型成亿万富翁",
+      "title_en": "今日，梁文锋成AI新首富，36人靠大模型成亿万富翁",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3895380647560832",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3895380647560832"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "ai-79c69c76",
+      "cat": "ai",
+      "heat": "hot",
+      "title_zh": "OpenAI研究员Miles Wang在谈论推出价值20亿美元的人工智能药物发现初创公司",
+      "title_en": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "market": "us",
+      "date": "2026-07-15",
+      "desc_zh": "融资讨论表明，投资者有兴趣应用人工智能在生命科学方面取得突破。",
+      "desc_en": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "source": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+      ]
+    },
+    {
+      "id": "ai-2cf2a04d",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "Lorde说AI眼镜“不性感”",
+      "title_en": "Lorde says AI glasses are ‘not sexy’",
+      "market": "global",
+      "date": "2026-07-15",
+      "desc_zh": "“在我们的世界里，越来越难知道什么是真实的，”洛德在舞台上说。",
+      "desc_en": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
+      "source": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/"
+      ]
+    },
+    {
+      "id": "ai-607a40fd",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "据报道， OpenAI的第一个硬件设备是一款可以移动的无屏幕扬声器，",
+      "title_en": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "market": "global",
+      "date": "2026-07-15",
+      "desc_zh": "该设备被奇怪地描述为涉及“可以自行移动的机械元件” ，彭博社的报告包括该设备旨在“感觉像一个伴侣，并成为OpenAI的ChatGPT的物理表现”的细节。",
+      "desc_en": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "source": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
+      ]
+    },
+    {
+      "id": "ai-7e46fad5",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "OpenAI推翻苹果商业秘密诉讼",
+      "title_en": "OpenAI pushes back on Apple trade secret lawsuit",
+      "market": "us",
+      "date": "2026-07-15",
+      "desc_zh": "OpenAI就该诉讼发布了另一份声明，这次表明它缺乏法律依据。",
+      "desc_en": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "source": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/"
+      ]
+    },
     {
       "id": "ai-6b39ed5b",
       "cat": "ai",
@@ -2562,234 +2981,6 @@
         "https://m.21jingji.com/article/20260714/herald/ca1a1798aab64a38e9ef80f3ca1eac92.html"
       ],
       "is_empty": true
-    },
-    {
-      "id": "biz-986c2d05",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "21世纪经济报道",
-      "title_en": "21世纪经济报道",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "http://www.21jingji.com/",
-      "sourceLabel": "界面新闻",
-      "sourceType": "html",
-      "sources": [
-        "界面新闻"
-      ],
-      "sourceLinks": [
-        "http://www.21jingji.com/"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "ec-ac109be4",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "新的GA4通道跟踪AI流量",
-      "title_en": "New GA4 Channel Tracks AI Traffic",
-      "market": "global",
-      "date": "2026-07-13",
-      "desc_zh": "Google Analytics （分析）中的新“AI助手”功能可显示绩效指标，例如参与度、每个会话的事件、每个会话的时间等。文章New GA4 Channel Tracks AI Traffic首次出现在Practical Ecommerce上。",
-      "desc_en": "The new \"AI Assistant\" feature in Google Analytics shows performance metrics such as engagement, events per session, time per session, and more. The post New GA4 Channel Tracks AI Traffic appeared first on Practical Ecommerce.",
-      "source": "https://www.practicalecommerce.com/new-ga4-channel-tracks-ai-traffic",
-      "sourceLabel": "Practical Ecommerce",
-      "sourceType": "rss",
-      "sources": [
-        "Practical Ecommerce"
-      ],
-      "sourceLinks": [
-        "https://www.practicalecommerce.com/new-ga4-channel-tracks-ai-traffic"
-      ]
-    },
-    {
-      "id": "biz-4b25420e",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "融资丨产业与全球资本共同加注，爱诗科技完成 29.8 亿元 C 轮融资",
-      "title_en": "Financing: The industry and global capital jointly raised, and Aisi Technology completed a C round of financing of 2.98 billion yuan.",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cyzone.cn/article/839792.html",
-      "sourceLabel": "创业邦",
-      "sourceType": "html",
-      "sources": [
-        "创业邦"
-      ],
-      "sourceLinks": [
-        "https://www.cyzone.cn/article/839792.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "ai-b8f74385",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "港口支撑7月份创纪录的进口量",
-      "title_en": "Ports brace for record-high imports in July",
-      "market": "global",
-      "date": "2026-07-13",
-      "desc_zh": "由于零售商和品牌提前发货以避免新的潜在关税，预计本月进口量将达到历史最高水平。",
-      "desc_en": "Imports are expected to hit an all-time high this month as retailers and brands pull ahead their shipments to avoid new potential tariffs.",
-      "source": "https://www.modernretail.co/operations/ports-brace-for-record-high-imports-in-july/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Modern Retail",
-      "sourceType": "rss",
-      "sources": [
-        "Modern Retail"
-      ],
-      "sourceLinks": [
-        "https://www.modernretail.co/operations/ports-brace-for-record-high-imports-in-july/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "ai-c287955d",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "现代零售+研究：营销人员对采用人工智能进行网红和CTV营销犹豫不决",
-      "title_en": "Modern Retail+ Research: Marketers hesitate to adopt AI for influencer and CTV marketing",
-      "market": "global",
-      "date": "2026-07-13",
-      "desc_zh": "广告商正在将人工智能用于社交媒体和零售媒体营销。然而，他们采用人工智能进行网红和CTV营销的速度较慢。这是根据2026年第一季度对100多名营销专业人士进行的Modern Retail + Research调查得出的。",
-      "desc_en": "Advertisers are embracing AI for social media and retail media marketing. However, they are slower to adopt AI for influencer and CTV marketing. This is according to a Modern Retail+ Research survey of more than 100 marketing professionals in first-quarter 2026.",
-      "source": "https://www.modernretail.co/marketing/modern-retail-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Modern Retail",
-      "sourceType": "rss",
-      "sources": [
-        "Modern Retail",
-        "Glossy"
-      ],
-      "sourceLinks": [
-        "https://www.modernretail.co/marketing/modern-retail-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-        "https://www.glossy.co/research/glossy-research-marketers-hesitate-to-adopt-ai-for-influencer-and-ctv-marketing/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "ec-851935eb",
-      "cat": "ec",
-      "heat": "trend",
-      "title_zh": "DTC品牌正在寻求老客户的增长",
-      "title_en": "DTC brands are finding growth with older customers",
-      "market": "us",
-      "date": "2026-07-13",
-      "desc_zh": "Little Spoon和Boarderie等DTC品牌正在调整营销，以赢得祖父母和婴儿潮一代父母等老年消费者的青睐。",
-      "desc_en": "DTC brands like Little Spoon and Boarderie are adjusting their marketing to win over older consumers like grandparents and Boomer parents.",
-      "source": "https://www.modernretail.co/marketing/dtc-brands-are-finding-growth-with-older-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Modern Retail",
-      "sourceType": "rss",
-      "sources": [
-        "Modern Retail"
-      ],
-      "sourceLinks": [
-        "https://www.modernretail.co/marketing/dtc-brands-are-finding-growth-with-older-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "ai-64a51bba",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "Milani首席执行官Mary van Praag揭示了19个季度增长背后的策略，她押注下半年的趋势",
-      "title_en": "Milani CEO Mary van Praag unpacks the strategies behind 19 quarters of growth, trends she’s betting on for 2H",
-      "market": "eu",
-      "date": "2026-07-13",
-      "desc_zh": "Glossy采访了Milani首席执行官Mary van Praag ，了解她成功的领导策略，包括与零售商和制造商的产品合作的力量，她下半年押注的类别和趋势，以及消费者现在对大众类别的需求。",
-      "desc_en": "Glossy caught up with Milani CEO Mary van Praag for insights into her winning leadership strategy, including the power of product collabs with retailers and manufacturers, the categories and trends she’s betting on for the second half of the year, and the consumer demands from the mass category now.",
-      "source": "https://www.glossy.co/beauty/milani-ceo-mary-van-praag-unpacks-the-strategies-behind-19-quarters-of-growth-trends-shes-betting-on-for-2h/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-      "sourceLabel": "Glossy",
-      "sourceType": "rss",
-      "sources": [
-        "Glossy"
-      ],
-      "sourceLinks": [
-        "https://www.glossy.co/beauty/milani-ceo-mary-van-praag-unpacks-the-strategies-behind-19-quarters-of-growth-trends-shes-betting-on-for-2h/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss"
-      ]
-    },
-    {
-      "id": "biz-37aab1bd",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "ChatGPT Work",
-      "title_en": "ChatGPT Work",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/tag/ChatGPT+Work",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/tag/ChatGPT+Work"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-2e8a613f",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "Genentech研发负责人Aviv Regev：预测肿瘤突变，AI 制药开启「一人一药」时代 | ICML 2026",
-      "title_en": "Aviv Regev, Head of R&D, Genentech: Predicting tumor mutations, AI pharma opens the era of “one person, one drug” | ICML 2026",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/category/private/m2WcPZmJL6inJb5i.html",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/category/private/m2WcPZmJL6inJb5i.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-fbb9e1d2",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "沪公网安备 31010402000180号",
-      "title_en": "沪公网安备 31010402000180号",
-      "market": "cn",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000180",
-      "sourceLabel": "界面新闻",
-      "sourceType": "html",
-      "sources": [
-        "界面新闻"
-      ],
-      "sourceLinks": [
-        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000180"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-35e3433e",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "美国光伏巨头进军“卖算力”赛道 CEO声称用户每月能挣数百美元",
-      "title_en": "US photovoltaic giant enters hashrate circuit CEO claims users can earn hundreds of dollars a month",
-      "market": "us",
-      "date": "2026-07-13",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cls.cn/detail/2425149",
-      "sourceLabel": "财联社",
-      "sourceType": "html",
-      "sources": [
-        "财联社"
-      ],
-      "sourceLinks": [
-        "https://www.cls.cn/detail/2425149"
-      ],
-      "is_empty": true
     }
   ],
   "rss_sources": {
@@ -2851,6 +3042,14 @@
   },
   "failed_sources": [
     {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
+    },
+    {
       "name": "VentureBeat AI",
       "err": "HTTP 308"
     },
@@ -2859,67 +3058,79 @@
       "err": "HTTP 403"
     },
     {
-      "name": "Retail Brew",
-      "err": "HTTP 308"
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
     },
     {
-      "name": "The Verge AI",
-      "err": "HTTP 404"
+      "name": "WWD Beauty",
+      "err": "HTTP None"
     },
     {
-      "name": "36Kr Playwright",
-      "err": "Error: BrowserType.launch: Failed to launch chromium because executable doesn't exist a"
+      "name": "Glossy",
+      "err": "HTTP None"
     },
     {
       "name": "CB Insights",
       "err": "HTTP 403"
     },
     {
-      "name": "Digital Commerce 360",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "财新",
-      "err": "feedparser 解析 0 条"
+      "name": "Retail Brew",
+      "err": "HTTP 308"
     },
     {
       "name": "华尔街见闻",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "TalkingData",
-      "err": "HTTP 404"
+      "name": "PitchBook News",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Crunchbase",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Digital Commerce 360",
+      "err": "HTTP 403"
     },
     {
       "name": "财联社",
-      "err": "HTTP 404"
+      "err": "HTTP None"
     },
     {
-      "name": "QuestMobile",
-      "err": "feedparser 解析 0 条"
+      "name": "TechCrunch AI",
+      "err": "HTTP None"
+    },
+    {
+      "name": "Modern Retail",
+      "err": "HTTP None"
+    },
+    {
+      "name": "财新",
+      "err": "HTTP None"
+    },
+    {
+      "name": "TalkingData",
+      "err": "HTTP None"
     },
     {
       "name": "智研咨询",
-      "err": "HTTP 404"
+      "err": "HTTP None"
+    },
+    {
+      "name": "QuestMobile",
+      "err": "HTTP None"
+    },
+    {
+      "name": "CBNData",
+      "err": "HTTP None"
     },
     {
       "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "CBNData",
-      "err": "feedparser 解析 0 条"
-    },
-    {
       "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "Bloomberg Tech",
       "err": "HTTP None"
     }
   ],
