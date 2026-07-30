@@ -127,7 +127,7 @@
       "title_en": "The Top Cause of Wasted Ad Spend",
       "title_zh": "",
       "desc_en": "<p>Brett Fish, founder of TagHero, says bad data kills advertising performance, a kind of \"garbage in, garbage out.\"</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend\">The Top Cause of Wasted Ad Spend</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
-      "desc_zh": "",
+      "desc_zh": "<p>TagHero创始人布雷特·菲什（ Brett Fish ）表示，不良数据会扼杀广告性能，这是一种“垃圾进，垃圾出”。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend\">浪费广告支出的首要原因</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
       "link": "https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend",
       "source": "Practical Ecommerce",
       "lang": "en",
@@ -155,7 +155,7 @@
       "title_en": "Optimizing Crawl Budgets: What’s New",
       "title_zh": "",
       "desc_en": "<p>Google's newly updated \"Crawling infrastructure\" documentation includes helpful pointers for streamlining crawls.  </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new\">Optimizing Crawl Budgets: What’s New</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
-      "desc_zh": "",
+      "desc_zh": "<p>谷歌新更新的“抓取基础设施”文档包括简化抓取的有用指针。  </p>\n<p>帖子“<a href=\"https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new\">优化抓取预算：新功能”</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
       "link": "https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new",
       "source": "Practical Ecommerce",
       "lang": "en",
@@ -221,7 +221,7 @@
       "title_en": "Armani Beauty named official beauty sponsor of 83rd Venice Film Festival",
       "title_zh": "",
       "desc_en": "The luxury beauty brand will spotlight its new Dolci Makeup Blush at the event in Italy in September, as well as a new fragrance set to be revealed in August",
-      "desc_zh": "",
+      "desc_zh": "这家奢华美容品牌将于9月在意大利举办的活动上亮相其全新Dolci彩妆腮红，并于8月推出全新香水",
       "link": "https://www.cosmeticsbusiness.com/armani-beauty-named-official-beauty-sponsor-of-83rd",
       "source": "Cosmetics Business",
       "lang": "en",
@@ -299,7 +299,7 @@
       "title_en": "LVMH Fragrance Brands names Yann Musquin Managing Director",
       "title_zh": "",
       "desc_en": "Yann Musquin joins LVMH as Brand Managing Director of LVMH Fragrance Brands, leading the strategic vision for the luxury goods group's fragrance division",
-      "desc_zh": "",
+      "desc_zh": "Yann Musquin加入LVMH ，担任LVMH香水品牌的品牌总经理，领导奢侈品集团香水部门的战略愿景",
       "link": "https://www.cosmeticsbusiness.com/lvmh-fragrance-brands-names-yann-musquin-managing-director",
       "source": "Cosmetics Business",
       "lang": "en",
@@ -338,7 +338,7 @@
       "title_en": "YSL Beauty names Alisha Boe Black Opium Ambassador to mark ‘thrilling new chapter’",
       "title_zh": "",
       "desc_en": "The L’Oréal-licensed company has signed 29-year-old Boe, who stars in Apple TV+'s critically acclaimed show The Buccaneers, to front Black Opium Pink Glaze – the newest addition to its Black Opium flagship fragrance",
-      "desc_zh": "",
+      "desc_zh": "这家获得欧莱雅授权的公司已与29岁的波音公司签约，该公司主演了Apple TV +广受好评的节目The Buccaneers ，以迎接黑鸦片粉红釉–其黑鸦片旗舰香水的最新成员",
       "link": "https://www.cosmeticsbusiness.com/ysl-beauty-names-alisha-boe-black-opium-ambassador",
       "source": "Cosmetics Business",
       "lang": "en",
@@ -7990,20 +7990,16 @@
       "err": "HTTP 308"
     },
     {
-      "name": "Byrdie",
-      "err": "HTTP 403"
-    },
-    {
       "name": "The Verge AI",
       "err": "HTTP 404"
     },
     {
-      "name": "Retail Brew",
-      "err": "HTTP 308"
+      "name": "Byrdie",
+      "err": "HTTP 403"
     },
     {
-      "name": "36Kr Playwright",
-      "err": "playwright 抓取失败"
+      "name": "Retail Brew",
+      "err": "HTTP 308"
     },
     {
       "name": "CB Insights",
@@ -8014,12 +8010,12 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "华尔街见闻",
-      "err": "feedparser 解析 0 条"
+      "name": "TalkingData",
+      "err": "HTTP 500"
     },
     {
-      "name": "TalkingData",
-      "err": "HTTP 404"
+      "name": "华尔街见闻",
+      "err": "feedparser 解析 0 条"
     },
     {
       "name": "财联社",
@@ -8034,11 +8030,15 @@
       "err": "HTTP 404"
     },
     {
-      "name": "洞见研报",
+      "name": "CBNData",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "CBNData",
+      "name": "阿里研究院",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
@@ -8046,15 +8046,11 @@
       "err": "HTTP 403"
     },
     {
-      "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
     },
     {
       "name": "Bloomberg Tech",
-      "err": "HTTP None"
-    },
-    {
-      "name": "Allure",
       "err": "HTTP None"
     }
   ],
