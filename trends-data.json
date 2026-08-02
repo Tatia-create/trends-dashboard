@@ -7994,12 +7994,12 @@
       "err": "HTTP 404"
     },
     {
-      "name": "Byrdie",
-      "err": "HTTP 403"
-    },
-    {
       "name": "Bloomberg Tech",
       "err": "HTTP None"
+    },
+    {
+      "name": "Byrdie",
+      "err": "HTTP 403"
     },
     {
       "name": "CB Insights",
@@ -8011,6 +8011,10 @@
     },
     {
       "name": "华尔街见闻",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "TalkingData",
       "err": "HTTP 404"
     },
     {
@@ -8022,7 +8026,7 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "TalkingData",
+      "name": "智研咨询",
       "err": "HTTP 404"
     },
     {
@@ -8030,24 +8034,12 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "智研咨询",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "CBNData",
-      "err": "feedparser 解析 0 条"
-    },
-    {
       "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "阿里研究院",
+      "name": "CBNData",
       "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "Crunchbase",
-      "err": "HTTP 403"
     },
     {
       "name": "PitchBook News",
@@ -8058,8 +8050,8 @@
       "err": "playwright 抓取失败"
     },
     {
-      "name": "Digital Commerce 360",
-      "err": "HTTP 403"
+      "name": "阿里研究院",
+      "err": "feedparser 解析 0 条"
     }
   ],
   "last_fetch_raw": 120,
