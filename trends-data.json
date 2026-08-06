@@ -7998,27 +7998,35 @@
       "err": "HTTP 403"
     },
     {
-      "name": "CB Insights",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "财新",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "华尔街见闻",
-      "err": "feedparser 解析 0 条"
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
     },
     {
       "name": "Retail Brew",
       "err": "HTTP 308"
     },
     {
+      "name": "CB Insights",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "华尔街见闻",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "财新",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "TalkingData",
+      "err": "HTTP 404"
+    },
+    {
       "name": "财联社",
       "err": "HTTP 404"
     },
     {
-      "name": "TalkingData",
+      "name": "智研咨询",
       "err": "HTTP 404"
     },
     {
@@ -8026,15 +8034,7 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "36Kr Playwright",
-      "err": "playwright 抓取失败"
-    },
-    {
-      "name": "CBNData",
+      "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
     {
@@ -8042,16 +8042,16 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "洞见研报",
+      "name": "CBNData",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "智研咨询",
-      "err": "HTTP 404"
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
     },
     {
-      "name": "Bloomberg Tech",
-      "err": "HTTP None"
+      "name": "PitchBook News",
+      "err": "HTTP 403"
     }
   ],
   "last_fetch_raw": 120,
