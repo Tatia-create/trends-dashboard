@@ -47,7 +47,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "From Loonen to Supergoop founder Holly Thaggard’s newest venture, a cohort of clean and benefit-infused challenger water brands is rising. Category data shows the timing might be just right."
     },
     {
       "title_en": "EXCLUSIVE: Alix Earle Invests in Cymbiotika",
@@ -61,7 +62,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "The infusion comes on the heels of several retail expansions and a separate, $26 million raise earlier this year for the supplement brand."
     },
     {
       "title_en": "How Beauty Performed During the First Half of 2026",
@@ -75,7 +77,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Circana data shows that online overtook brick-and-mortar as the top channel for prestige skin care, while  shifts are afoot in mass makeup."
     },
     {
       "title_en": "Beauty Briefing: From tampons to fragrance, K-beauty is everywhere",
@@ -89,7 +92,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "本周， Glossy检查了K-beauty在传统美容类别（如化妆品和护肤品）之外的增长，从月经产品到“气味护理”。“此外， Katie Jane Hughes的化妆品品牌为Sephora的首次亮相做好了准备， Amouage报告了更多的销售增长。",
+      "desc_full_en": "This week, Glossy checked in on K-beauty’s growth beyond traditional beauty categories like makeup and skin care, into everything from menstrual products to “scent care.” Additionally, Katie Jane Hughes’ makeup brand gears up for its Sephora debut, and Amouage reports yet more sales growth."
     },
     {
       "title_en": "OpenAI reportedly completed a $7 billion employee tender offer",
@@ -117,7 +122,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "百思买今年的首要任务之一是将新一代RGB LED电视推向消费者。我们希望，在新冠肺炎疫情期间，许多客户购买了新电视六年后，客户会发现这些技术改进足以令人信服地进行升级。",
+      "desc_full_en": "One of Best Buy's big priorities this year is pushing a new generation of RGB LED TVs to consumers. The hope is that customers will find the technological improvements convincing enough to make an upgrade, six years after many of them bought a new TV during the Covid-19 pandemic."
     },
     {
       "title_en": "Walmart finally lets advertisers exclude certain search terms",
@@ -131,7 +138,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Walmart's advertising platform is giving brands more control over where they show up in searches, marking a significant change in how their ad budgets are spent."
     },
     {
       "title_en": "TikTok Shop is increasingly attracting brands selling high-ticket items",
@@ -145,7 +153,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "TikTok Shop is increasingly drawing higher-priced home and lifestyle brands due to increased user trust, effective creator content and improvements in logistics."
     },
     {
       "title_en": "Beauty Historian Erin Parsons Launches the Makeup Archive She Always Dreamed Of",
@@ -159,7 +168,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "The online museum displays and details more than 1,500 rare beauty products Parsons has collected over the years — including vintage Richard Hudnut, Marilyn Monroe's lipsticks and more."
     },
     {
       "title_en": "EXCLUSIVE: Pat McGrath, Nicolas Ghesquière Team for Louis Vuitton’s First Beauty Collaboration",
@@ -173,7 +183,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "It marks the first time Louis Vuitton La Beauté product packaging features the house’s Monogram canvas."
     },
     {
       "title_en": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
@@ -187,7 +198,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Jo Malone London will unveil its first gaming activation to mark the global launch of Sea Salt &#38; Bergamot cologne."
     },
     {
       "title_en": "EXCLUSIVE: Saie Enters the Eye Shadow Category",
@@ -201,7 +213,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Inspired by 1990s minimalism, the new SuperSuede Bake collection campaign is fronted by Danish supermodel Helena Christensen."
     },
     {
       "title_en": "CeraVe’s game plan to become a leading dermocosmetics sun care brand",
@@ -215,7 +228,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "The L’Oréal-owned drugstore brand, which recently launched its first sun protection range, is on a mission to become a top five dermocosmetics sun protection brand globally. But can the ceramide skin care player dominate in the sun care space?"
     },
     {
       "title_en": "Jo Malone London debuts first gaming collaboration with Fortnite to promote Sea Salt & Bergamot",
@@ -229,7 +243,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "雅诗兰黛公司旗下的香水品牌通过与Epic Games的“Battle Royal”射击游戏建立新的合作伙伴关系，将受英国海岸野生水域启发的新推出海盐和佛手柑系列带给新的观众",
+      "desc_full_en": "The Estée Lauder Companies-owned fragrance brand is bringing its newly launched Sea Salt & Bergamot collection , inspired by the wild waters of the British coast, to new audiences via a new partnership with Epic Games’ ‘Battle Royal’ shooter game"
     },
     {
       "title_en": "Kenvue sales near $4 billion despite tariff and inflation pressures in Q2 2026",
@@ -243,7 +259,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Although tariffs, inflation and currency-related costs led Kenvue to fall short of its Q2 estimates, the company’s beauty division delivered strong growth for the consumer health group"
     },
     {
       "title_en": "PZ Cussons reports 5.4% revenue increase as Africa strategic review delivers",
@@ -257,7 +274,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "美容公司Sanctuary Spa、Imperial Leather和St. Tropez的所有者PZ Cussons报告称，在完成市场战略审查后， 26财年在非洲实现了强劲增长",
+      "desc_full_en": "PZ Cussons, the owner of beauty companies Sanctuary Spa, Imperial Leather and St. Tropez, has reported strong growth in Africa in FY26 following the completion of a strategic review of the market"
     },
     {
       "title_en": "M.ph beauty names ​Kira Jackson as Chief Marketing Officer",
@@ -271,12 +290,13 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Make-up brand m.ph beauty, founded by celebrity MUA Mary Phillips, has tapped former consumer brand investor Kira Jackson to lead its marketing"
     },
     {
       "title_en": "2026’s biggest beauty reformulations: from Estée Lauder and Charlotte Tilbury to SkinCeuticals",
       "title_zh": "",
-      "desc_en": "Iconic products and cult formulas are being reinvented in 2026, including Estée Lauder’s Double Wear foundation, Charlotte Tilbury’s Magic Cream, Bobbi Brown Cosmetics’ Face Base and SkinCeuticals’ C E Ferulic. Cosmetics Business takes a look as to why",
+      "desc_en": "Iconic products and cult formulas are being reinvented in 2026, including Estée Lauder’s Double Wear foundation, Charlotte Tilbury’s Magic Cream, Bobbi Brown Cosmetics’ Face Base and SkinCeuticals’ C E Ferulic.",
       "desc_zh": "2026年，雅诗兰黛的Double Wear粉底、夏洛特·蒂尔伯里的Magic Cream、Bobbi Brown Cosmetics的Face Base和SkinCeuticals的C E Ferulic等标志性产品和流行配方将被重新发明。化妆品业务部门了解原因",
       "link": "https://www.cosmeticsbusiness.com/2026-beauty-reformulations-est%C3%A9e-lauder-charlotte-tilbury-skinceuticals-bobbi-brown-olaplex",
       "source": "Cosmetics Business",
@@ -285,7 +305,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "2026年，雅诗兰黛的Double Wear粉底、夏洛特·蒂尔伯里的Magic Cream、Bobbi Brown Cosmetics的Face Base和SkinCeuticals的C E Ferulic等标志性产品和流行配方将被重新发明。化妆品业务部门了解原因",
+      "desc_full_en": "Iconic products and cult formulas are being reinvented in 2026, including Estée Lauder’s Double Wear foundation, Charlotte Tilbury’s Magic Cream, Bobbi Brown Cosmetics’ Face Base and SkinCeuticals’ C E Ferulic. Cosmetics Business takes a look as to why"
     },
     {
       "title_en": "Selena Gomez’s Rare Beauty unveils second eau de parfum Rare Beginnings",
@@ -299,7 +321,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "继Gomez于2025年7月成功推出第一款香水Rare之后， Fruity-floral淡香精Rare Beginnings已经推出，以加强该美容品牌的香水产品。它仅在丝芙兰独家提供",
+      "desc_full_en": "Fruity-floral eau de parfum Rare Beginnings has been launched to ramp up the beauty brand’s fragrance offering, following the success of Gomez’s first scent, Rare, in July 2025. It is available exclusively at Sephora"
     },
     {
       "title_en": "How membrane emulsification can help ease regulatory pressures in cosmetics in 2027 and beyond",
@@ -313,7 +337,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Micropore Technologies’ Dave Palmer explains how membrane emulsification can help ease the pathway to regulatory compliance for brands and manufacturers, while protecting margins"
     },
     {
       "title_en": "Exclusive: Jupiter enters Ulta Beauty as the retailer targets dandruff, solution-based hair care",
@@ -327,7 +352,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Jupiter, the 6-year-old dandruff category disruptor, is entering 500 Ulta Beauty stores this month as the retailer pushes deeper into clinical- and solution-based hair care."
     },
     {
       "title_en": "Ulta Beauty bets on the growing scalp-care market with prestige hair-care brand Nutrire",
@@ -341,7 +367,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "Ulta Beauty以其经济实惠的美容产品而闻名。但这家美容巨头押注，随着总部位于芝加哥的头发护理品牌Nutrire的推出，其消费者将以68 $的头皮精华液进行交易。",
+      "desc_full_en": "Ulta Beauty is known for its budget-friendly beauty products. But the beauty giant is betting its consumers will trade up for $68 scalp serums with the launch of Chicago-based hair-care brand Nutrire."
     },
     {
       "title_en": "As AI-led attacks multiply, OpenAI launches a new cyber model",
@@ -355,7 +383,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it."
     },
     {
       "title_en": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
@@ -369,7 +398,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "周一，马克·扎克伯格（ Mark Zuckerberg ）发表了一篇6500字的关于个人人工智能的宣言，主要是关于Meta AI正在构建的“个人超级智能”系统的可能性。",
+      "desc_full_en": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building."
     },
     {
       "title_en": "Tech industry is buzzing after a Claude agent hacked into a gym",
@@ -383,7 +414,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice."
     },
     {
       "title_en": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
@@ -397,7 +429,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access."
     },
     {
       "title_en": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
@@ -411,7 +444,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips."
     },
     {
       "title_en": "Butt Warts? How Your Short Shorts Could Speed up This Common Summer Skin Condition",
@@ -425,7 +459,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Noticing small bumps between your butt and upper thigh? Dermatologists weigh in on what's causing a spike in this common summer skin condition."
     },
     {
       "title_en": "Martha Stewart's New Pink Hair Sprinkled Some Whimsy Into Summer—See the Video",
@@ -439,7 +474,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "玛莎·斯图尔特（ Martha Stewart ）推出了由发型师克里斯·阿普尔顿（ Chris Appleton ）制作的玫瑰金发色。两人展现了她甜美细腻的新色彩，呈现出最细腻的粉红色。",
+      "desc_full_en": "Martha Stewart debuted a rose gold hair color crafted by hairstylist Chris Appleton. The two showed off her sweet, subtle new color, which features the most delicate hint of pink."
     },
     {
       "title_en": "Missile strikes on warehouses are threatening Ukraine’s consumer brands",
@@ -453,7 +490,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "A Ukrainian apparel startup is rebuilding after losing its entire latest collection in a recent Russian missile attack on a logistics facility."
     },
     {
       "title_en": "What’s driving frozen yogurt’s second act, as 16 Handles and Go Greek experience a renaissance",
@@ -467,7 +505,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "社交媒体和健康趋势正在推动冷冻酸奶的复苏。现在，像16 Handles和Go Greek这样的老牌玩家正在看到增长的激增，而像Coconut Cult和Benefiber这样的初创公司正在寻求通过有趣的弹出窗口来驾驭这一趋势。",
+      "desc_full_en": "Social media and wellness trends are fueling frozen yogurt's comeback. Now, established players like 16 Handles and Go Greek are seeing a surge in growth, and startups like Coconut Cult and Benefiber are looking to ride the trend through fun pop-ups."
     },
     {
       "title_en": "The wellness M&A hot streak shows no signs of slowing down",
@@ -481,7 +521,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "P&#38;G's $3.8 billion acquisition of Thorne is yet another strong signal that large CPG conglomerates are increasingly seeking out science-backed, high-growth brands to add to their portfolios as consumer priorities shift."
     },
     {
       "title_en": "Foot Locker invests in more long-form content as it continues its turnaround",
@@ -495,13 +536,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Foot Locker is dialing up its long-form digital content as part of its new brand platform, \"It Always Will Be Foot Locker.\""
     },
     {
       "title_en": "Keys Inc. builds AI-powered parts marketplace",
       "title_zh": "",
-      "desc_en": "<p>Keys Inc. is expanding its software ecosystem to include a full procurement network, it announced Aug. 7. The system will allow locksmiths to identify, source, compare and order automotive keys directly through its app without contacting distributors by phone. Keys is an artificial intelligence (AI)-powered platform serving the U.S. locksmith and roadside service industry. The [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar",
-      "desc_zh": "<p>Keys Inc.于8月7日宣布，它正在扩大其软件生态系统，以包括完整的采购网络。 该系统将允许锁匠直接通过其应用程序识别、获取、比较和订购汽车钥匙，而无需通过电话联系经销商。 Keys是一个由人工智能(AI)驱动的平台，服务于美国锁匠和路边服务行业。[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar",
+      "desc_en": "is expanding its software ecosystem to include a full procurement network, it announced Aug.。The system will allow locksmiths to identify, source, compare and order automotive keys directly through its app without contacting distributors by phone.",
+      "desc_zh": "于8月7日宣布，它正在扩大其软件生态系统，以包括完整的采购网络。。该系统将允许锁匠直接通过其应用程序识别、获取、比较和订购汽车钥匙，而无需通过电话联系经销商。",
       "link": "https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-marketplace/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -509,7 +551,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>Keys Inc.于8月7日宣布，它正在扩大其软件生态系统，以包括完整的采购网络。 该系统将允许锁匠直接通过其应用程序识别、获取、比较和订购汽车钥匙，而无需通过电话联系经销商。 Keys是一个由人工智能(AI)驱动的平台，服务于美国锁匠和路边服务行业。[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar",
+      "desc_full_en": "<p>Keys Inc. is expanding its software ecosystem to include a full procurement network, it announced Aug. 7. The system will allow locksmiths to identify, source, compare and order automotive keys directly through its app without contacting distributors by phone. Keys is an artificial intelligence (AI)-powered platform serving the U.S. locksmith and roadside service industry. The [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar"
     },
     {
       "title_en": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals",
@@ -523,7 +567,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "2026年上半年，共有195家公司加入Crunchbase独角兽董事会，远远超过2022年下半年以来的数量。上半年已经超过了2025年全年的新独角兽总数，当时有193家公司获得了这一地位。",
+      "desc_full_en": "A total 195 companies joined The Crunchbase Unicorn Board in the first half of 2026 — far surpassing counts seen since the second half of 2022. Already, H1 is above the new unicorn totals for all of 2025, when 193 companies were minted with that status."
     },
     {
       "title_en": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
@@ -537,7 +583,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "一波重大的人工智能IPO可能会为有限合伙人带来大量流动性，从而推动新的风险融资周期，而不仅仅是影响公开市场估值。弗林特资本（ Flint Capital ）的客座作家安德鲁·格什菲尔德（ Andrew Gershfeld ）写道，这笔资金可能不成比例地流向最大的风险投资公司，创造了一个集中的飞轮，可以重塑整个风险投资生态系统的筹资、创业融资和权力。",
+      "desc_full_en": "A wave of major AI IPOs could return significant liquidity to limited partners, fueling a new venture fundraising cycle rather than simply affecting public-market valuations. That capital is likely to flow disproportionately to the largest, established VC firms, writes guest author Andrew Gershfeld of Flint Capital, creating a concentration flywheel that could reshape fundraising, startup financing and power across the venture ecosystem."
     },
     {
       "title_en": "What GenAI Visibility Tactics Miss",
@@ -551,7 +599,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>尽管有许多机构和服务提供商的保证，但没有单一的解决方案来提升人工智能的可见性。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/what-genai-visibility-tactics-miss\">What GenAI Visibility Tactics Miss》</a>首次出现在<a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_full_en": "<p>There's no single fix for elevating AI visibility, despite assurances from many agencies and service providers.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/what-genai-visibility-tactics-miss\">What GenAI Visibility Tactics Miss</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -593,7 +643,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "在最新一期的《Equity》中，我们采访了吉尔·勒波雷（ Jill Lepore ） ，谈到了“机器政府”以及为什么埃隆·马斯克（ Elon Musk ）是一个糟糕的科幻小说读者。",
+      "desc_full_en": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader."
     },
     {
       "title_en": "The AI safety test is becoming a safety risk",
@@ -607,7 +659,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models."
     },
     {
       "title_en": "Baby-Soft Skin for Under $30? These Drugstore Body Lotions Deliver",
@@ -635,7 +688,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>邮政局长David Steiner将军表示，长期可持续发展需要额外的加息和更少的套餐。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/usps-prioritizes-revenue-over-volume\">USPS将收入优先于数量</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Postmaster General David Steiner says long-term sustainability requires additional rate hikes and fewer packages.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/usps-prioritizes-revenue-over-volume\">USPS Prioritizes Revenue over Volume</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Planned Amazon data center could become the biggest climate polluter in the US",
@@ -649,7 +704,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040."
     },
     {
       "title_en": "OpenAI acquires presentation startup NextSlide",
@@ -663,7 +719,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”"
     },
     {
       "title_en": "The Butter Yellow Nail Trend Continues to Spread In 2026",
@@ -696,7 +753,7 @@
     {
       "title_en": "How Once Upon a Farm is shaking up the baby aisle with coolers",
       "title_zh": "",
-      "desc_en": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up the baby aisle with coolers. Marston shares what she's learned over the years about what it takes to get retailers on board with a new way of merchandising products.",
+      "desc_en": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up the baby aisle with coolers.",
       "desc_zh": "在本周的现代零售播客中，我们与农场首席营销官凯蒂·马斯顿（ Katie Marston ）进行了对话，讨论了该公司如何用冷却器撼动婴儿过道。Marston分享了她多年来所学到的知识，即如何让零售商采用一种新的产品营销方式。",
       "link": "https://www.modernretail.co/podcasts/how-once-upon-a-farm-is-shaking-up-the-baby-aisle-with-coolers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "source": "Modern Retail",
@@ -705,7 +762,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "在本周的现代零售播客中，我们与农场首席营销官凯蒂·马斯顿（ Katie Marston ）进行了对话，讨论了该公司如何用冷却器撼动婴儿过道。Marston分享了她多年来所学到的知识，即如何让零售商采用一种新的产品营销方式。",
+      "desc_full_en": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up the baby aisle with coolers. Marston shares what she's learned over the years about what it takes to get retailers on board with a new way of merchandising products."
     },
     {
       "title_en": "Amina Mohamed’s Skin Deep Is Making the Case for Beauty Literacy",
@@ -719,7 +778,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "After a decade in luxury communications at Farfetch and Chalhoub Group, Amina Mohamed is betting that what beauty consumers really want isn’t just more product. It’s more understanding."
     },
     {
       "title_en": "EXCLUSIVE: Cocokind Founder Priscilla Tsai and Beauty Creator Ava Lee Launch Mimitime at Target",
@@ -747,7 +807,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "The Estée Lauder Companies-owned make-up brand’s new six-strong collection pays homage to the New York artist’s legacy and has been launched ahead of an upcoming Netflix documentary, Jean-Michel"
     },
     {
       "title_en": "Hypochlorous acid sprays are in demand – here are 7 of the best new launches",
@@ -761,7 +822,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "As hypochlorous acid continues its transition from clinical to consumer-focused, uncover why the skin care ingredient is stepping into the spotlight, and the best spray launches infused with it to land so far"
     },
     {
       "title_en": "Henkel raises full-year guidance on ‘strong’ H1 2026, despite softer consumer brands performance",
@@ -775,7 +837,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "The German personal care company’s recent acquisition of hair care brands Olaplex and Not Your Mother’s has contributed to a 3.2% rise in organic sales in the first half of 2026"
     },
     {
       "title_en": "Rare Beauty Brands opens accelerator programme for underrepresented beauty brand founders",
@@ -789,7 +852,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "JCPenney将通过Kate Somerville和Patchology所有者的LIFT Beauty Accelerator向三位拥有早期品牌的创始人提供资金、指导和零售机会",
+      "desc_full_en": "Funding, mentorship and retail opportunities with JCPenney will be offered to three founders with early-stage brands, through the Kate Somerville and Patchology-owner’s LIFT Beauty Accelerator"
     },
     {
       "title_en": "Shiseido’s profits surge 90% as turnaround plan takes shape",
@@ -803,7 +868,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Improvement in the NARS Cosmetics and Cle de Peau de Beauté owner’s performance in the Americas has helped boost profit, while fragrance was also a standout performer for the Japanese beauty giant in Q2"
     },
     {
       "title_en": "Curtis Packaging secures the victory for the Best Secondary Packaging Innovation in the Cosmetics Business Innovation Awards",
@@ -817,7 +883,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Judge Nick Vaus praised the originality, usability and commercial impact of the innovation, recognising its potential to influence the future of decorative secondary packaging."
     },
     {
       "title_en": "OpenAI says it slowed Astra model development over security concerns",
@@ -831,7 +898,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems."
     },
     {
       "title_en": "After Rippling blew millions on AI in months, it built an employee ROI tool",
@@ -845,7 +913,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending."
     },
     {
       "title_en": "Cloudflare launches Kitesurf, a browser built for AI agents",
@@ -859,7 +928,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "Kitesurf是一款云托管浏览器，专为人工智能代理而非人工智能代理而设计。与Chromium相比，它在常见自动化任务上的计算能力更低，可帮助开发人员更高效地构建基于浏览器的人工智能代理。",
+      "desc_full_en": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently."
     },
     {
       "title_en": "6 Best Lip Liner Stains 2026 for Precise, All-Day Definition",
@@ -901,7 +972,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "There’s no going back on the cosmetic procedure. What happens when your teeth go out of style?"
     },
     {
       "title_en": "Tarte faces backlash for Snatch Sticks marketing mirroring plastic surgery",
@@ -915,7 +987,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Tarte Cosmetics is under fire for ways in which it's marketing its new Snatch Stick, with some social-media users accusing the company of \"rage baiting\" its audience."
     },
     {
       "title_en": "Inside the New York Liberty’s year-round merch machine",
@@ -929,13 +1002,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "Merch证明了New York Liberty的大生意，销售额增长了两位数， “像热蛋糕一样畅销。“该团队现在全年都在创造更多的产品，因为它致力于成为一个完整的生活方式品牌。",
+      "desc_full_en": "Merch is proving big business for the New York Liberty, with sales up double-digits and \"selling like hotcakes.\" The team is now creating more products year-round, as it works to become a full lifestyle brand."
     },
     {
       "title_en": "Bed Bath & Beyond grows revenue in Q2, plans rebrand to Neighborhood Intelligence",
       "title_zh": "",
-      "desc_en": "<p>Upon marking back-to-back quarters of revenue growth in its fiscal Q2 2026, Bed Bath &#38; Beyond Inc. announced it will rebrand as Neighborhood Intelligence, moving to Nashville and entering the Nasdaq. The company said it will operate under its new ticker NXH on the Nasdaq starting Aug. 17. It will continue to operate as Bed [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath &#038; Bey",
-      "desc_zh": "<p>Bed Bath & Beyond Inc.在2026年第二财季实现连续几个季度的收入增长后，宣布将更名为Neighborhood Intelligence ，迁至纳什维尔并进入纳斯达克。 该公司表示，从8月17日开始，它将在纳斯达克的新股票代码NXH下运营。 它将继续作为床[…]</p>\n<p>THE POST <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath & Bey",
+      "desc_en": "<p>Upon marking back-to-back quarters of revenue growth in its fiscal Q2 2026, Bed Bath &#38; Beyond Inc.。announced it will rebrand as Neighborhood Intelligence, moving to Nashville and entering the Nasdaq.",
+      "desc_zh": "<p>Bed Bath & Beyond Inc.。在2026年第二财季实现连续几个季度的收入增长后，宣布将更名为Neighborhood Intelligence ，迁至纳什维尔并进入纳斯达克。",
       "link": "https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -943,13 +1018,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>Bed Bath & Beyond Inc.在2026年第二财季实现连续几个季度的收入增长后，宣布将更名为Neighborhood Intelligence ，迁至纳什维尔并进入纳斯达克。 该公司表示，从8月17日开始，它将在纳斯达克的新股票代码NXH下运营。 它将继续作为床[…]</p>\n<p>THE POST <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath & Bey",
+      "desc_full_en": "<p>Upon marking back-to-back quarters of revenue growth in its fiscal Q2 2026, Bed Bath &#38; Beyond Inc. announced it will rebrand as Neighborhood Intelligence, moving to Nashville and entering the Nasdaq. The company said it will operate under its new ticker NXH on the Nasdaq starting Aug. 17. It will continue to operate as Bed [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath &#038; Bey"
     },
     {
       "title_en": "Sysco expands AI push after posting $22.1 billion in Q4 sales",
       "title_zh": "",
-      "desc_en": "<p>Foodservice industry distributor Sysco Corp. closed out its fiscal 2026 on a high note, posting fourth-quarter sales of $22.1 billion, a 4.7% year-over-year increase. The company CEO expects artificial intelligence (AI) to fuel additional growth in the months ahead. For its full year 2026, Sysco sales reached $84.6 billion, up 3.9% from its fiscal 2025 [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco expands AI push after posting ",
-      "desc_zh": "<p>餐饮服务行业分销商Sysco Corp.在2026财年收盘时表现强劲，第四季度销售额为221亿美元，同比增长4.7%。 该公司首席执行官预计，人工智能（ AI ）将在未来几个月推动额外的增长。 2026年全年， Sysco销售额达到846亿美元，比2025财年增长3.9% […]</p>\n<p>发布后， <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco扩展了AI推送",
+      "desc_en": "<p>Foodservice industry distributor Sysco Corp.。closed out its fiscal 2026 on a high note, posting fourth-quarter sales of $22.1 billion, a 4.7% year-over-year increase.",
+      "desc_zh": "<p>餐饮服务行业分销商Sysco Corp.。在2026财年收盘时表现强劲，第四季度销售额为221亿美元，同比增长4.7%。",
       "link": "https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -957,7 +1034,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>餐饮服务行业分销商Sysco Corp.在2026财年收盘时表现强劲，第四季度销售额为221亿美元，同比增长4.7%。 该公司首席执行官预计，人工智能（ AI ）将在未来几个月推动额外的增长。 2026年全年， Sysco销售额达到846亿美元，比2025财年增长3.9% […]</p>\n<p>发布后， <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco扩展了AI推送",
+      "desc_full_en": "<p>Foodservice industry distributor Sysco Corp. closed out its fiscal 2026 on a high note, posting fourth-quarter sales of $22.1 billion, a 4.7% year-over-year increase. The company CEO expects artificial intelligence (AI) to fuel additional growth in the months ahead. For its full year 2026, Sysco sales reached $84.6 billion, up 3.9% from its fiscal 2025 [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco expands AI push after posting "
     },
     {
       "title_en": "The Week’s 10 Biggest Funding Rounds: A Big Week For Big Checks",
@@ -971,7 +1050,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "初创公司在本周末筹集了大量资金，其中三家公司获得了10亿美元或以上的融资$。此外，人工智能、电子商务、网络安全、生物技术甚至采矿等领域的强大公司阵容也宣布了相当规模的新一轮融资。",
+      "desc_full_en": "Startups raised funding rounds with a lot of zeroes at the end this week, with three companies securing financings of $1 billion or more. Additionally, a robust lineup of companies in sectors including AI, e-commerce, cybersecurity, biotech and even mining also announced sizable new rounds."
     },
     {
       "title_en": "No Summer Doldrums For Active Startup Investors In July",
@@ -985,7 +1066,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Active startup investors kept up the pace in July, with familiar names topping the ranks in several metrics including most prolific venture dealmakers, most active lead backers, biggest spenders and highest-volume seed investors."
     },
     {
       "title_en": "Emotion-Led Ads Cut Costs 30%",
@@ -999,7 +1081,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>D2C品牌顾问Sarah Levinger表示，广告的成功来自于将消息传递与购物者的潜在情绪相结合。</p>\n<p>情绪导向<a href=\"https://www.practicalecommerce.com/emotion-led-ads-cut-costs-30\">广告削减成本30 ％</a>的文章首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Sarah Levinger, a consultant for D2C brands, says advertising success comes from aligning messaging with shoppers' underlying emotions.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/emotion-led-ads-cut-costs-30\">Emotion-Led Ads Cut Costs 30%</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Wells Fargo Names Anthony Giuliano Head of Beauty and Wellness",
@@ -1013,7 +1097,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Giuliano has advised companies including Estée Lauder, Procter &#38; Gamble, and L’Oréal."
     },
     {
       "title_en": "Haut.AI launches AI clinical studies software as beauty R&D pushes for larger, faster skin trials",
@@ -1027,12 +1112,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "Haut.AI推出其临床研究软件，这是一个经过验证的平台，可测量48种面部、身体和头发生物标志物，使护肤、成分和皮肤科公司能够在数百至数千人中进行远程和混合皮肤研究",
+      "desc_full_en": "Haut.AI launches its Clinical Studies Software, a validated platform that measures 48 face, body and hair biomarkers and enables skincare, ingredient and dermatology companies to run remote and hybrid skin studies across cohorts of hundreds to thousands"
     },
     {
       "title_en": "How awards show beauty partnerships between artists, brands and celebs come together, with PRTNRS’ Marissa Alfe and Lauren FitzGerald",
       "title_zh": "",
-      "desc_en": "Have you ever wondered how awards show beauty partnerships come together to create big, splashy red carpet moments that seem to reverberate across social media for weeks or months? In today's episode of the Glossy Beauty Podcast, industry agents Marissa Alfe and Lauren FitzGerald break it down.",
+      "desc_en": "Have you ever wondered how awards show beauty partnerships come together to create big, splashy red carpet moments that seem to reverberate across social media for weeks or months?",
       "desc_zh": "您是否曾经想过，奖项展示美容合作伙伴关系如何聚集在一起，创造出大而引人注目的红地毯时刻，这些时刻似乎会在社交媒体上回荡数周或数月？在今天的Glossy Beauty播客中，行业代理商Marissa Alfe和Lauren FitzGerald对其进行了细分。",
       "link": "https://www.glossy.co/beauty/how-awards-show-beauty-partnerships-between-artists-brands-and-celebs-come-together-with-prtnrs-marissa-alfe-and-lauren-fitzgerald/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "source": "Glossy",
@@ -1041,7 +1128,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "您是否曾经想过，奖项展示美容合作伙伴关系如何聚集在一起，创造出大而引人注目的红地毯时刻，这些时刻似乎会在社交媒体上回荡数周或数月？在今天的Glossy Beauty播客中，行业代理商Marissa Alfe和Lauren FitzGerald对其进行了细分。",
+      "desc_full_en": "Have you ever wondered how awards show beauty partnerships come together to create big, splashy red carpet moments that seem to reverberate across social media for weeks or months? In today's episode of the Glossy Beauty Podcast, industry agents Marissa Alfe and Lauren FitzGerald break it down."
     },
     {
       "title_en": "9 Best Tinted Sunscreens of 2026 for Lightweight Coverage",
@@ -1069,7 +1158,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "My annual beauty bill went down almost $10,000. And then there was the really great part."
     },
     {
       "title_en": "The Crown Braid Is Back: Here’s How to Get to the 2026 Version",
@@ -1083,13 +1173,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Zendaya and Olivia Rodrigo are leading a renaissance that feels more cool than countryside."
     },
     {
       "title_en": "How Shopify is approaching agentic AI so far in 2026",
       "title_zh": "",
-      "desc_en": "<p>On Shopify&#8217;s Q2 earnings call with analysts, president Harley Finkelstein said the ecommerce platform and its ecosystem are &#8220;well-suited to this agentic era&#8221; of artificial intelligence (AI). Finkelstein said Shopify has been investing in the search index for about two years. It has been going through 20 years of commerce data from more than 1 [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop",
-      "desc_zh": "<p>在Shopify与分析师的第二季度财报电话会议上，总裁哈雷·芬克尔斯坦（ Harley Finkelstein ）表示，电子商务平台及其生态系统“非常适合人工智能（ AI ）的这个代理时代”。 Finkelstein表示， Shopify已经在搜索指数上投资了大约两年。 它已经经历了20多年的商业数据，来自1个以上的[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop",
+      "desc_en": "<p>On Shopify&#8217;s Q2 earnings call with analysts, president Harley Finkelstein said the ecommerce platform and its ecosystem are &#8220;well-suited to this agentic era&#8221; of artificial intelligence (AI).",
+      "desc_zh": "<p>在Shopify与分析师的第二季度财报电话会议上，总裁哈雷·芬克尔斯坦（ Harley Finkelstein ）表示，电子商务平台及其生态系统“非常适合人工智能（ AI ）的这个代理时代”。。Finkelstein表示， Shopify已经在搜索指数上投资了大约两年。",
       "link": "https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1097,13 +1188,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>在Shopify与分析师的第二季度财报电话会议上，总裁哈雷·芬克尔斯坦（ Harley Finkelstein ）表示，电子商务平台及其生态系统“非常适合人工智能（ AI ）的这个代理时代”。 Finkelstein表示， Shopify已经在搜索指数上投资了大约两年。 它已经经历了20多年的商业数据，来自1个以上的[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop",
+      "desc_full_en": "<p>On Shopify&#8217;s Q2 earnings call with analysts, president Harley Finkelstein said the ecommerce platform and its ecosystem are &#8220;well-suited to this agentic era&#8221; of artificial intelligence (AI). Finkelstein said Shopify has been investing in the search index for about two years. It has been going through 20 years of commerce data from more than 1 [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop"
     },
     {
       "title_en": "Ahold Delhaize USA adds Pear Commerce to connect CPG content to online grocery carts",
       "title_zh": "",
-      "desc_en": "<p>Ahold Delhaize USA is partnering with Pear Commerce on a new ecommerce integration, the grocery retailer announced.  Shoppers will be able to add grocery items to their online carts directly from consumer packaged goods (CPG) brand websites, shoppable recipes and store locator tools. The collaboration, announced July 29, covers all five of Ahold Delhaize USA&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec",
-      "desc_zh": "<p>这家杂货零售商宣布， Ahold Delhaize USA正在与Pear Commerce合作进行新的电子商务整合。&nbsp; 购物者将能够直接从消费者包装商品（ CPG ）品牌网站、可购物食谱和商店定位工具中将生鲜杂货添加到他们的在线购物车中。 此次合作于7月29日宣布，涵盖了Ahold Delhaize USA的所有五个[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec",
+      "desc_en": "<p>Ahold Delhaize USA is partnering with Pear Commerce on a new ecommerce integration, the grocery retailer announced.。Shoppers will be able to add grocery items to their online carts directly from consumer packaged goods (CPG) brand websites, shoppable recipes and store locator tools.",
+      "desc_zh": "<p>这家杂货零售商宣布， Ahold Delhaize USA正在与Pear Commerce合作进行新的电子商务整合。&nbsp; 购物者将能够直接从消费者包装商品（ CPG ）品牌网站、可购物食谱和商店定位工具中将生鲜杂货添加到他们的在线购物车中。。此次合作于7月29日宣布，涵盖了Ahold Delhaize USA的所有五个[…]</p>。",
       "link": "https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connect-cpg-content-to-online-grocery-carts/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1111,13 +1204,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>这家杂货零售商宣布， Ahold Delhaize USA正在与Pear Commerce合作进行新的电子商务整合。&nbsp; 购物者将能够直接从消费者包装商品（ CPG ）品牌网站、可购物食谱和商店定位工具中将生鲜杂货添加到他们的在线购物车中。 此次合作于7月29日宣布，涵盖了Ahold Delhaize USA的所有五个[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec",
+      "desc_full_en": "<p>Ahold Delhaize USA is partnering with Pear Commerce on a new ecommerce integration, the grocery retailer announced.  Shoppers will be able to add grocery items to their online carts directly from consumer packaged goods (CPG) brand websites, shoppable recipes and store locator tools. The collaboration, announced July 29, covers all five of Ahold Delhaize USA&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec"
     },
     {
       "title_en": "Ecommerce Trends: What online shoppers said will matter in 2026 holiday survey results",
       "title_zh": "",
-      "desc_en": "<p>New survey results show that retailers are not the only ones preparing for the 2026 holiday season. Online shoppers are thinking ahead — and their answers about how and when they expect to shop have implications for merchants. Digital Commerce 360 and Bizrate Insights surveyed 1,018 online shoppers in July, asking them about how much [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re",
-      "desc_zh": "<p>新的调查结果显示，零售商并不是唯一为2026年假期做准备的公司。 在线购物者正在提前考虑--他们对如何以及何时购物的答案对商家有影响。 Digital Commerce 360和Bizrate Insights在7月份对1,018名在线购物者进行了调查，询问他们有多少[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re",
+      "desc_en": "<p>New survey results show that retailers are not the only ones preparing for the 2026 holiday season.。Online shoppers are thinking ahead — and their answers about how and when they expect to shop have implications for merchants.",
+      "desc_zh": "<p>新的调查结果显示，零售商并不是唯一为2026年假期做准备的公司。。在线购物者正在提前考虑--他们对如何以及何时购物的答案对商家有影响。",
       "link": "https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-results/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1125,13 +1220,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>新的调查结果显示，零售商并不是唯一为2026年假期做准备的公司。 在线购物者正在提前考虑--他们对如何以及何时购物的答案对商家有影响。 Digital Commerce 360和Bizrate Insights在7月份对1,018名在线购物者进行了调查，询问他们有多少[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re",
+      "desc_full_en": "<p>New survey results show that retailers are not the only ones preparing for the 2026 holiday season. Online shoppers are thinking ahead — and their answers about how and when they expect to shop have implications for merchants. Digital Commerce 360 and Bizrate Insights surveyed 1,018 online shoppers in July, asking them about how much [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re"
     },
     {
       "title_en": "What 24/7 actually costs: the operational anatomy of round-the-clock support for mid-market retailers",
       "title_zh": "",
-      "desc_en": "<p>Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Round-the-clock support looks like a simple hiring problem: three shifts instead of one, so roughly triple the payroll. In practice, mid-market retailers often discover that the real costs [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r",
-      "desc_zh": "<p>赞助商内容是由DigitalCommerce360代表Bazoom与Bazoom合作创建的。 我们的编辑人员不参与赞助内容的创建。 全天候支持看起来像一个简单的招聘问题：三班倒而不是一班倒，所以大约是工资的三倍。 在实践中，中端市场零售商经常发现，实际成本[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r",
+      "desc_en": "<p>Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360.。Our editorial staff is not involved in the creation of the sponsored content.",
+      "desc_zh": "<p>赞助商内容是由DigitalCommerce360代表Bazoom与Bazoom合作创建的。。全天候支持看起来像一个简单的招聘问题：三班倒而不是一班倒，所以大约是工资的三倍。",
       "link": "https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-round-the-clock-support-for-mid-market-retailers/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1139,12 +1236,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>赞助商内容是由DigitalCommerce360代表Bazoom与Bazoom合作创建的。 我们的编辑人员不参与赞助内容的创建。 全天候支持看起来像一个简单的招聘问题：三班倒而不是一班倒，所以大约是工资的三倍。 在实践中，中端市场零售商经常发现，实际成本[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r",
+      "desc_full_en": "<p>Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Round-the-clock support looks like a simple hiring problem: three shifts instead of one, so roughly triple the payroll. In practice, mid-market retailers often discover that the real costs [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r"
     },
     {
       "title_en": "The Return Of The Repeat Founder: Inside YC’s Growing Class Of Second-Timers",
       "title_zh": "",
-      "desc_en": "We analyzed a dataset of repeat founders who have gone through Y Combinator’s cohorts and found some very interesting insights. The dataset, shared with us directly from YC, consisted of 454 repeat founders through the program as well as 935 founder-company records spanning 2005 through 2026. We spoke to a couple of them about their experiences.",
+      "desc_en": "We analyzed a dataset of repeat founders who have gone through Y Combinator’s cohorts and found some very interesting insights.。The dataset, shared with us directly from YC, consisted of 454 repeat founders through the program as well as 935 founder-company records spanning 2005 through 2026.",
       "desc_zh": "我们分析了回头客创始人的数据集，他们经历了Y Combinator的队列，发现了一些非常有趣的见解。该数据集由YC直接与我们共享，通过该计划由454名回头客创始人以及2005年至2026年的935名创始人公司记录组成。我们与他们中的一些人谈论了他们的经历。",
       "link": "https://news.crunchbase.com/venture/y-combinator-repeat-founders-numbers-grow-epstein-callaway/",
       "source": "Crunchbase",
@@ -1153,7 +1252,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "我们分析了回头客创始人的数据集，他们经历了Y Combinator的队列，发现了一些非常有趣的见解。该数据集由YC直接与我们共享，通过该计划由454名回头客创始人以及2005年至2026年的935名创始人公司记录组成。我们与他们中的一些人谈论了他们的经历。",
+      "desc_full_en": "We analyzed a dataset of repeat founders who have gone through Y Combinator’s cohorts and found some very interesting insights. The dataset, shared with us directly from YC, consisted of 454 repeat founders through the program as well as 935 founder-company records spanning 2005 through 2026. We spoke to a couple of them about their experiences."
     },
     {
       "title_en": "Thinking about Cart Recovery in 2026",
@@ -1167,7 +1268,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>今天的购物车放弃自动化不仅可以提醒购物者他们留下了什么。</p>\n<p><a href=\"https://www.practicalecommerce.com/thinking-about-cart-recovery-in-2026\">2026年的文章《Thinking about Cart Recovery》首次出现在</a> <a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_full_en": "<p>Today's cart abandonment automations can do more than remind shoppers what they left behind.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/thinking-about-cart-recovery-in-2026\">Thinking about Cart Recovery in 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Rhode sells $27 million DTC in one day, plots 19 country expansion",
@@ -1195,7 +1298,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "广告长期以来一直与娱乐并存，无论是以电视广告休息还是产品展示的形式。但是，由于当今的消费者只需滚动和点击鼠标即可观看娱乐内容，因此当今的许多美容品牌都在询问娱乐和广告是否可以是一回事。",
+      "desc_full_en": "Advertising has long existed alongside entertainment, either in the form of TV ad breaks or product placement. But as today’s consumers are up to their eyeballs in entertaining content just a scroll and a click away, many of today’s beauty brands are asking if entertainment and advertising can be one and the same."
     },
     {
       "title_en": "Wellness Briefing: A new class of oral care disruptors hopes to shake up the space with novel offerings, plus news",
@@ -1209,7 +1314,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "在健康简报会上， Glossy与最近推出的口腔护理品牌的创始人进行了交谈，这些品牌希望颠覆这一领域，包括Köppen、Evenmouth和Bastét ，它们分别提供基于三步系统的产品、以微生物组为重点的方案和新成分。",
+      "desc_full_en": "For the Wellness Briefing, Glossy spoke with founders of recently launched oral-care brands looking to disrupt the space, including Köppen, Evenmouth and Bastét, which offer products based on a three-step system, microbiome-focused protocol and novel ingredients, respectively."
     },
     {
       "title_en": "Does GLP-1 Drug Tirzepatide Trigger Hair Loss? Experts Weigh In.",
@@ -1223,7 +1330,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "A new study found that the side effect is more likely in patients taking one specific type of GLP-1 receptor agonist."
     },
     {
       "title_en": "No, Lindsay Lohan Didn't Actually Return to Her Natural Red Hair Color",
@@ -1237,7 +1345,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "But she sure did cause quite a stir among fans who've begged her to say bye-bye to blonde."
     },
     {
       "title_en": "6 Best Exfoliating Body Washes 2026 for Smoother Skin",
@@ -1265,13 +1374,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Hairstylists, nail artists, plastic surgeons, and tattoo artists weigh on the rise of clients using chatbots before their appointments."
     },
     {
       "title_en": "ShipBob adds Claude-integrated AI to in-house fulfillment tech suite",
       "title_zh": "",
-      "desc_en": "<p>Global supply chain and fulfillment platform ShipBob has introduced an artificial intelligence (AI) suite to connect to merchants&#8217; live operations using either its agent, Bobby, or Anthropic&#8217;s Claude. ShipBob said it has built its fulfillment technology stack internally. That stack can now &#8220;bring an end-to-end AI layer across its entire operations,&#8221; the company said in [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-",
-      "desc_zh": "<p>全球供应链和履行平台ShipBob推出了一款人工智能(AI)套件，可使用其代理商Bobby或Anthropic的Claude连接到商家的实时运营。 ShipBob表示，它已经在内部建立了配送技术堆栈。 该堆栈现在可以“在其整个运营中带来端到端的人工智能层，”该公司在[…]中表示。</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-",
+      "desc_en": "<p>Global supply chain and fulfillment platform ShipBob has introduced an artificial intelligence (AI) suite to connect to merchants&#8217; live operations using either its agent, Bobby, or Anthropic&#8217;s Claude.",
+      "desc_zh": "<p>全球供应链和履行平台ShipBob推出了一款人工智能(AI)套件，可使用其代理商Bobby或Anthropic的Claude连接到商家的实时运营。。ShipBob表示，它已经在内部建立了配送技术堆栈。",
       "link": "https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-integrated-ai-to-in-house-fulfillment-tech-suite/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1279,13 +1389,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>全球供应链和履行平台ShipBob推出了一款人工智能(AI)套件，可使用其代理商Bobby或Anthropic的Claude连接到商家的实时运营。 ShipBob表示，它已经在内部建立了配送技术堆栈。 该堆栈现在可以“在其整个运营中带来端到端的人工智能层，”该公司在[…]中表示。</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-",
+      "desc_full_en": "<p>Global supply chain and fulfillment platform ShipBob has introduced an artificial intelligence (AI) suite to connect to merchants&#8217; live operations using either its agent, Bobby, or Anthropic&#8217;s Claude. ShipBob said it has built its fulfillment technology stack internally. That stack can now &#8220;bring an end-to-end AI layer across its entire operations,&#8221; the company said in [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-"
     },
     {
       "title_en": "Kohl’s debuts Gemini-powered AI assistant in time for back-to-school shopping",
       "title_zh": "",
-      "desc_en": "<p>Kohl&#8217;s unveiled its latest artificial intelligence (AI) tool, urging back-to-school shoppers to give the technology a try for school supplies recommendations and other use cases. The Kohl&#8217;s AI assistant, which was built using Google Cloud’s Gemini Enterprise for Customer Experience, according to the retailer, follows the retailer&#8217;s Mother’s Day Gift Finder as the company looks [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin",
-      "desc_zh": "<p>Kohl's推出了最新的人工智能（ AI ）工具，敦促返校购物者尝试该技术，以获得学校用品推荐和其他用例。 根据零售商的说法， Kohl的AI助手是使用Google Cloud的Gemini Enterprise for Customer Experience构建的，该公司遵循零售商的母亲节礼物查找器，因为该公司看起来[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin",
+      "desc_en": "<p>Kohl&#8217;s unveiled its latest artificial intelligence (AI) tool, urging back-to-school shoppers to give the technology a try for school supplies recommendations and other use cases.",
+      "desc_zh": "<p>Kohl's推出了最新的人工智能（ AI ）工具，敦促返校购物者尝试该技术，以获得学校用品推荐和其他用例。。根据零售商的说法， Kohl的AI助手是使用Google Cloud的Gemini Enterprise for Customer Experience构建的，该公司遵循零售商的母亲节礼物查找器，因为该公司看起来[…]</p>。",
       "link": "https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemini-ai-assistant-back-to-school-shopping/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1293,13 +1405,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>Kohl's推出了最新的人工智能（ AI ）工具，敦促返校购物者尝试该技术，以获得学校用品推荐和其他用例。 根据零售商的说法， Kohl的AI助手是使用Google Cloud的Gemini Enterprise for Customer Experience构建的，该公司遵循零售商的母亲节礼物查找器，因为该公司看起来[…]</p>\n<p>帖子&lt; a href = \"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin",
+      "desc_full_en": "<p>Kohl&#8217;s unveiled its latest artificial intelligence (AI) tool, urging back-to-school shoppers to give the technology a try for school supplies recommendations and other use cases. The Kohl&#8217;s AI assistant, which was built using Google Cloud’s Gemini Enterprise for Customer Experience, according to the retailer, follows the retailer&#8217;s Mother’s Day Gift Finder as the company looks [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin"
     },
     {
       "title_en": "Wayfair credits Perigold, AI with driving momentum",
       "title_zh": "",
-      "desc_en": "<p>Wayfair CEO Niraj Shah credited the retailer&#8217;s Perigold luxury banner and how it applies artificial intelligence (AI) with helping to drive the company&#8217;s momentum as revenue grew in its fiscal Q2. Wayfair launched the Perigold brand in 2017 as a way to target high-income households in the U.S., Shah shared on the retailer&#8217;s Q2 earnings [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w",
-      "desc_zh": "<p>Wayfair首席执行官Niraj Shah称赞该零售商的Perigold奢侈品横幅以及它如何应用人工智能(AI) ，这有助于推动该公司在第二财季收入增长的势头。 Wayfair于2017年推出了Perigold品牌，作为针对美国高收入家庭的一种方式， Shah分享了零售商的第二季度收益[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w",
+      "desc_en": "<p>Wayfair CEO Niraj Shah credited the retailer&#8217;s Perigold luxury banner and how it applies artificial intelligence (AI) with helping to drive the company&#8217;s momentum as revenue grew in its fiscal Q2.",
+      "desc_zh": "<p>Wayfair首席执行官Niraj Shah称赞该零售商的Perigold奢侈品横幅以及它如何应用人工智能(AI) ，这有助于推动该公司在第二财季收入增长的势头。。Wayfair于2017年推出了Perigold品牌，作为针对美国高收入家庭的一种方式， Shah分享了零售商的第二季度收益[…]</p>。",
       "link": "https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/",
       "source": "Digital Commerce 360",
       "lang": "en",
@@ -1307,12 +1421,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>Wayfair首席执行官Niraj Shah称赞该零售商的Perigold奢侈品横幅以及它如何应用人工智能(AI) ，这有助于推动该公司在第二财季收入增长的势头。 Wayfair于2017年推出了Perigold品牌，作为针对美国高收入家庭的一种方式， Shah分享了零售商的第二季度收益[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w",
+      "desc_full_en": "<p>Wayfair CEO Niraj Shah credited the retailer&#8217;s Perigold luxury banner and how it applies artificial intelligence (AI) with helping to drive the company&#8217;s momentum as revenue grew in its fiscal Q2. Wayfair launched the Perigold brand in 2017 as a way to target high-income households in the U.S., Shah shared on the retailer&#8217;s Q2 earnings [&#8230;]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w"
     },
     {
       "title_en": "The Crunchbase Tech Layoffs Tracker",
       "title_zh": "",
-      "desc_en": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
+      "desc_en": "Over 127,000 workers at U.。S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026.",
       "desc_zh": "根据Crunchbase News的统计， 2025年，美国科技公司的12.7万多名工人在大规模裁员中被解雇，裁员一直持续到2026年。查看最新削减岗位的公司。",
       "link": "https://news.crunchbase.com/startups/tech-layoffs/",
       "source": "Crunchbase",
@@ -1321,7 +1437,8 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles."
     },
     {
       "title_en": "‘Nobody Wanted to Give A Former Principal Money’: How An Educator Built An Edtech AI Startup With $63M From VCs",
@@ -1335,12 +1452,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "MagicSchool AI由一位对ChatGPT的教育潜力着迷的教育工作者创立，发布了一系列文章，介绍来自非技术背景的初创公司创始人，他们成功创办了由风险投资支持的公司。",
+      "desc_full_en": "Founded by an educator fascinated by the educational potential of ChatGPT, MagicSchool AI leads off a series of articles featuring startup founders from non-technical backgrounds who have launched successful venture-backed companies."
     },
     {
       "title_en": "Your AI Strategy May Be Destroying Your Exit Value",
       "title_zh": "",
-      "desc_en": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on valuation when it becomes time for an exit.",
+      "desc_en": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie.",
       "desc_zh": "虽然将人工智能整合到初创公司的产品战略中通常被视为提高估值的一种方式，但它可能会无意中降低退出价值，技术战略顾问Itay Sagie认为。在这篇房客评论中，他分享了您的人工智能策略在退出时对估值产生积极影响的三种方式。",
       "link": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
       "source": "Crunchbase",
@@ -1349,12 +1468,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "虽然将人工智能整合到初创公司的产品战略中通常被视为提高估值的一种方式，但它可能会无意中降低退出价值，技术战略顾问Itay Sagie认为。在这篇房客评论中，他分享了您的人工智能策略在退出时对估值产生积极影响的三种方式。",
+      "desc_full_en": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on valuation when it becomes time for an exit."
     },
     {
       "title_en": "New Ecommerce Tools: August 5, 2026",
       "title_zh": "",
-      "desc_en": "<p>This week: new services for drone deliveries, image and video editors, site and product search, AI-native ads, warehouse automation, agentic marketing, cross-border payments, and more.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-august-5-2026\">New Ecommerce Tools: August 5, 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_en": "<p>This week: new services for drone deliveries, image and video editors, site and product search, AI-native ads, warehouse automation, agentic marketing, cross-border payments, and more.</p>。",
       "desc_zh": "<p>本周：无人机交付、图像和视频编辑、网站和产品搜索、AI原生广告、仓库自动化、代理营销、跨境支付等新服务。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-august-5-2026\">新电子商务工具： 2026年8月5日</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
       "link": "https://www.practicalecommerce.com/new-ecommerce-tools-august-5-2026",
       "source": "Practical Ecommerce",
@@ -1363,7 +1484,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>本周：无人机交付、图像和视频编辑、网站和产品搜索、AI原生广告、仓库自动化、代理营销、跨境支付等新服务。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-august-5-2026\">新电子商务工具： 2026年8月5日</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
+      "desc_full_en": "<p>This week: new services for drone deliveries, image and video editors, site and product search, AI-native ads, warehouse automation, agentic marketing, cross-border payments, and more.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-august-5-2026\">New Ecommerce Tools: August 5, 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Beauty Briefing: Why legacy brands are doubling down on hero products",
@@ -1377,7 +1500,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "本周，我查看了来自传统美容品牌的改良和重新推出的英雄产品的浪潮。此外， Saltair获得了新的所有权，据传维多利亚·贝克汉姆（ Victoria Beckham ） 15岁的女儿将推出一个美容品牌。",
+      "desc_full_en": "This week, I checked in on the wave of revamped and relaunched hero products from heritage beauty brands. Additionally, Saltair gets new ownership, and Victoria Beckham’s 15-year-old daughter is rumored to be launching a beauty brand."
     },
     {
       "title_en": "A Record 14 Billion-Dollar Rounds In July Pushed Venture’s Historic Run Higher",
@@ -1391,7 +1516,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "全球风险投资在7月份没有放缓的迹象。根据Crunchbase的数据，创业资本总额为650亿美元，同比增长100% ，当月创下有史以来最高的10亿美元风险融资记录。",
+      "desc_full_en": "Global venture funding showed no signs of slowing in July. Startup capital totaled $65 billion, up 100% year over year, as the month notched the highest-ever number of billion-dollar venture rounds on record, per Crunchbase data."
     },
     {
       "title_en": "What to Know about Listicles",
@@ -1405,13 +1532,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>基于原始研究、透明标准和专有数据，列表风格的文章可以提高自然搜索和genAI的可见性。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/what-to-know-about-listicles\">What to Know about Listicles</a>首先出现在<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>上。</p>",
+      "desc_full_en": "<p>List-style articles can drive visibility in organic search and genAI when grounded in original research, transparent criteria, and proprietary data.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/what-to-know-about-listicles\">What to Know about Listicles</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Retail’s new operating model centers on leaner teams, smarter data and physical community",
       "title_zh": "",
-      "desc_en": "The conversation around AI has moved well beyond experimentation. At the recent Glossy &#38; Modern Retail Brand Leaders Dinner, with partner Global Payments, founders and executives shared how they're using artificial intelligence to automate operations, rethink hiring, build internal knowledge platforms and refine marketing strategies. But despite the rapid adoption, attendees agreed that the businesses best positioned to win will still be those that invest in community, physical retail and ex",
-      "desc_zh": "围绕人工智能的对话已经远远超出了实验的范畴。在最近的Glossy & Modern零售品牌领导者晚宴上，创始人和高管与合作伙伴Global Payments分享了他们如何利用人工智能实现运营自动化、重新思考招聘、构建内部知识平台和完善营销策略。但是，尽管迅速采用，与会者一致认为，最有能力获胜的企业仍然是那些投资于社区、实体零售和",
+      "desc_en": "The conversation around AI has moved well beyond experimentation.。At the recent Glossy &#38; Modern Retail Brand Leaders Dinner, with partner Global Payments, founders and executives shared how they're using artificial intelligence to automate operations, rethink hiring, build internal knowledge platforms and refine marketing strategies.",
+      "desc_zh": "围绕人工智能的对话已经远远超出了实验的范畴。。在最近的Glossy & Modern零售品牌领导者晚宴上，创始人和高管与合作伙伴Global Payments分享了他们如何利用人工智能实现运营自动化、重新思考招聘、构建内部知识平台和完善营销策略。",
       "link": "https://www.glossy.co/beauty/glossy-modern-retail-leaders-dinner-ai-retail-strategy/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "source": "Glossy",
       "lang": "en",
@@ -1419,7 +1548,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "围绕人工智能的对话已经远远超出了实验的范畴。在最近的Glossy & Modern零售品牌领导者晚宴上，创始人和高管与合作伙伴Global Payments分享了他们如何利用人工智能实现运营自动化、重新思考招聘、构建内部知识平台和完善营销策略。但是，尽管迅速采用，与会者一致认为，最有能力获胜的企业仍然是那些投资于社区、实体零售和",
+      "desc_full_en": "The conversation around AI has moved well beyond experimentation. At the recent Glossy &#38; Modern Retail Brand Leaders Dinner, with partner Global Payments, founders and executives shared how they're using artificial intelligence to automate operations, rethink hiring, build internal knowledge platforms and refine marketing strategies. But despite the rapid adoption, attendees agreed that the businesses best positioned to win will still be those that invest in community, physical retail and ex"
     },
     {
       "title_en": "Well-funded innovators rush to define and lead the emerging ‘hair longevity’ category",
@@ -1433,13 +1564,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Led by a handful of industry innovators with deep pockets for advanced R&#38;D, the hair-care space is on the brink of a philosophical shift around how consumers should care for their hair."
     },
     {
       "title_en": "Why The Product Manager To CEO Pipeline Is The Underrated Crash Course For Leadership In Tech",
       "title_zh": "",
-      "desc_en": "Traditional research on CEO career paths tends to focus on titles such as COO, CFO and divisional president. But the skills developed in product management may be just as relevant, argues Paysend CEO Ben Chisell. In this guest column, he makes the case that aspiring leaders should focus less on collecting prestigious titles and more on taking ownership of measurable business outcomes.",
-      "desc_zh": "对首席执行官职业道路的传统研究往往侧重于首席运营官、首席财务官和部门总裁等头衔。但Paysend首席执行官Ben Chisell认为，在产品管理中培养的技能可能同样重要。在这篇嘉宾专栏文章中，他指出，有抱负的领导者不应该把重点放在收集有声望的头衔上，而应该更多地关注可衡量的业务成果。",
+      "desc_en": "Traditional research on CEO career paths tends to focus on titles such as COO, CFO and divisional president.。But the skills developed in product management may be just as relevant, argues Paysend CEO Ben Chisell.",
+      "desc_zh": "对首席执行官职业道路的传统研究往往侧重于首席运营官、首席财务官和部门总裁等头衔。。但Paysend首席执行官Ben Chisell认为，在产品管理中培养的技能可能同样重要。",
       "link": "https://news.crunchbase.com/workplace/tech-ceo-leadership-career-path-product-manager/",
       "source": "Crunchbase",
       "lang": "en",
@@ -1447,7 +1579,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "对首席执行官职业道路的传统研究往往侧重于首席运营官、首席财务官和部门总裁等头衔。但Paysend首席执行官Ben Chisell认为，在产品管理中培养的技能可能同样重要。在这篇嘉宾专栏文章中，他指出，有抱负的领导者不应该把重点放在收集有声望的头衔上，而应该更多地关注可衡量的业务成果。",
+      "desc_full_en": "Traditional research on CEO career paths tends to focus on titles such as COO, CFO and divisional president. But the skills developed in product management may be just as relevant, argues Paysend CEO Ben Chisell. In this guest column, he makes the case that aspiring leaders should focus less on collecting prestigious titles and more on taking ownership of measurable business outcomes."
     },
     {
       "title_en": "5 Content Marketing Ideas for September 2026",
@@ -1461,7 +1595,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>9月份的内容机会包括回到霍格沃茨日、培根、应急准备、祖父母节和回家重置。</p>\n<p><a href=\"https://www.practicalecommerce.com/5-content-marketing-ideas-for-september\">2026年9月发布的5个内容营销创意</a>首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Content opportunities in September include Back to Hogwarts Day, bacon, emergency preparedness, Grandparents Day, and fall home resets.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/5-content-marketing-ideas-for-september\">5 Content Marketing Ideas for September 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Glossy Pop Newsletter: How 16-year-old Embreigh Courtlyn turned her friend group into a $2.2 million Target launch",
@@ -1475,7 +1611,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "Target最新的创作者主导的时尚投注对象是一位16岁的阿拉巴马州创作者、她高度投入的年轻粉丝群和一个朋友团体，他们的旅行、余波和团聚就像正在进行的TikTok真人秀节目一样受到关注。",
+      "desc_full_en": "Target’s latest creator-led fashion bet is on a 16-year-old Alabama creator, her highly invested young fan base and a friend group whose trips, fallouts and reunions are followed like an ongoing TikTok reality show."
     },
     {
       "title_en": "Email Pro: Open Rate Is a Vanity Metric",
@@ -1489,13 +1627,15 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>代理商老板Nabeel Azeez表示，收入而非开放费率至关重要，从不取消订阅休眠收件人。</p>\n<p>《<a href=\"https://www.practicalecommerce.com/email-pro-open-rate-is-a-vanity-metric\">Email Pro: Open Rate Is a Vanity Metric》一</a>文首次出现在《<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>》上。</p>",
+      "desc_full_en": "<p>Agency owner Nabeel Azeez says revenue, not open rates, is paramount and never unsubscribe dormant recipients.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/email-pro-open-rate-is-a-vanity-metric\">Email Pro: Open Rate Is a Vanity Metric</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "How Ulta Beauty is reaching Gen Zalpha teen boys through first men’s masstige fragrance launch",
       "title_zh": "",
-      "desc_en": "Teen boys have become an increasingly important consumer demographic over the past few years thanks to their insatiable appetite for fragrance. Now, Ulta Beauty is aspiring to capture their attention with its first masstige fragrance launch. Glossy reporters Zofia Zwieglinska and Emily Jensen join Glossy Beauty Podcast host Lexy Lebsack to unpack the rise of the Gen Zalpha fraghead and how Ulta Beauty is hoping to woo them.",
-      "desc_zh": "在过去几年中，由于青少年对香水的贪得无厌，他们已成为越来越重要的消费群体。现在， Ulta Beauty渴望通过其首款masstige香水来吸引他们的注意力。Glossy记者Zofia Zwieglinska和Emily Jensen加入Glossy Beauty播客主持人Lexy Lebsack ，解开Zalpha世代的崛起，以及Ulta Beauty希望如何向他们求爱。",
+      "desc_en": "Teen boys have become an increasingly important consumer demographic over the past few years thanks to their insatiable appetite for fragrance.。Now, Ulta Beauty is aspiring to capture their attention with its first masstige fragrance launch.",
+      "desc_zh": "在过去几年中，由于青少年对香水的贪得无厌，他们已成为越来越重要的消费群体。。现在， Ulta Beauty渴望通过其首款masstige香水来吸引他们的注意力。",
       "link": "https://www.glossy.co/beauty/how-ulta-beauty-is-reaching-gen-zalpha-teen-boys-through-first-mens-masstige-fragrance-launch/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "source": "Glossy",
       "lang": "en",
@@ -1503,7 +1643,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "在过去几年中，由于青少年对香水的贪得无厌，他们已成为越来越重要的消费群体。现在， Ulta Beauty渴望通过其首款masstige香水来吸引他们的注意力。Glossy记者Zofia Zwieglinska和Emily Jensen加入Glossy Beauty播客主持人Lexy Lebsack ，解开Zalpha世代的崛起，以及Ulta Beauty希望如何向他们求爱。",
+      "desc_full_en": "Teen boys have become an increasingly important consumer demographic over the past few years thanks to their insatiable appetite for fragrance. Now, Ulta Beauty is aspiring to capture their attention with its first masstige fragrance launch. Glossy reporters Zofia Zwieglinska and Emily Jensen join Glossy Beauty Podcast host Lexy Lebsack to unpack the rise of the Gen Zalpha fraghead and how Ulta Beauty is hoping to woo them."
     },
     {
       "title_en": "House Bill Reshapes Marketplace Policies",
@@ -1517,7 +1659,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>《2026年网上卖家权利法案》将要求市场解释账户暂停，并为受影响的卖家提供上诉机会。</p>\n<p><a href=\"https://www.practicalecommerce.com/house-bill-reshapes-marketplace-policies\">House Bill Reshapes Marketplace Policies</a>一文首次出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>The \"Online Sellers' Bill of Rights Act of 2026\" would require marketplaces to explain account suspensions and give affected sellers opportunities to appeal.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/house-bill-reshapes-marketplace-policies\">House Bill Reshapes Marketplace Policies</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Laura Mercier is replacing traditional influencers with tastemaker-consultants",
@@ -1531,12 +1675,13 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "With the launch of its new collective, Laura Mercier is adapting to a social media environment where consumers have grown skeptical of traditional influencer marketing, and micro-influencers and niche tastemakers reign supreme."
     },
     {
       "title_en": "Wellness Briefing: The peptide pipeline gets new legal momentum, plus news",
       "title_zh": "",
-      "desc_en": "For the Wellness Briefing, Glossy checked in with leaders in the peptide space, including attorney Jeff Cohen, Nuritas founder Dr. Nora Khaldi and CeliaRx founder Koehl Robinson, to unpack the results of last week’s FDA advisory committee meetings. Additionally, Whoop hires Glossier's former CEO as its chief commercial officer, the AI-powered robotic massage market grows, and skin-care brand Prequel expands its executive team.",
+      "desc_en": "For the Wellness Briefing, Glossy checked in with leaders in the peptide space, including attorney Jeff Cohen, Nuritas founder Dr.。Nora Khaldi and CeliaRx founder Koehl Robinson, to unpack the results of last week’s FDA advisory committee meetings.",
       "desc_zh": "在健康简报会上， Glossy与多肽领域的领导者进行了沟通，包括律师Jeff Cohen、Nuritas创始人Nora Khaldi博士和CeliaRx创始人Koehl Robinson ，以公布上周FDA咨询委员会会议的结果。此外， Whoop聘请Glossier的前首席执行官担任首席商务官，人工智能机器人按摩市场不断发展，护肤品牌Prequel扩大了其执行团队。",
       "link": "https://www.glossy.co/beauty/wellness/wellness-briefing-the-peptide-pipeline-gets-new-legal-momentum-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "source": "Glossy",
@@ -1545,12 +1690,14 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "在健康简报会上， Glossy与多肽领域的领导者进行了沟通，包括律师Jeff Cohen、Nuritas创始人Nora Khaldi博士和CeliaRx创始人Koehl Robinson ，以公布上周FDA咨询委员会会议的结果。此外， Whoop聘请Glossier的前首席执行官担任首席商务官，人工智能机器人按摩市场不断发展，护肤品牌Prequel扩大了其执行团队。",
+      "desc_full_en": "For the Wellness Briefing, Glossy checked in with leaders in the peptide space, including attorney Jeff Cohen, Nuritas founder Dr. Nora Khaldi and CeliaRx founder Koehl Robinson, to unpack the results of last week’s FDA advisory committee meetings. Additionally, Whoop hires Glossier's former CEO as its chief commercial officer, the AI-powered robotic massage market grows, and skin-care brand Prequel expands its executive team."
     },
     {
       "title_en": "New Ecommerce Tools: July 29, 2026",
       "title_zh": "",
-      "desc_en": "<p>New services for post-purchase, in-game commerce, payment options, analytics, ad campaigns, logistics, content syndication, search filters, chargebacks, and fraud prevention.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-july-29-2026\">New Ecommerce Tools: July 29, 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_en": "<p>New services for post-purchase, in-game commerce, payment options, analytics, ad campaigns, logistics, content syndication, search filters, chargebacks, and fraud prevention.</p>。",
       "desc_zh": "<p>用于购后、游戏内商务、付款选项、分析、广告活动、物流、内容整合、搜索过滤器、退款和欺诈预防的新服务。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-july-29-2026\">新电子商务工具： 2026年7月29日</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
       "link": "https://www.practicalecommerce.com/new-ecommerce-tools-july-29-2026",
       "source": "Practical Ecommerce",
@@ -1559,7 +1706,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>用于购后、游戏内商务、付款选项、分析、广告活动、物流、内容整合、搜索过滤器、退款和欺诈预防的新服务。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-july-29-2026\">新电子商务工具： 2026年7月29日</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
+      "desc_full_en": "<p>New services for post-purchase, in-game commerce, payment options, analytics, ad campaigns, logistics, content syndication, search filters, chargebacks, and fraud prevention.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/new-ecommerce-tools-july-29-2026\">New Ecommerce Tools: July 29, 2026</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Peach & Lily brings ‘zombie cell’ innovation to Ulta’s skin-care assortment",
@@ -1573,12 +1722,13 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_en": "Peach &#38; Lily is betting that “zombie cells” can become beauty’s next mainstream science story with a $59 senolytic moisturizer launching across more than 1,500 Ulta Beauty stores."
     },
     {
       "title_en": "Amazon Isn’t the Only U.S. Entry Channel",
       "title_zh": "",
-      "desc_en": "<p>The best channel for U.S. launches depends on whether consumers discover the product or search for it.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/amazon-isnt-the-only-u-s-entry-channel\">Amazon Isn&#8217;t the Only U.S. Entry Channel</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_en": "<p>The best channel for U.。launches depends on whether consumers discover the product or search for it.</p>。",
       "desc_zh": "<p>美国上市的最佳渠道取决于消费者是发现产品还是搜索产品。</p>\n<p><a href=\"https://www.practicalecommerce.com/amazon-isnt-the-only-u-s-entry-channel\">亚马逊并不是唯一的美国进入渠道，这</a>篇文章首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
       "link": "https://www.practicalecommerce.com/amazon-isnt-the-only-u-s-entry-channel",
       "source": "Practical Ecommerce",
@@ -1587,7 +1737,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>美国上市的最佳渠道取决于消费者是发现产品还是搜索产品。</p>\n<p><a href=\"https://www.practicalecommerce.com/amazon-isnt-the-only-u-s-entry-channel\">亚马逊并不是唯一的美国进入渠道，这</a>篇文章首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>The best channel for U.S. launches depends on whether consumers discover the product or search for it.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/amazon-isnt-the-only-u-s-entry-channel\">Amazon Isn&#8217;t the Only U.S. Entry Channel</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Optimizing Crawl Budgets: What’s New",
@@ -1601,7 +1753,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>谷歌新更新的“抓取基础设施”文档包括简化抓取的有用指针。  </p>\n<p>帖子“<a href=\"https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new\">优化抓取预算：新功能”</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Google's newly updated \"Crawling infrastructure\" documentation includes helpful pointers for streamlining crawls.  </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/optimizing-crawl-budgets-whats-new\">Optimizing Crawl Budgets: What&#8217;s New</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Nuon Medical Technologies secures the win for the Best Primary Packaging Innovation Category at the Cosmetics Business Innovation Awards",
@@ -1614,7 +1768,8 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Judge Frederic Dreux highlighted the product’s aesthetic and economic design, and its innovative approach to bridging skincare packaging and beauty technology."
     },
     {
       "title_en": "How AI is accelerating beauty ingredient discovery and innovation",
@@ -1627,7 +1782,8 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "From molecule discovery to efficacy evaluation, Julia Wray discovers how beauty ingredient companies are using AI in their latest launches"
     },
     {
       "title_en": "Estée Lauder Companies issues leadership updates",
@@ -1640,7 +1796,9 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "Jennifer Hyman将在八年后从雅诗兰黛公司董事会退休，而雅诗兰黛首席科学家Rishabh Kala将在皮肤科学峰会上展示长寿研究，他已被任命为该学院的教师",
+      "desc_full_en": "Jennifer Hyman is set to retire from Estée Lauder Companies’ Board of Directors after eight years, while Rishabh Kala, Estée Lauder’s Lead Scientist, will present longevity research at the Science of Skin Summit, where he has been appointed to the faculty"
     },
     {
       "title_en": "LVMH Fragrance Brands names Yann Musquin Managing Director",
@@ -1653,7 +1811,8 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Yann Musquin joins LVMH as Brand Managing Director of LVMH Fragrance Brands, leading the strategic vision for the luxury goods group's fragrance division"
     },
     {
       "title_en": "How AI beauty advisors are impacting organic discovery and in-store experts",
@@ -1666,7 +1825,9 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "从欧莱雅到Jo Malone London ，人工智能（ AI ）美容顾问已成为美容公司的最新热潮。但在有机产品发现越来越少的时代，它们的实施是否会带来弊大于利？",
+      "desc_full_en": "From L'Oréal to Jo Malone London, artificial intelligence (AI) beauty advisors have become the latest craze for beauty companies. But does their implementation create more harm than good in an age of increasingly less organic product discovery?"
     },
     {
       "title_en": "Kao USA updates recall notice for Oribe Serene Scalp Densifying Shampoo",
@@ -1679,7 +1840,9 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "由于检测到细菌，本月早些时候KAO USA在美国和加拿大自愿召回了一批选定的Oribe Serene Scalp Densifying Shampoo后，已确定了一个新的限制批次",
+      "desc_full_en": "A new restricted lot has been identified following selected batches of Oribe’s Serene Scalp Densifying Shampoo being voluntarily recalled by Kao USA in the US and Canada earlier this month due to the detection of bacteria"
     },
     {
       "title_en": "YSL Beauty names Alisha Boe Black Opium Ambassador to mark ‘thrilling new chapter’",
@@ -1692,7 +1855,9 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "这家获得欧莱雅授权的公司已与29岁的波音公司签约，该公司主演了Apple TV +广受好评的节目The Buccaneers ，以迎接黑鸦片粉红釉–其黑鸦片旗舰香水的最新成员",
+      "desc_full_en": "The L’Oréal-licensed company has signed 29-year-old Boe, who stars in Apple TV+'s critically acclaimed show The Buccaneers, to front Black Opium Pink Glaze – the newest addition to its Black Opium flagship fragrance"
     },
     {
       "title_en": "Donald Trump imposes sweeping US tariff hikes in response to ‘forced labour’ claims",
@@ -1705,7 +1870,8 @@
       "date": "2026-07-27",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The new tax increases have hit countries including the UK and South Korea, ranging between 10% and 12.5%, and replacing previously imposed global tariff hikes which expired on 24 July 2026"
     },
     {
       "title_en": "Gap Dreams Up a New Take on Its '90s Fragrances",
@@ -1723,8 +1889,8 @@
     {
       "title_en": "N.Y. Targets AI Models in Product Ads",
       "title_zh": "",
-      "desc_en": "<p>AI-generated images help small businesses compete with large corporations by reducing the need for expensive photoshoots.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.Y. Targets AI Models in Product Ads</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
-      "desc_zh": "<p>人工智能生成的图像通过减少对昂贵摄影的需求，帮助小型企业与大型企业竞争。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.Y. Targets AI Models in Product Ads</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_en": "<p>AI-generated images help small businesses compete with large corporations by reducing the need for expensive photoshoots.</p>。<p>The post <a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.",
+      "desc_zh": "<p>人工智能生成的图像通过减少对昂贵摄影的需求，帮助小型企业与大型企业竞争。</p>。<p>文章《<a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.",
       "link": "https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads",
       "source": "Practical Ecommerce",
       "lang": "en",
@@ -1732,7 +1898,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>人工智能生成的图像通过减少对昂贵摄影的需求，帮助小型企业与大型企业竞争。</p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.Y. Targets AI Models in Product Ads</a>》首次出现在<a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_full_en": "<p>AI-generated images help small businesses compete with large corporations by reducing the need for expensive photoshoots.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads\">N.Y. Targets AI Models in Product Ads</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "12 Best Deals From Ulta's National Lipstick Week Sale 2026",
@@ -1771,7 +1939,8 @@
       "date": "2026-07-25",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Dermatologists, internists, and psychologists weigh in on whether the popular drug can deter lifelong nail biters."
     },
     {
       "title_en": "8 Best BHA Toners of 2026 for Clearer, Smoother Skin",
@@ -1798,7 +1967,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>TagHero创始人布雷特·菲什（ Brett Fish ）表示，不良数据会扼杀广告性能，这是一种“垃圾进，垃圾出”。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend\">浪费广告支出的首要原因</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Brett Fish, founder of TagHero, says bad data kills advertising performance, a kind of \"garbage in, garbage out.\"</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-top-cause-of-wasted-ad-spend\">The Top Cause of Wasted Ad Spend</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Beauty industry slams Burnham’s business rates cut",
@@ -1811,7 +1982,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "A tax reduction for pubs, clubs and live music venues announced by the new Prime Minister Andy Burnham has been branded a ‘slap in the face’ for the beauty industry"
     },
     {
       "title_en": "Merit lands minority investment from Vasiliki Petrou-led Semcap Beauty & Wellness",
@@ -1824,7 +1996,9 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "前联合利华威望首席执行官兼Semcap新的美容与健康垂直行业现任管理合伙人Vasiliki Petrou将加入这家美国极简主义品牌的董事会，支持其增长和全球化目标",
+      "desc_full_en": "Vasiliki Petrou, the ex-Unilever Prestige CEO and current Managing Partner of Semcap’s new Beauty & Wellness vertical, will join the US minimalist brand’s Board and support its growth and globalisation goals"
     },
     {
       "title_en": "Armani Beauty named official beauty sponsor of 83rd Venice Film Festival",
@@ -1837,7 +2011,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The luxury beauty brand will spotlight its new Dolci Makeup Blush at the event in Italy in September, as well as a new fragrance set to be revealed in August"
     },
     {
       "title_en": "The next generation of under eye patches are here",
@@ -1850,7 +2025,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "From branded patches to tech-led LED masks, discover why under eye masks are having a major moment and the best new launches in the skin care subcategory"
     },
     {
       "title_en": "Interparfums hails robust Q2 2026 despite European sales dip",
@@ -1863,7 +2039,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Interparfums Q2 2026 results benefited from significant demand in US, which helped to offset declines in European sales"
     },
     {
       "title_en": "7 Best Korean Sunscreens 2026 That Melt Beautifully Into Skin",
@@ -1889,7 +2066,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "A better grip on eyeliner is in your line of sight with these comprehensive tips from makeup artists."
     },
     {
       "title_en": "7 Best Curling Irons for Every Curl Pattern and Hair Length",
@@ -1902,7 +2080,8 @@
       "date": "2026-07-24",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Loose waves, tight coils, or everything in between, these wands can handle it all."
     },
     {
       "title_en": "Publishers Can Turn to Ecommerce",
@@ -1916,7 +2095,9 @@
       "cat": "Trends",
       "heat": "new",
       "is_empty": false,
-      "is_repeat_desc": false
+      "is_repeat_desc": false,
+      "desc_full_zh": "<p>人工智能搜索可以迫使媒体公司转向并认识到他们已经拥有的价值。</p>\n<p>《<a href=\"https://www.practicalecommerce.com/publishers-can-turn-to-ecommerce\">Publishers Can Turn to Ecommerce</a>》一文首次出现在<a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_full_en": "<p>AI search can force media companies to pivot and recognize the value they already possess.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/publishers-can-turn-to-ecommerce\">Publishers Can Turn to Ecommerce</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Estée Lauder Companies among businesses hit by data breach",
@@ -1929,12 +2110,13 @@
       "date": "2026-07-23",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The breach reportedly allowed access to the personal information of certain employees at the Clinique-owner, which has put safeguards in place to protect staff"
     },
     {
       "title_en": "How brand licensing is driving growth and creativity in beauty",
       "title_zh": "",
-      "desc_en": "Ten years ago, a beauty collaboration was often little more than a celebrity's name on a make-up palette. These days, it’s a lot more exciting. We see skincare brands teaming up with Netflix hits, cosmetics labels channelling video games and fragrance houses working with canned water brands",
+      "desc_en": "Ten years ago, a beauty collaboration was often little more than a celebrity's name on a make-up palette.。These days, it’s a lot more exciting.",
       "desc_zh": "十年前，美妆合作通常只是化妆盘上名人的名字。如今，它更令人兴奋。我们看到护肤品品牌与Netflix的热门产品合作，化妆品标签引导视频游戏，香水公司与罐头水品牌合作",
       "link": "https://www.cosmeticsbusiness.com/how-brand-licensing-is-driving-growth-and-creativity",
       "source": "Cosmetics Business",
@@ -1942,7 +2124,9 @@
       "date": "2026-07-23",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "十年前，美妆合作通常只是化妆盘上名人的名字。如今，它更令人兴奋。我们看到护肤品品牌与Netflix的热门产品合作，化妆品标签引导视频游戏，香水公司与罐头水品牌合作",
+      "desc_full_en": "Ten years ago, a beauty collaboration was often little more than a celebrity's name on a make-up palette. These days, it’s a lot more exciting. We see skincare brands teaming up with Netflix hits, cosmetics labels channelling video games and fragrance houses working with canned water brands"
     },
     {
       "title_en": "\"Maxxing\" Is a Term With Toxic Origins. Why Is Everyone Using It?",
@@ -1994,7 +2178,8 @@
       "date": "2026-07-23",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Plus, they're small enough to fit in your pocket, so you can smooth your style anytime."
     },
     {
       "title_en": "Okay, We'll Bite: Fruity Perfumes Are Cool",
@@ -2020,7 +2205,8 @@
       "date": "2026-07-22",
       "cat": "Beauty",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The actor shares his curl routine and what keeps him smelling fresh after hours on the ice."
     },
     {
       "title_en": "Is Oral Minoxidil a $10 Hair Loss Cure?",
@@ -2047,7 +2233,9 @@
       "cat": "Retail",
       "heat": "trend",
       "is_empty": false,
-      "is_repeat_desc": true
+      "is_repeat_desc": true,
+      "desc_full_zh": "<p>数字商务开放网络旨在帮助小型本地商家，但品牌也可以访问它。</p>\n<p>《ONDC<a href=\"https://www.practicalecommerce.com/how-the-ondc-reshapes-india-ecommerce\">如何重塑印度电子商务》</a>一文首次出现在<a href=\"https://www.practicalecommerce.com\">《实用电子商务》</a>上。</p>",
+      "desc_full_en": "<p>The Open Network for Digital Commerce aims to help small, local merchants, yet brands can access it, too.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/how-the-ondc-reshapes-india-ecommerce\">How the ONDC Reshapes India Ecommerce</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Why Meta Descriptions Still Matter",
@@ -2061,13 +2249,15 @@
       "cat": "Retail",
       "heat": "trend",
       "is_empty": false,
-      "is_repeat_desc": true
+      "is_repeat_desc": true,
+      "desc_full_zh": "<p>谷歌和genAI平台显示有助于用户的搜索结果片段（和答案）。 </p>\n<p>文章《<a href=\"https://www.practicalecommerce.com/why-meta-descriptions-still-matter\">Why Meta Descriptions Still Matter》</a>首次出现在<a href=\"https://www.practicalecommerce.com\">《Practical Ecommerce》</a>上。</p>",
+      "desc_full_en": "<p>Google and genAI platforms show search-result snippets (and answers) that help users. </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/why-meta-descriptions-still-matter\">Why Meta Descriptions Still Matter</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "RCS or SMS? It Depends on the Task",
       "title_zh": "",
-      "desc_en": "<p>RCS is worth the cost if it helps shoppers complete a task more profitably than SMS. </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS or SMS? It Depends on the Task</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
-      "desc_zh": "<p>如果RCS可以帮助购物者完成比短信更有利可图的任务，那么它的成本是值得的。 </p>\n<p>POST <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS还是SMS ？ 这取决于任务</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_en": "<p>RCS is worth the cost if it helps shoppers complete a task more profitably than SMS.。<p>The post <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS or SMS?",
+      "desc_zh": "<p>如果RCS可以帮助购物者完成比短信更有利可图的任务，那么它的成本是值得的。。<p>POST <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS还是SMS ？",
       "link": "https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task",
       "source": "Practical Ecommerce",
       "lang": "en",
@@ -2075,12 +2265,14 @@
       "cat": "Retail",
       "heat": "trend",
       "is_empty": false,
-      "is_repeat_desc": true
+      "is_repeat_desc": true,
+      "desc_full_zh": "<p>如果RCS可以帮助购物者完成比短信更有利可图的任务，那么它的成本是值得的。 </p>\n<p>POST <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS还是SMS ？ 这取决于任务</a>首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>RCS is worth the cost if it helps shoppers complete a task more profitably than SMS. </p>\n<p>The post <a href=\"https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task\">RCS or SMS? It Depends on the Task</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "A One-Two Punch Drives Ecommerce Growth",
       "title_zh": "",
-      "desc_en": "<p>Agency owner Sean Stone says brands should focus on their own domains while selling Amazon-only items secondarily. It's a one-two punch, he says.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth\">A One-Two Punch Drives Ecommerce Growth</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>",
+      "desc_en": "<p>Agency owner Sean Stone says brands should focus on their own domains while selling Amazon-only items secondarily.。It's a one-two punch, he says.</p>。",
       "desc_zh": "<p>代理商老板肖恩·斯通（ Sean Stone ）表示，品牌应该专注于自己的领域，同时次要销售仅限亚马逊的产品。 他说，这是一拳两拳。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth\">A One-Two Punch Drives Ecommerce Growth</a>首次出现在<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>上。</p>",
       "link": "https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth",
       "source": "Practical Ecommerce",
@@ -2089,7 +2281,9 @@
       "cat": "Retail",
       "heat": "trend",
       "is_empty": false,
-      "is_repeat_desc": true
+      "is_repeat_desc": true,
+      "desc_full_zh": "<p>代理商老板肖恩·斯通（ Sean Stone ）表示，品牌应该专注于自己的领域，同时次要销售仅限亚马逊的产品。 他说，这是一拳两拳。</p>\n<p>文章<a href=\"https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth\">A One-Two Punch Drives Ecommerce Growth</a>首次出现在<a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>上。</p>",
+      "desc_full_en": "<p>Agency owner Sean Stone says brands should focus on their own domains while selling Amazon-only items secondarily. It's a one-two punch, he says.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/a-one-two-punch-drives-ecommerce-growth\">A One-Two Punch Drives Ecommerce Growth</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Google Vids now lets you star in your own AI videos",
@@ -2102,7 +2296,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images."
     },
     {
       "title_en": "Roblox launches an AI-powered game-creation feature in its mobile app",
@@ -2115,7 +2310,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt."
     },
     {
       "title_en": "Google’s AI Mode now lets you link and interact with select apps",
@@ -2128,7 +2324,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly."
     },
     {
       "title_en": "Yes, you can now order DoorDash from the command line",
@@ -2141,7 +2338,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "DoorDash正在开放dd-cli的有限测试版，这是一种命令行工具，允许开发人员和人工智能代理在终端上搜索商店、构建购物车和下订单，这标志着朝着专为人工智能代理而不仅仅是人类设计的软件又迈出了一步。",
+      "desc_full_en": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans."
     },
     {
       "title_en": "Why is OpenAI selling a ChatGPT basketball?",
@@ -2154,7 +2353,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball."
     },
     {
       "title_en": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
@@ -2167,7 +2367,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "Andrew Dai利用十多年的时间帮助构建了一些世界上最具影响力的人工智能系统，包括后来为ChatGPT的发展提供信息的研究，解释了为什么他认为视觉人工智能是人工智能的下一个主要前沿领域之一。",
+      "desc_full_en": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence."
     },
     {
       "title_en": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
@@ -2180,7 +2382,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word."
     },
     {
       "title_en": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
@@ -2193,7 +2396,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion."
     },
     {
       "title_en": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
@@ -2206,7 +2410,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market."
     },
     {
       "title_en": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
@@ -2219,7 +2424,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry."
     },
     {
       "title_en": "Victoria Beckham Beauty Hosts Immersive Pop-up Experience Inside New York’s Caffe Paradiso",
@@ -2232,7 +2438,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The in-person activation will serve as a point to discover one of the brand's signature scents: Portofino '97."
     },
     {
       "title_en": "From Skin Care to Sip Care: Symbiome Team Launches Hopkind, a Functional Non-Alcoholic Beer",
@@ -2245,7 +2452,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Hopkind combines traditional brewing with functional ingredients for muscle recovery and hydration."
     },
     {
       "title_en": "9 Best Retinal Serums for Smoother, Firmer, Brighter Skin",
@@ -2258,7 +2466,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Retinal is retinol’s more potent cousin, making it even better at clearing breakouts, firming skin, and boosting glow."
     },
     {
       "title_en": "11 Common Skin Conditions on Dark Skin and How to Treat Them",
@@ -2271,7 +2480,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "From keloids and vitiligo to hyperpigmentation and melanoma, dermatologists share the most common complexion conditions for melanin-rich skin."
     },
     {
       "title_en": "Alysa Liu's ESPY Hair Is the Ultimate Cool Girl Updo — See BTS Photos",
@@ -2284,7 +2494,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Hairstylist Anh Co Tran shares exactly how he achieved the edgy yet elegant look."
     },
     {
       "title_en": "Gregg Renfrew is courting Gen Z with Beecee, but do young people care about clean beauty?",
@@ -2297,20 +2508,24 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "长期的行业颠覆者Gregg Renfrew加入Glossy Beauty播客，讨论她的新Z世代品牌Beecee ，并回答有关清洁美容的未来，吸引年轻消费者和特色美容零售的未来的问题。",
+      "desc_full_en": "Longtime industry disruptor Gregg Renfrew joins the Glossy Beauty Podcast to discuss her new Gen Z-focused brand Beecee, plus answer questions about the future of clean beauty, what it takes to court young consumers and the future of specialty beauty retail."
     },
     {
       "title_en": "Marketplace Briefing: What’s driving a surge in Amazon sales for 3 startups",
       "title_zh": "Marketplace Briefing: What’s driving a surge in Amazon sales for 3 startups",
-      "desc_en": "Amid a challenging macroeconomic year, Amazon has proven to be a powerful sales engine for many digitally native startups. Modern Retail spoke with three startups — Suri, P.F. Candle Co, and Pretty Tasty Tea – about what they believe is driving their surge in Amazon sales this year.",
-      "desc_zh": "在宏观经济充满挑战的一年中，亚马逊已被证明是许多数字原生创业公司的强大销售引擎。Modern Retail采访了三家初创公司Suri、P.F. Candle Co和Pretty Tasty Tea ，谈到了他们认为是什么推动了今年亚马逊销售额的激增。",
+      "desc_en": "Amid a challenging macroeconomic year, Amazon has proven to be a powerful sales engine for many digitally native startups.。Modern Retail spoke with three startups — Suri, P.",
+      "desc_zh": "在宏观经济充满挑战的一年中，亚马逊已被证明是许多数字原生创业公司的强大销售引擎。。Modern Retail采访了三家初创公司Suri、P.",
       "link": "https://www.modernretail.co/operations/marketplace-briefing-whats-driving-a-surge-in-amazon-sales-for-3-startups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "source": "Modern Retail",
       "date": "2026-07-16",
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "在宏观经济充满挑战的一年中，亚马逊已被证明是许多数字原生创业公司的强大销售引擎。Modern Retail采访了三家初创公司Suri、P.F. Candle Co和Pretty Tasty Tea ，谈到了他们认为是什么推动了今年亚马逊销售额的激增。",
+      "desc_full_en": "Amid a challenging macroeconomic year, Amazon has proven to be a powerful sales engine for many digitally native startups. Modern Retail spoke with three startups — Suri, P.F. Candle Co, and Pretty Tasty Tea – about what they believe is driving their surge in Amazon sales this year."
     },
     {
       "title_en": "How toy manufacturer PlayMonster helped engineer a Hacky Sack revival",
@@ -2323,7 +2538,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "在Hacky Sacks复兴的鼓舞下，玩具公司PlayMonster正在开发约10种新的Hacky Sack风格。PlayMonster的首席执行官与Modern Retail谈到了跟上需求，以及Hacky Sack复兴对现在与消费者产生共鸣的游戏和玩具类型的看法。",
+      "desc_full_en": "Encouraged by the resurgence of Hacky Sacks, toy company PlayMonster is developing about 10 new Hacky Sack styles. PlayMonster's CEO spoke with Modern Retail about keeping up with demand, and what the Hacky Sack revival says about the types of games and toys resonating with consumers right now."
     },
     {
       "title_en": "Salomon continues its US growth streak by launching at Foot Locker",
@@ -2336,7 +2553,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Only two weeks after the cult French sneaker brand Salomon opened its largest store in New York City, it's making another big retail move: It's launching at Foot Locker."
     },
     {
       "title_en": "Robot manicures to AI-powered mirrors: Inside beauty salons new high-tech era",
@@ -2349,7 +2567,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "As beauty professionals embrace technology-led launches and artificial intelligence (AI) integration within their services, discover how this new era of salons and clinics are embracing the advancing world around them"
     },
     {
       "title_en": "Paris Hilton returns to NYX Professional Makeup as the Gloss Boss",
@@ -2362,7 +2581,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "NYX Professional Makeup与Paris Hilton合作推出“If You NYX, You Know”第2卷活动，任命这位从社交名流变身的企业家为NYX的Gloss Boss",
+      "desc_full_en": "NYX Professional Makeup has partnered with Paris Hilton for the return of its ‘If You NYX, You Know’ Volume 2 campaign, naming the socialite-turned-entrepreneur as NYX’s Gloss Boss"
     },
     {
       "title_en": "BASF introduces “Beyond Beauty: Renewed Authenticity” at NYSCC 2026, spotlighting authentic, science-based personal care solutions",
@@ -2375,7 +2596,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "BASF features ingredient innovations, including breakthrough technologies supporting adaptive collagen renewal to multifunctional hair conditioning boosters and next-generation UV filters, advancing the future of skin and hair health"
     },
     {
       "title_en": "LVMH fragrance boss Romain Spitzer departs for Bottega Veneta",
@@ -2388,7 +2610,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The 20-year veteran of LVMH Beauty has been named CEO of the Kering-owned Italian fashion house"
     },
     {
       "title_en": "David Beckham’s wellness brand IM8 scores $1 billion growth financing",
@@ -2401,7 +2624,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "General Catalyst客户价值基金（ CVF ）的现金将用于营销IM8的Daily Ultimate Essentials和Daily Ultimate Longevity补充剂，以提高客户数量和支出",
+      "desc_full_en": "The cash from General Catalyst’s Customer Value Fund (CVF) will go towards marketing of IM8’s Daily Ultimate Essentials and Daily Ultimate Longevity supplements to boost customer numbers and spend"
     },
     {
       "title_en": "The neo‑woody scent revolution heading to luxury fragrance",
@@ -2414,12 +2639,14 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "帝斯曼-芬美意调香大师阿尔贝托·莫里利亚斯（ Alberto Morillas ）谈论了他自己的香水品牌Mizensir的最新创作Chiffre Royal ，以及它如何融入奢侈品香水向新木质香味发展的趋势",
+      "desc_full_en": "DSM-Firmenich Master Perfumer Alberto Morillas, talks shop on his own fragrance brand Mizensir’s latest creation, Chiffre Royal, and how it incorporates the growing trend in luxury perfumery towards neo-woody scents"
     },
     {
       "title_en": "The Billion-Dollar Seed Isn’t The Deal You Think It Is",
       "title_zh": "The Billion-Dollar Seed Isn’t The Deal You Think It Is",
-      "desc_en": "Despite attention-grabbing AI mega-seed rounds, historical data shows that very large first financings rarely produce venture-scale returns because high entry valuations limit investor upside. Instead, argues guest author Ellie McDonald, the strongest venture outcomes have typically come from capital-efficient startups that raised modest early rounds.",
+      "desc_en": "Despite attention-grabbing AI mega-seed rounds, historical data shows that very large first financings rarely produce venture-scale returns because high entry valuations limit investor upside.",
       "desc_zh": "尽管人工智能大型种子轮引人注目，但历史数据显示，非常大的第一轮融资很少产生风险规模的回报，因为高入场估值限制了投资者的上行空间。客座作家艾莉·麦克唐纳（ Ellie McDonald ）认为，相反，最强劲的风险投资成果通常来自资本效率高的初创公司，这些初创公司在早期进行了适度的融资。",
       "link": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/",
       "source": "Crunchbase",
@@ -2427,7 +2654,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "尽管人工智能大型种子轮引人注目，但历史数据显示，非常大的第一轮融资很少产生风险规模的回报，因为高入场估值限制了投资者的上行空间。客座作家艾莉·麦克唐纳（ Ellie McDonald ）认为，相反，最强劲的风险投资成果通常来自资本效率高的初创公司，这些初创公司在早期进行了适度的融资。",
+      "desc_full_en": "Despite attention-grabbing AI mega-seed rounds, historical data shows that very large first financings rarely produce venture-scale returns because high entry valuations limit investor upside. Instead, argues guest author Ellie McDonald, the strongest venture outcomes have typically come from capital-efficient startups that raised modest early rounds."
     },
     {
       "title_en": "China And AI Lead Asia’s Startup Funding To Multiyear Peak In Q2",
@@ -2440,7 +2669,9 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_zh": "总体而言，根据Crunchbase的数据，投资者在2026年第二季度向亚洲各地的初创企业融资注入了428亿美元$。在中国$ 74亿DeepSeek融资的带动下，这是迄今为止三年多来最高的季度总数。",
+      "desc_full_en": "Overall, investors poured $42.8 billion into startup funding rounds across all of Asia in Q2 2026, per Crunchbase data. Led by China's $7.4 billion DeepSeek raise, that’s by far the highest quarterly total in more than three years."
     },
     {
       "title_en": "AI Makes Refund Evidence Easier to Fake",
@@ -2454,7 +2685,9 @@
       "cat": "fresh",
       "heat": "trend",
       "is_empty": false,
-      "is_repeat_desc": true
+      "is_repeat_desc": true,
+      "desc_full_zh": "<p>使用人工智能，欺诈者可以生成伪造的产品图像，调整解释，并重复甚至自动化该过程。</p>\n<p><a href=\"https://www.practicalecommerce.com/ai-makes-refund-evidence-easier-to-fake\">人工智能使退款证据更容易被伪造</a>的帖子首先出现<a href=\"https://www.practicalecommerce.com\">在实用电子商务</a>上。</p>",
+      "desc_full_en": "<p>Using AI, a fraudster can generate fabricated product images, adjust explanations, and repeat or even automate the process.</p>\n<p>The post <a href=\"https://www.practicalecommerce.com/ai-makes-refund-evidence-easier-to-fake\">AI Makes Refund Evidence Easier to Fake</a> appeared first on <a href=\"https://www.practicalecommerce.com\">Practical Ecommerce</a>.</p>"
     },
     {
       "title_en": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
@@ -2467,7 +2700,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models."
     },
     {
       "title_en": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
@@ -2480,7 +2714,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app."
     },
     {
       "title_en": "SpaceX falls to $135 IPO price ahead of Starship launch",
@@ -2493,7 +2728,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public."
     },
     {
       "title_en": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
@@ -2506,7 +2742,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view."
     },
     {
       "title_en": "Hack suggests AI music generator Suno scraped YouTube for training data",
@@ -2519,7 +2756,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio."
     },
     {
       "title_en": "How Neutrogena Is Rebuilding for the New Generation",
@@ -2532,7 +2770,8 @@
       "lang": "en",
       "cat": "fresh",
       "heat": "trend",
-      "is_empty": false
+      "is_empty": false,
+      "desc_full_en": "A window into the brand’s second-half strategy, including a recent retinol launch and a communications platform called Break the Rules."
     }
   ]
 }
