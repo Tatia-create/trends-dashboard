@@ -945,9 +945,9 @@
         async () => {
           // 优先:3 个分片(每片 100KB,沙箱能稳推)
           const [r1, r2, r3] = await Promise.all([
-            fetch('./trends-data-1.json?v=66').then(r => r.ok ? r.json() : null),
-            fetch('./trends-data-2.json?v=66').then(r => r.ok ? r.json() : null),
-            fetch('./trends-data-3.json?v=66').then(r => r.ok ? r.json() : null),
+            fetch('./trends-data-1.json?v=68').then(r => r.ok ? r.json() : null),
+            fetch('./trends-data-2.json?v=68').then(r => r.ok ? r.json() : null),
+            fetch('./trends-data-3.json?v=68').then(r => r.ok ? r.json() : null),
           ]);
           if (r1 && r2 && r3) {
             const all = [...(r1.stories||[]), ...(r2.stories||[]), ...(r3.stories||[])];
@@ -957,7 +957,7 @@
         },
         // 回退:整文件(也许沙箱恢复了)
         async () => {
-          const res = await fetch('./trends-data.json?v=66');
+          const res = await fetch('./trends-data.json?v=68');
           if (!res.ok) throw new Error('HTTP ' + res.status);
           return await res.json();
         },
