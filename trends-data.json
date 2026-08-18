@@ -1,6 +1,6 @@
 {
   "version": "v3.2-bilingual",
-  "last_updated": "2026-07-28T10:49:13",
+  "last_updated": "2026-08-18T11:00:53",
   "window": "2026-01-16 to 2026-07-15",
   "markets": [
     "US",
@@ -21,13 +21,13 @@
   ],
   "stats": {
     "total": 546,
-    "hot": 120,
-    "trend": 120,
-    "new": 0,
-    "arch": 318
+    "hot": 14,
+    "trend": 234,
+    "new": 128,
+    "arch": 170
   },
   "new_today": 130,
-  "sources_ok": 130,
+  "sources_ok": 10,
   "sources_failed": 17,
   "date_range": {
     "from": "2026-07-11",
@@ -9438,73 +9438,22 @@
     }
   ],
   "failed_sources": [
-    {
-      "name": "VentureBeat AI",
-      "err": "HTTP 308"
-    },
-    {
-      "name": "Byrdie",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "The Verge AI",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "Bloomberg Tech",
-      "err": "HTTP None"
-    },
-    {
-      "name": "CB Insights",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "Retail Brew",
-      "err": "HTTP 308"
-    },
-    {
-      "name": "华尔街见闻",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "TalkingData",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "财联社",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "财新",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "智研咨询",
-      "err": "HTTP 404"
-    },
-    {
-      "name": "QuestMobile",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "洞见研报",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "CBNData",
-      "err": "feedparser 解析 0 条"
-    },
-    {
-      "name": "36Kr Playwright",
-      "err": "playwright 抓取失败"
-    },
-    {
-      "name": "阿里研究院",
-      "err": "feedparser 解析 0 条"
-    }
+    "VentureBeat AI (HTTP 308)",
+    "The Verge AI (HTTP 404)",
+    "Byrdie (HTTP 403)",
+    "Retail Brew (HTTP 308)",
+    "CB Insights (HTTP 403)",
+    "华尔街见闻 (解析0条)",
+    "TalkingData (HTTP 404)",
+    "36Kr Playwright (抓取失败)",
+    "财新 (解析0条)",
+    "智研咨询 (HTTP 404)",
+    "财联社 (HTTP 404)",
+    "PitchBook News (HTTP 403)",
+    "QuestMobile (解析0条)",
+    "阿里研究院 (解析0条)",
+    "洞见研报 (解析0条)",
+    "CBNData (解析0条)",
+    "Bloomberg Tech (HTTP None)"
   ]
 }
