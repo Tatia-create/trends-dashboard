@@ -1577,7 +1577,7 @@
     },
     {
       "title_en": "The Crunchbase Tech Layoffs Tracker",
-      "title_zh": "",
+      "title_zh": "Crunchbase技术裁员跟踪器",
       "desc_en": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
       "desc_zh": "根据Crunchbase News的统计， 2025年，美国科技公司的12.7万多名工人在大规模裁员中被解雇，裁员一直持续到2026年。查看最新削减岗位的公司。",
       "link": "https://news.crunchbase.com/startups/tech-layoffs/",
@@ -9438,22 +9438,73 @@
     }
   ],
   "failed_sources": [
-    "VentureBeat AI (HTTP 308)",
-    "The Verge AI (HTTP 404)",
-    "Byrdie (HTTP 403)",
-    "Retail Brew (HTTP 308)",
-    "CB Insights (HTTP 403)",
-    "华尔街见闻 (解析0条)",
-    "TalkingData (HTTP 404)",
-    "36Kr Playwright (抓取失败)",
-    "财新 (解析0条)",
-    "智研咨询 (HTTP 404)",
-    "财联社 (HTTP 404)",
-    "PitchBook News (HTTP 403)",
-    "QuestMobile (解析0条)",
-    "阿里研究院 (解析0条)",
-    "洞见研报 (解析0条)",
-    "CBNData (解析0条)",
-    "Bloomberg Tech (HTTP None)"
+    {
+      "name": "VentureBeat AI",
+      "err": "HTTP 308"
+    },
+    {
+      "name": "The Verge AI",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "Byrdie",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "36Kr Playwright",
+      "err": "playwright 抓取失败"
+    },
+    {
+      "name": "PitchBook News",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "财新",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "TalkingData",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "CB Insights",
+      "err": "HTTP 403"
+    },
+    {
+      "name": "华尔街见闻",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "智研咨询",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "财联社",
+      "err": "HTTP 404"
+    },
+    {
+      "name": "QuestMobile",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "阿里研究院",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "洞见研报",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "CBNData",
+      "err": "feedparser 解析 0 条"
+    },
+    {
+      "name": "Retail Brew",
+      "err": "HTTP 308"
+    },
+    {
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
+    }
   ]
 }
