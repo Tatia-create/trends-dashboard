@@ -9455,10 +9455,6 @@
       "err": "HTTP None"
     },
     {
-      "name": "CB Insights",
-      "err": "HTTP 403"
-    },
-    {
       "name": "Retail Brew",
       "err": "HTTP 308"
     },
@@ -9467,7 +9463,7 @@
       "err": "HTTP 403"
     },
     {
-      "name": "PitchBook News",
+      "name": "CB Insights",
       "err": "HTTP 403"
     },
     {
@@ -9491,6 +9487,10 @@
       "err": "HTTP 404"
     },
     {
+      "name": "QuestMobile",
+      "err": "feedparser 解析 0 条"
+    },
+    {
       "name": "洞见研报",
       "err": "feedparser 解析 0 条"
     },
@@ -9503,12 +9503,16 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "QuestMobile",
-      "err": "feedparser 解析 0 条"
+      "name": "Crunchbase",
+      "err": "HTTP 403"
     },
     {
       "name": "36Kr Playwright",
       "err": "playwright 抓取失败"
+    },
+    {
+      "name": "PitchBook News",
+      "err": "HTTP 403"
     }
   ]
 }
