@@ -9451,27 +9451,19 @@
       "err": "HTTP 403"
     },
     {
-      "name": "Bloomberg Tech",
-      "err": "HTTP None"
+      "name": "CB Insights",
+      "err": "HTTP 403"
     },
     {
       "name": "Retail Brew",
       "err": "HTTP 308"
     },
     {
-      "name": "CB Insights",
-      "err": "HTTP 403"
-    },
-    {
-      "name": "TalkingData",
-      "err": "HTTP 404"
-    },
-    {
       "name": "华尔街见闻",
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "财联社",
+      "name": "TalkingData",
       "err": "HTTP 404"
     },
     {
@@ -9479,12 +9471,16 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "PitchBook News",
-      "err": "HTTP 403"
+      "name": "财联社",
+      "err": "HTTP 404"
     },
     {
       "name": "智研咨询",
       "err": "HTTP 404"
+    },
+    {
+      "name": "洞见研报",
+      "err": "feedparser 解析 0 条"
     },
     {
       "name": "QuestMobile",
@@ -9495,8 +9491,8 @@
       "err": "feedparser 解析 0 条"
     },
     {
-      "name": "洞见研报",
-      "err": "feedparser 解析 0 条"
+      "name": "PitchBook News",
+      "err": "HTTP 403"
     },
     {
       "name": "CBNData",
@@ -9505,6 +9501,10 @@
     {
       "name": "36Kr Playwright",
       "err": "playwright 抓取失败"
+    },
+    {
+      "name": "Bloomberg Tech",
+      "err": "HTTP None"
     }
   ]
 }
