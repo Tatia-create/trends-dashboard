@@ -560,10 +560,10 @@
   <div class="filter-row">
     <div class="filter-label">热度 Heat</div>
     <div class="chips" id="heatChips">
-      <span class="chip active" data-heat="all">全部 All</span>
+      <span class="chip" data-heat="all">全部 All</span>
       <span class="chip heat-hot" data-heat="hot">🔥 HOT</span>
       <span class="chip heat-trend" data-heat="trend">🟧 TRENDING</span>
-      <span class="chip heat-new" data-heat="new">🟨 NEW</span>
+      <span class="chip heat-new active" data-heat="new">🟨 NEW</span>
       <span class="chip heat-arch" data-heat="arch">⬜ ARCHIVED</span>
     </div>
   </div>
@@ -594,7 +594,7 @@
       dateTo: '',
       markets: new Set(),   // empty = all
       cats: new Set(),      // empty = all
-      heat: 'all',
+      heat: 'new',
       search: ''
     }
   };
@@ -957,7 +957,7 @@
         },
         // 回退:整文件(也许沙箱恢复了)
         async () => {
-          const res = await fetch('./trends-data.json?v=82');
+          const res = await fetch('./trends-data.json?v=83');
           if (!res.ok) throw new Error('HTTP ' + res.status);
           return await res.json();
         },
