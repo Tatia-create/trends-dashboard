@@ -20,21 +20,315 @@
     "research"
   ],
   "stats": {
-    "total": 659,
+    "total": 690,
     "hot": 14,
     "trend": 234,
     "new": 128,
     "arch": 170
   },
-  "new_today": 130,
-  "sources_ok": 130,
-  "sources_failed": 17,
+  "new_today": 110,
+  "sources_ok": 110,
+  "sources_failed": 19,
   "date_range": {
     "from": "2026-07-11",
     "to": "2026-08-27"
   },
   "segment": "2/3",
   "stories": [
+    {
+      "title_en": "How AI-Generated Images Are Changing Beauty Consultations",
+      "title_zh": "",
+      "desc_en": "Hairstylists, nail artists, plastic surgeons, and tattoo artists weigh on the rise of clients using chatbots before their appointments.",
+      "desc_zh": "发型师、美甲师、整形外科医生和纹身师在预约之前会考虑使用聊天机器人的客户的崛起。",
+      "link": "https://www.allure.com/story/ai-generated-nail-tattoo-hair-plastic-surgery-photos",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Inside Best Buy’s push to sell shoppers on a new generation of TVs",
+      "title_zh": "",
+      "desc_en": "One of Best Buy's big priorities this year is pushing a new generation of RGB LED TVs to consumers. The hope is that customers will find the technological improvements convincing enough to make an upgrade, six years after many of them bought a new TV during the Covid-19 pandemic.",
+      "desc_zh": "百思买今年的首要任务之一是将新一代RGB LED电视推向消费者。我们希望，在新冠肺炎疫情期间，许多客户购买了新电视六年后，客户会发现这些技术改进足以令人信服地进行升级。",
+      "link": "https://www.modernretail.co/technology/inside-best-buys-push-to-sell-shoppers-on-a-new-generation-of-tvs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-11",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Walmart finally lets advertisers exclude certain search terms",
+      "title_zh": "",
+      "desc_en": "Walmart's advertising platform is giving brands more control over where they show up in searches, marking a significant change in how their ad budgets are spent.",
+      "desc_zh": "沃尔玛的广告平台让品牌能够更好地控制他们在搜索结果中的显示位置，这标志着他们的广告预算使用方式发生了重大变化。",
+      "link": "https://www.modernretail.co/marketing/walmart-finally-lets-advertisers-exclude-certain-search-terms/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-11",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "TikTok Shop is increasingly attracting brands selling high-ticket items",
+      "title_zh": "",
+      "desc_en": "TikTok Shop is increasingly drawing higher-priced home and lifestyle brands due to increased user trust, effective creator content and improvements in logistics.",
+      "desc_zh": "由于用户信任度的提高、有效的创作者内容和物流的改进， TikTok商店越来越多地吸引了价格更高的家居和生活方式品牌。",
+      "link": "https://www.modernretail.co/marketing/tiktok-shop-is-increasingly-attracting-brands-selling-high-ticket-items/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-11",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Missile strikes on warehouses are threatening Ukraine’s consumer brands",
+      "title_zh": "",
+      "desc_en": "A Ukrainian apparel startup is rebuilding after losing its entire latest collection in a recent Russian missile attack on a logistics facility.",
+      "desc_zh": "一家乌克兰服装创业公司在最近俄罗斯导弹袭击物流设施后失去了全部最新收藏品，目前正在重建中。",
+      "link": "https://www.modernretail.co/operations/missile-strikes-on-warehouses-are-threatening-ukraines-consumer-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "What’s driving frozen yogurt’s second act, as 16 Handles and Go Greek experience a renaissance",
+      "title_zh": "",
+      "desc_en": "Social media and wellness trends are fueling frozen yogurt's comeback. Now, established players like 16 Handles and Go Greek are seeing a surge in growth, and startups like Coconut Cult and Benefiber are looking to ride the trend through fun pop-ups.",
+      "desc_zh": "社交媒体和健康趋势正在推动冷冻酸奶的复苏。现在，像16 Handles和Go Greek这样的老牌玩家正在看到增长的激增，而像Coconut Cult和Benefiber这样的初创公司正在寻求通过有趣的弹出窗口来驾驭这一趋势。",
+      "link": "https://www.modernretail.co/marketing/whats-driving-frozen-yogurts-second-act-as-16-handles-and-go-greek-experience-a-renaissance/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "The wellness M&A hot streak shows no signs of slowing down",
+      "title_zh": "",
+      "desc_en": "P&G's $3.8 billion acquisition of Thorne is yet another strong signal that large CPG conglomerates are increasingly seeking out science-backed, high-growth brands to add to their portfolios as consumer priorities shift.",
+      "desc_zh": "宝洁以38亿美元收购Thorne是另一个强有力的信号，表明随着消费者优先事项的转变，大型CPG集团越来越多地寻求科学支持的高增长品牌来增加其投资组合。",
+      "link": "https://www.modernretail.co/operations/the-wellness-ma-hot-streak-shows-no-signs-of-slowing-down/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Foot Locker invests in more long-form content as it continues its turnaround",
+      "title_zh": "",
+      "desc_en": "Foot Locker is dialing up its long-form digital content as part of its new brand platform, \"It Always Will Be Foot Locker.\"",
+      "desc_zh": "Foot Locker正在调整其长格式数字内容，作为其新品牌平台“It Always Will Be Foot Locker”的一部分。",
+      "link": "https://www.modernretail.co/marketing/foot-locker-invests-in-more-long-form-content-as-it-continues-its-turnaround/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "How Once Upon a Farm is shaking up the baby aisle with coolers",
+      "title_zh": "",
+      "desc_en": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up the baby aisle with coolers. Marston shares what she's learned over the years about what it takes to get retailers on board with a new way of merchandising products.",
+      "desc_zh": "在本周的现代零售播客中，我们与农场首席营销官凯蒂·马斯顿（ Katie Marston ）进行了对话，讨论了该公司如何用冷却器撼动婴儿过道。Marston分享了她多年来所学到的知识，即如何让零售商采用一种新的产品营销方式。",
+      "link": "https://www.modernretail.co/podcasts/how-once-upon-a-farm-is-shaking-up-the-baby-aisle-with-coolers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-08",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Tarte faces backlash for Snatch Sticks marketing mirroring plastic surgery",
+      "title_zh": "",
+      "desc_en": "Tarte Cosmetics is under fire for ways in which it's marketing its new Snatch Stick, with some social-media users accusing the company of \"rage baiting\" its audience.",
+      "desc_zh": "Tarte Cosmetics因其营销新款Snatch Stick的方式而受到抨击，一些社交媒体用户指责该公司“愤怒诱惑”其受众。",
+      "link": "https://www.modernretail.co/marketing/tarte-faces-backlash-for-snatch-sticks-marketing-mirroring-plastic-surgery/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Inside the New York Liberty’s year-round merch machine",
+      "title_zh": "",
+      "desc_en": "Merch is proving big business for the New York Liberty, with sales up double-digits and \"selling like hotcakes.\" The team is now creating more products year-round, as it works to become a full lifestyle brand.",
+      "desc_zh": "Merch证明了New York Liberty的大生意，销售额增长了两位数， “像热蛋糕一样畅销。“该团队现在全年都在创造更多的产品，因为它致力于成为一个完整的生活方式品牌。",
+      "link": "https://www.modernretail.co/marketing/inside-the-new-york-libertys-year-round-merch-machine/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "source": "Modern Retail",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Keys Inc. builds AI-powered parts marketplace",
+      "title_zh": "",
+      "desc_en": "<p>Keys Inc. is expanding its software ecosystem to include a full procurement network, it announced Aug. 7. The system will allow locksmiths to identify, source, compare and order automotive keys directly through its app without contacting distributors by phone. Keys is an artificial intelligence (AI)-powered platform serving the U.S. locksmith and roadside service industry. The […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar",
+      "desc_zh": "<p>Keys Inc.于8月7日宣布，它正在扩大其软件生态系统，以包括完整的采购网络。 该系统将允许锁匠直接通过其应用程序识别、获取、比较和订购汽车钥匙，而无需通过电话联系经销商。 Keys是一个由人工智能(AI)驱动的平台，服务于美国锁匠和路边服务行业。[…]</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-mar",
+      "link": "https://www.digitalcommerce360.com/2026/08/10/keys-inc-builds-ai-powered-parts-marketplace/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Bed Bath & Beyond grows revenue in Q2, plans rebrand to Neighborhood Intelligence",
+      "title_zh": "",
+      "desc_en": "<p>Upon marking back-to-back quarters of revenue growth in its fiscal Q2 2026, Bed Bath & Beyond Inc. announced it will rebrand as Neighborhood Intelligence, moving to Nashville and entering the Nasdaq. The company said it will operate under its new ticker NXH on the Nasdaq starting Aug. 17. It will continue to operate as Bed […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath & Bey",
+      "desc_zh": "<p>Bed Bath & Beyond Inc.在2026年第二财季实现连续几个季度的收入增长后，宣布将更名为Neighborhood Intelligence ，迁至纳什维尔并进入纳斯达克。 该公司表示，从8月17日开始，它将在纳斯达克的新股票代码NXH下运营。 它将继续作为床[…]</p>\n<p>THE POST <a href=\"https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/\">Bed Bath & Bey",
+      "link": "https://www.digitalcommerce360.com/2026/08/07/bed-bath-beyond-revenue-q2-fy26-neighborhood-intelligence-rebrand/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Sysco expands AI push after posting $22.1 billion in Q4 sales",
+      "title_zh": "",
+      "desc_en": "<p>Foodservice industry distributor Sysco Corp. closed out its fiscal 2026 on a high note, posting fourth-quarter sales of $22.1 billion, a 4.7% year-over-year increase. The company CEO expects artificial intelligence (AI) to fuel additional growth in the months ahead. For its full year 2026, Sysco sales reached $84.6 billion, up 3.9% from its fiscal 2025 […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco expands AI push after posting ",
+      "desc_zh": "<p>餐饮服务行业分销商Sysco Corp.在2026财年收盘时表现强劲，第四季度销售额为221亿美元，同比增长4.7%。 该公司首席执行官预计，人工智能（ AI ）将在未来几个月推动额外的增长。 2026年全年， Sysco销售额达到846亿美元，比2025财年增长3.9% […]</p>\n<p>发布后， <a href=\"https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/\">Sysco扩展了AI推送",
+      "link": "https://www.digitalcommerce360.com/2026/08/07/sysco-ai-sales-q4-fy26/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "How Shopify is approaching agentic AI so far in 2026",
+      "title_zh": "",
+      "desc_en": "<p>On Shopify’s Q2 earnings call with analysts, president Harley Finkelstein said the ecommerce platform and its ecosystem are “well-suited to this agentic era” of artificial intelligence (AI). Finkelstein said Shopify has been investing in the search index for about two years. It has been going through 20 years of commerce data from more than 1 […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop",
+      "desc_zh": "<p>在Shopify与分析师的第二季度财报电话会议上，总裁哈雷·芬克尔斯坦（ Harley Finkelstein ）表示，电子商务平台及其生态系统“非常适合人工智能（ AI ）的这个代理时代”。 Finkelstein表示， Shopify已经在搜索指数上投资了大约两年。 它已经经历了20多年的商业数据，来自1个以上的[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/\">How Shop",
+      "link": "https://www.digitalcommerce360.com/2026/08/06/how-shopify-is-approaching-agentic-ai-2026/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Ahold Delhaize USA adds Pear Commerce to connect CPG content to online grocery carts",
+      "title_zh": "",
+      "desc_en": "<p>Ahold Delhaize USA is partnering with Pear Commerce on a new ecommerce integration, the grocery retailer announced.  Shoppers will be able to add grocery items to their online carts directly from consumer packaged goods (CPG) brand websites, shoppable recipes and store locator tools. The collaboration, announced July 29, covers all five of Ahold Delhaize USA’s […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec",
+      "desc_zh": "<p>这家杂货零售商宣布， Ahold Delhaize USA正在与Pear Commerce合作进行新的电子商务整合。  购物者将能够直接从消费者包装商品（ CPG ）品牌网站、可购物食谱和商店定位工具中将生鲜杂货添加到他们的在线购物车中。 此次合作于7月29日宣布，涵盖了Ahold Delhaize USA的所有五个[…]</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connec",
+      "link": "https://www.digitalcommerce360.com/2026/08/06/ahold-delhaize-usa-adds-pear-commerce-to-connect-cpg-content-to-online-grocery-carts/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Ecommerce Trends: What online shoppers said will matter in 2026 holiday survey results",
+      "title_zh": "",
+      "desc_en": "<p>New survey results show that retailers are not the only ones preparing for the 2026 holiday season. Online shoppers are thinking ahead — and their answers about how and when they expect to shop have implications for merchants. Digital Commerce 360 and Bizrate Insights surveyed 1,018 online shoppers in July, asking them about how much […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re",
+      "desc_zh": "<p>新的调查结果显示，零售商并不是唯一为2026年假期做准备的公司。 在线购物者正在提前考虑--他们对如何以及何时购物的答案对商家有影响。 Digital Commerce 360和Bizrate Insights在7月份对1,018名在线购物者进行了调查，询问他们有多少[…]</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-re",
+      "link": "https://www.digitalcommerce360.com/2026/08/06/ecommerce-trends-what-online-shoppers-said-will-matter-in-2026-holiday-survey-results/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "What 24/7 actually costs: the operational anatomy of round-the-clock support for mid-market retailers",
+      "title_zh": "",
+      "desc_en": "<p>Sponsor content is created on behalf of and in collaboration with Bazoom by DigitalCommerce360. Our editorial staff is not involved in the creation of the sponsored content. Round-the-clock support looks like a simple hiring problem: three shifts instead of one, so roughly triple the payroll. In practice, mid-market retailers often discover that the real costs […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r",
+      "desc_zh": "<p>赞助商内容是由DigitalCommerce360代表Bazoom与Bazoom合作创建的。 我们的编辑人员不参与赞助内容的创建。 全天候支持看起来像一个简单的招聘问题：三班倒而不是一班倒，所以大约是工资的三倍。 在实践中，中端市场零售商经常发现，实际成本[…]</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-r",
+      "link": "https://www.digitalcommerce360.com/2026/08/06/what-24-7-actually-costs-the-operational-anatomy-of-round-the-clock-support-for-mid-market-retailers/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "ShipBob adds Claude-integrated AI to in-house fulfillment tech suite",
+      "title_zh": "",
+      "desc_en": "<p>Global supply chain and fulfillment platform ShipBob has introduced an artificial intelligence (AI) suite to connect to merchants’ live operations using either its agent, Bobby, or Anthropic’s Claude. ShipBob said it has built its fulfillment technology stack internally. That stack can now “bring an end-to-end AI layer across its entire operations,” the company said in […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-",
+      "desc_zh": "<p>全球供应链和履行平台ShipBob推出了一款人工智能(AI)套件，可使用其代理商Bobby或Anthropic的Claude连接到商家的实时运营。 ShipBob表示，它已经在内部建立了配送技术堆栈。 该堆栈现在可以“在其整个运营中带来端到端的人工智能层，”该公司在[…]中表示。</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-",
+      "link": "https://www.digitalcommerce360.com/2026/08/05/shipbob-adds-claude-integrated-ai-to-in-house-fulfillment-tech-suite/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Kohl’s debuts Gemini-powered AI assistant in time for back-to-school shopping",
+      "title_zh": "",
+      "desc_en": "<p>Kohl’s unveiled its latest artificial intelligence (AI) tool, urging back-to-school shoppers to give the technology a try for school supplies recommendations and other use cases. The Kohl’s AI assistant, which was built using Google Cloud’s Gemini Enterprise for Customer Experience, according to the retailer, follows the retailer’s Mother’s Day Gift Finder as the company looks […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin",
+      "desc_zh": "<p>Kohl's推出了最新的人工智能（ AI ）工具，敦促返校购物者尝试该技术，以获得学校用品推荐和其他用例。 根据零售商的说法， Kohl的AI助手是使用Google Cloud的Gemini Enterprise for Customer Experience构建的，该公司遵循零售商的母亲节礼物查找器，因为该公司看起来[…]</p>\n<p>帖子< a href = \"https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemin",
+      "link": "https://www.digitalcommerce360.com/2026/08/05/kohls-google-gemini-ai-assistant-back-to-school-shopping/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Wayfair credits Perigold, AI with driving momentum",
+      "title_zh": "",
+      "desc_en": "<p>Wayfair CEO Niraj Shah credited the retailer’s Perigold luxury banner and how it applies artificial intelligence (AI) with helping to drive the company’s momentum as revenue grew in its fiscal Q2. Wayfair launched the Perigold brand in 2017 as a way to target high-income households in the U.S., Shah shared on the retailer’s Q2 earnings […]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w",
+      "desc_zh": "<p>Wayfair首席执行官Niraj Shah称赞该零售商的Perigold奢侈品横幅以及它如何应用人工智能(AI) ，这有助于推动该公司在第二财季收入增长的势头。 Wayfair于2017年推出了Perigold品牌，作为针对美国高收入家庭的一种方式， Shah分享了零售商的第二季度收益[…]</p>\n<p>The post <a href=\"https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/\">Wayfair credits Perigold, AI w",
+      "link": "https://www.digitalcommerce360.com/2026/08/05/wayfair-perigold-ai-q2-fy26/",
+      "source": "Digital Commerce 360",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
     {
       "title_en": "Global New Unicorn Counts In The First Half Of 2026 Have Already Surpassed 2025’s Totals",
       "title_zh": "",
@@ -3186,226 +3480,6 @@
       ],
       "sourceLinks": [
         "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
-      ]
-    },
-    {
-      "id": "ai-ee8f391d",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "Sam Altman的太空数据中心垃圾谈话是大多数专家已经相信的",
-      "title_en": "Sam Altman’s space data center trash talk is what most experts already believe",
-      "market": "us",
-      "date": "2026-07-14",
-      "desc_zh": "在回应马斯克指责他是骗子时，奥尔特曼说： “你是在短期太空数据中心兜售[原文如此]公开市场投资者的人。”",
-      "desc_en": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\"",
-      "source": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/"
-      ]
-    },
-    {
-      "id": "ai-b5cec9f0",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "人工智能应该帮助你摆脱杀死配偶的罪名吗？",
-      "title_en": "Should AI help you get away with killing your spouse?",
-      "market": "us",
-      "date": "2026-07-14",
-      "desc_zh": "一个完全以用户为中心的人工智能的世界实际上是什么样的？",
-      "desc_en": "What does a world of total user-aligned AI actually look like?",
-      "source": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/"
-      ]
-    },
-    {
-      "id": "biz-6558f9be",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "潜入《遗忘之海》，我才读懂网易的心气",
-      "title_en": "潜入《遗忘之海》，我才读懂网易的心气",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "文丨小葵 编辑丨果脯 7月9日，网易旗下Joker工作室端出了他们打磨了七年的作品——《遗忘之海》，一款海洋奇遇大世界RPG。PC端率先公测，移动端版本将在7月23日与玩家见面。 这款怪诞木偶风的航海游戏，还没出海就已经被盯上了。在公测前夕，这款游戏全网预约量已突破3600万，在TapTap、B站等多个平台预约榜冲至Top1。实机PV在B站播放破千万，光大证券预测其首年流水或达50亿元。 管理层连续三个季度在财报会上点名力挺，称其“令人耳目一新”。七年打磨、三端互通、五千万元创作者扶持计划，从研发资源到生态投入全部拉满这款游戏几乎是网易近年来押注最狠的一款产品。 这是做出《第五人格》的团队头一回涉足大世界，美术风格延续了工作室一贯的怪诞路线。在如今国产游戏不是拼命卷写实就是扎堆唯美二次元的大潮里，Joker选择用明亮、高饱和度色彩搭起一个由木偶造型和波普艺术缝合的海洋大世界。 捏脸系统 对",
-      "desc_en": "On July 9th, NetEase's Joker Studio handed out their polished work of seven years - \"Forgotten Sea\", an ocean adventure world RPG. The desktop version is the first to be publicly tested, and the mobile version will meet with players on July 23. This grotesque puppet-style sailing game has been targeted before going to sea. On the eve of the public beta, the total number of reservations for this ga",
-      "source": "https://36kr.com/p/3893769618569985?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3893769618569985?f=rss"
-      ]
-    },
-    {
-      "id": "beauty-1ccab56b",
-      "cat": "beauty",
-      "heat": "arch",
-      "title_zh": "一场高转化抽奖活动应该怎么设计？从奖品、规则到传播路径的完整拆解",
-      "title_en": "How should a High Conversion Sweepstakes be designed? Complete disassembly from prizes, rules to paths of dissemination",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "在微信私域生态中，抽奖几乎是商家长期使用的互动玩法：公众号涨粉、社群促活、线下门店引流、会员权益发放、品牌活动传播，都能看到它的身影。它的优势很直接：用户理解门槛低、参与反馈快、成本相对可控，也容易和微信内的公众号、社群、小程序、门店场景结合。 但也正因为抽奖看起来简单，很多活动最后只做成了“一次热闹”。参与人数有了，目标用户没沉淀；奖品发出去了，后续转化没接住；前端页面很热闹，后端领奖、核销、数据复盘却跟不上。 所以，一场高转化抽奖活动的关键，不在于能不能完成基础开奖，而在于奖品设置、参与条件、玩法形式、传播路径、中奖规则、领奖履约能否形成完整闭环。 对企业商家来说，抽奖不是目的。真正重要的是：用户为什么愿意参与，参与后能不能被有效承接，活动结束后数据和用户关系能不能继续沉淀。 下面，我们就结合「活动抽奖」小程序工具的实际能力，从目标设定、奖品组合、参与条件、玩法设计、传播路径到领奖履约",
-      "desc_en": "In the WeChat private domain ecology, lottery is almost an interactive game method used by merchants for a long time: the public account is popular, the community is promoted, offline stores are drained, members' rights are distributed, and brand activities are disseminated. You can see it. Its advantages are very direct: low user understanding threshold, fast participation feedback, relatively co",
-      "source": "https://36kr.com/p/3893457328700165?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3893457328700165?f=rss"
-      ]
-    },
-    {
-      "id": "beauty-51780147",
-      "cat": "beauty",
-      "heat": "trend",
-      "title_zh": "倩碧押注PDRN护肤赛道，高端美妆品牌加速切入医美护理市场｜最前线",
-      "title_en": "Clinique Bets on PDRN Skincare Track, High-end Beauty Brands Accelerate Access to the Medical Beauty Care Market | Frontline",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "随着医美消费逐渐从单次项目体验转向长期肌肤管理，传统高端护肤品牌正在寻找新的增长空间。 36氪获悉，近日，雅诗兰黛集团旗下品牌倩碧在中国发布CX肌源深修水光系列产品，切入近年来快速升温的PDRN（聚脱氧核糖核苷酸）护肤赛道。 该系列以重组PDRN为核心成分。据雅诗兰黛集团介绍，这是全球首款以重组PDRN为核心成分的护肤产品。此次新品发布，也是倩碧近年来持续强化“科学护肤”和医美护理关联度的重要动作。 PDRN并非近年才出现的新成分。过去十多年，其更多应用于医疗和医美领域。PDRN最早源于三文鱼DNA提取物，被认为具有促进组织修复、改善皮肤屏障以及辅助伤口恢复等作用。在韩国医美市场，PDRN注射类项目近年来持续流行，并被消费者称为“童颜针”相关护理成分之一。 图片来源：倩碧 随着消费者对医美项目接受度提升，围绕术前维稳、术后修护以及长期抗老的“医美后护理”市场正在扩大。根据市场研究机构Gra",
-      "desc_en": "As medical cosmetics consumption gradually shifts from a single project experience to long-term skin management, traditional high-end skin care brands are looking for new growth space. 36 Krypton learned that recently, Clinique, a brand of the Estée Lauder Group, launched a series of CX skin care products in China, cutting into the PDRN (polydeoxyribonucleotide) skin care track that has been heati",
-      "source": "https://36kr.com/p/3893519389293056?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3893519389293056?f=rss"
-      ]
-    },
-    {
-      "id": "beauty-f8fe44c1",
-      "cat": "beauty",
-      "heat": "arch",
-      "title_zh": "lululemon「割不动」中国人了",
-      "title_en": "lululemon「割不动」中国人了",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "作者 | 谢芸子 编辑 | 张帆 在中国市场，lululemon开始被人们拿着放大镜审视。 6月中旬，lululemon在上海北外滩举办了一场大型户外瑜伽活动，中途遭遇暴雨。lululemon并未取消活动，而是让上千人在湿滑的瑜伽垫上完成了全套动作。 现场画面被社交网络疯传。整齐划一的雨中静坐，被人们诟病为“矫揉造作”“品牌不为用户着想”，甚至被部分网友拿来与《周处除三害》中的邪教作对比。 这一比喻的杀伤力是巨大的，lululemon最核心的商业密码恰恰是“类宗教”式的社群营销。 公共叙事中，lululemon把自己的店员称为Educator教育家。 创始人Chip Wilson在自传中解释过原因。他希望门店员工不是推销员，而是向顾客传递面料科技、哲学设计和健康生活方式的教育者。他认为，顾客理解了产品背后的技术与理念，会自发购买，无需硬性推销。 店员成为教育家，线下活动自然能比喻",
-      "desc_en": "Author | Xie Yunzi | Zhang Fan In the Chinese market, lululemon began to be examined with a magnifying glass. In mid-June, lululemon held a large outdoor yoga activity in the North Bund of Shanghai and suffered heavy rainfall. lululemon did not cancel the activity, but let thousands of people complete the full set of movements on the slippery yoga mat. The scene was spread wildly by the social net",
-      "source": "https://36kr.com/p/3893430641703429?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3893430641703429?f=rss"
-      ]
-    },
-    {
-      "id": "ai-21b43da4",
-      "cat": "ai",
-      "heat": "arch",
-      "title_zh": "AI家庭智能硬件公司获数千万元融资，首款产品今年上线海外｜硬氪首发",
-      "title_en": "AI home smart hardware company received tens of millions of dollars in financing, the first product launched overseas this year | Hard Krypton",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，威联机器人科技（深圳）有限公司（以下简称“MOVA LINCO”）近日完成数千万元天使融资。融资资金将主要用于AI算法底层技术研发、完善产品量产体系，以及全球化渠道布局和家庭AI生态的持续建设。 MOVA LINCO核心团队来自头部网络通信与智能硬件企业，在路由器、NAS存储及AI算力设备等方面拥有深厚的技术积累与产品经验。公司产品矩阵以AI智能语音路由器、AI NAS及AI算力盒子三大品类为核心，构建“连接+存储+算力”三位一体的家庭AI基础设施架构，覆盖从智能家居中枢、数据存储及本地算力分配等全场景需求，专注为全球用户提供智能化、主动化的家庭AI服务体验。 长期以来，路由器的定位颇为特殊。它在数字基础设施中承担着连接枢纽的关键职能，但又极少进入用户的日常感知。购置产品后，除短暂的配置环节外，这台设备常被隐藏在弱电箱或电视柜交流，极少能获取到用户的主动",
-      "desc_en": "Author | Editor Huang Nan | Yuan Silai Hard Krypton learned that Veliane Robotics (Shenzhen) Co., Ltd. (hereinafter referred to as \"Mova Linco\") has recently completed tens of millions of yuan in angel financing. The financing funds will mainly be used for the research and development of the underlying technology of AI algorithms, the improvement of the mass production system of products, and the ",
-      "source": "https://36kr.com/p/3879780282495236?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3879780282495236?f=rss"
-      ]
-    },
-    {
-      "id": "ai-422b2b7a",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "海关总署：中国出口连续11季度保持增长，贸易增量集中于AI领域",
-      "title_en": "General Administration of Customs: China's exports continue to grow for 11 consecutive quarters, with trade growth concentrated in the AI field",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "7月14日，海关总署副署长王军在国新办新闻发布会上表示，截至目前，中国出口已经连续11个季度保持增长，出口增长根本原因在于中国制造与全球各类需求的精准适配。联合国报告显示，今年以来，全球货物贸易增长主要集中于人工智能相关领域。王军指出，全球算力数据中心及终端设备需求持续扩张，促进了我国相关产品出口；上半年我国电子元件、电脑零部件等产品出口均呈两位数增长，合计拉动出口增长6.9个百分点。（证券时报）",
-      "desc_en": "On July 14, Wang Jun, deputy director general of the General Administration of Customs, said at the press conference of the State New Office that so far, China's exports have maintained growth for 11 consecutive quarters, and the root cause of the export growth lies in the precise adaptation of Chinese manufacturing to various global needs. According to the United Nations report, the growth of glo",
-      "source": "https://36kr.com/newsflashes/3894871537449989?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/newsflashes/3894871537449989?f=rss"
-      ]
-    },
-    {
-      "id": "ai-978a703b",
-      "cat": "ai",
-      "heat": "arch",
-      "title_zh": "T3出行在嘉兴成立新公司，注册资本500万",
-      "title_en": "T3出行在嘉兴成立新公司，注册资本500万",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "36氪获悉，天眼查App显示，近日，嘉兴领行卓智科技有限公司成立，法定代表人为徐杨，注册资本500万人民币，经营范围包括物联网技术服务、人工智能应用软件开发、人工智能硬件销售等。股东信息显示，该公司由T3出行旗下南京领行汽车服务有限公司全资持股。",
-      "desc_en": "36 Krypton learned that the Tianyang Inspection App shows that recently, Jiaxing Lingxing Zhuozhi Technology Co., Ltd. was established with Xu Yang as its legal representative and a registered capital of RMB 5 million. Its business scope includes Internet of Things technical services, artificial intelligence application software development, artificial intelligence hardware sales, etc. Shareholder",
-      "source": "https://36kr.com/newsflashes/3894866981256457?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/newsflashes/3894866981256457?f=rss"
-      ]
-    },
-    {
-      "id": "biz-504d27b8",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "沪指翻红",
-      "title_en": "沪指翻红",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "36氪获悉，沪指翻红，创业板指涨幅扩大至1.3%。",
-      "desc_en": "36氪获悉，沪指翻红，创业板指涨幅扩大至1.3%。",
-      "source": "https://36kr.com/newsflashes/3894862508276993?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/newsflashes/3894862508276993?f=rss"
-      ]
-    },
-    {
-      "id": "ai-2b1f7096",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "海关总署：上半年算力硬件进出口增长56.6%",
-      "title_en": "海关总署：上半年算力硬件进出口增长56.6%",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "7月14日，海关总署副署长王军在国新办新闻发布会上表示，随着人工智能的快速发展，我国相关产品进出口动力强劲。上半年，我国电子元件、电脑零部件等算力硬件进出口额度达到5.13万亿元，增长56.6%；眼镜、翻译器、机械外骨骼等智能产品快速迭代，各类创新产品不断涌现。（证券时报）",
-      "desc_en": "7月14日，海关总署副署长王军在国新办新闻发布会上表示，随着人工智能的快速发展，我国相关产品进出口动力强劲。上半年，我国电子元件、电脑零部件等算力硬件进出口额度达到5.13万亿元，增长56.6%；眼镜、翻译器、机械外骨骼等智能产品快速迭代，各类创新产品不断涌现。（证券时报）",
-      "source": "https://36kr.com/newsflashes/3894861205044488?f=rss",
-      "sourceLabel": "36Kr",
-      "sourceType": "rss",
-      "sources": [
-        "36Kr"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/newsflashes/3894861205044488?f=rss"
       ]
     }
   ]
