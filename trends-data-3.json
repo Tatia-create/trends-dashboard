@@ -20,21 +20,225 @@
     "research"
   ],
   "stats": {
-    "total": 690,
+    "total": 720,
     "hot": 14,
     "trend": 234,
     "new": 128,
     "arch": 170
   },
-  "new_today": 110,
-  "sources_ok": 110,
-  "sources_failed": 19,
+  "new_today": 130,
+  "sources_ok": 130,
+  "sources_failed": 17,
   "date_range": {
     "from": "2026-07-11",
-    "to": "2026-08-27"
+    "to": "2026-08-28"
   },
   "segment": "3/3",
   "stories": [
+    {
+      "id": "biz-1ba4d96d",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "designhouse",
+      "title_en": "designhouse",
+      "market": "us",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.leiphone.com/tag/designhouse",
+      "sourceLabel": "雷锋网",
+      "sourceType": "html",
+      "sources": [
+        "雷锋网"
+      ],
+      "sourceLinks": [
+        "https://www.leiphone.com/tag/designhouse"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-c1376e72",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "项目可行性研究 (商业计划书)",
+      "title_en": "项目可行性研究 (商业计划书)",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.chyxx.com/cyzx/kxxbg/",
+      "sourceLabel": "智研咨询",
+      "sourceType": "html",
+      "sources": [
+        "智研咨询"
+      ],
+      "sourceLinks": [
+        "https://www.chyxx.com/cyzx/kxxbg/"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "research-2929c103",
+      "cat": "research",
+      "heat": "arch",
+      "title_zh": "全球金融监管动态月刊",
+      "title_en": "全球金融监管动态月刊",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://kpmg.com/cn/zh/industries/banking/global-fs-regulation-monthly-update.html",
+      "sourceLabel": "KPMG 中国",
+      "sourceType": "html",
+      "sources": [
+        "KPMG 中国"
+      ],
+      "sourceLinks": [
+        "https://kpmg.com/cn/zh/industries/banking/global-fs-regulation-monthly-update.html"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-6f48e842",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "深圳又一家百亿机器人独角兽，半年融资超二十亿元",
+      "title_en": "深圳又一家百亿机器人独角兽，半年融资超二十亿元",
+      "market": "cn",
+      "date": "2026-07-14",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://36kr.com/p/3894795308399618",
+      "sourceLabel": "36Kr AI",
+      "sourceType": "html",
+      "sources": [
+        "36Kr AI"
+      ],
+      "sourceLinks": [
+        "https://36kr.com/p/3894795308399618"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "beauty-d7a7439a",
+      "cat": "beauty",
+      "heat": "trend",
+      "title_zh": "Mario SoftSculpt Bronzing & Shaping精华素彩妆评测",
+      "title_en": "Makeup by Mario SoftSculpt Bronzing & Shaping Serum Review",
+      "market": "eu",
+      "date": "2026-07-14",
+      "desc_zh": "这款可搭建的液体青铜器融化在皮肤中，以获得天然的温暖，人们会问我去过哪里。",
+      "desc_en": "This buildable liquid bronzer melts into skin for the kind of natural warmth that has people asking where I’ve been.",
+      "source": "https://www.allure.com/review/makeup-by-mario-softsculpt-bronzing-serum-review-2026",
+      "sourceLabel": "Allure",
+      "sourceType": "rss",
+      "sources": [
+        "Allure"
+      ],
+      "sourceLinks": [
+        "https://www.allure.com/review/makeup-by-mario-softsculpt-bronzing-serum-review-2026"
+      ]
+    },
+    {
+      "id": "ai-7ac9a3bd",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "优步的酒店、机器人出租车产品主管，以及为什么优步不想成为“一切为了所有人”",
+      "title_en": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+      "market": "global",
+      "date": "2026-07-14",
+      "desc_zh": "优步首席产品官Sachin Kansal向TechCrunch介绍了公司的金融服务抱负、与Waymo日益复杂的关系、新的AV Labs数据运营，以及人工智能如何开始以乘客和司机实际注意到的方式出现。",
+      "desc_en": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "source": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
+      ]
+    },
+    {
+      "id": "ai-ab8714e9",
+      "cat": "ai",
+      "heat": "hot",
+      "title_zh": "视频生成初创公司PixVerse融资4.39亿美元，估值飙升超过20亿美元",
+      "title_en": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "market": "us",
+      "date": "2026-07-14",
+      "desc_zh": "借助这笔资金，该公司的目标是扩大其世界模式产品，并接触到不同地区的客户。",
+      "desc_en": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "source": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
+      ]
+    },
+    {
+      "id": "biz-cc6babc3",
+      "cat": "biz",
+      "heat": "trend",
+      "title_zh": "爱马仕代理制造商Nous Research正在就估值15亿美元的新融资进行谈判",
+      "title_en": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "market": "us",
+      "date": "2026-07-14",
+      "desc_zh": "该公司正在筹集至少7500万美元，由Robot Ventures牵头， USV和其他知名投资者大量参与。",
+      "desc_en": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "source": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
+      ]
+    },
+    {
+      "id": "ai-d204e0a8",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "Satya Nadella向使用人工智能的公司发出了令人震惊的警告",
+      "title_en": "Satya Nadella has issued a shocking warning to companies using AI",
+      "market": "us",
+      "date": "2026-07-14",
+      "desc_zh": "在所有关于人工智能潜在缺点的争论中，有一种担忧在硅谷的人工智能爱好者中引起了最大的担忧--销售专有模型的巨型人工智能实验室在某种程度上表现得像特洛伊木马。",
+      "desc_en": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
+      "source": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
+      ]
+    },
+    {
+      "id": "ai-7718d331",
+      "cat": "ai",
+      "heat": "trend",
+      "title_zh": "苹果针对OpenAI的商业秘密诉讼中最疯狂的指控",
+      "title_en": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "market": "global",
+      "date": "2026-07-14",
+      "desc_zh": "苹果对OpenAI的商业秘密诉讼包含的指控包括员工开玩笑说未经授权访问苹果系统，以及要求求职者将苹果硬件带到面试中。以下是投诉中最引人注目的主张。",
+      "desc_en": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
+      "source": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "sourceLabel": "TechCrunch AI",
+      "sourceType": "rss",
+      "sources": [
+        "TechCrunch AI"
+      ],
+      "sourceLinks": [
+        "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
+      ]
+    },
     {
       "id": "ai-ee8f391d",
       "cat": "ai",
