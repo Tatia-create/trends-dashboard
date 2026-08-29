@@ -20,21 +20,301 @@
     "research"
   ],
   "stats": {
-    "total": 690,
+    "total": 720,
     "hot": 14,
     "trend": 234,
     "new": 128,
     "arch": 170
   },
-  "new_today": 110,
-  "sources_ok": 110,
-  "sources_failed": 19,
+  "new_today": 130,
+  "sources_ok": 130,
+  "sources_failed": 17,
   "date_range": {
     "from": "2026-07-11",
-    "to": "2026-08-27"
+    "to": "2026-08-28"
   },
   "segment": "2/3",
   "stories": [
+    {
+      "title_en": "The AI safety test is becoming a safety risk",
+      "title_zh": "",
+      "desc_en": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
+      "desc_zh": "人工智能代理正在逃避网络安全测试环境，进入现实世界的系统，这引发了人们对安全基础设施、行业标准和监管能否跟上日益强大的模型的质疑。",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-09",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Planned Amazon data center could become the biggest climate polluter in the US",
+      "title_zh": "",
+      "desc_en": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
+      "desc_zh": "人工智能已经对亚马逊的碳排放量产生了重大影响，据报道，去年亚马逊的碳排放量增长了16% ，这对于一家承诺到2040年消除碳排放的公司来说是一个错误的方向。",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-08",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "OpenAI acquires presentation startup NextSlide",
+      "title_zh": "",
+      "desc_en": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
+      "desc_zh": "创始人艾哈迈德·贝什里（ Ahmed Beshry ）将这家初创公司的产品描述为“可以将提示、笔记、文档或研究转化为精美、可编辑的演示文稿的产品”。",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-08",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "OpenAI says it slowed Astra model development over security concerns",
+      "title_zh": "",
+      "desc_en": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "desc_zh": "OpenAI表示，该模型仍在开发中，已达到“关键网络安全阈值” ，这意味着它可以独立识别并针对传统上受到良好保护的现实世界系统进行网络攻击。",
+      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "title_zh": "",
+      "desc_en": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "desc_zh": "在自己的AI使用唤醒电话之后， Rippling本周推出了AI Spend Console ，这是一款跟踪个人和团队员工AI支出的产品。",
+      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "title_zh": "",
+      "desc_en": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "desc_zh": "Kitesurf是一款云托管浏览器，专为人工智能代理而非人工智能代理而设计。与Chromium相比，它在常见自动化任务上的计算能力更低，可帮助开发人员更高效地构建基于浏览器的人工智能代理。",
+      "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Butt Warts? How Your Short Shorts Could Speed up This Common Summer Skin Condition",
+      "title_zh": "",
+      "desc_en": "Noticing small bumps between your butt and upper thigh? Dermatologists weigh in on what's causing a spike in this common summer skin condition.",
+      "desc_zh": "注意到臀部和大腿上部之间的小肿块？皮肤科医生会权衡导致这种常见夏季皮肤状况飙升的原因。",
+      "link": "https://www.allure.com/story/molluscum-warts-summer-skin",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Martha Stewart's New Pink Hair Sprinkled Some Whimsy Into Summer—See the Video",
+      "title_zh": "",
+      "desc_en": "Martha Stewart debuted a rose gold hair color crafted by hairstylist Chris Appleton. The two showed off her sweet, subtle new color, which features the most delicate hint of pink.",
+      "desc_zh": "玛莎·斯图尔特（ Martha Stewart ）推出了由发型师克里斯·阿普尔顿（ Chris Appleton ）制作的玫瑰金发色。两人展现了她甜美细腻的新色彩，呈现出最细腻的粉红色。",
+      "link": "https://www.allure.com/story/martha-stewart-rose-gold-hair",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Baby-Soft Skin for Under $30? These Drugstore Body Lotions Deliver",
+      "title_zh": "",
+      "desc_en": "Affordable, derm-recommended picks for every skin type and concern.",
+      "desc_zh": "适用于所有皮肤类型和顾虑的经济实惠的真皮推荐选择。",
+      "link": "https://www.allure.com/story/best-drugstore-body-lotion",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-09",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "The Butter Yellow Nail Trend Continues to Spread In 2026",
+      "title_zh": "",
+      "desc_en": "A buffet of pale yellow nail art dominates our feeds.",
+      "desc_zh": "浅黄色美甲自助餐占据了我们的主导地位。",
+      "link": "https://www.allure.com/story/butter-yellow-nail-art-2026",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-08",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "8 Best Floral Perfumes, Tested and Reviewed",
+      "title_zh": "",
+      "desc_en": "They’re nothing like the basic, hyper-powdery fragrances of the past.",
+      "desc_zh": "它们与过去的基本、超级粉末香水完全不同。",
+      "link": "https://www.allure.com/story/best-floral-perfume",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-08",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "6 Best Lip Liner Stains 2026 for Precise, All-Day Definition",
+      "title_zh": "",
+      "desc_en": "Skip the endless reapplying.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/story/best-lip-liner-stains",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "“Bob Kardashian\" Is Back, Says Khloé Kardashian—See the Photos",
+      "title_zh": "",
+      "desc_en": "The star returned to short hair courtesy hairstylist Chris McMillan.",
+      "desc_zh": "这位明星回到了短发礼貌发型师克里斯·麦克米兰。",
+      "link": "https://www.allure.com/story/khloe-kardashian-short-summer-bob",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Veneer Regret Is Real. Here's What's Causing Buyer's Remorse.",
+      "title_zh": "",
+      "desc_en": "There’s no going back on the cosmetic procedure. What happens when your teeth go out of style?",
+      "desc_zh": "整容手术没有回头路可走。当您的牙齿过时时会发生什么？",
+      "link": "https://www.allure.com/story/veneer-regret-teeth-cosmetic-dentistry",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-07",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "9 Best Tinted Sunscreens of 2026 for Lightweight Coverage",
+      "title_zh": "",
+      "desc_en": "Move along, foundation.",
+      "desc_zh": "",
+      "link": "https://www.allure.com/gallery/best-tinted-sunscreen-for-face",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "What Happened After I Quit My Botox, Fillers, Lasers, and GLP-1s",
+      "title_zh": "",
+      "desc_en": "My annual beauty bill went down almost $10,000. And then there was the really great part.",
+      "desc_zh": "我的年度美容账单下降了近$ 10,000。然后是真正伟大的部分。",
+      "link": "https://www.allure.com/story/quitting-botox-lasers-glp-1-drugs",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "The Crown Braid Is Back: Here’s How to Get to the 2026 Version",
+      "title_zh": "",
+      "desc_en": "Zendaya and Olivia Rodrigo are leading a renaissance that feels more cool than countryside.",
+      "desc_zh": "Zendaya和Olivia Rodrigo正在引领一场比乡村更酷的复兴。",
+      "link": "https://www.allure.com/story/crown-braid-is-back",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-06",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Does GLP-1 Drug Tirzepatide Trigger Hair Loss? Experts Weigh In.",
+      "title_zh": "",
+      "desc_en": "A new study found that the side effect is more likely in patients taking one specific type of GLP-1 receptor agonist.",
+      "desc_zh": "一项新的研究发现，服用一种特定类型的GLP-1受体激动剂的患者更有可能出现副作用。",
+      "link": "https://www.allure.com/story/glp-1-hair-loss-study-interview",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "No, Lindsay Lohan Didn't Actually Return to Her Natural Red Hair Color",
+      "title_zh": "",
+      "desc_en": "But she sure did cause quite a stir among fans who've begged her to say bye-bye to blonde.",
+      "desc_zh": "但她确实在粉丝中引起了相当大的轰动，他们恳求她向金发女郎说再见。",
+      "link": "https://www.allure.com/story/lindsay-lohan-red-hair-2026",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "6 Best Exfoliating Body Washes 2026 for Smoother Skin",
+      "title_zh": "",
+      "desc_en": "They have you covered from shoulders to shins.",
+      "desc_zh": "它们可以覆盖您从肩膀到小腿的所有部位。",
+      "link": "https://www.allure.com/story/best-exfoliating-body-washes",
+      "source": "Allure",
+      "lang": "en",
+      "date": "2026-08-05",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
     {
       "title_en": "How AI-Generated Images Are Changing Beauty Consultations",
       "title_zh": "",
@@ -3277,210 +3557,6 @@
         "https://m.21jingji.com/article/20260715/herald/34b59e13beb01247896ebb19611626c6.html"
       ],
       "is_empty": true
-    },
-    {
-      "id": "biz-1ba4d96d",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "designhouse",
-      "title_en": "designhouse",
-      "market": "us",
-      "date": "2026-07-15",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.leiphone.com/tag/designhouse",
-      "sourceLabel": "雷锋网",
-      "sourceType": "html",
-      "sources": [
-        "雷锋网"
-      ],
-      "sourceLinks": [
-        "https://www.leiphone.com/tag/designhouse"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "research-c1376e72",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "项目可行性研究 (商业计划书)",
-      "title_en": "项目可行性研究 (商业计划书)",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.chyxx.com/cyzx/kxxbg/",
-      "sourceLabel": "智研咨询",
-      "sourceType": "html",
-      "sources": [
-        "智研咨询"
-      ],
-      "sourceLinks": [
-        "https://www.chyxx.com/cyzx/kxxbg/"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "research-2929c103",
-      "cat": "research",
-      "heat": "arch",
-      "title_zh": "全球金融监管动态月刊",
-      "title_en": "全球金融监管动态月刊",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://kpmg.com/cn/zh/industries/banking/global-fs-regulation-monthly-update.html",
-      "sourceLabel": "KPMG 中国",
-      "sourceType": "html",
-      "sources": [
-        "KPMG 中国"
-      ],
-      "sourceLinks": [
-        "https://kpmg.com/cn/zh/industries/banking/global-fs-regulation-monthly-update.html"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-6f48e842",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "深圳又一家百亿机器人独角兽，半年融资超二十亿元",
-      "title_en": "深圳又一家百亿机器人独角兽，半年融资超二十亿元",
-      "market": "cn",
-      "date": "2026-07-14",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://36kr.com/p/3894795308399618",
-      "sourceLabel": "36Kr AI",
-      "sourceType": "html",
-      "sources": [
-        "36Kr AI"
-      ],
-      "sourceLinks": [
-        "https://36kr.com/p/3894795308399618"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "beauty-d7a7439a",
-      "cat": "beauty",
-      "heat": "trend",
-      "title_zh": "Mario SoftSculpt Bronzing & Shaping精华素彩妆评测",
-      "title_en": "Makeup by Mario SoftSculpt Bronzing & Shaping Serum Review",
-      "market": "eu",
-      "date": "2026-07-14",
-      "desc_zh": "这款可搭建的液体青铜器融化在皮肤中，以获得天然的温暖，人们会问我去过哪里。",
-      "desc_en": "This buildable liquid bronzer melts into skin for the kind of natural warmth that has people asking where I’ve been.",
-      "source": "https://www.allure.com/review/makeup-by-mario-softsculpt-bronzing-serum-review-2026",
-      "sourceLabel": "Allure",
-      "sourceType": "rss",
-      "sources": [
-        "Allure"
-      ],
-      "sourceLinks": [
-        "https://www.allure.com/review/makeup-by-mario-softsculpt-bronzing-serum-review-2026"
-      ]
-    },
-    {
-      "id": "ai-7ac9a3bd",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "优步的酒店、机器人出租车产品主管，以及为什么优步不想成为“一切为了所有人”",
-      "title_en": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-      "market": "global",
-      "date": "2026-07-14",
-      "desc_zh": "优步首席产品官Sachin Kansal向TechCrunch介绍了公司的金融服务抱负、与Waymo日益复杂的关系、新的AV Labs数据运营，以及人工智能如何开始以乘客和司机实际注意到的方式出现。",
-      "desc_en": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
-      "source": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
-      ]
-    },
-    {
-      "id": "ai-ab8714e9",
-      "cat": "ai",
-      "heat": "hot",
-      "title_zh": "视频生成初创公司PixVerse融资4.39亿美元，估值飙升超过20亿美元",
-      "title_en": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-      "market": "us",
-      "date": "2026-07-14",
-      "desc_zh": "借助这笔资金，该公司的目标是扩大其世界模式产品，并接触到不同地区的客户。",
-      "desc_en": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
-      "source": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
-      ]
-    },
-    {
-      "id": "biz-cc6babc3",
-      "cat": "biz",
-      "heat": "trend",
-      "title_zh": "爱马仕代理制造商Nous Research正在就估值15亿美元的新融资进行谈判",
-      "title_en": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-      "market": "us",
-      "date": "2026-07-14",
-      "desc_zh": "该公司正在筹集至少7500万美元，由Robot Ventures牵头， USV和其他知名投资者大量参与。",
-      "desc_en": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
-      "source": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
-      ]
-    },
-    {
-      "id": "ai-d204e0a8",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "Satya Nadella向使用人工智能的公司发出了令人震惊的警告",
-      "title_en": "Satya Nadella has issued a shocking warning to companies using AI",
-      "market": "us",
-      "date": "2026-07-14",
-      "desc_zh": "在所有关于人工智能潜在缺点的争论中，有一种担忧在硅谷的人工智能爱好者中引起了最大的担忧--销售专有模型的巨型人工智能实验室在某种程度上表现得像特洛伊木马。",
-      "desc_en": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
-      "source": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
-      ]
-    },
-    {
-      "id": "ai-7718d331",
-      "cat": "ai",
-      "heat": "trend",
-      "title_zh": "苹果针对OpenAI的商业秘密诉讼中最疯狂的指控",
-      "title_en": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
-      "market": "global",
-      "date": "2026-07-14",
-      "desc_zh": "苹果对OpenAI的商业秘密诉讼包含的指控包括员工开玩笑说未经授权访问苹果系统，以及要求求职者将苹果硬件带到面试中。以下是投诉中最引人注目的主张。",
-      "desc_en": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
-      "source": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
-      "sourceLabel": "TechCrunch AI",
-      "sourceType": "rss",
-      "sources": [
-        "TechCrunch AI"
-      ],
-      "sourceLinks": [
-        "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
-      ]
     }
   ]
 }
