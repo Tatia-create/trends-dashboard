@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 720,
+    "total": 726,
     "hot": 14,
     "trend": 234,
     "new": 128,
@@ -31,10 +31,66 @@
   "sources_failed": 17,
   "date_range": {
     "from": "2026-07-11",
-    "to": "2026-08-28"
+    "to": "2026-08-29"
   },
   "segment": "2/3",
   "stories": [
+    {
+      "title_en": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "title_zh": "",
+      "desc_en": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "desc_zh": "Discovered Materials筹集了900万$ ，用于寻找更新颖的材料，以制造更高效的芯片。",
+      "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-10",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "title_zh": "",
+      "desc_en": "The AI-focused hedge fund is still making some big bets.",
+      "desc_zh": "这家专注于人工智能的对冲基金仍在进行一些大赌注。",
+      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-09",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Anthropic is turning Claude Code’s auto mode on by default",
+      "title_zh": "",
+      "desc_en": "Programming with Claude Code will soon require even less human oversight.",
+      "desc_zh": "使用Claude Code编程很快将需要更少的人工监督。",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-09",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
+    {
+      "title_en": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "title_zh": "",
+      "desc_en": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "desc_zh": "在最新一期的《Equity》中，我们采访了吉尔·勒波雷（ Jill Lepore ） ，谈到了“机器政府”以及为什么埃隆·马斯克（ Elon Musk ）是一个糟糕的科幻小说读者。",
+      "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "source": "TechCrunch AI",
+      "lang": "en",
+      "date": "2026-08-09",
+      "cat": "Trends",
+      "heat": "new",
+      "is_empty": false,
+      "is_repeat_desc": false
+    },
     {
       "title_en": "The AI safety test is becoming a safety risk",
       "title_zh": "",
@@ -3513,48 +3569,6 @@
       ],
       "sourceLinks": [
         "https://www.cls.cn/detail/2426660"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-e7cbc4e9",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "世纪华通上半年净利润预增超六成 海外SLG双王牌格局稳固",
-      "title_en": "世纪华通上半年净利润预增超六成 海外SLG双王牌格局稳固",
-      "market": "cn",
-      "date": "2026-07-15",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://www.cls.cn/detail/2426664",
-      "sourceLabel": "财联社",
-      "sourceType": "html",
-      "sources": [
-        "财联社"
-      ],
-      "sourceLinks": [
-        "https://www.cls.cn/detail/2426664"
-      ],
-      "is_empty": true
-    },
-    {
-      "id": "biz-cc9e5483",
-      "cat": "biz",
-      "heat": "arch",
-      "title_zh": "6月份一线城市新建商品住宅销售价格环比上涨0.1%",
-      "title_en": "6月份一线城市新建商品住宅销售价格环比上涨0.1%",
-      "market": "cn",
-      "date": "2026-07-15",
-      "desc_zh": "",
-      "desc_en": "",
-      "source": "https://m.21jingji.com/article/20260715/herald/34b59e13beb01247896ebb19611626c6.html",
-      "sourceLabel": "21财经",
-      "sourceType": "html",
-      "sources": [
-        "21财经"
-      ],
-      "sourceLinks": [
-        "https://m.21jingji.com/article/20260715/herald/34b59e13beb01247896ebb19611626c6.html"
       ],
       "is_empty": true
     }
