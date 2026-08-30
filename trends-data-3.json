@@ -20,7 +20,7 @@
     "research"
   ],
   "stats": {
-    "total": 720,
+    "total": 726,
     "hot": 14,
     "trend": 234,
     "new": 128,
@@ -31,10 +31,52 @@
   "sources_failed": 17,
   "date_range": {
     "from": "2026-07-11",
-    "to": "2026-08-28"
+    "to": "2026-08-29"
   },
   "segment": "3/3",
   "stories": [
+    {
+      "id": "biz-e7cbc4e9",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "世纪华通上半年净利润预增超六成 海外SLG双王牌格局稳固",
+      "title_en": "世纪华通上半年净利润预增超六成 海外SLG双王牌格局稳固",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://www.cls.cn/detail/2426664",
+      "sourceLabel": "财联社",
+      "sourceType": "html",
+      "sources": [
+        "财联社"
+      ],
+      "sourceLinks": [
+        "https://www.cls.cn/detail/2426664"
+      ],
+      "is_empty": true
+    },
+    {
+      "id": "biz-cc9e5483",
+      "cat": "biz",
+      "heat": "arch",
+      "title_zh": "6月份一线城市新建商品住宅销售价格环比上涨0.1%",
+      "title_en": "6月份一线城市新建商品住宅销售价格环比上涨0.1%",
+      "market": "cn",
+      "date": "2026-07-15",
+      "desc_zh": "",
+      "desc_en": "",
+      "source": "https://m.21jingji.com/article/20260715/herald/34b59e13beb01247896ebb19611626c6.html",
+      "sourceLabel": "21财经",
+      "sourceType": "html",
+      "sources": [
+        "21财经"
+      ],
+      "sourceLinks": [
+        "https://m.21jingji.com/article/20260715/herald/34b59e13beb01247896ebb19611626c6.html"
+      ],
+      "is_empty": true
+    },
     {
       "id": "biz-1ba4d96d",
       "cat": "biz",
